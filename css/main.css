@@ -42,3 +42,80 @@ button{
 	height:60px;
 	border:1px solid #000;
 }
+
+.iconMed{
+	font-size:36px;
+}
+
+.heading{
+	padding:0px 10px;
+	font-size:30px;
+}
+
+.description{
+	font-size:15px;
+	padding:0px 10px;
+}
+
+#intro{
+	padding-left:20px;
+
+}
+
+.servicesList{
+	margin-left:20px;
+}
+
+
+.alumniBox{
+	min-width:155px;
+	max-width:300px;
+	padding:10px;
+}
+
+
+.alumniBox .alumniPhotoContainer{
+	border-radius:50%;
+	border:5px solid #D4D4D4;
+	overflow:hidden;
+}
+
+.alumniBox .alumniPhotoContainer,
+.alumniBox .alumniPhotoContainer img{
+	height:100px;
+	width:100px;	
+}
+
+
+.box-shadow{
+	box-shadow:0px 0px 4px #000;
+}
+
+.alumniInfoContainer{
+	margin:5px;
+}
+
+.alumniName{
+	font-size:18px;
+}
+
+.alumniJob{
+	font-style:italic;
+	font-size:12px;
+}
+
+.horizon-center{
+	margin:auto;
+	left:0; right:0;
+}
+
+.row-centered{
+	text-align:center;
+}
+
+.col-centered{
+	display:inline-block;
+	float:none;
+	text-align:center;
+	margin-right:-4px;
+}
