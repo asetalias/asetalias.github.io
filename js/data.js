@@ -5,7 +5,7 @@ var siteAbout = "ASET-ALiAS, Amity Linux Assistance Sapience, is a club that off
 var logoUrl = "images/logo.png";
 
 /** Intro Section **/
-var siteAboutHistory = "ALIAS, was founded by <NAME> on <DATE>. Since, then it has been a great platform to learn new things...";
+var siteAboutHistory = "ALIAS, was founded by <NAME> on <DATE>. Since, then it has been a great platform to learn new things...<br>More content goes here<br/> even more goes here";
 
 var services = [];
 var events = [];
@@ -24,9 +24,9 @@ events[3] = {title: "Test Event 4", cta: "#", ctaText: "Register Now", descripti
 /** End Events List **/
 
 /**Alumni List **/
-alumni[0] = {name:"Ayush Agarwal", job: "CEO/Founder, Letstream", ppicUrl: "images/alumni/1.jpg"};
-alumni[1] = {name:"Test Name 1", job: "CEO/Founder, Letstream", ppicUrl: "images/alumni/1.jpg"};
-alumni[2] = {name:"test name 2", job: "CEO/Founder, Letstream", ppicUrl: "images/alumni/1.jpg"};
+alumni[0] = {name:"Test Name 0", job: "CEO/Founder, Company", ppicUrl: "images/alumni/1.jpg"};
+alumni[1] = {name:"Test Name 1", job: "CEO/Founder, Company", ppicUrl: "images/alumni/1.jpg"};
+alumni[2] = {name:"Test Name 2", job: "CEO/Founder, Company", ppicUrl: "images/alumni/1.jpg"};
 
 
 /** Containers **/
