@@ -53,12 +53,41 @@ section{
 	box-shadow:2px 2px 15px #979696;
 	box-sizing:border-box;
 	color:#000;
+	text-align:center;
+}
+.eventBox div{
+	margin:auto;
+	left:0;right:0;
 }
 
 button{
 	border:none;
 	box-shadow:1px 1px 2px #000;
 	padding:10px;
+}
+.eventTitle{
+	height:100px;
+	width:100%;
+}
+.eventTitle h2{
+	font-weight:800;
+}
+
+.eventDesc,.eventDiscInfo{
+	padding:0;
+	text-align:left;
+}
+.eventDiscInfo .eventDescInfoContainer{
+	text-align:left;
+}
+.eventCTA{
+	bottom:5px;
+	width:100%;
+	position:absolute;
+}
+
+.eventCTA button{
+	width:100%;
 }
 
 .logoContainer{
