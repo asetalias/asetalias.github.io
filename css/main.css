@@ -21,7 +21,7 @@ section{
 	padding:5px 0px;
 }
 .navigation-links{
-	margin:auto;	
+	margin:auto;
 	box-sizing:border-box;
 }
 
@@ -45,7 +45,7 @@ section{
 }
 .eventBox{
 	/**border:1px solid #000;**/
-	height:300px;
+	height:400px;
 	min-width:300px;
 	margin:10px 20px;
 	padding:10px;
@@ -101,7 +101,7 @@ button{
 .logo{
 	padding:0;
 	width:130px;
-	height:auto;	
+	height:auto;
 }
 
 .iconMed{
@@ -155,7 +155,7 @@ button{
 .alumniBox .alumniPhotoContainer,
 .alumniBox .alumniPhotoContainer img{
 	height:100px;
-	width:100px;	
+	width:100px;
 }
 
 
