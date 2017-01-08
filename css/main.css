@@ -1,5 +1,4 @@
 *{
-/**	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;**/
 	font-family: 'Josephin Sans',sans-serif;
 	box-sizing:border-box;
 }
@@ -83,11 +82,8 @@ a.page-scroll{
 	font-family:'Chewy', cursive;
 	margin-top:5px;
 	font-size:25px;
-<<<<<<< HEAD
 }
-
-=======
-}
+/** Cover Section **/
 #home{
 	height:100%;
 	padding-top:100px;
@@ -132,7 +128,7 @@ a.page-scroll{
 		height:200px;	
 	}
 }
->>>>>>> refs/remotes/origin/master
+
 /** Intro Section **/
 #intro{
 	padding-left:20px;
@@ -170,7 +166,6 @@ a.page-scroll{
 	min-width:300px;
 }
 .eventBox{
-	/**border:1px solid #000;**/
 	height:400px;
 	min-width:300px;
 	margin:10px 20px;
