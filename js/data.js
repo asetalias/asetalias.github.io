@@ -1,7 +1,8 @@
 
 /** Site Description **/
 var siteTitle = "ASET-ALiAS : Amity Linux Assistance Sapience ";
-var siteAbout = "ASET-ALiAS, Amity Linux Assistance Sapience, is a club that offers you...";
+var siteAbout = "ASET-ALiAS, stands for ASET-Amity Linux Assistance Sapience. Started back in 2010 ALiAS main goal \
+is to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing <br> <br>";
 var logoUrl = "images/logo.png";
 
 /** Intro Section **/
@@ -11,14 +12,14 @@ var services = [];
 var events = [];
 var alumni = [];
 
-/** Services List 
+/** Services List
 	Do you want to stand out of crowd and learn unique skills?
 	Do you want to participate in Google Summer of code?
 	Do you want to be a part of hacker culture?
 	Do you have fun while learning?
-	Do you want  to learn trending technologies ? 
+	Do you want  to learn trending technologies ?
 	Do you want learn Linux and peripheral technologies ?
-	
+
 	Credits: Ajay Tripathi
 **/
 
@@ -28,7 +29,7 @@ services[3] = "Learn by Fun and Collaboration";
 services[4] = "Learn Linux, Android, Networking, etc. There is no limit on how much and what you can learn!";
 services[5] = "Already know something? Teach it to others! That's how we work!";
 
-/** Events List 
+/** Events List
 	title: Event Title
 	cta: Link url for Call to Action Button
 	ctaText: Call to Action Button Text
@@ -39,11 +40,8 @@ services[5] = "Already know something? Teach it to others! That's how we work!";
 	location: Event Location
 	eventOD: 0 for NO, 1 for YES. The text and respective classes are automatically added by the script
 **/
-events[0] = {title: "Workshop in Kivy", cta: "#", ctaText: "Register Now", description: "Learn Kivy! ", date: "12 Jan '17", startTime: "NA", endTime: "NA", location: "NA", eventOD: 0};
-events[1] = {title: "Workshop in Python", cta: "#", ctaText: "Register Now", description: "Learn Python!", date:"Jan '17", startTime: "NA", endTime: "NA", location: "Amity Noida", eventOD: 0};
-events[2] = {title: "Workshop in Firefox", cta: "#", ctaText: "Register Now", description: "Learn Firefox!", date: "Jan '17", startTime: "11:00 AM", endTime: "2:00 PM", location: "E3-316", eventOD: 1};
-events[3] = {title: "PyDelhi", cta: "#", ctaText: "Register Now", description: "PyDelhi: Details Coming Soon", startTime: "NA", date: "NA", endTime: "NA", location: "NA", eventOD: 0};
-events[4] = {title: "ILUG D", cta: "#", ctaText: "Register Now", description: "ILUG D: Details Coming Soon", startTime: "NA", date: "NA", endTime: "NA", location: "NA", eventOD: 0};
+events[0] = {title: "ASET ALUMINI MEETUP", cta: "#", ctaText: "Register Now", description: " Amity organizing an Alumni Connect 2017 CSE. All senior/junior/alumni are welcome", date: "12 Jan '17", startTime: "5:00 PM IST", endTime: "NA", location: " I2-Moot Court, Amity University, Sec-125", eventOD: 0};
+
 /** End Events List **/
 
 /**Alumni List **/
@@ -91,7 +89,7 @@ for (var x in events){
 
 /**
 
-Alumni Box Template 
+Alumni Box Template
 
 	<div class="col-lg-2 alumniBox box-shadow col-centered">
                 	<div class="row">
