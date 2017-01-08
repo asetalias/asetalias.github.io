@@ -11,7 +11,7 @@
     <meta name="keywords" content="Aset, Alias, Alias Club, Linux, Amity, Linux User Group, LUG, Amity LUG, Linux Assistance">
     <meta name="author" content="ASET-ALIAS">
 	<!-- End Search Engine Optimisation -->
-
+	
     <title>ASET-ALiAS : Amity Linux Assistance Sapience</title>
 
      <!-- Site favicon -->
@@ -22,6 +22,9 @@
 
 	<!-- Font Awesome CSS -->
     <link href="css/font-awesome.min.css" rel="stylesheet" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Chewy|Josephin+Sans|Pacifico" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
@@ -79,6 +82,9 @@
                     	<a class="page-scroll" href="#alumni" style="margin-top:5px">Alumni</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#team">Our Team</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -93,7 +99,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>About</h1>
                     <p class="siteAboutContainer"></p>
                 </div>
             </div>
@@ -105,10 +110,17 @@
                 <br/>
                 <div class="siteAboutServices">
                 	<i class="fa fa-university iconMed"></i> <span class="heading">Why should I join the club?</span>
-                    <p class="description">
-                    	Join the club and which is just not about certificates or designation(s): <br/>
-                        <ul class="list-group list-unstyled servicesList"></ul>
-                    </p>
+                    <div class="row">
+   		                 <div class="col-lg-8">
+            	        	<p class="description">
+                 		   		Join the club and which is just not about certificates or designation(s): <br/>
+                       			<ul class="list-group list-unstyled servicesList"></ul>
+                    		</p>
+                 	  	</div>
+               		    <div class="col-lg-4">
+                    		<a class="joinNowBtnLink" href="#"><button id="joinNowBtn" class="btn-primary">Join Now</button></a>
+                    	</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,7 +141,6 @@
 	         </div>
 
     </section>
-
     <!-- Alumni Section -->
     <section id="alumni" class="alumni-section">
     	<div class="container">
@@ -138,7 +149,21 @@
                 	<h1 class="section-header">The Alumni</h1>
                 </div>
             </div>
-            <div class="row alumniList row-centered">
+            <div class="fa row alumniDescription row-centered">	<!-- Change class from alumniDescription to alumniList for old layout -->
+            	<p></p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-lg-12 text-center">
+                	<h1 class="section-header">Our Team</h1>
+                </div>
+            </div>
+            <div class="row teamList row-centered">
 
             </div>
         </div>
@@ -149,21 +174,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-
-                    <h1 class="contact-section-header">Contact Us</h1>
-
+                    <h1 class="section-header">Contact Us</h1>
+                    <div class="row">
+                    
                     <a href="https://github.com/asetalias">
-                        <img src="images/github_icon.png" width="150" height="150" style="padding:25px 25px 25px 25px">
+                    	<i class="fa fa-github icon-grey"></i>
                     </a>
                     <a href="https://www.facebook.com/groups/asetalias/">
-                        <img src="images/facebook_icon.png" width="150" height="150" style="padding:25px 25px 25px 25px">
+                    	<i class="fa fa-facebook icon-grey"></i>
                     </a>
                     <a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g">
-                        <img src="images/youtube_icon.png" width="150" height="150" style="padding:25px 25px 25px 25px">
+                        <i class="fa fa-youtube icon-grey"></i> 
                     </a>
-                <a href="https://groups.google.com/forum/#!forum/amity-linux-group">
-                        <img src="images/mailing-list.png" width="150" height="150" style="padding:25px 25px 25px 25px">
-                    </a>
+                	<a href="https://groups.google.com/forum/#!forum/amity-linux-group">
+                     	<i class="fa fa-google-plus icon-grey"></i>   
+                 	</a>
+                    </div>
                 </div>
             </div>
         </div>
