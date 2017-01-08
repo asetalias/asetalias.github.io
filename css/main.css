@@ -83,6 +83,10 @@ a.page-scroll{
 	font-family:'Chewy', cursive;
 	margin-top:5px;
 	font-size:25px;
+<<<<<<< HEAD
+}
+
+=======
 }
 #home{
 	height:100%;
@@ -128,6 +132,7 @@ a.page-scroll{
 		height:200px;	
 	}
 }
+>>>>>>> refs/remotes/origin/master
 /** Intro Section **/
 #intro{
 	padding-left:20px;
