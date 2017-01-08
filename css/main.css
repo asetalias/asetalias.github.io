@@ -1,8 +1,8 @@
 *{
-/**	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;**/
-	font-family: 'Josephin Sans',sans-serif;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	box-sizing:border-box;
 }
+
 .minScreenSizeOverlay{
 	position:absolute;
 	width:100%;
@@ -10,106 +10,27 @@
 	z-index:99999;
 	background:#FFF;
 }
-@media all and (min-width:300px){
-	.minScreenSizeOverlay{
-		display:none;
-	}
-}
-/** General CSS **/
+
 section{
 	padding-bottom:20px;
 }
-button{
-	border:none;
-	box-shadow:1px 1px 2px #000;
-	padding:10px;
-}
-.heading{
-	padding:0px 10px;
-	font-size:30px;
-	font-family:'Anton',sans-serif;
-}
-.box-shadow{
-	box-shadow:0px 0px 4px #000;
-}
-.horizon-center{
-	margin:auto;
-	left:0; right:0;
-}
-.row-centered{
-	text-align:center;
-}
-
-.col-centered{
-	display:inline-block;
-	float:none;
-	text-align:center;
-	margin-right:-4px;
-}
-.section-header{
-	font-family:'Anton',sans-serif;
-	background:rgba(0,0,0,0.5);
-	padding:20px;
-	margin-top:100px;
-	margin-bottom:30px;
-	box-shadow:0px 5px 10px #000;
-}
-/** Navigation Bar **/
 .navbar{
 	background:#B4B4B4;
 	box-shadow:0px 0px 25px #000;
 	border:none;
 	padding:5px 0px;
 }
-.logoContainer{
-	margin:0px 5px;
-	width:160px;
-	height:auto;
-	overflow:hidden;
-}
-.logo{
-	padding:0;
-	width:130px;
-	height:auto;
-}
-.iconMed{
-	font-size:36px;
-}
 .navigation-links{
 	margin:auto;
 	box-sizing:border-box;
 }
-a.page-scroll{
-	font-family:'Chewy', cursive;
-	margin-top:5px;
-	font-size:25px;
+
+@media all and (min-width:300px){
+	.minScreenSizeOverlay{
+		display:none;
+	}
 }
 
-/** Intro Section **/
-#intro{
-	padding-left:20px;
-	background:#ECF0F1;
-	color:#2A2A2A;
-	height:auto;
-}
-.siteAboutContainer{
-	font-family:'Chewy', cursive;
-	font-size:40px;
-}
-#intro .description{
-	font-size:16px;
-	padding:0px 10px;
-}
-.servicesList{
-	margin-left:20px;
-}
-#joinNowBtn{
-	vertical-align:bottom;
-	width:100%;
-	font-weight:600;
-	font-size:20px;
-}
-/** Events Section **/
 #events{
 	background:#2C3E50;
 	color: #FFF;
@@ -138,14 +59,20 @@ a.page-scroll{
 	margin:auto;
 	left:0;right:0;
 }
+
+button{
+	border:none;
+	box-shadow:1px 1px 2px #000;
+	padding:10px;
+}
 .eventTitle{
 	height:100px;
 	width:100%;
 }
 .eventTitle h2{
-	font-family: 'Anton', sans-serif;
-	font-weight:400;
+	font-weight:800;
 }
+
 .eventDesc,.eventDiscInfo{
 	padding:0;
 	text-align:left;
@@ -158,134 +85,135 @@ a.page-scroll{
 	width:100%;
 	position:absolute;
 }
+
 .eventCTA button{
 	width:100%;
-	font-weight:600;
-	font-size:20px;
 }
-/** Alumni Section **/
+
+.logoContainer{
+	margin:0px 5px;
+	width:160px;
+	height:auto;
+	overflow:hidden;
+/**	border:1px solid #000; **/
+}
+
+.logo{
+	padding:0;
+	width:130px;
+	height:auto;
+}
+
+.iconMed{
+	font-size:36px;
+}
+
+.heading{
+	padding:0px 10px;
+	font-size:30px;
+}
+
+.description{
+	font-size:15px;
+	padding:0px 10px;
+}
+
+#intro{
+	padding-left:20px;
+	background:#ECF0F1;
+	color:#2A2A2A;
+	height:auto;
+}
+
+.servicesList{
+	margin-left:20px;
+}
+
 #alumni{
 	background:#ECF0F1;
-	padding-bottom:50px;
+/**	padding-bottom:150px;**/
 }
+
 #alumni .section-header{
 	color: #FFF;
 }
-.alumniDescription{
-	position:relative;
-	padding:20px;
+.alumniBox{
+	min-width:155px;
+	max-width:300px;
+	padding:10px;
+	margin:10px 20px;
+	background:#F2F1EF;
+}
+
+
+.alumniBox .alumniPhotoContainer{
+	border-radius:50%;
+	border:5px solid #D4D4D4;
+	overflow:hidden;
+}
+
+.alumniBox .alumniPhotoContainer,
+.alumniBox .alumniPhotoContainer img{
+	height:100px;
+	width:100px;
+}
+
+
+.box-shadow{
+	box-shadow:0px 0px 4px #000;
+}
+
+.alumniInfoContainer{
+	margin:5px;
+}
+
+.alumniName{
+	font-size:18px;
+}
+
+.alumniJob{
+	font-style:italic;
+	font-size:12px;
+}
+
+.horizon-center{
+	margin:auto;
+	left:0; right:0;
+}
+
+.row-centered{
 	text-align:center;
 }
-.alumniDescription p{
-	font-size:28px;
-	font-style:italic;
-	font-family:'Pacifico',sans-serif;
-}
-.alumniDescription:before{
-	content:'\f10d';
-	position:absolute;
-	top:0;
-	left:0;
-	color:rgba(0,0,0,0.1);
-	font-size:45px;
-}
-.alumniDescription:after{
-	content:'\f10e';
-	position:absolute;
-	bottom:0;
-	right:0;
-	color:rgba(0,0,0,0.1);
-	font-size:45px;
-}
-/** Alumni Box Classes (To be removed if new changes regarding Alumni are accepted)
-.alumniBox,
-.teamBox{
-	min-width:155px;
-	max-width:300px;
-	padding:10px;
-	margin:10px 20px;
-	background:#F2F1EF;
-}
-.alumniBox .alumniPhotoContainer,
-.teamBox .teamPhotoContainer{
-	border-radius:50%;
-	border:5px solid #D4D4D4;
-	overflow:hidden;
-}
-.alumniBox .alumniPhotoContainer,
-.alumniBox .alumniPhotoContainer img,
-.teamBox .teamPhotoContainer,
-.teamBox .teamPhotoContainer img{
-	height:100px;
-	width:100px;
+
+.col-centered{
+	display:inline-block;
+	float:none;
+	text-align:center;
+	margin-right:-4px;
 }
 
-.alumniInfoContainer,
-.teamInfoContainer{
-	margin:5px;
+.section-header{
+	background:rgba(0,0,0,0.5);
+	padding:20px;
+	margin-top:100px;
+	margin-bottom:30px;
+	box-shadow:0px 5px 10px #000;
 }
 
-.alumniName,
-.teamName{
-	font-size:18px;
+.contact-section-header{
+	background:rgba(0,0,0,0.5);
+	padding:20px;
+	margin-top:30px;
+	box-shadow:0px 5px 10px #000
 }
 
-.alumniJob,
-.teamDesignation{
-	font-style:italic;
-	font-size:12px;
-}
-**/
-/** Team Section **/
-#team{
+#contact{
 	background:#2C3E50;
-	padding-bottom:50px;
 	color: #FFF;
-    box-shadow:inset 0px 1px 9px 5px #000;
-}
-.teamBox{
-	min-width:155px;
-	max-width:300px;
-	padding:10px;
-	margin:10px 20px;
-	background:#F2F1EF;
-	color:#000;
-}
-.teamBox .teamPhotoContainer{
-	border-radius:50%;
-	border:5px solid #D4D4D4;
-	overflow:hidden;
-}
-.teamBox .teamPhotoContainer,
-.teamBox .teamPhotoContainer img{
-	height:100px;
-	width:100px;
-}
-.teamInfoContainer{
-	margin:5px;
-}
-.teamName{
-	font-size:18px;
-}
-.teamDesignation{
-	font-style:italic;
-	font-size:12px;
-}
-/** Contact Section **/
-#contact{   
+    	box-shadow:inset 0px 1px 9px 5px #000;
 	padding:0;
 	height:auto;
 }
-#contact .section-header{
-	background:rgba(0,0,0,0.5);
-	margin-top:30px;
-	color:#FFF;
-}
-.icon-grey{
-	padding:25px;
-	font-size:75px;
-	color:rgba(0,0,0,0.5);
-}
-.icon-grey:hover{
-	color:rgba(0,0,0,0.8);
+a.page-scroll{
+	margin-top:5px;
 }
