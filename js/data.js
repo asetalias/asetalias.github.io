@@ -2,7 +2,7 @@
 var logoUrl = "images/logo.png";
 var siteTitle = "ASET-ALiAS : Amity Linux Assistance Sapience ";
 var siteAbout = "Amity Linux Assistance Sapience";
-
+var siteMotto = "Motto goes here..";
 /** Intro Section **/
 var siteAboutHistory = "Started back in 2010 ALiAS main goal is to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.";
 var joinNowBtnLink = "#";
@@ -64,6 +64,7 @@ team[2] = {name:"Test Name 2", designation: "Co-Ordinator", ppicUrl: "images/alu
 
 /** Containers **/
 var logoContainer = $(".logo");
+var siteMottoContainer = $(".motto");
 var siteAboutContainer = $(".siteAboutContainer");
 var siteAboutHistoryContainer = $(".siteAboutHistory .description");
 var joinNowBtnLinkContainer = $(".joinNowBtnLink");
@@ -77,6 +78,7 @@ var teamListContainer = $(".teamList");
 /** Load Data **/
 document.title = siteTitle;			//Update Site Title
 logoContainer.attr("src",logoUrl);	//Update SiteLogo
+siteMottoContainer.html(siteMotto);
 siteAboutContainer.html(siteAbout);	//Update Site About
 siteAboutHistoryContainer.html(siteAboutHistory);
 joinNowBtnLinkContainer.attr("href",joinNowBtnLink);
