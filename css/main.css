@@ -18,7 +18,7 @@ section{
 	background:#B4B4B4;
 	box-shadow:0px 0px 25px #000;
 	border:none;
-	padding:0;
+	padding:5px 0px;
 }
 .navigation-links{
 	margin:auto;	
@@ -122,7 +122,7 @@ button{
 	padding-left:20px;
 	background:#ECF0F1;
 	color:#2A2A2A;
-
+	height:auto;
 }
 
 .servicesList{
@@ -205,4 +205,7 @@ button{
 	color: #FFF;
     box-shadow:inset 0px 1px 9px 5px #000;
 	padding:0;
+}
+a.page-scroll{
+	margin-top:5px;
 }
