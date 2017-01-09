@@ -1,5 +1,4 @@
 *{
-/**	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;**/
 	font-family: 'Josephin Sans',sans-serif;
 	box-sizing:border-box;
 }
@@ -15,6 +14,11 @@
 		display:none;
 	}
 }
+/**Fix for white space**/
+.row{
+	margin-right:0px;
+}
+
 /** General CSS **/
 section{
 	padding-bottom:20px;
@@ -84,6 +88,51 @@ a.page-scroll{
 	margin-top:5px;
 	font-size:25px;
 }
+/** Cover Section **/
+#home{
+	height:100%;
+	padding-top:100px;
+	background:#ECF0F1;
+	box-shadow:inset 0px 0px 100px 1px #6B6B6B;
+
+}
+#home .container{
+	position:relative;
+	height:100%;
+}
+#home .absolute-center{
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+	width:500px;
+	height:300px;
+	text-align:center;
+}
+#home .coverLogo{
+	width:100%;
+}
+#home .motto{
+	float:right;
+	font-family: 'Pacifico', sans-serif;
+	font-style:italic;
+	font-size:18px;
+	font-weight:100;
+}
+#home .scrollMore{
+	clear:both;
+	font-size:24px;
+	font-family: 'Chewy', cursive;
+}
+#home .scrollIcon{
+	padding:0;
+}
+@media all and (max-width:768px){
+	#home .absolute-center{
+		width:290px;
+		height:200px;	
+	}
+}
 
 /** Intro Section **/
 #intro{
@@ -114,7 +163,6 @@ a.page-scroll{
 	background:#2C3E50;
 	color: #FFF;
 	box-shadow:inset 0px 1px 9px 5px #000;
-
 }
 #events .section-header{
 	background:rgba(255,255,255,0.5);
@@ -123,7 +171,6 @@ a.page-scroll{
 	min-width:300px;
 }
 .eventBox{
-	/**border:1px solid #000;**/
 	height:400px;
 	min-width:300px;
 	margin:10px 20px;

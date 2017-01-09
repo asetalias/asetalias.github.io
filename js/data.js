@@ -2,16 +2,25 @@
 var logoUrl = "images/logo.png";
 var siteTitle = "ASET-ALiAS : Amity Linux Assistance Sapience ";
 var siteAbout = "Amity Linux Assistance Sapience";
+var siteMotto = "Motto goes here..";
 
 /** Intro Section **/
 var siteAboutHistory = "Started back in 2010 ALiAS main goal is to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.";
 var joinNowBtnLink = "#";
 /** Alumni Section **/
+
 var alumniDescription = "Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain";
 /** Array Definitions**/
 var services = [];
 var events = [];
 // var alumni = [];	//To Be Removed if new changes regarding Alumni are accepted
+
+var alumniDescription = "Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain.... blah blah <:P>";
+/** Array Definitions**/
+var services = [];
+var events = [];
+// var alumni = [];	//To Be Removed if new changes regarding Alumni are accepted 
+
 var team = [];
 /** Services List
 	Do you want to stand out of crowd and learn unique skills?
@@ -40,7 +49,6 @@ services[5] = "Already know something? Teach it to others! That's how we work!";
 	endTime: Event End Time
 	location: Event Location
 	eventOD: 0 for NO, 1 for YES. The text and respective classes are automatically added by the script
-
 	events[0] = {title: "", cta: "", ctaText: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
 **/
 
@@ -49,7 +57,9 @@ events[0] = {title: "ASET ALUMINI MEETUP", cta: "#", ctaText: "Register Now", de
 /** End Events List **/
 
 /**Alumni List **/
+
 /** To Be Removed if new changes regarding Alumni are accepted
+
 alumni[0] = {name:"Test Name 0", job: "CEO/Founder, Company", ppicUrl: "images/alumni/1.jpg"};
 alumni[1] = {name:"Test Name 1", job: "CEO/Founder, Company", ppicUrl: "images/alumni/1.jpg"};
 alumni[2] = {name:"Test Name 2", job: "CEO/Founder, Company", ppicUrl: "images/alumni/1.jpg"};
@@ -64,6 +74,7 @@ team[2] = {name:"Test Name 2", designation: "Co-Ordinator", ppicUrl: "images/alu
 
 /** Containers **/
 var logoContainer = $(".logo");
+var siteMottoContainer = $(".motto");
 var siteAboutContainer = $(".siteAboutContainer");
 var siteAboutHistoryContainer = $(".siteAboutHistory .description");
 var joinNowBtnLinkContainer = $(".joinNowBtnLink");
@@ -77,6 +88,7 @@ var teamListContainer = $(".teamList");
 /** Load Data **/
 document.title = siteTitle;			//Update Site Title
 logoContainer.attr("src",logoUrl);	//Update SiteLogo
+siteMottoContainer.html(siteMotto);
 siteAboutContainer.html(siteAbout);	//Update Site About
 siteAboutHistoryContainer.html(siteAboutHistory);
 joinNowBtnLinkContainer.attr("href",joinNowBtnLink);
@@ -141,4 +153,5 @@ for (var x in team){
 	html+='</div></div></div></div>';
 	teamListContainer.append(html);
 }
+
 /** End Team List**/
