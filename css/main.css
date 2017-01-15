@@ -60,7 +60,7 @@ button{
 }
 /** Navigation Bar **/
 .navbar{
-	background:#B4B4B4;
+	background:#D4D4D4;
 	box-shadow:0px 0px 25px #000;
 	border:none;
 	padding:5px 0px;
@@ -173,6 +173,8 @@ a.page-scroll{
 .eventBox{
 	height:400px;
 	min-width:300px;
+	width: auto;
+	max-width: 400px;
 	margin:10px 20px;
 	padding:10px;
 	background:#F2F1EF;
