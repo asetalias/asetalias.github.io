@@ -2,11 +2,11 @@
 var logoUrl = "images/logo.png";
 var siteTitle = "ASET-ALiAS : Amity Linux Assistance Sapience ";
 var siteAbout = "Amity Linux Assistance Sapience";
-var siteMotto = "Motto goes here..";
+var siteMotto = "";
 
 /** Intro Section **/
 var siteAboutHistory = "Started back in 2010 ALiAS main goal is to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.";
-var joinNowBtnLink = "#";
+var joinNowBtnLink = "https://goo.gl/forms/mkBRe8jA5pJlexaK2";
 /** Alumni Section **/
 
 var alumniDescription = "Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain";
@@ -15,10 +15,11 @@ var services = [];
 var events = [];
 // var alumni = [];	//To Be Removed if new changes regarding Alumni are accepted
 
-var alumniDescription = "Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain.... blah blah <:P>";
+var alumniDescription = "Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain...";
 /** Array Definitions**/
 var services = [];
 var events = [];
+var webinars = [];
 // var alumni = [];	//To Be Removed if new changes regarding Alumni are accepted 
 
 var team = [];
@@ -52,9 +53,17 @@ services[5] = "Already know something? Teach it to others! That's how we work!";
 	events[0] = {title: "", cta: "", ctaText: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
 **/
 
-events[0] = {title: "ASET ALUMINI MEETUP", cta: "#", ctaText: "Register Now", description: " Amity organizing an Alumni Connect 2017 CSE. All senior/junior/alumni are welcome", date: "12 Jan '17", startTime: "5:00 PM IST", endTime: "NA", location: " I2-Moot Court, Amity University, Sec-125", eventOD: 0};
+events[0] = {title: "Webinar: Open Source Softwares", cta: "https://www.youtube.com/watch?v=JcYABQrAkaU", ctaText: "Catch it live!", description: "Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">http://www.sanyamkhurana.com/</a>", date: "17 Jan '17", startTime: "10:00 PM IST", endTime: "10:45 PM IST", location: "YouTube", eventOD: 0};
 
 /** End Events List **/
+
+/**
+  Webinars List  
+ */
+
+webinars[0] = {title: "Webinar: Introduction to Linux", cta: "https://www.youtube.com/watch?v=CTO-8BnzS_s", ctaText: "Watch Now!", description: "This webinar would be about basics of Linux and its terminologies. We'll be covering basics of command lines/principles/every 'Must Know' things about Linux.<br/><strong>Speakers:</strong> <br/><strong>Anuvrat Parashar:<strong> <a href = \"http://anuvrat.in/\">http://anuvrat.in/</a> ", date: "3 Jan '17", startTime: "10:00 PM IST", endTime: "11:00 PM IST", location: "YouTube", eventOD: 0};
+webinars[1] = {title: "Webinar: Introduction to CLI", cta: "https://www.youtube.com/watch?v=gmi_YM_N2L4", ctaText: "Watch Now!", description: "This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">https://about.me/rohitgoyal18/</a> ", date: "13 Jan '17", startTime: "10:00 PM IST", endTime: "11:00 PM IST", location: "YouTube", eventOD: 0};
+
 
 /**Alumni List **/
 
@@ -67,7 +76,8 @@ alumni[2] = {name:"Test Name 2", job: "CEO/Founder, Company", ppicUrl: "images/a
 /** End Alumni List**/
 
 /** Team List **/
-team[0] = {name:"Test Name 0", designation: "President", ppicUrl: "images/alumni/1.jpg"};
+team[0] = {name:"Shyam Saini", designation: "President", ppicUrl: "images/alumni/1.jpg"};
+/**
 team[1] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
 team[2] = {name:"Test Name 2", designation: "Co-Ordinator", ppicUrl: "images/alumni/1.jpg"};
 /** End Team List **/
@@ -79,7 +89,8 @@ var siteAboutContainer = $(".siteAboutContainer");
 var siteAboutHistoryContainer = $(".siteAboutHistory .description");
 var joinNowBtnLinkContainer = $(".joinNowBtnLink");
 var siteServicesListContainer = $(".servicesList");
-var eventsListContainer = $(".eventsList");
+var eventsListContainer = $("#eventsListContainer");
+var webinarsListContainer = $("#webinarsListContainer");
 // var alumniListContainer = $(".alumniList");	// To be removed if new changes regarding Alumni are accepted
 var alumniDescriptionContainer = $(".alumniDescription p");
 var teamListContainer = $(".teamList");
@@ -107,6 +118,18 @@ for (var x in events){
 		html +='<div class="row eventCTA"><div class="col-lg-12"><a href="'+events[x].cta+'"><button class="btn-primary">'+events[x].ctaText+'</button></a></div></div></div>';
 		eventsListContainer.append(html);
 }
+
+/** Generate Webinar Boxes */
+for (var x in webinars){
+		var html = '<div class="col-lg-3 eventBox col-centered text-center"><div class="row eventTitle"><div class="col-lg-12 text-center"><h2>'+webinars[x].title+'</h2></div></div><div class="row eventInfo"><div class="col-lg-7 eventDesc"><div class="row eventDescInfo"><div class="col-lg-12"><p class="eventDescInfoContainer">'+webinars[x].description+'</p></div></div></div><div class="col-lg-5 eventTiming text-left"><div class="date"><i class="fa fa-calendar"></i> <span>'+webinars[x].date+'</span></div><div class="startTimimg"><i class="fa fa-clock-o"></i> <span>'+webinars[x].startTime+'</span></div><div class="endTimimg"><i class="fa fa-clock-o"></i> <span>'+webinars[x].endTime+'</span></div><div class="eventLocation"><i class="fa fa-map-marker"></i> <span>'+webinars[x].location+'</span></div><div class="eventOD"><strong>OD</strong> <span class="';
+		html += (webinars[x].eventOD)?"text-success":"text-danger";
+		html += '">';
+		html += (webinars[x].eventOD)?"Yes":"No";
+		html += '</span></div></div></div>';
+		html +='<div class="row eventCTA"><div class="col-lg-12"><a href="'+webinars[x].cta+'"><button class="btn-primary">'+webinars[x].ctaText+'</button></a></div></div></div>';
+		webinarsListContainer.append(html);
+}
+
 
 /** Load Alumni **/
 alumniDescriptionContainer.html(alumniDescription);
