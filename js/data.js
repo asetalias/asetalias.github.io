@@ -76,7 +76,7 @@ alumni[2] = {name:"Test Name 2", job: "CEO/Founder, Company", ppicUrl: "images/a
 /** End Alumni List**/
 
 /** Team List **/
-team[0] = {name:"Shyam Saini", designation: "President", ppicUrl: "images/alumni/1.jpg"};
+team[0] = {name:"", designation: "", ppicUrl: "images/alumni/1.jpg"};
 /**
 team[1] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
 team[2] = {name:"Test Name 2", designation: "Co-Ordinator", ppicUrl: "images/alumni/1.jpg"};
