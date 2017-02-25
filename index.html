@@ -12,7 +12,7 @@
     <meta name="author" content="ASET-ALIAS">
 	<!-- End Search Engine Optimisation -->
 	
-    <title>ASET-ALiAS : Amity Linux Assistance Sapience</title>
+    <title>ALiAS : Amity Linux Assistance Sapience</title>
 
      <!-- Site favicon -->
      <link href="images/alias_favicon.png" rel="shortcut icon">
@@ -25,7 +25,7 @@
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Anton|Chewy|Josephin+Sans|Pacifico" rel="stylesheet">
-
+	
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
@@ -42,9 +42,30 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<div class="preloader">
+    	<div class="content">
+        	<div class="preloader-content">LOADING</div>
+        </div>
+    </div>
 	<div class="minScreenSizeOverlay">
     	<div>
         	You Need a Bigger Display!
+        </div>
+    </div>
+    <div id="color-chooser">
+    	<ul>
+        	<a href="#blue" class="colorChanger"><li class="blue"></li></a>
+           	<a href="#red" class="colorChanger"><li class="red"></li></a>
+          	<a href="#yellow" class="colorChanger"><li class="yellow"></li></a>
+            <a href="#green" class="colorChanger"><li class="green"></li></a>
+        </ul>
+    </div>
+    <div class="flashbox">
+    	<div class="content">
+        	<a class="closeBtn"><i class="fa fa-remove"></i></a>
+            <div class="flashBox-content">
+	        	&nbsp;
+            </div>
         </div>
     </div>
     <!-- Navigation -->
@@ -113,10 +134,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="siteAboutContainer"></p>
+                    <p class="siteAboutContainer animated"></p>
                 </div>
             </div>
-            <div class="row  text-left siteAboutMore">
+            <div class="row  text-left siteAboutMore animated">
             	<div class="siteAboutHistory">
                 	<i class="fa fa-flag iconMed"></i> <span class="heading">The Journey</span>
                     <p class="description"></p>
@@ -132,7 +153,7 @@
                     		</p>
                  	  	</div>
                		    <div class="col-lg-4">
-                    		<a class="joinNowBtnLink" href="#"><button id="joinNowBtn" class="btn-primary">Join Now</button></a>
+                    		<a class="joinNowBtnLink" href="#"><button id="joinNowBtn" class="theme-btn-primary">Join Now</button></a>
                     	</div>
                     </div>
                 </div>
@@ -142,7 +163,7 @@
 
 
     <!-- Events Section -->
-    <section id="events" class="events-section">
+    <section id="events" class="events-section theme-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -185,7 +206,7 @@
     </section>
     
     <!-- Team Section -->
-    <section id="team" class="team-section">
+    <section id="team" class="team-section theme-bg">
     	<div class="container">
         	<div class="row">
             	<div class="col-lg-12 text-center">
@@ -210,20 +231,20 @@
                     	<i class="fa fa-github icon-grey"></i>
                     </a>
                     <a href="https://www.facebook.com/asetalias/">
-                    	<i class="fa fa-facebook icon-grey"></i>
+                    	<i class="fa fa-facebook icon-grey hover-blue"></i>
                     </a>
                     <a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g">
-                        <i class="fa fa-youtube icon-grey"></i> 
+                        <i class="fa fa-youtube icon-grey hover-red"></i> 
                     </a>
                 	<a href="https://groups.google.com/forum/#!forum/amity-linux-group">
-                     	<i class="fa fa-google-plus icon-grey"></i>   
+                     	<i class="fa fa-google-plus icon-grey hover-yellow"></i>   
                  	</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+	
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -232,10 +253,21 @@
 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
+    <script src="js/scrolling-nav.js"></script> 
+    
+    <script src="js/scrollreveal.js"></script>   
     <!-- Functionality Scripts -->
     <script src="js/data.js"></script>
+    <script>
+		$(document).ready(function(e) {
+			$(".section-header").addClass("animated");
+            window.sr = ScrollReveal({origin:'bottom'});
+			sr.reveal(".animated",{duration:1000});
+			sr.reveal(".eventBox",{duration:2000},500);
+			$(".preloader").delay(1000).fadeOut(2000);
+        });
+	</script>
+    
 
 </body>
 
