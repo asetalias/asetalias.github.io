@@ -9,6 +9,28 @@
 	z-index:99999;
 	background:#FFF;
 }
+.minScreenSizeOverlay .smallscr{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.minScreenSizeOverlay .contentContainer{
+	text-align:center;
+	position:absolute;
+	margin:auto;
+	background:#ECF0F1;
+	top:0;bottom:0;
+	height:100px;
+	width:100%;
+	padding: 25px;
+	padding-top: 75%;
+	padding-bottom: 80%;
+	box-shadow:inset 0px 0px 100px 1px #6B6B6B;
+	font-family:'Chewy',cursive;
+	font-weight: bold;
+	font-size: 20px;
+	/** Apply All your text styles here **/
+}
 @media all and (min-width:300px){
 	.minScreenSizeOverlay{
 		display:none;
@@ -236,7 +258,7 @@ button{
 }
 .logo{
 	padding:0;
-	width:130px;
+	width:150px;
 	height:auto;
 }
 .iconMed{
@@ -247,7 +269,7 @@ button{
 	box-sizing:border-box;
 }
 a.page-scroll{
-	font-family:'Chewy', cursive;
+	font-family: 'Oswald', sans-serif;
 	margin-top:5px;
 	font-size:25px;
 }
@@ -288,7 +310,7 @@ a.page-scroll{
 }
 #home .motto{
 	float:right;
-	font-family: 'Pacifico', sans-serif;
+	font-family: 'Anton', sans-serif;
 	font-style:italic;
 	font-size:18px;
 	font-weight:100;
@@ -313,26 +335,30 @@ a.page-scroll{
 
 /** Intro Section **/
 #intro{
-	padding-left:20px;
+	padding-top:60px;
 	background:#ECF0F1;
 	color:#2A2A2A;
 	height:auto;
+	padding-bottom: 100px;
 }
 .siteAboutContainer{
-	font-family:'Chewy', cursive;
-	font-size:40px;
+    padding-top: 35px;
+	font-family: 'Oswald', sans-serif;
+	font-size:48px;
+	padding-bottom: 20px;
 }
 #intro .description{
-	font-size:16px;
-	padding:0px 10px;
+	font-size:22px;
+	padding:4px 10px;
+	padding-left: 25px;
 }
 .servicesList{
-	margin-left:20px;
+	margin-left:40px;
 }
 .servicesList li{
 	display:block;
-	margin-top:5px;
-	font-size:15px;
+	margin-top:15px;
+	font-size:22px;
 }
 .servicesList li::before{
 	content:"\f00c";
@@ -347,6 +373,7 @@ a.page-scroll{
 	width:100%;
 	font-weight:600;
 	font-size:20px;
+	margin-top: 100px;
 }
 /** Events Section **/
 #events{
@@ -412,12 +439,12 @@ a.page-scroll{
 .alumniDescription{
 	position:relative;
 	padding:20px;
+	padding-left: 50px;
 	text-align:center;
 }
 .alumniDescription p{
 	font-size:28px;
 	font-style:italic;
-	font-family:'Pacifico',sans-serif;
 }
 .alumniDescription:before{
 	content:'\f10d';
