@@ -1,28 +1,26 @@
 /** Site Description **/
 var logoUrl = "images/logo.png";
-var siteTitle = "ASET-ALiAS : Amity Linux Assistance Sapience ";
+var siteTitle = "ALiAS : Amity Linux Assistance Sapience";
 var siteAbout = "Amity Linux Assistance Sapience";
 var siteMotto = "";
+
+/** FlashBox **/
+var showFlashBox = 0;
+var flashBoxContent = '<img src="images/flashbox/banner1.jpg">';
 
 /** Intro Section **/
 var siteAboutHistory = "Started back in 2010 ALiAS main goal is to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.";
 var joinNowBtnLink = "https://goo.gl/forms/mkBRe8jA5pJlexaK2";
+
 /** Alumni Section **/
-
 var alumniDescription = "Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain";
-/** Array Definitions**/
-var services = [];
-var events = [];
-// var alumni = [];	//To Be Removed if new changes regarding Alumni are accepted
 
-var alumniDescription = "Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain...";
 /** Array Definitions**/
 var services = [];
 var events = [];
 var webinars = [];
-// var alumni = [];	//To Be Removed if new changes regarding Alumni are accepted 
-
 var team = [];
+
 /** Services List
 	Do you want to stand out of crowd and learn unique skills?
 	Do you want to participate in Google Summer of code?
@@ -53,36 +51,33 @@ services[5] = "Already know something? Teach it to others! That's how we work!";
 	events[0] = {title: "", cta: "", ctaText: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
 **/
 
-events[0] = {title: "Webinar: Open Source Softwares", cta: "https://www.youtube.com/watch?v=JcYABQrAkaU", ctaText: "Catch it live!", description: "Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">http://www.sanyamkhurana.com/</a>", date: "17 Jan '17", startTime: "10:00 PM IST", endTime: "10:45 PM IST", location: "YouTube", eventOD: 0};
+events[0] = {title: "Study Group: Web Design", cta: "#", ctaText: "Attend now!", description: "Learn Web Designing from scratch in this on going Study Group Sessions of Web Designing!", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0};
 
 /** End Events List **/
 
-/**
-  Webinars List  
- */
+/** Webinars List  **/
 
 webinars[0] = {title: "Webinar: Introduction to Linux", cta: "https://www.youtube.com/watch?v=CTO-8BnzS_s", ctaText: "Watch Now!", description: "This webinar would be about basics of Linux and its terminologies. We'll be covering basics of command lines/principles/every 'Must Know' things about Linux.<br/><strong>Speakers:</strong> <br/><strong>Anuvrat Parashar:<strong> <a href = \"http://anuvrat.in/\">http://anuvrat.in/</a> ", date: "3 Jan '17", startTime: "10:00 PM IST", endTime: "11:00 PM IST", location: "YouTube", eventOD: 0};
 webinars[1] = {title: "Webinar: Introduction to CLI", cta: "https://www.youtube.com/watch?v=gmi_YM_N2L4", ctaText: "Watch Now!", description: "This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">https://about.me/rohitgoyal18/</a> ", date: "13 Jan '17", startTime: "10:00 PM IST", endTime: "11:00 PM IST", location: "YouTube", eventOD: 0};
 
 
-/**Alumni List **/
-
-/** To Be Removed if new changes regarding Alumni are accepted
-
-alumni[0] = {name:"Test Name 0", job: "CEO/Founder, Company", ppicUrl: "images/alumni/1.jpg"};
-alumni[1] = {name:"Test Name 1", job: "CEO/Founder, Company", ppicUrl: "images/alumni/1.jpg"};
-alumni[2] = {name:"Test Name 2", job: "CEO/Founder, Company", ppicUrl: "images/alumni/1.jpg"};
+/** Team List 
+	team[0] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
 **/
-/** End Alumni List**/
+team[0] = {name:"Shyam Saini", designation: "", ppicUrl: "images/alumni/1.jpg"};
+team[1] = {name:"Shivam Rajput", designation: "", ppicUrl: "images/team/shivam.jpg"};
+team[2] = {name:"Ashish Dahiya", designation: "", ppicUrl: "images/alumni/1.jpg"};
+team[3] = {name:"Tanya Jain", designation: "", ppicUrl: "images/team/tanya.jpg"};
+team[4] = {name:"Ajay Tripathi", designation: "", ppicUrl: "images/team/ajay.jpg"};
+team[5] = {name:"Ayush Agarwal", designation: "", ppicUrl: "images/team/ayush.jpg"};
+team[6] = {name:"Parth Sharma", designation: "", ppicUrl: "images/team/parth.jpg"};
 
-/** Team List **/
-team[0] = {name:"", designation: "", ppicUrl: "images/alumni/1.jpg"};
-/**
-team[1] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
-team[2] = {name:"Test Name 2", designation: "Co-Ordinator", ppicUrl: "images/alumni/1.jpg"};
 /** End Team List **/
 
 /** Containers **/
+var flashBox = $(".flashbox");
+var flashBoxContentContainer = $(".flashBox-content");
+var flashBoxCloseBtn = $(".flashbox .closeBtn");
 var logoContainer = $(".logo");
 var siteMottoContainer = $(".motto");
 var siteAboutContainer = $(".siteAboutContainer");
@@ -91,10 +86,11 @@ var joinNowBtnLinkContainer = $(".joinNowBtnLink");
 var siteServicesListContainer = $(".servicesList");
 var eventsListContainer = $("#eventsListContainer");
 var webinarsListContainer = $("#webinarsListContainer");
-// var alumniListContainer = $(".alumniList");	// To be removed if new changes regarding Alumni are accepted
 var alumniDescriptionContainer = $(".alumniDescription p");
 var teamListContainer = $(".teamList");
 /** End Containers **/
+
+
 
 /** Load Data **/
 document.title = siteTitle;			//Update Site Title
@@ -103,9 +99,19 @@ siteMottoContainer.html(siteMotto);
 siteAboutContainer.html(siteAbout);	//Update Site About
 siteAboutHistoryContainer.html(siteAboutHistory);
 joinNowBtnLinkContainer.attr("href",joinNowBtnLink);
+
+/** Load and enable FlashBox **/
+
+if(showFlashBox){
+	flashBoxContentContainer.html(flashBoxContent);
+	flashBox.fadeIn();
+}
+flashBoxCloseBtn.click(function(e){
+	flashBox.fadeOut();
+});
 /** Generate Services **/
 for(var x in services){
-	var html = '<li><i class="fa fa-check"></i> '+services[x]+'</li>';
+	var html = '<li class="fa">'+services[x]+'</li>';
 	siteServicesListContainer.append(html);
 }
 /** Generate Event Boxes **/
@@ -115,7 +121,7 @@ for (var x in events){
 		html += '">';
 		html += (events[x].eventOD)?"Yes":"No";
 		html += '</span></div></div></div>';
-		html +='<div class="row eventCTA"><div class="col-lg-12"><a href="'+events[x].cta+'"><button class="btn-primary">'+events[x].ctaText+'</button></a></div></div></div>';
+		html +='<div class="row eventCTA"><div class="col-lg-12"><a href="'+events[x].cta+'"><button class="theme-btn-primary">'+events[x].ctaText+'</button></a></div></div></div>';
 		eventsListContainer.append(html);
 }
 
@@ -126,7 +132,7 @@ for (var x in webinars){
 		html += '">';
 		html += (webinars[x].eventOD)?"Yes":"No";
 		html += '</span></div></div></div>';
-		html +='<div class="row eventCTA"><div class="col-lg-12"><a href="'+webinars[x].cta+'"><button class="btn-primary">'+webinars[x].ctaText+'</button></a></div></div></div>';
+		html +='<div class="row eventCTA"><div class="col-lg-12"><a href="'+webinars[x].cta+'"><button class="theme-btn-primary">'+webinars[x].ctaText+'</button></a></div></div></div>';
 		webinarsListContainer.append(html);
 }
 
@@ -134,42 +140,10 @@ for (var x in webinars){
 /** Load Alumni **/
 alumniDescriptionContainer.html(alumniDescription);
 
-/** Load Alumni (To be removed if new changes regarding Alumni are accepted)
-Alumni Box Template
-
-	<div class="col-lg-2 alumniBox box-shadow col-centered">
-                	<div class="row">
-                    	<div class="col-lg-12 text-center">
-		                	<div class="alumniPhotoContainer horizon-center box-shadow">
-    		                	<img src="images/alumni/1.jpg"/>
-        		            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                    	<div class="col-lg-12 text-center">
-	                       	<div class="alumniInfoContainer">
-    	                		<strong><div class="alumniName">Name</div></strong>
-        	                	<div class="alumniJob">position</div>
-	        	            </div>
-                        </div>
-    	            </div>
-                </div>
-
-for (var x in alumni){
-	var html = '<div class="col-lg-2 alumniBox box-shadow col-centered">';
-	html+='<div class="row"><div class="col-lg-12 text-center"><div class="alumniPhotoContainer horizon-center box-shadow"><img src="'+alumni[x].ppicUrl+'"/></div></div></div>';
-	html+='<div class="row"><div class="col-lg-12 text-center"><div class="alumniInfoContainer">';
-	html+='<strong><div class="alumniName">'+alumni[x].name+'</div></strong>';
-	html+='<div class="alumniJob">'+alumni[x].job+'</div>';
-	html+='</div></div></div></div>';
-	alumniListContainer.append(html);
-}
-**/
-
 /** Load Team List **/
 for (var x in team){
 	var html = '<div class="col-lg-2 teamBox box-shadow col-centered">';
-	html+='<div class="row"><div class="col-lg-12 text-center"><div class="teamPhotoContainer horizon-center box-shadow"><img src="'+team[x].ppicUrl+'"/></div></div></div>';
+	html+='<div class="row"><div class="col-lg-12 text-center"><div class="teamPhotoContainer horizon-center box-shadow"><img src="'+team[x].ppicUrl+'" alt="'+team[x].name+'" title="'+team[x].name+'"/></div></div></div>';
 	html+='<div class="row"><div class="col-lg-12 text-center"><div class="teamInfoContainer">';
 	html+='<strong><div class="teamName">'+team[x].name+'</div></strong>';
 	html+='<div class="teamDesignation">'+team[x].designation+'</div>';
@@ -178,3 +152,8 @@ for (var x in team){
 }
 
 /** End Team List**/
+
+/** Do Not Change! Still in BETA **/
+var siteThemeClassName ="blue"; //blue, green, red, yellow (Use Blue for now)
+$(".theme-bg").addClass(siteThemeClassName);
+$(".theme-btn-primary").addClass(siteThemeClassName);
