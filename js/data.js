@@ -1,6 +1,6 @@
 /** Site Description **/
-var logoUrl = "images/logo.png";
-var siteTitle = "ALiAS : Amity Linux Assistance Sapience";
+var logoUrl = "images/navlogo.png";
+var siteTitle = "ALiAS";
 var siteAbout = "Amity Linux Assistance Sapience";
 var siteMotto = "";
 
@@ -9,7 +9,8 @@ var showFlashBox = 0;
 var flashBoxContent = '<img src="images/flashbox/banner1.jpg">';
 
 /** Intro Section **/
-var siteAboutHistory = "Started back in 2010 ALiAS main goal is to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.";
+/** Intro Section **/
+var siteAboutHistory = "<p>Started &nbsp; back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.<\p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.";
 var joinNowBtnLink = "https://goo.gl/forms/mkBRe8jA5pJlexaK2";
 
 /** Alumni Section **/
@@ -51,14 +52,16 @@ services[5] = "Already know something? Teach it to others! That's how we work!";
 	events[0] = {title: "", cta: "", ctaText: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
 **/
 
-events[0] = {title: "Study Group: Web Design", cta: "#", ctaText: "Attend now!", description: "Learn Web Designing from scratch in this on going Study Group Sessions of Web Designing!", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0};
 
 /** End Events List **/
+events[0] = {title: "Study Group: Web Designing", cta: "https://docs.google.com/forms/d/e/1FAIpQLScaB0SGVp31QzY4Pg6Mcj0sr2R7JqYGgVMbnrAyivCSOKD4Dg/viewform", ctaText: "Attend now!", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in this on going Study Group Sessions of Web Designing  and start contributing to open source projects. [Session usually take place after classes] ", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0};
 
 /** Webinars List  **/
 
 webinars[0] = {title: "Webinar: Introduction to Linux", cta: "https://www.youtube.com/watch?v=CTO-8BnzS_s", ctaText: "Watch Now!", description: "This webinar would be about basics of Linux and its terminologies. We'll be covering basics of command lines/principles/every 'Must Know' things about Linux.<br/><strong>Speakers:</strong> <br/><strong>Anuvrat Parashar:<strong> <a href = \"http://anuvrat.in/\">http://anuvrat.in/</a> ", date: "3 Jan '17", startTime: "10:00 PM IST", endTime: "11:00 PM IST", location: "YouTube", eventOD: 0};
-webinars[1] = {title: "Webinar: Introduction to CLI", cta: "https://www.youtube.com/watch?v=gmi_YM_N2L4", ctaText: "Watch Now!", description: "This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">https://about.me/rohitgoyal18/</a> ", date: "13 Jan '17", startTime: "10:00 PM IST", endTime: "11:00 PM IST", location: "YouTube", eventOD: 0};
+webinars[1] = {title: "Webinar: Introduction to Command Line Interface", cta: "https://www.youtube.com/watch?v=gmi_YM_N2L4", ctaText: "Watch Now!", description: "This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">https://about.me/rohitgoyal18/</a> ", date: "13 Jan '17", startTime: "10:00 PM IST", endTime: "11:00 PM IST", location: "YouTube", eventOD: 0};
+webinars[2]= {title: "Webinar: Open Source Softwares", cta: "https://www.youtube.com/watch?v=JcYABQrAkaU", ctaText: "Watch Now!", description: "Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">http://www.sanyamkhurana.com/</a>", date: "17 Jan '17", startTime: "10:00 PM IST", endTime: "10:45 PM IST", location: "YouTube", eventOD: 0};
+
 
 
 /** Team List 
@@ -66,7 +69,7 @@ webinars[1] = {title: "Webinar: Introduction to CLI", cta: "https://www.youtube.
 **/
 team[0] = {name:"Shyam Saini", designation: "", ppicUrl: "images/alumni/1.jpg"};
 team[1] = {name:"Shivam Rajput", designation: "", ppicUrl: "images/team/shivam.jpg"};
-team[2] = {name:"Ashish Dahiya", designation: "", ppicUrl: "images/alumni/1.jpg"};
+team[2] = {name:"Ashish Dahiya", designation: "", ppicUrl: "images/team/ashish.jpg"};
 team[3] = {name:"Tanya Jain", designation: "", ppicUrl: "images/team/tanya.jpg"};
 team[4] = {name:"Ajay Tripathi", designation: "", ppicUrl: "images/team/ajay.jpg"};
 team[5] = {name:"Ayush Agarwal", designation: "", ppicUrl: "images/team/ayush.jpg"};
