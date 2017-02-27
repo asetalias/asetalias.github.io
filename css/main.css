@@ -2,8 +2,12 @@
 	font-family: 'Josephin Sans',sans-serif;
 	box-sizing:border-box;
 }
+body,html{
+	margin:0;padding:0;
+	width:100%;
+}
 .minScreenSizeOverlay{
-	position:absolute;
+	position:fixed;
 	width:100%;
 	height:100%;
 	z-index:99999;
@@ -78,6 +82,8 @@ button{
 	padding:20px;
 	margin-top:100px;
 	margin-bottom:30px;
+	margin-left:auto;margin-right:auto;
+	left:0;right:0;
 	box-shadow:0px 5px 10px #000;
 }
 
@@ -101,8 +107,9 @@ button{
 }
 .preloader .preloader-content{
 	position:absolute;
-	width:100px;
-	height:50px;
+	width:180px;
+	height:190px;
+	text-align:center;
 	margin:auto;
 	left:0;right:0;
 	top:0;bottom:0;
@@ -335,11 +342,10 @@ a.page-scroll{
 
 /** Intro Section **/
 #intro{
-	padding-top:60px;
+	padding:60px 10px 100px 10px;
 	background:#ECF0F1;
 	color:#2A2A2A;
 	height:auto;
-	padding-bottom: 100px;
 }
 .siteAboutContainer{
     padding-top: 35px;
@@ -347,8 +353,14 @@ a.page-scroll{
 	font-size:48px;
 	padding-bottom: 20px;
 }
+
+@media screen and (max-width:768px){
+	.siteAboutContainer{
+		font-size:35px;
+	}
+}
 #intro .description{
-	font-size:22px;
+	font-size:18px;
 	padding:4px 10px;
 	padding-left: 25px;
 }
@@ -357,13 +369,14 @@ a.page-scroll{
 }
 .servicesList li{
 	display:block;
+	position:relative;
 	margin-top:15px;
 	font-size:22px;
 }
 .servicesList li::before{
 	content:"\f00c";
 	position:absolute;
-	left:10px;
+	left:-22px;
 	width:10px;height:10px;
 	color:#000;
 	font-size:18px;
@@ -384,13 +397,13 @@ a.page-scroll{
 	background:rgba(255,255,255,0.5);
 }
 .eventsList{
-	min-width:300px;
+	min-width:220px;
+	margin:auto;
+	left:0;right:0;
 }
 .eventBox{
 	height:400px;
-	min-width:300px;
-	width: auto;
-	max-width: 400px;
+	width: 300px;
 	margin:10px 20px;
 	padding:10px;
 	background:#F2F1EF;
@@ -399,6 +412,12 @@ a.page-scroll{
 	color:#000;
 	text-align:center;
 }
+@media all and (min-width:300px) and (max-width:768px){
+	.eventBox{
+		width:250px;
+		margin:10px 2px;
+	}
+}
 .eventBox div{
 	margin:auto;
 	left:0;right:0;
@@ -406,17 +425,26 @@ a.page-scroll{
 .eventTitle{
 	height:100px;
 	width:100%;
+	overflow:hidden;
 }
 .eventTitle h2{
+	font-size:25px;
 	font-family: 'Anton', sans-serif;
 	font-weight:400;
 }
-.eventDesc,.eventDiscInfo{
+.eventDesc,.eventDescInfo{
 	padding:0;
 	text-align:left;
 }
-.eventDiscInfo .eventDescInfoContainer{
+.eventDescInfo .eventDescInfoContainer{
 	text-align:left;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	height:220px;
+}
+.eventDescInfo .eventDescInfoContainer:hover{
+	overflow-y:auto;
+	overflow-x:auto;
 }
 .eventCTA{
 	bottom:5px;
@@ -462,45 +490,6 @@ a.page-scroll{
 	color:rgba(0,0,0,0.1);
 	font-size:45px;
 }
-/** Alumni Box Classes (To be removed if new changes regarding Alumni are accepted)
-.alumniBox,
-.teamBox{
-	min-width:155px;
-	max-width:300px;
-	padding:10px;
-	margin:10px 20px;
-	background:#F2F1EF;
-}
-.alumniBox .alumniPhotoContainer,
-.teamBox .teamPhotoContainer{
-	border-radius:50%;
-	border:5px solid #D4D4D4;
-	overflow:hidden;
-}
-.alumniBox .alumniPhotoContainer,
-.alumniBox .alumniPhotoContainer img,
-.teamBox .teamPhotoContainer,
-.teamBox .teamPhotoContainer img{
-	height:100px;
-	width:100px;
-}
-
-.alumniInfoContainer,
-.teamInfoContainer{
-	margin:5px;
-}
-
-.alumniName,
-.teamName{
-	font-size:18px;
-}
-
-.alumniJob,
-.teamDesignation{
-	font-style:italic;
-	font-size:12px;
-}
-**/
 /** Team Section **/
 #team{
 /**	background:#2C3E50;**/
@@ -509,8 +498,7 @@ a.page-scroll{
     box-shadow:inset 0px 1px 9px 5px #000;
 }
 .teamBox{
-	min-width:155px;
-	max-width:300px;
+	width:180px;
 	padding:10px;
 	margin:10px 20px;
 	background:#F2F1EF;
