@@ -1,5 +1,6 @@
 /** Site Description **/
-var logoUrl = "images/navlogo.png";
+var logoUrl = "images/logo.png";
+var navbarLogoUrl = "images/navlogo.png";
 var siteTitle = "ALiAS";
 var siteAbout = "Amity Linux Assistance Sapience";
 var siteMotto = "";
@@ -81,7 +82,8 @@ team[6] = {name:"Parth Sharma", designation: "", ppicUrl: "images/team/parth.jpg
 var flashBox = $(".flashbox");
 var flashBoxContentContainer = $(".flashBox-content");
 var flashBoxCloseBtn = $(".flashbox .closeBtn");
-var logoContainer = $("#navLogo");
+var coverLogoContainer = $(".coverLogo");
+var navbarLogoContainer = $("#navbarLogo");
 var siteMottoContainer = $(".motto");
 var siteAboutContainer = $(".siteAboutContainer");
 var siteAboutHistoryContainer = $(".siteAboutHistory .description");
@@ -97,7 +99,9 @@ var teamListContainer = $(".teamList");
 
 /** Load Data **/
 document.title = siteTitle;			//Update Site Title
-logoContainer.attr("src",logoUrl);	//Update SiteLogo
+coverLogoContainer.attr("src",logoUrl);	//Update Logo on Cover page
+navbarLogoContainer.attr("src",navbarLogoUrl); //Update logo on navigation
+
 siteMottoContainer.html(siteMotto);
 siteAboutContainer.html(siteAbout);	//Update Site About
 siteAboutHistoryContainer.html(siteAboutHistory);
