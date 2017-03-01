@@ -1,3 +1,6 @@
+
+var currentDate = new Date();
+
 /** Site Description **/
 var logoUrl = "images/logo.png";
 var navbarLogoUrl = "images/navlogo.png";
@@ -6,9 +9,9 @@ var siteAbout = "Amity Linux Assistance Sapience";
 var siteMotto = "";
 
 /** FlashBox **/
-var showFlashBox = 0;
-var flashBoxContent = '<img src="images/flashbox/banner1.jpg">';
-
+var showFlashBox = 1;
+var flashBoxContent = '<a href="https://www.facebook.com/events/1873570922897377/" target="_blank"><img src="images/flashbox/poster02032017.jpg"></a>';
+var flashBoxEndDate = new Date(2017,02,01); //It will end at 03/03/2017 00:00 P.S. Month starts from 0
 /** Intro Section **/
 /** Intro Section **/
 var siteAboutHistory = "<p>Started &nbsp; back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.<\p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.";
@@ -55,7 +58,8 @@ services[5] = "Already know something? Teach it to others! That's how we work!";
 
 
 /** End Events List **/
-events[0] = {title: "Study Group: Web Designing", cta: "https://docs.google.com/forms/d/e/1FAIpQLScaB0SGVp31QzY4Pg6Mcj0sr2R7JqYGgVMbnrAyivCSOKD4Dg/viewform", ctaText: "Attend now!", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in this on going Study Group Sessions of Web Designing  and start contributing to open source projects. [Session usually take place after classes] ", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0};
+events[0] = {title: "Workshop: Introduction to Ethical Hacking", cta: "https://www.facebook.com/events/1873570922897377/", ctaText: "Attend now!", description: "Learn Ethical Hacking Concepts, See Awesome Demonstration and get excited by much more! <br/><strong>Speaker:</strong> Udit Gupta ", date: "02 March 2017", startTime: "12:30 PM", endTime: "02:30 PM", location: "A-206, A Block", eventOD: 1};
+events[1] = {title: "Study Group: Web Designing", cta: "https://docs.google.com/forms/d/e/1FAIpQLScaB0SGVp31QzY4Pg6Mcj0sr2R7JqYGgVMbnrAyivCSOKD4Dg/viewform", ctaText: "Attend now!", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in this on going Study Group Sessions of Web Designing  and start contributing to open source projects. [Session usually take place after classes] ", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0};
 
 /** Webinars List  **/
 
@@ -68,13 +72,14 @@ webinars[2]= {title: "Webinar: Open Source Softwares", cta: "https://www.youtube
 /** Team List 
 	team[0] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
 **/
-team[0] = {name:"Shyam Saini", designation: "", ppicUrl: "images/alumni/1.jpg"};
+team[0] = {name:"Shyam Saini", designation: "", ppicUrl: "images/team/shyam.jpg"};
 team[1] = {name:"Shivam Rajput", designation: "", ppicUrl: "images/team/shivam.jpg"};
 team[2] = {name:"Ashish Dahiya", designation: "", ppicUrl: "images/team/ashish.jpg"};
 team[3] = {name:"Tanya Jain", designation: "", ppicUrl: "images/team/tanya.jpg"};
 team[4] = {name:"Ajay Tripathi", designation: "", ppicUrl: "images/team/ajay.jpg"};
 team[5] = {name:"Ayush Agarwal", designation: "", ppicUrl: "images/team/ayush.jpg"};
 team[6] = {name:"Parth Sharma", designation: "", ppicUrl: "images/team/parth.jpg"};
+team[7] = {name:"Manas Kashyap", designation:"", ppicUrl: "images/team/manas.jpg"};
 
 /** End Team List **/
 
@@ -110,8 +115,15 @@ joinNowBtnLinkContainer.attr("href",joinNowBtnLink);
 /** Load and enable FlashBox **/
 
 if(showFlashBox){
-	flashBoxContentContainer.html(flashBoxContent);
-	flashBox.fadeIn();
+	if(flashBoxEndDate.getFullYear()<=currentDate.getFullYear()){
+		if(flashBoxEndDate.getMonth()<=currentDate.getMonth()){
+			if(flashBoxEndDate.getDate()<=currentDate.getDate()){
+				flashBoxContentContainer.html(flashBoxContent);
+				flashBox.fadeIn();
+			}
+		}
+	}
+	
 }
 flashBoxCloseBtn.click(function(e){
 	flashBox.fadeOut();
@@ -128,7 +140,7 @@ for (var x in events){
 		html += '">';
 		html += (events[x].eventOD)?"Yes":"No";
 		html += '</span></div></div></div>';
-		html +='<div class="row eventCTA"><div class="col-lg-12"><a href="'+events[x].cta+'"><button class="theme-btn-primary">'+events[x].ctaText+'</button></a></div></div></div>';
+		html +='<div class="row eventCTA"><div class="col-lg-12"><a href="'+events[x].cta+'" target="_blank"><button class="theme-btn-primary">'+events[x].ctaText+'</button></a></div></div></div>';
 		eventsListContainer.append(html);
 }
 
@@ -150,7 +162,7 @@ alumniDescriptionContainer.html(alumniDescription);
 /** Load Team List **/
 for (var x in team){
 	var html = '<div class="col-lg-2 teamBox box-shadow col-centered">';
-	html+='<div class="row"><div class="col-lg-12 text-center"><div class="teamPhotoContainer horizon-center box-shadow"><img src="'+team[x].ppicUrl+'" alt="'+team[x].name+'" title="'+team[x].name+'"/></div></div></div>';
+	html+='<div class="teamPhotoContainer horizon-center box-shadow"><img src="'+team[x].ppicUrl+'" alt="'+team[x].name+'" title="'+team[x].name+'"/></div>';
 	html+='<div class="row"><div class="col-lg-12 text-center"><div class="teamInfoContainer">';
 	html+='<strong><div class="teamName">'+team[x].name+'</div></strong>';
 	html+='<div class="teamDesignation">'+team[x].designation+'</div>';
