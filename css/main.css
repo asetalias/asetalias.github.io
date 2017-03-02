@@ -47,6 +47,8 @@ body,html{
 /** General CSS **/
 section{
 	padding-bottom:20px;
+	transform-style: preserve-3d;
+	transform:translateZ(0);
 }
 button{
 	border:none;
@@ -283,9 +285,11 @@ a.page-scroll{
 #home{
 	height:100%;
 	padding-top:100px;
-	background:#ECF0F1;
+	background: radial-gradient(ellipse closest-corner at center, #FFFFFF 10%, #A3E0F5 60%, #55A3BB 100%);
+	background: -ms-radial-gradient(center, ellipse closest-corner, #FFFFFF 10%, #A3E0F5 60%, #55A3BB 100%); /* IE 10+ */
 	box-shadow:inset 0px 0px 100px 1px #6B6B6B;
 	overflow-x:hidden;
+	transform: translate3d(0,0,-1px);
 }
 #home .container{
 	position:relative;
