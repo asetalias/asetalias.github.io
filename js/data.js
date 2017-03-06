@@ -80,6 +80,7 @@ team[4] = {name:"Ajay Tripathi", designation: "", ppicUrl: "images/team/ajay.jpg
 team[5] = {name:"Ayush Agarwal", designation: "", ppicUrl: "images/team/ayush.jpg"};
 team[6] = {name:"Parth Sharma", designation: "", ppicUrl: "images/team/parth.jpg"};
 team[7] = {name:"Manas Kashyap", designation:"", ppicUrl: "images/team/manas.jpg"};
+team[8] = {name:"Animesh Verma", designation: "", ppicUrl: "images/team/animesh.jpg"};
 
 /** End Team List **/
 
