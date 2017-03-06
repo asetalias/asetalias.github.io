@@ -1,5 +1,5 @@
 *{
-	font-family: 'Josephin Sans',sans-serif;
+		font-family:"Roboto Condensed",sans-serif;
 	box-sizing:border-box;
 }
 body,html{
@@ -365,12 +365,13 @@ a.page-scroll{
 }
 .servicesList{
 	margin-left:40px;
+
 }
 .servicesList li{
 	display:block;
 	position:relative;
 	margin-top:15px;
-	font-size:22px;
+	font-size:20px;
 }
 .servicesList li::before{
 	content:"\f00c";
@@ -379,6 +380,9 @@ a.page-scroll{
 	width:10px;height:10px;
 	color:#000;
 	font-size:18px;
+}
+.servicesList li span{
+	font-family:"Roboto Condensed",sans-serif;
 }
 #joinNowBtn{
 	vertical-align:bottom;
@@ -477,6 +481,7 @@ a.page-scroll{
 .alumniDescription p{
 	font-size:28px;
 	font-style:italic;
+	font-family:"Pacifico",cursive;
 }
 .alumniDescription:before{
 	content:'\f10d';

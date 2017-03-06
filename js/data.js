@@ -41,6 +41,7 @@ services[1] = "Be a part of Hacker Culture";
 services[3] = "Learn by Fun and Collaboration";
 services[4] = "Learn Linux, Android, Networking, etc. There is no limit on how much and what you can learn!";
 services[5] = "Already know something? Teach it to others! That's how we work!";
+services[6] = "Club is open to all departments :)";
 /** End Services **/
 
 /** Events List
@@ -58,8 +59,10 @@ services[5] = "Already know something? Teach it to others! That's how we work!";
 
 
 /** End Events List **/
+/** Last Event 
 events[0] = {title: "Workshop: Introduction to Ethical Hacking", cta: "https://www.facebook.com/events/1873570922897377/", ctaText: "Attend now!", description: "Learn Ethical Hacking Concepts, See Awesome Demonstration and get excited by much more! <br/><strong>Speaker:</strong> Udit Gupta ", date: "02 March 2017", startTime: "12:30 PM", endTime: "02:30 PM", location: "A-206, A Block", eventOD: 1};
-events[1] = {title: "Study Group: Web Designing", cta: "https://docs.google.com/forms/d/e/1FAIpQLScaB0SGVp31QzY4Pg6Mcj0sr2R7JqYGgVMbnrAyivCSOKD4Dg/viewform", ctaText: "Attend now!", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in this on going Study Group Sessions of Web Designing  and start contributing to open source projects. [Session usually take place after classes] ", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0};
+**/
+events[0] = {title: "Study Group: Web Designing", cta: "https://docs.google.com/forms/d/e/1FAIpQLScaB0SGVp31QzY4Pg6Mcj0sr2R7JqYGgVMbnrAyivCSOKD4Dg/viewform", ctaText: "Attend now!", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in this on going Study Group Sessions of Web Designing  and start contributing to open source projects. [Session usually take place after classes] ", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0};
 
 /** Webinars List  **/
 
@@ -72,14 +75,13 @@ webinars[2]= {title: "Webinar: Open Source Softwares", cta: "https://www.youtube
 /** Team List 
 	team[0] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
 **/
-team[0] = {name:"Shyam Saini", designation: "", ppicUrl: "images/team/shyam.jpg"};
-team[1] = {name:"Shivam Rajput", designation: "", ppicUrl: "images/team/shivam.jpg"};
-team[2] = {name:"Ashish Dahiya", designation: "", ppicUrl: "images/team/ashish.jpg"};
-team[3] = {name:"Tanya Jain", designation: "", ppicUrl: "images/team/tanya.jpg"};
-team[4] = {name:"Ajay Tripathi", designation: "", ppicUrl: "images/team/ajay.jpg"};
-team[5] = {name:"Ayush Agarwal", designation: "", ppicUrl: "images/team/ayush.jpg"};
-team[6] = {name:"Parth Sharma", designation: "", ppicUrl: "images/team/parth.jpg"};
-team[7] = {name:"Manas Kashyap", designation:"", ppicUrl: "images/team/manas.jpg"};
+team[0] = {name:"Shivam Rajput", designation: "", ppicUrl: "images/team/shivam.jpg"};
+team[1] = {name:"Ashish Dahiya", designation: "", ppicUrl: "images/team/ashish.jpg"};
+team[2] = {name:"Tanya Jain", designation: "", ppicUrl: "images/team/tanya.jpg"};
+team[3] = {name:"Ajay Tripathi", designation: "", ppicUrl: "images/team/ajay.jpg"};
+team[4] = {name:"Ayush Agarwal", designation: "", ppicUrl: "images/team/ayush.jpg"};
+team[5] = {name:"Parth Sharma", designation: "", ppicUrl: "images/team/parth.jpg"};
+team[6] = {name:"Manas Kashyap", designation:"", ppicUrl: "images/team/manas.jpg"};
 
 /** End Team List **/
 
@@ -115,9 +117,9 @@ joinNowBtnLinkContainer.attr("href",joinNowBtnLink);
 /** Load and enable FlashBox **/
 
 if(showFlashBox){
-	if(flashBoxEndDate.getFullYear()<=currentDate.getFullYear()){
-		if(flashBoxEndDate.getMonth()<=currentDate.getMonth()){
-			if(flashBoxEndDate.getDate()<=currentDate.getDate()){
+	if(flashBoxEndDate.getFullYear()>=currentDate.getFullYear()){
+		if(flashBoxEndDate.getMonth()>=currentDate.getMonth()){
+			if(flashBoxEndDate.getDate()>=currentDate.getDate()){
 				flashBoxContentContainer.html(flashBoxContent);
 				flashBox.fadeIn();
 			}
@@ -130,7 +132,7 @@ flashBoxCloseBtn.click(function(e){
 });
 /** Generate Services **/
 for(var x in services){
-	var html = '<li class="fa">'+services[x]+'</li>';
+	var html = '<li class="fa"><span>'+services[x]+'</span></li>';
 	siteServicesListContainer.append(html);
 }
 /** Generate Event Boxes **/
