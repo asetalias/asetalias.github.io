@@ -7,6 +7,15 @@ $(window).scroll(function() {
     }
 });
 
+//jQuery for viewport-based navmenu effects toggle
+$(document).ready(function(){
+$(window).on("load resize", function(){                                                               
+if(window.outerWidth >= 768)
+$(".navbar-collapse").removeClass("navbar-ex1-collapse");
+else
+$(".navbar-collapse").addClass("navbar-ex1-collapse");
+});});
+
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
