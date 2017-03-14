@@ -289,16 +289,6 @@ button{
     margin-right: auto;
     margin-left: auto;
 }
-
-@media all and (min-width: 768px) and (max-width: 992px){ 
-  .logoDisplay{
-   display:none;
-  }
-  .navcontainer{
-	margin-left: 5px;
-	margin-right: 5px;
-	}
-}
 .logo{
 	padding:0;
 	height:auto;
@@ -314,6 +304,23 @@ a.page-scroll{
 	font-family: 'Oswald', sans-serif;
 	margin-top:7px;
 	font-size:30px;
+}
+@media all and (min-width: 768px) and (max-width: 992px){ 
+  .nav{
+	  float:none;
+  }
+  .nav>li>a{
+	  padding:15px 6px;
+  }
+  a.page-scroll{
+	font-size:20px;
+	
+  }
+  .navcontainer{
+	margin-left: 5px;
+	margin-right: 5px;
+  }
+  
 }
 /** Cover Section **/
 #home{
