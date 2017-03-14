@@ -40,14 +40,19 @@ body,html{
 }
 
 /** General CSS **/
-#section-color-fix2{
-	margin-top: 30px;
+a:link {
+    color: #000;
 }
-#section-color-fix{
-	margin-top: 90px;
+/* visited link */
+a:visited {
+    color: #000;
 }
-#button-color-fix2{ }
-#button-color-fix{ }
+/* mouse over link */
+a:hover {
+    color: #000;
+	text-decoration: none;
+}
+
 section{
 	padding-bottom:20px;
 	transform-style: preserve-3d;
@@ -225,8 +230,6 @@ button{
 	float:left;
 	display:inline;
 }
-/** End Color Chooser **/
-
 /** Color definitions (A step to implement color chooser) **/
 .theme-bg.green{
 	background: #1BBC9B;
@@ -255,12 +258,13 @@ button{
 	color:#FFF;
 }
 /** Color Definitions End **/
+
 /** Navigation Bar **/
 .navbar{
 	background:#D4D4D4;
 	box-shadow:0px 0px 25px #000;
 	border:none;
-	padding:5px 0px;
+	padding:10px 0px;
 }
 .logoContainer{
 	margin:0px 5px;
@@ -268,9 +272,35 @@ button{
 	height:auto;
 	overflow:hidden;
 }
+/**@media all and (min-width: 768px){
+	.logo{width: 53px;}
+	@media all and (max-width: 767px){
+	.logo{width: 150px;}
+}
+}**/
+.logo{width: 150px;}
+.logoDisplay{
+   display:block;
+  }
+  
+.navcontainer{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){ 
+  .logoDisplay{
+   display:none;
+  }
+  .navcontainer{
+	margin-left: 5px;
+	margin-right: 5px;
+	}
+}
 .logo{
 	padding:0;
-	width:150px;
 	height:auto;
 }
 .iconMed{
@@ -282,7 +312,7 @@ button{
 }
 a.page-scroll{
 	font-family: 'Oswald', sans-serif;
-	margin-top:5px;
+	margin-top:7px;
 	font-size:30px;
 }
 /** Cover Section **/
@@ -339,9 +369,9 @@ a.page-scroll{
 	animation-timing-function:linear;
 }
 #home .scrollIcon{
-	padding:0;
+	padding:0px;
 }
-@media all and (max-width:768px){
+@media all and (max-width: 768px){
 	#home .absolute-center{
 		width:290px;
 		height:200px;	
@@ -350,16 +380,17 @@ a.page-scroll{
 
 /** Intro Section **/
 #intro{
-	padding:60px 10px 100px 10px;
 	background:#ECF0F1;
-	color:#2A2A2A;
+	padding:60px 10px 100px 10px;
 	height:auto;
+	color:#000;
 }
 .siteAboutContainer{
     padding-top: 35px;
 	font-family: 'Lobster', cursive;
 	font-size:48px;
 	padding-bottom: 20px;
+	color:#000;
 }
 
 @media screen and (max-width:768px){
@@ -372,6 +403,7 @@ a.page-scroll{
 	font-size:24px;
 	padding:4px 10px;
 	padding-left: 25px;
+	color:#000;
 }
 .servicesList{
 	margin-top: 10px;
@@ -382,6 +414,7 @@ a.page-scroll{
 	position:relative;
 	margin-top:15px;
 	font-size:22px;
+	color:#000;
 }
 .servicesList li::before{
 	content:"\f00c";
@@ -408,9 +441,22 @@ a.page-scroll{
 }
 /** Events Section **/
 #events{
-	color: #FFF;
+	background:#4c667f;
 	box-shadow:inset 0px 1px 9px 5px #000;
+	padding-bottom:50px;
 }
+/* Fix to enable multiple colors in the same section members using same classes and/or IDs */
+#events-color-fix{
+	margin-top: 110px;
+	color: #fff;
+}
+#events-color-fix2{
+	margin-top: 30px;
+	color: #fff;
+}
+#eventsBtn-color-fix2{ }
+#eventsBtn-color-fix{ }
+
 .eventsList{
 	min-width:220px;
 	margin:auto;
@@ -439,9 +485,10 @@ a.page-scroll{
 	left:0;right:0;
 }
 .eventTitle{
-	height:100px;
+	height:98px;
 	width:100%;
 	overflow:hidden;
+	margin-bottom: 1px;
 }
 .eventTitle h2{
 	font-size:24px;
@@ -473,18 +520,235 @@ a.page-scroll{
 	color:#FFF;
 }
 .event-buttons{
+	margin-right: 15px;
 	box-shadow:2px 3px 3px #000;
 	font-weight: 600;
 	font-size: 16px;
 	padding: 20px;
-	margin-left:15px;
-	margin-top: 20px;
+	margin-top:20px;
 	color:#FFF;
 }
-
+/** Utilities Section **/
+#utilities{
+	background:#d0dce8;
+}
+#utilities .section-header{
+	color: #FFF;
+}
+/* Fix to enable multiple colors in the same section members using same classes and/or IDs */
+#utilities-color-fix{
+	margin-top: 106px;
+	color: #fff;
+}
+#utilities-color-fix2{
+	margin-top: 106px;
+	color: #fff;
+}
+#utilities-color-fix3{
+	margin-top: 30px;
+	color: #fff;
+	margin-bottom: 50px;
+}
+#rankBox1{
+	background-color: #ffdf32;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	width:110px;
+	height:100px;
+	padding:0px;
+	padding-top:50px;
+	text-align:center;
+	color:#000;
+	position: relative;
+	left: 50%;
+	margin-left: -56px;
+	box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.5), inset 4px 4px 30px 25px rgba(229,200,45,0.2);
+	z-index: 2;
+	padding-bottom: 140px;
+	margin-top:90px;
+}
+#rankBox2{
+	background-color: #c0c0c0;
+	border-top-right-radius: 2px;	
+	width:110px;
+	height:100px;
+	padding:0px;
+	padding-top:50px;
+	text-align:center;
+	color:#000;
+	position: relative;
+	left: 50%;
+	margin-left: 53px;
+	margin-top: -160px;
+	box-shadow: 4px 3px 0px 0px rgba(0, 0, 0, 0.5), inset 3px 3px 25px 20px rgba(172,172,172,0.2);
+	z-index: 3;
+	padding-bottom: 100px;
+	margin-top:-150px;
+}	
+#rankBox3{
+	background-color: #d28b46; 
+	border-top-left-radius: 2px;
+	width:110px;
+	height:100px;
+	padding:0px;
+	padding-top:50px;
+	text-align:center;
+	color:#000;
+	position: relative;
+	left: 50%;
+	margin-left: -163px;
+	margin-top: -120px;
+	box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.5), inset 1px 1px 20px 15px rgba(189,125,63,0.2);
+	z-index: 1;
+	padding-bottom: 60px;
+	margin-top:-110px;
+}
+.rankerPhotoContainer{
+	position:absolute;
+	top:-40px;
+	border-radius:50%;
+	border:3px solid #D4D4D4;
+	overflow:hidden;
+	height:80px;
+	width: 80px;
+}
+.rankerPhotoContainer:rankBox3{
+	margin-right: 2px;
+}
+.rankerPhotoContainer img{
+	height:80px;
+	width:80px;
+}
+.rankerText{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+}
+@media all and (min-width:751px){
+	#rankerBtn{
+		margin-right: 50px;
+		margin-top: 40px;
+		margin-bottom: 5px;
+	}
+}
+@media all and (max-width:750px){
+	#rankerBtn{
+		margin-right: 10px;
+		margin-top: 10px;
+	}
+}
+#rankerBtn{
+	color: #fff;
+	position:relative;
+	font-size: 19px;
+	padding: 20px;
+	border-radius:2px;
+	font-weight: 600;
+	box-shadow:2px 3px 3px #000;
+}
+.CommonSectionbtn{
+	padding:20px;
+	width:100%;
+	font-weight:600;
+	font-size:20px;
+	padding: 20px;
+	color:#FFF;
+	margin-top: -60px;
+	margin-bottom: 25px;
+	box-shadow:0px 3px 7px #000;
+}
+/** Picture Box**/
+.picsBox{
+	height:215px;
+	width: 167px;
+	margin: 10px 15px;
+	background:#F2F1EF;
+	box-shadow:2px 2px 3px #979696;
+	box-sizing:border-box;
+	color:#000;
+	text-align:center;
+}
+.picsText{
+	color: #000;
+	width: 100%;
+	opacity: 0.87;
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 18px;
+	padding-top: 3px;
+	overflow: hidden;
+	text-align:left;
+	padding-left: 2px;
+	-webkit-font-smoothing: antialiased;
+}
+.picsDate{
+	width: 100%;
+	opacity: 0.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	overflow: hidden;
+	text-align:left;
+	padding-left:2px;
+	-webkit-font-smoothing: antialiased;
+}
+.coverpics{
+	width: 167px;
+	height: 167px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+#MediaPartner{
+	font-family: 'Aladin', cursive;
+	font-size: 30px; 
+}
+.resourceBox{
+	height:215px;
+	width: 215px;
+	margin: 15px 20px;
+	background:#F2F1EF;
+	box-shadow:2px 2px 3px #979696;
+	box-sizing:border-box;
+	color:#000;
+	text-align:center;
+	position: relative;
+}
+.resourcePics{
+	opacity: 0.95;
+	width: 215px;
+	height: 215px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.resourceText{
+	opacity:0;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 25px 5px 25px 6px;
+	font-size: 28px;
+	font-weight: 600;
+	color: #fff;
+	text-align: left;
+	width: 100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.7);
+	overflow-x:hidden;
+	overflow-y:hidden;	
+}
+.resourceText:hover{
+	opacity: 1;
+	animation-name:fade-in-left;
+	animation-duration:30ms;
+	animation-timing-function:linear;
+}
+@keyframes fade-in-left{
+	from {left: -215px;}
+    to {left: 0px;}
+}
 /** Alumni Section **/
 #alumni{
-	background:#ECF0F1;
+	background:#4c667f;
+	box-shadow:inset 0px 1px 9px 5px #000;
 	padding-bottom:50px;
 }
 #alumni .section-header{
@@ -496,17 +760,20 @@ a.page-scroll{
 	padding:20px;
 	padding-left: 50px;
 	text-align:center;
+	color: #fff;
 }
 .alumniDescription p{
 	font-size:38px;
 	font-family: 'Aladin', cursive;
+	color: #fff;
 }
 .alumniDescription:before{
 	content:'\f10d';
 	position:absolute;
 	top:0;
 	left:0;
-	color:rgba(0,0,0,0.1);
+	color: #fff;
+	opacity: 0.1;
 	font-size:45px;
 }
 .alumniDescription:after{
@@ -514,15 +781,14 @@ a.page-scroll{
 	position:absolute;
 	bottom:0;
 	right:0;
-	color:rgba(0,0,0,0.1);
+	color: #fff;
+	opacity: 0.1;
 	font-size:45px;
 }
 /** Team Section **/
 #team{
-/**	background:#2C3E50;**/
+	background:#d0dce8;
 	padding-bottom:50px;
-	color: #FFF;
-    box-shadow:inset 0px 1px 9px 5px #000;
 }
 #team .section-header{
 	margin-top:55px;
@@ -563,30 +829,50 @@ a.page-scroll{
 }
 /** Contact Section **/
 #contact{   
-	padding:0;
 	height:auto;
+	background:#4c667f;
+	box-shadow:inset 0px 1px 9px 5px #000;
 }
 #contact .section-header{
-	margin-top:30px;
+	margin-top:20px;
+	margin-bottom:45px;
 	color:#FFF;
+}
+@media all and (min-width:410px){ 
+	.PositionPC{ }
+	.PositionPCfix{	}
+}
+@media all and (max-width:400px){ 
+	.icon-grey{
+		width: 40%;
+		margin-bottom:25px;
+		margin-top:20px;
+	}
+}
+@media all and (min-width:401px) and (max-width:600px){ 
+	.icon-grey{
+		margin-bottom:25px;
+		margin-right:25px;
+		margin-top:20px;
+	}
 }
 .icon-grey{
 	font-size:75px;
-	color:rgba(0,0,0,0.5);
-	padding: 25px;
+	color: #fff;
+	opacity: 0.82;
 }
 .icon-grey:hover{
 	color:rgba(0,0,0,0.8);
 }
 .icon-grey.hover-blue:hover{
-	color:rgba(34,121,224,0.8);
+	color:rgba(34,121,224,1);
 }
 .icon-grey.hover-red:hover{
-	color:rgba(192,41,43,0.8);
+	color:rgba(255,50,50,1);
 }
 .icon-grey.hover-yellow:hover{
-	color:rgba(236,214,14,0.8);
+	color:rgba(255,255,50,1);
 }
 .icon-grey.hover-green:hover{
-		color:rgba(128,255,128,0.8);
+	color:rgba(128,255,128,1);
 }
