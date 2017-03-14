@@ -5,8 +5,7 @@ var siteAbout = "Amity Linux Assistance Sapience";
 var siteMotto = "";
 
 /** Intro Section **/
-var siteAboutHistory = "<p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.<\p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.";
-
+var siteAboutHistory = "<p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.<\p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer";
 var joinNowBtnLink = "https://goo.gl/forms/mZAhlJMxqCwZVbRK2";
 
 /** Alumni Section **/
@@ -193,3 +192,5 @@ for (var x in team){
 var siteThemeClassName ="blue"; //blue, green, red, yellow (Use Blue for now)
 $(".theme-bg").addClass(siteThemeClassName);
 $(".theme-btn-primary").addClass(siteThemeClassName);
+
+$(".preloader").delay(1000).fadeOut(2000);
