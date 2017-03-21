@@ -12,7 +12,7 @@
     <meta name="author" content="ALIAS">
 	<!-- End Search Engine Optimisation -->
     <!-- Browser tab theme color for Chrome on Android -->
-    <meta name="theme-color" content="#D4D4D4">
+    <meta name="theme-color" content="#FFFFFF">
 
     <title>ALiAS</title>
 
@@ -28,7 +28,6 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Anton|Oswald|Roboto+Condensed|Lobster|Aladin" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" />
@@ -57,14 +56,6 @@
 				Zoom out in browser or use a bigger display!
 	        </div>
         </div>
-    </div>
-    <div id="color-chooser">
-    	<ul>
-        	<a href="#blue" class="colorChanger"><li class="blue"></li></a>
-           	<a href="#red" class="colorChanger"><li class="red"></li></a>
-          	<a href="#yellow" class="colorChanger"><li class="yellow"></li></a>
-            <a href="#green" class="colorChanger"><li class="green"></li></a>
-        </ul>
     </div>
     <div class="flashbox">
     	<div class="content">
@@ -128,7 +119,7 @@
 
   <section id="home" class="home-section">
     	<div class="container">
-        	<div class="absolute-center">
+        	<div class="absolute-center cover-content">
             	<img src="images/logo.png" class="coverLogo"/>
                 <p class="motto"></p>
             	<br><br>
@@ -149,48 +140,137 @@
             </div>
             <div class="row  text-left siteAboutMore animated">
             	<div class="siteAboutHistory">
+                    <!-- This div contains "How the club came to be?" -->
                 	<i class="fa fa-flag iconMed"></i> <span class="heading">The Journey</span>
-                    <p class="description"></p>
+                     <p class="description">
+                         <!-- Content of this section is added through JavaScript 
+                            data variable: siteAboutHistory
+                         -->
+                     </p>
                 </div>
                 <br>
                 <div class="siteAboutServices">
+                    <!-- This section contains "Why should I join the club" details and Join Club link button -->
                 	<i class="fa fa-university iconMed"></i> <span class="heading">Why should I join the club?</span>
                     <div class="row">
    		                 <div class="col-lg-8">
             	        	<p class="description">
                  		   		Join the club and which is just not about certificates or designation(s): <br/>
-                       			<ul class="list-group list-unstyled servicesList"></ul>
+                       			<ul class="list-group list-unstyled servicesList">
+                                       <!-- This List contains all that club offers 
+                                            Format: <li class="fa"><span>Service description</span></li>
+                                            fa class added in li is used to add Ticks using pseudo elements
+                                       -->
+                                </ul>
                     		</p>
                  	  	</div>
                		    <div class="col-lg-4">
-                    		<a class="joinNowBtnLink" href="#"><button id="joinNowBtn">Join Now</button></a>
+                    		<a class="joinNowBtnLink" href="#">
+                                <!-- This anchor contains link to Registration form of the club 
+                                    link is added using JavaScript
+                                    data variable: joinNowBtnLink
+                                -->
+                                <button id="joinNowBtn" class="theme-bg-primary">Join Now</button>
+                            </a>
                     	</div>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div>    <!-- Site Services End -->
+            </div>    <!-- Site About More Ends -->
+        </div>    <!--Container Ends -->
     </section>
     <!-- Events Section -->
     <section id="events" class="events-section theme-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="section-header" id="events-color-fix">Upcoming Events</h1>
+                    <h1 class="section-header theme-bg-primary" id="upcomingEventsHeader">Upcoming Events</h1>
                 </div>
-				  <div class="row eventsList text-center" id="eventsListContainer">
-				  </div>
+				<div class="row eventsList text-center" id="eventsListContainer">
+                    <!-- This section contains all the upcoming events 
+                        <div class="col-lg-3 eventBox col-centered text-center">
+                            <div class="row eventTitle">
+                                <div class="col-lg-12 text-center">
+                                    <h2>events[x].title</h2>
+                                </div>
+                            </div>
+		                    <div class="row eventInfo">
+                                <div class="col-xs-7 eventDesc">
+                                    <div class="row eventDescInfo">
+                                        <div class="col-lg-12">
+                                            <p style="height: 250px" class="eventDescInfoContainer">
+                                                events[x].description
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+	                            <div class="col-xs-5 eventTiming text-left">
+                                    <div class="date">
+                                        <i class="fa fa-calendar"></i> <span><strong>events[x].date</strong></span>
+                                    </div>
+                                    <div class="startTimimg">
+                                        <i class="fa fa-clock-o"></i> <span><strong>events[x].startTime</strong></span>
+                                    </div>
+                                    <div class="endTimimg">
+                                        <i class="fa fa-clock-o"></i> <span><strong>events[x].endTime</strong></span>
+                                    </div>
+                                    <div class="eventLocation">
+                                        <i class="fa fa-map-marker"></i> <span><strong> events[x].location </strong></span>
+                                    </div>
+                                    <div class="eventOD">
+                                        <strong>OD</strong> <span class="text-success | text-danger">Yes | No </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row eventCTA">
+                                <div class="col-lg-12 text-center">
+                                    <a href="events[x].cta" target="_blank">
+                                        <button>events[x].ctaText</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row eventCTA">
+                                <div class="col-lg-12 text-center">
+                                    <a href="events[x].cta2" target="_blank">
+                                        <button>events[x].cta2Text
+                                </div>
+                            </div>
+                        </div>
+                    --> 
+				</div>
            </div>
         </div>
 			<div class="col-lg-12 text-right">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link"><button class="event-buttons" id="eventsBtn-color-fix1">Want to host an event?</button></a>
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSf9l-82I3DhhDkpSjJol86lt4QQQyB49z97ovoR9HT64uEK0A/viewform?usp=sf_link"><button class="event-buttons" id="eventsBtn-color-fix2">Suggestion for future event?</button></a>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link"><button class="event-buttons theme-bg-primary" id="eventHostBtn">Want to host an event?</button></a>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSf9l-82I3DhhDkpSjJol86lt4QQQyB49z97ovoR9HT64uEK0A/viewform?usp=sf_link"><button class="event-buttons theme-bg-secondary" id="eventSuggestBtn">Suggestion for future event?</button></a>
 			</div>
+        <!-- Previous Webinars Section -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="section-header" id="events-color-fix2">Previous Webinars</h1>
+                    <h1 class="section-header theme-bg-primary" id="previousWebinarsHeader">Previous Webinars</h1>
 				</div>
              <div class="row eventsList text-center" id="webinarsListContainer">
+             <!-- Template : New 
+             	<div class="col-lg-3 youtubeBox col-centered text-center">
+                	<div class="row youtubeVideoContainer">
+                    	<div class="col-lg-12">
+                        	<iframe src="https://www.youtube.com/embed/V53n4wekU3c" class="youtubeVideo box-shadow"></iframe>
+                        </div>
+                    </div>
+                    <div class="row youtubeInfoContainer">
+                    	<div class="row youtubeVideoTitleContainer">
+                        	<div class="col-lg-12">
+	                        	<h2 class="youtubeVideoTitle"><a href="" target="_blank">Video Title</a></h2>
+                            </div>
+                        </div>
+                        <div class="row youtubeVideoDescContainer">
+                        	<div class="col-lg-12">
+	                        	<p class="youtubeVideoDesc">dkjfdf jdfj dofj do fodf d</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
 	         </div>
 			</div>
 		</div>
@@ -218,14 +298,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-				<h1 class="section-header" id="utilities-color-fix2">Resources</h1>
+				<h1 class="section-header theme-bg-primary" id="resourcesHeader">Resources</h1>
 				</div>
 				<div class="row text-center" id="resourceListContainer">
 				</div>
 			</div>
             <div class="row">
 				<div class="col-lg-12 text-center">
-						<h1 class="section-header" id="utilities-color-fix3">Previous Event Photos</h1>
+						<h1 class="section-header theme-bg-primary" id="previousEventPhotosHeader">Previous Event Photos</h1>
 				</div>
 				<div class="row text-center" id="pastEventPicsContainer">
 				</div>
@@ -244,7 +324,7 @@
     	<div class="container">
         	<div class="row">
             	<div class="col-lg-12 text-center">
-                	<h1 class="section-header">The Alumni</h1>
+                	<h1 class="section-header theme-bg-primary" id="alumniHeader">The Alumni</h1>
                 </div>
             </div>
             <div class="fa row alumniDescription row-centered">	<!-- Change class from alumniDescription to alumniList for old layout -->
@@ -258,7 +338,7 @@
     	<div class="container">
         	<div class="row">
             	<div class="col-lg-12 text-center">
-                	<h1 class="section-header">Our Team</h1>
+                	<h1 class="section-header theme-bg-primary" id="teamHeader">Our Team</h1>
                 </div>
             </div>
             <div class="row teamList row-centered">
@@ -272,34 +352,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="section-header">Contact Us</h1>
-                 <div class="row text-center">
-				 <span class="PositionPCfix" style="padding: 0px;"></span>
-					<span class="PositionPC text-center">
-                    <a href="https://github.com/asetalias">
-                    	<i style="padding: 0px;" class="fa fa-github icon-grey"></i>
-                    </a>
-					</span>
-					<span class="PositionPC text-center">
-                    <a href="https://www.facebook.com/asetalias/">
-                    	<i style="padding: 0px;" class="fa fa-facebook icon-grey hover-blue"></i>
-                    </a>
-					</span>
-					<span class="PositionPC text-center">
-                    <a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g">
-                        <i style="padding: 0px;" class="fa fa-youtube icon-grey hover-red"></i>
-                    </a>
-					</span>
-					<span class="PositionPC">
-					<a href="mailto:asetalias1@gmail.com">
-						<i style="padding-left: 5px;" class="fa fa-envelope icon-grey hover-green"></i>
-					</a>
-					</span>
-					<span class="PositionPC">
-                	<a href="https://groups.google.com/forum/#!forum/amity-linux-group">
-                     	<i style="padding-left: 15px;" class="fa fa-google-plus icon-grey hover-yellow"></i>
-                 	</a>
-                    </span>
+                    <h1 class="section-header theme-bg-primary" id="contactHeader">Contact Us</h1>
+                 <div class="row text-center row-centered" id="contactLinksContainer">
+                     <!--
+                        <div class="col-sm-2 text-center col-centered">
+			                <a href = "" target="_blank">
+				                <i class="fa icon-grey fa- hover-"></i>
+			                </a>
+		                </div>
+
+                        data Variables: footerContactLinks
+                     -->
                  </div>
             </div>
         </div>
@@ -309,7 +372,7 @@
     </section>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -324,7 +387,8 @@
     <script src="js/ganalytics.js"></script>
     <!-- Functionality Scripts -->
     <script src="js/data.js"></script>
-	  <script src="js/Functions.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
     <script>
 		$(function() {
 			$(".section-header").addClass("animated");
@@ -333,6 +397,7 @@
 			sr.reveal(".eventBox",{duration:2000},500);
 
         });
-			</script>
+	</script>
+    
 </body>
 </html>

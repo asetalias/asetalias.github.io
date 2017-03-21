@@ -15,7 +15,6 @@ $(".navbar-collapse").removeClass("navbar-ex1-collapse");
 else
 $(".navbar-collapse").addClass("navbar-ex1-collapse");
 });});
-
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -23,6 +22,8 @@ $(function() {
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+		$("a.page-scroll.active").removeClass("active");
+		$(this).addClass("active");
     });
 });
+

@@ -6,6 +6,12 @@ body,html{
 	margin:0;padding:0;
 	width:100%;
 }
+.absolute-center{
+	position: absolute;
+	margin: auto;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+}
 .minScreenSizeOverlay{
 	position:fixed;
 	width:100%;
@@ -209,76 +215,21 @@ button{
 
 /** FlashBox Styles end **/
 
-/**Color Chooser: Will be implemented in future updates **/
-#color-chooser{
-	display:none;
-	position:fixed;
-	bottom:0;right:0;
-	width:100px;
-	height:25px;
-	background:#FFF;
-	z-index:999;
-}
-#color-chooser ul{
-	margin:0;padding:0;
-	list-style-type:none;
-}
-#color-chooser ul li{
-	margin:0;padding:0;
-	width:25px;
-	height:25px;
-	float:left;
-	display:inline;
-}
-/** Color definitions (A step to implement color chooser) **/
-.theme-bg.green{
-	background: #1BBC9B;
-}
-.theme-bg.blue{
-	background:#2C3E50;
-}
-.theme-bg.yellow{
-	background:#F9BF3B;
-}
-.theme-bg.red{
-	background:#D64541;
-}
-
-.theme-btn-primary.blue{
-	background:#2C3E50;
-	color:#FFF;
-}
-.theme-btn-primary.blue:hover{
-	background:#374A5E;
-	color:#FFF;
-}
-
-.theme-btn-primary.green{
-	background:#1BBC9B;
-	color:#FFF;
-}
-/** Color Definitions End **/
-
 /** Navigation Bar **/
 .navbar{
 	background:rgba(255,255,255,0.95);
 	box-shadow:0px 0px 5px #000;
 	border:none;
 }
-
 .logoContainer{
 	margin:0px 5px;
 	width:160px;
 	height:auto;
 	overflow:hidden;
 }
-/**@media all and (min-width: 768px){
-	.logo{width: 53px;}
-	@media all and (max-width: 767px){
-	.logo{width: 150px;}
+.logo{
+	width: 150px;
 }
-}**/
-.logo{width: 150px;}
 .logoDisplay{
    display:block;
   }
@@ -305,24 +256,29 @@ a.page-scroll{
 	margin-top:7px;
 	font-size:30px;
 }
-@media all and (min-width: 768px) and (max-width: 992px){
+.navbar-default .navbar-nav>li>a.active{
+	color:#000;
+}
+/** Styles Menu specially for tablet view **/
+@media all and (min-width: 768px) and (max-width: 992px){ 
   .nav{
 	  float:none;
   }
   .nav>li>a{
 	  padding:15px 6px;
-		color: #fff !important;
   }
   a.page-scroll{
 	font-size:20px;
-
   }
+  
   .navcontainer{
 	margin-left: 5px;
 	margin-right: 5px;
   }
 
 }
+/** Tablet Styles End **/
+
 /** Cover Section **/
 #home{
 	height:100%;
@@ -337,11 +293,7 @@ a.page-scroll{
 	position:relative;
 	height:100%;
 }
-#home .absolute-center{
-	position:absolute;
-	margin:auto;
-	left:0;right:0;
-	top:0;bottom:0;
+#home .cover-content{
 	width:500px;
 	height:300px;
 	text-align:center;
@@ -382,7 +334,7 @@ a.page-scroll{
 	padding:0px;
 }
 @media all and (max-width: 768px){
-	#home .absolute-center{
+	#home .cover-content{
 		width:290px;
 		height:200px;
 	}
@@ -395,16 +347,16 @@ a.page-scroll{
 	height:auto;
 	color:#000;
 }
-.siteAboutContainer{
-  padding-top: 35px;
+#intro .siteAboutContainer{
+    padding-top: 35px;
 	font-family: 'Lobster', cursive;
 	font-size:48px;
 	padding-bottom: 20px;
 	color:#000;
 }
-
 @media screen and (max-width:768px){
-	.siteAboutContainer{
+	/** Mobile devices **/
+	#intro .siteAboutContainer{
 		font-size:35px;
 	}
 }
@@ -427,17 +379,15 @@ a.page-scroll{
 	color:#000;
 }
 .servicesList li::before{
+	/** This class definition adds 'tick' using font awesome unicode
+		Pre-check that element li has 'fa' class or else blank boxes may be displayed
+	 **/
 	content:"\f00c";
 	position:absolute;
 	left:-22px;
 	width:10px;height:10px;
 	color:#000;
 	font-size:18px;
-}
-@media all and (min-width:400px){
-	#joinNowBtn{
-		margin-top: 150px;
-	}
 }
 #joinNowBtn{
 	vertical-align:bottom;
@@ -449,31 +399,25 @@ a.page-scroll{
 	margin-left: 10px;
 	color:#FFF;
 }
+@media all and (min-width:400px){
+	#joinNowBtn{
+		margin-top: 150px;
+	}
+}
 /** Events Section **/
 #events{
 	background:#4c667f;
 	box-shadow:inset 0px 1px 9px 5px #000;
 	padding-bottom:50px;
 }
-/* Fix to enable multiple colors in the same section members using same classes and/or IDs */
-#events-color-fix{
-	margin-top: 110px;
-	color: #fff;
-}
-#events-color-fix2{
-	margin-top: 30px;
-	color: #fff;
-}
-#eventsBtn-color-fix2{ }
-#eventsBtn-color-fix{ }
-
 .eventsList{
 	min-width:220px;
 	margin:auto;
 	left:0;right:0;
 }
-.eventBox{
-	height:450px;
+.eventBox,
+.youtubeBox{
+	height: 420px;
 	width: 340px;
 	margin:10px 20px;
 	padding:10px;
@@ -483,11 +427,54 @@ a.page-scroll{
 	color:#000;
 	text-align:center;
 }
-@media all and (max-width:299px){ 	.eventBox{ 		display:none; 	} }
+.youtubeBox{
+	padding:0px;
+	height:380px;
+}
+.youtubeBox>div>div{
+	padding:0;
+}
+.youtubeBox .youtubeVideoContainer{
+	height:191px;	/** it should be calculated as (width of parent)*9/16 **/
+}
+.youtubeBox .youtubeVideoContainer div{
+	height:inherit;
+}
+.youtubeBox .youtubeVideo{
+	width:100%;
+	height:100%;
+	border:none;
+}
+.youtubeBox .youtubeInfoContainer{
+	height:188px;
+	overflow:hidden;
+}
+.youtubeBox .youtubeVideoTitleContainer{
+	height:60px;
+	overflow:hidden;
+}
+.youtubeVideoDescContainer{
+	width:100%;
+	height:130px;
+	overflow:hidden;
+}
+.youtubeVideoDescContainer:hover{
+	overflow-y:scroll;
+	overflow-x:scroll;
+}
+@media all and (max-width:299px){
+	.eventBox,
+	.youtubeBox{
+		display:none;
+	}
+}
 @media all and (min-width:300px) and (max-width:768px){
-	.eventBox{
+	.eventBox, .youtubeBox{
 		width:250px;
 		margin:10px 2px;
+	}
+	.youtubeBox>div>div{
+		height:140px;
 	}
 }
 .eventBox div{
@@ -500,16 +487,21 @@ a.page-scroll{
 	overflow:hidden;
 	margin-bottom: 1px;
 }
-.eventTitle h2{
+.eventTitle h2,
+.youtubeVideoTitleContainer h2{
 	font-size:24px;
 	font-family: 'Anton', sans-serif;
 	font-weight:600;
+}
+.youtubeVideoTitleContainer h2.text-small{
+	font-size:18px;	
 }
 .eventDesc,.eventDescInfo{
 	padding:0;
 	text-align:left;
 }
 .eventDescInfo .eventDescInfoContainer{
+	height:250px;
 	text-align:left;
 	overflow-x:hidden;
 	overflow-y:hidden;
@@ -521,6 +513,12 @@ a.page-scroll{
 .eventCTA{
 	bottom:5px;
 	width:100%;
+}
+.eventCTA div{
+	float:left;
+	margin:auto;
+	top:0;
+	bottom:0;
 }
 .eventCTA button{
 	width:100%;
@@ -678,6 +676,7 @@ a.page-scroll{
 	text-align:center;
 }
 .picsText{
+	margin-top:5px;
 	color: #000;
 	width: 100%;
 	opacity: 0.87;
@@ -685,7 +684,7 @@ a.page-scroll{
 	line-height: 18px;
 	padding-top: 3px;
 	overflow: hidden;
-	text-align:left;
+	text-align:center;
 	padding-left: 2px;
 	-webkit-font-smoothing: antialiased;
 }
@@ -694,7 +693,7 @@ a.page-scroll{
 	opacity: 0.5;
 	font-family: 'Roboto Condensed', sans-serif;
 	overflow: hidden;
-	text-align:left;
+	text-align:center;
 	padding-left:2px;
 	-webkit-font-smoothing: antialiased;
 }
@@ -848,28 +847,25 @@ a.page-scroll{
 	margin-bottom:45px;
 	color:#FFF;
 }
-@media all and (min-width:410px){
-	.PositionPC{ }
-	.PositionPCfix{	}
-}
-@media all and (max-width:400px){
-	.icon-grey{
-		width: 40%;
-		margin-bottom:25px;
-		margin-top:20px;
-	}
-}
-@media all and (min-width:401px) and (max-width:600px){
-	.icon-grey{
-		margin-bottom:25px;
-		margin-right:25px;
-		margin-top:20px;
-	}
-}
 .icon-grey{
 	font-size:75px;
 	color: #fff;
 	opacity: 0.82;
+}
+@media all and (max-width:400px){
+	.icon-grey{
+		font-size:35px;
+		margin-bottom:25px;
+		margin-top:20px;
+	}
+}
+@media all and (min-width:401px) and (max-width:768px){
+	.icon-grey{
+		font-size:50px;
+		margin-bottom:25px;
+		margin-right:25px;
+		margin-top:20px;
+	}
 }
 .icon-grey:hover{
 	color:rgba(0,0,0,0.8);
