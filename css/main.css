@@ -23,7 +23,7 @@ body,html{
 	position: fixed;
 	top: 50%;
 	margin-top: -100px;
-	width:100%;	
+	width:100%;
 	font-family:'Oswald', sans-serif;
 	font-weight: bold;
 	font-size: 20px;
@@ -238,34 +238,34 @@ button{
 	background:#2C3E50;
 }
 .theme-bg.yellow{
-	background:#F9BF3B;	
+	background:#F9BF3B;
 }
 .theme-bg.red{
-	background:#D64541;	
+	background:#D64541;
 }
 
 .theme-btn-primary.blue{
-	background:#2C3E50;	
+	background:#2C3E50;
 	color:#FFF;
 }
 .theme-btn-primary.blue:hover{
-	background:#374A5E;	
+	background:#374A5E;
 	color:#FFF;
 }
 
 .theme-btn-primary.green{
-	background:#1BBC9B;	
+	background:#1BBC9B;
 	color:#FFF;
 }
 /** Color Definitions End **/
 
 /** Navigation Bar **/
 .navbar{
-	background:#D4D4D4;
-	box-shadow:0px 0px 25px #000;
+	background:rgba(255,255,255,0.95);
+	box-shadow:0px 0px 5px #000;
 	border:none;
-	padding:10px 0px;
 }
+
 .logoContainer{
 	margin:0px 5px;
 	width:160px;
@@ -282,7 +282,7 @@ button{
 .logoDisplay{
    display:block;
   }
-  
+
 .navcontainer{
     padding-right: 15px;
     padding-left: 15px;
@@ -305,30 +305,31 @@ a.page-scroll{
 	margin-top:7px;
 	font-size:30px;
 }
-@media all and (min-width: 768px) and (max-width: 992px){ 
+@media all and (min-width: 768px) and (max-width: 992px){
   .nav{
 	  float:none;
   }
   .nav>li>a{
 	  padding:15px 6px;
+		color: #fff !important;
   }
   a.page-scroll{
 	font-size:20px;
-	
+
   }
   .navcontainer{
 	margin-left: 5px;
 	margin-right: 5px;
   }
-  
+
 }
 /** Cover Section **/
 #home{
 	height:100%;
 	padding-top:100px;
-	background:radial-gradient(ellipse closest-corner at center, #ffffff 10%, #d4d4d4 60%, #6b6767 100%);
-	background:-ms-radial-gradient(center, ellipse closest-corner, #ffffff 10%, #d4d4d4 60%, #6b6767 100%); /* IE 10+ */
-	box-shadow:inset 0px 0px 100px 1px #6B6B6B;
+	background: url("../images/bgrnd.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	overflow-x:hidden;
 	transform: translate3d(0,0,-1px);
 }
@@ -368,6 +369,7 @@ a.page-scroll{
 }
 #home .scrollMore{
 	clear:both;
+	color: ghostwhite;
 	font-size:28px;
 	font-family: 'Lobster', cursive;
 	margin-top: 30px;
@@ -376,12 +378,13 @@ a.page-scroll{
 	animation-timing-function:linear;
 }
 #home .scrollIcon{
+	color: ghostwhite;
 	padding:0px;
 }
 @media all and (max-width: 768px){
 	#home .absolute-center{
 		width:290px;
-		height:200px;	
+		height:200px;
 	}
 }
 
@@ -393,7 +396,7 @@ a.page-scroll{
 	color:#000;
 }
 .siteAboutContainer{
-    padding-top: 35px;
+  padding-top: 35px;
 	font-family: 'Lobster', cursive;
 	font-size:48px;
 	padding-bottom: 20px;
@@ -576,7 +579,7 @@ a.page-scroll{
 }
 #rankBox2{
 	background-color: #c0c0c0;
-	border-top-right-radius: 2px;	
+	border-top-right-radius: 2px;
 	width:110px;
 	height:100px;
 	padding:0px;
@@ -591,9 +594,9 @@ a.page-scroll{
 	z-index: 3;
 	padding-bottom: 100px;
 	margin-top:-150px;
-}	
+}
 #rankBox3{
-	background-color: #d28b46; 
+	background-color: #d28b46;
 	border-top-left-radius: 2px;
 	width:110px;
 	height:100px;
@@ -703,7 +706,7 @@ a.page-scroll{
 }
 #MediaPartner{
 	font-family: 'Aladin', cursive;
-	font-size: 30px; 
+	font-size: 30px;
 }
 .resourceBox{
 	height:215px;
@@ -740,7 +743,7 @@ a.page-scroll{
 	height:100%;
 	background-color: rgba(0,0,0,0.7);
 	overflow-x:hidden;
-	overflow-y:hidden;	
+	overflow-y:hidden;
 }
 .resourceText:hover{
 	opacity: 1;
@@ -835,7 +838,7 @@ a.page-scroll{
 	font-size:12px;
 }
 /** Contact Section **/
-#contact{   
+#contact{
 	height:auto;
 	background:#4c667f;
 	box-shadow:inset 0px 1px 9px 5px #000;
@@ -845,18 +848,18 @@ a.page-scroll{
 	margin-bottom:45px;
 	color:#FFF;
 }
-@media all and (min-width:410px){ 
+@media all and (min-width:410px){
 	.PositionPC{ }
 	.PositionPCfix{	}
 }
-@media all and (max-width:400px){ 
+@media all and (max-width:400px){
 	.icon-grey{
 		width: 40%;
 		margin-bottom:25px;
 		margin-top:20px;
 	}
 }
-@media all and (min-width:401px) and (max-width:600px){ 
+@media all and (min-width:401px) and (max-width:600px){
 	.icon-grey{
 		margin-bottom:25px;
 		margin-right:25px;
