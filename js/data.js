@@ -59,9 +59,8 @@ services[6] = "Already know something? Teach it to others! That's how we work!";
 	events[0] = {title: "", cta: "", ctaText: "",cta2: "", cta2Text: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
 	
 **/
-events[0] = {title: "Study Group: Web Designing", cta: "https://docs.google.com/forms/d/e/1FAIpQLScaB0SGVp31QzY4Pg6Mcj0sr2R7JqYGgVMbnrAyivCSOKD4Dg/viewform", ctaText: "Register", cta2: "https://drive.google.com/open?id=0B-SmzjWLoGhCeFdBemVJWDREZlk", cta2Text: "Study Material", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in this on going Study Group Sessions of Web Designing  and start contributing to open source projects.", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0, cta2enable:1, cta2Text: "Check", cta2:"#" };
-events[1] = {title: "Study Group: Web Designing", cta: "https://docs.google.com/forms/d/e/1FAIpQLScaB0SGVp31QzY4Pg6Mcj0sr2R7JqYGgVMbnrAyivCSOKD4Dg/viewform", ctaText: "Register", cta2: "https://drive.google.com/open?id=0B-SmzjWLoGhCeFdBemVJWDREZlk", cta2Text: "Study Material", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in this on going Study Group Sessions of Web Designing  and start contributing to open source projects.", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0, cta2enable:0, cta2Text: "Check", cta2:"#" };
-
+events[0] = {title:"'Wordpress 101' by Samriddha Prajapati",cta:"https://www.youtube.com/watch?v=fjxUa7HX0NY",ctaText:"Catch Live!",date:"24 March '17",startTime:"10:00 PM", endTime:"11:00 PM*",location:"YouTube",eventOD:0, description:'Learn WordPress in this interactive webinar by <strong>Samriddha Prajapati</strong>. <br/><em>"Hi, I’m Samriddha Prajapati and I specialize in Computer Software. I’m passionate about what I do, and I love to help people. Nothing is more fulfilling than being part of a team with similar interests, and an organization that values its employees.</em>',cta2enable:1,cta2:"https://remote.com/samriddhaprajapati", cta2Text:"Speaker"};
+events[1] = {title: "Study Group: Web Designing", cta: "https://drive.google.com/open?id=0B-SmzjWLoGhCeFdBemVJWDREZlk", ctaText: "Access Resources", cta2: "", cta2Text: "", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in this on going Study Group Sessions of Web Designing  and start contributing to open source projects.", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0, cta2enable:0 };
 /** End Events List **/
 
 /** Webinars List  
@@ -106,10 +105,8 @@ team[1] = {name:"Ashish Dahiya", designation: "Management", ppicUrl: "images/tea
 team[2] = {name:"Tanya Jain", designation: "Vice President", ppicUrl: "images/team/tanya.jpg"};
 team[4] = {name:"Ayush Agarwal", designation: "Website/Technical", ppicUrl: "images/team/ayush.jpg"};
 team[5] = {name:"Parth Sharma", designation: "Graphics", ppicUrl: "images/team/parth.jpg"};
-team[6] = {name:"Manas Kashyap", designation:"Management", ppicUrl: "images/team/manas.jpg"};
-team[7] = {name:"Animesh Verma", designation: "Website", ppicUrl: "images/team/animesh.jpg"};
-team[8] = {name:"Ajay Tripathi", designation: "Management", ppicUrl: "images/team/ajay.jpg"};
-team[9] = {name:"Omkar Yadav", designation: "Management", ppicUrl: "images/team/omkar.jpg"};
+team[6] = {name:"Animesh Verma", designation: "Website", ppicUrl: "images/team/animesh.jpg"};
+team[7] = {name:"Omkar Yadav", designation: "Management", ppicUrl: "images/team/omkar.jpg"};
 /** End Team List **/
 
 /** Footer Contact Links 
@@ -118,10 +115,10 @@ team[9] = {name:"Omkar Yadav", designation: "Management", ppicUrl: "images/team/
  * hoverColor: any color from hover-* classes (don't add "hover-")
 */
 footerContactLinks[0] = {icon:"github",url:"https://github.com/asetalias",hoverColor:"grey"};
-footerContactLinks[1] = {icon:"facebook", url:"https://www.facebook.com/asetalias/", hoverColor:"blue"};
-footerContactLinks[2] = {icon:"youtube", url:"https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g", hoverColor:"red"};
+footerContactLinks[1] = {icon:"youtube", url:"https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g", hoverColor:"red"};
+footerContactLinks[2] = {icon:"facebook", url:"https://www.facebook.com/asetalias/", hoverColor:"blue"};
 footerContactLinks[3] = {icon:"envelope",url:"mailto:asetalias1@gmail.com",hoverColor:"green"};
-footerContactLinks[4] = {icon:"google-plus",url:"https://groups.google.com/forum/#!forum/amity-linux-group",hoverColor:"yellow"};
+footerContactLinks[4] = {icon:"google-plus-square",url:"https://groups.google.com/forum/#!forum/amity-linux-group",hoverColor:"yellow"};
 /** Containers **/
 var coverLogoContainer = $(".coverLogo");
 var navbarLogoContainer = $("#navbarLogo");

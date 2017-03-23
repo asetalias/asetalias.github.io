@@ -519,13 +519,16 @@ a.page-scroll{
 	margin:auto;
 	top:0;
 	bottom:0;
+	padding: 2px;
 }
 .eventCTA button{
+	text-align: center;
 	width:100%;
 	font-weight:600;
 	font-size:18px;
 	margin-bottom: 10px;
 	color:#FFF;
+	padding:7px 2px;
 }
 .event-buttons{
 	margin-right: 15px;
@@ -846,6 +849,9 @@ a.page-scroll{
 	margin-top:20px;
 	margin-bottom:45px;
 	color:#FFF;
+}
+#contactLinksContainer>div{
+	padding:0;
 }
 .icon-grey{
 	font-size:75px;
