@@ -91,7 +91,7 @@ function generateWebinarBoxes(){
 		 html += '<div class="row youtubeVideoTitleContainer">';
 		 html += '<div class="col-lg-12"><h2 class="youtubeVideoTitle ';
 		 html += (webinars[x].title.length>10)?'text-small':'text-normal';
-		 html += '"><a href="https://youtube.com/video?v="'+webinars[x].videoId+' target="_blank">'+webinars[x].title+'</a></h2></div>';
+		 html += '"><a href="https://youtube.com/video?v='+webinars[x].videoId+'" target="_blank">'+webinars[x].title+'</a></h2></div>';
 		 html += '</div>';
 		 html += '<div class="row youtubeVideoDescContainer">';
 		 html += '<div class="col-lg-12"><p class="youtubeVideoDesc">'+webinars[x].description+'</p></div>';
