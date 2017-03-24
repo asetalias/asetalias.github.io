@@ -52,9 +52,18 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
+.alumni-section {
+    padding-top: 55px;
+    text-align: center;
+}
+.team-section {
+    padding-top: 55px;
+    text-align: center;
+}
+
 .contact-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 30px;
     text-align: center;
     background: #eee;
 }
