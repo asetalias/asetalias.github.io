@@ -59,8 +59,10 @@ services[6] = "Already know something? Teach it to others! That's how we work!";
 	events[0] = {title: "", cta: "", ctaText: "",cta2: "", cta2Text: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
 	
 **/
-events[0] = {title:"'Wordpress 101' by Samriddha Prajapati",cta:"https://www.youtube.com/watch?v=fjxUa7HX0NY",ctaText:"Catch Live!",date:"24 March '17",startTime:"10:00 PM", endTime:"11:00 PM*",location:"YouTube",eventOD:0, description:'Learn WordPress in this interactive webinar by <strong>Samriddha Prajapati</strong>. <br/><em>"Hi, I’m Samriddha Prajapati and I specialize in Computer Software. I’m passionate about what I do, and I love to help people. Nothing is more fulfilling than being part of a team with similar interests, and an organization that values its employees.</em>',cta2enable:1,cta2:"https://remote.com/samriddhaprajapati", cta2Text:"Speaker"};
-events[1] = {title: "Study Group: Web Designing", cta: "https://drive.google.com/open?id=0B-SmzjWLoGhCeFdBemVJWDREZlk", ctaText: "Access Resources", cta2: "", cta2Text: "", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in this on going Study Group Sessions of Web Designing  and start contributing to open source projects.", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0, cta2enable:0 };
+/** Do not remove event[0], just comment it and add another event[0]. 
+ * This one will be used when no event is available
+ */
+events[0] = {title:"No Upcoming Event",cta:"https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link",ctaText:"Host an Event!",date:"N/A",startTime:"N/A", endTime:"N/A",location:"Amity University",eventOD:1, description:'<strong>Want to give a talk or coduct a workshop?</strong> <br> Just click on the link below and fill up the form :) to conduct a workshop or a webinar under ALiAS and spread the knowledge! <br><strong><em>Let Knowledge be open source!</em></strong>', cta2enable:0};
 /** End Events List **/
 
 /** Webinars List  
@@ -72,7 +74,7 @@ events[1] = {title: "Study Group: Web Designing", cta: "https://drive.google.com
 webinars[0] = {title: "Webinar: Introduction to Linux", videoId: "CTO-8BnzS_s", description: "This webinar would be about basics of Linux and its terminologies. We'll be covering basics of command lines/principles/every 'Must Know' things about Linux.<br/><strong>Speakers:</strong> <br/><strong>Anuvrat Parashar:<strong> <a href = \"http://anuvrat.in/\">http://anuvrat.in/</a> "};
 webinars[1] = {title: "Webinar: Introduction to Command Line Interface", videoId:"gmi_YM_N2L4", description: "This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">about.me/rohit</a> "};
 webinars[2]= {title: "Webinar: Open Source Softwares", videoId: "JcYABQrAkaU", description: "Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">sanyamkhurana.com</a>"};
-
+webinars[3] = {title:"'Wordpress 101' by Samriddha Prajapati", videoId: "fjxUa7HX0NY", description:"Learn WordPress in this interactive webinar by <strong>Samriddha Prajapati</strong>. <br/><em>Hi, I’m Samriddha Prajapati and I specialize in Computer Software. I’m passionate about what I do, and I love to help people. Nothing is more fulfilling than being part of a team with similar interests, and an organization that values its employees.</em>"};
 /** Picture Box
 	url: Link of the cover photo on google photos (For perfect size)
 	text: Name of the event
@@ -100,13 +102,13 @@ resource[2]={cta:"https://docs.google.com/document/d/1BVU3XOpvL8Gb1Px1VlI_NU018H
 	designation: designation
 	ppicUrl: Realtive url to images/team/name.jpg
 **/
-team[0] = {name:"Shivam Rajput", designation: "President", ppicUrl: "images/team/shivam.jpg"};
-team[1] = {name:"Ashish Dahiya", designation: "Management", ppicUrl: "images/team/ashish.jpg"};
-team[2] = {name:"Tanya Jain", designation: "Vice President", ppicUrl: "images/team/tanya.jpg"};
-team[4] = {name:"Ayush Agarwal", designation: "Website/Technical", ppicUrl: "images/team/ayush.jpg"};
-team[5] = {name:"Parth Sharma", designation: "Graphics", ppicUrl: "images/team/parth.jpg"};
-team[6] = {name:"Animesh Verma", designation: "Website", ppicUrl: "images/team/animesh.jpg"};
-team[7] = {name:"Omkar Yadav", designation: "Management", ppicUrl: "images/team/omkar.jpg"};
+team[0] = {name:"Shivam Rajput", designation: "", ppicUrl: "images/team/shivam.jpg"};
+team[1] = {name:"Ashish Dahiya", designation: "", ppicUrl: "images/team/ashish.jpg"};
+team[2] = {name:"Tanya Jain", designation: "", ppicUrl: "images/team/tanya.jpg"};
+team[4] = {name:"Ayush Agarwal", designation: "", ppicUrl: "images/team/ayush.jpg"};
+team[5] = {name:"Parth Sharma", designation: "", ppicUrl: "images/team/parth.jpg"};
+team[6] = {name:"Animesh Verma", designation: "", ppicUrl: "images/team/animesh.jpg"};
+team[7] = {name:"Omkar Yadav", designation: "", ppicUrl: "images/team/omkar.jpg"};
 /** End Team List **/
 
 /** Footer Contact Links 
