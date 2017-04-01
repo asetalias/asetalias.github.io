@@ -5,7 +5,7 @@ var siteAbout = "Amity Linux Assistance Sapience";
 var siteMotto = "";
 
 /** Intro Section **/
-var siteAboutHistory = "<p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.<\p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer";
+var siteAboutHistory = "<p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.<\p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.";
 var joinNowBtnLink = "https://goo.gl/forms/mZAhlJMxqCwZVbRK2";
 
 
@@ -59,10 +59,11 @@ services[6] = "Already know something? Teach it to others! That's how we work!";
 	events[0] = {title: "", cta: "", ctaText: "",cta2: "", cta2Text: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
 	
 **/
+
 /** Do not remove event[0], just comment it and add another event[0]. 
  * This one will be used when no event is available
- */
-events[0] = {title:"No Upcoming Event",cta:"https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link",ctaText:"Host an Event!",date:"N/A",startTime:"N/A", endTime:"N/A",location:"Amity University",eventOD:1, description:'<strong>Want to give a talk or coduct a workshop?</strong> <br> Just click on the link below and fill up the form :) to conduct a workshop or a webinar under ALiAS and spread the knowledge! <br><strong><em>Let Knowledge be open source!</em></strong>', cta2enable:0};
+ **/
+events[0] = {title:"No Upcoming Event",cta:"https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link",ctaText:"Host Event!",cta2: "#contactLinksContainer",cta2Text:"Write to us" ,date:"N/A",startTime:"N/A", endTime:"N/A",location:"Amity University",eventOD:1, description:'<strong>Want to give a talk,workshop or a webinar?</strong> <br> Just click on the link below and fill up the form :) to conduct a workshop or a webinar under ALiAS. ', cta2enable:1};
 /** End Events List **/
 
 /** Webinars List  
@@ -71,10 +72,10 @@ events[0] = {title:"No Upcoming Event",cta:"https://docs.google.com/forms/d/e/1F
 	description: Description of webinar
 **/
 
-webinars[0] = {title: "Webinar: Introduction to Linux", videoId: "CTO-8BnzS_s", description: "This webinar would be about basics of Linux and its terminologies. We'll be covering basics of command lines/principles/every 'Must Know' things about Linux.<br/><strong>Speakers:</strong> <br/><strong>Anuvrat Parashar:<strong> <a href = \"http://anuvrat.in/\">http://anuvrat.in/</a> "};
-webinars[1] = {title: "Webinar: Introduction to Command Line Interface", videoId:"gmi_YM_N2L4", description: "This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">about.me/rohit</a> "};
-webinars[2]= {title: "Webinar: Open Source Softwares", videoId: "JcYABQrAkaU", description: "Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">sanyamkhurana.com</a>"};
-webinars[3] = {title:"'Wordpress 101' by Samriddha Prajapati", videoId: "fjxUa7HX0NY", description:"Learn WordPress in this interactive webinar by <strong>Samriddha Prajapati</strong>. <br/><em>Hi, I’m Samriddha Prajapati and I specialize in Computer Software. I’m passionate about what I do, and I love to help people. Nothing is more fulfilling than being part of a team with similar interests, and an organization that values its employees.</em>"};
+webinars[0] = {title: "Introduction to Linux", videoId: "CTO-8BnzS_s", description: "This webinar would be about basics of Linux and its terminologies. We'll be covering basics of command lines/principles/every 'Must Know' things about Linux.<br/><strong>Speakers:</strong> <br/><strong>Anuvrat Parashar:<strong> <a href = \"http://anuvrat.in/\">http://anuvrat.in/</a> "};
+webinars[1] = {title: "Introduction to Command Line Interface", videoId:"gmi_YM_N2L4", description: "This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">about.me/rohit</a> "};
+webinars[2]= {title: "Open Source Softwares", videoId: "JcYABQrAkaU", description: "Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">sanyamkhurana.com</a>"};
+webinars[3] = {title:"Wordpress 101", videoId: "fjxUa7HX0NY", description:"Wordpress is an online, open source website creation tool written in PHP. But in non-geek speak.It's probably the easiest and most powerful blogging and website content management system (or CMS) in existience today.Here's your chance to learn from the expert.<br><strong>Speakers:<br>Samriddha Prajapati:<br><a href=\"http://samriddha.hol.es/web/\" target=\"_blank\">http://samriddha.hol.es/web/</a>"};
 /** Picture Box
 	url: Link of the cover photo on google photos (For perfect size)
 	text: Name of the event
@@ -94,7 +95,7 @@ pics[3]= {url:"https://lh3.googleusercontent.com/qu04uXsdaq9jBzRPzzqZRStGZt42Kbj
 **/
 resource[0]={cta:"https://docs.google.com/document/d/1s3RWKEemXNnCOPb_YyEMFIjC5C6R8R8K2gxMXRQyG7U/edit?usp=sharing",url:"images/Resources/OpnSrcGrps.jpg", text:"Links to Opensource Communities in Delhi/NCR."};
 resource[1]={cta:"https://docs.google.com/document/d/13h5MoQZv4KgnLjkeDiRHjaAZRF-VaUpy-ZN4EltIwiA/edit?usp=sharing",url:"images/Resources/StudyMaterial.jpg", text:"Links to helpful Study Material & Resources."};
-resource[2]={cta:"https://docs.google.com/document/d/1BVU3XOpvL8Gb1Px1VlI_NU018Hoj06aOfp69_NgERjo/edit?usp=sharing",url:"images/Resources/RecCompt.png", text:"Links to events recommended for participation."};
+resource[2]={cta:"https://docs.google.com/document/d/1BVU3XOpvL8Gb1Px1VlI_NU018Hoj06aOfp69_NgERjo/edit?usp=sharing",url:"images/Resources/RecCompt.jpg", text:"Links to events recommended for participation."};
  
 /** Team List 
 	team[0] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
@@ -109,6 +110,8 @@ team[4] = {name:"Ayush Agarwal", designation: "", ppicUrl: "images/team/ayush.jp
 team[5] = {name:"Parth Sharma", designation: "", ppicUrl: "images/team/parth.jpg"};
 team[6] = {name:"Animesh Verma", designation: "", ppicUrl: "images/team/animesh.jpg"};
 team[7] = {name:"Omkar Yadav", designation: "", ppicUrl: "images/team/omkar.jpg"};
+team[8] = {name:"Vipul Gupta", designation: "", ppicUrl: "images/team/vipul.jpg"};
+
 /** End Team List **/
 
 /** Footer Contact Links 
