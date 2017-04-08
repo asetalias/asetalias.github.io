@@ -687,8 +687,8 @@ a.page-scroll{
 	line-height: 18px;
 	padding-top: 3px;
 	overflow: hidden;
-	text-align:center;
-	padding-left: 2px;
+	text-align:left;
+	padding-left: 4px;
 	-webkit-font-smoothing: antialiased;
 }
 .picsDate{
@@ -696,8 +696,8 @@ a.page-scroll{
 	opacity: 0.5;
 	font-family: 'Roboto Condensed', sans-serif;
 	overflow: hidden;
-	text-align:center;
-	padding-left:2px;
+	text-align:left;
+	padding-left:4px;
 	-webkit-font-smoothing: antialiased;
 }
 .coverpics{
@@ -711,8 +711,8 @@ a.page-scroll{
 	font-size: 30px;
 }
 .resourceBox{
-	height:215px;
-	width: 215px;
+	height: 180px;
+	width: 180px;
 	margin: 15px 20px;
 	background:#F2F1EF;
 	box-shadow:2px 2px 3px #979696;
@@ -723,8 +723,8 @@ a.page-scroll{
 }
 .resourcePics{
 	opacity: 0.95;
-	width: 215px;
-	height: 215px;
+	width: 180px;
+	height: 180px;
 	overflow-x:hidden;
 	overflow-y:hidden;
 	position: absolute;
@@ -736,8 +736,8 @@ a.page-scroll{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	padding: 25px 5px 25px 6px;
-	font-size: 28px;
+	padding: 5px 5px 25px 6px;
+	font-size: 24px;
 	font-weight: 600;
 	color: #fff;
 	text-align: left;

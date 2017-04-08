@@ -76,6 +76,7 @@ webinars[0] = {title: "Introduction to Linux", videoId: "CTO-8BnzS_s", descripti
 webinars[1] = {title: "Introduction to Command Line Interface", videoId:"gmi_YM_N2L4", description: "This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">about.me/rohit</a> "};
 webinars[2]= {title: "Open Source Softwares", videoId: "JcYABQrAkaU", description: "Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">sanyamkhurana.com</a>"};
 webinars[3] = {title:"Wordpress 101", videoId: "fjxUa7HX0NY", description:"Wordpress is an online, open source website creation tool written in PHP. But in non-geek speak.It's probably the easiest and most powerful blogging and website content management system (or CMS) in existience today.Here's your chance to learn from the expert.<br><strong>Speakers:<br>Samriddha Prajapati:<br><a href=\"http://samriddha.hol.es/web/\" target=\"_blank\">http://samriddha.hol.es/web/</a>"};
+webinars[4] = {title:"GitHub 101", videoId: "i6vKEo12KfE", description:"New to GitHub? Learn about the basic working of GitHub and what it is from this webinar.You can look more over here w.r.t to downloads and what all you need to perform GIT config on your machine : https://desktop.github.com/<br><strong>Speakers:<br>Aniket Maithani<br><a href=\"http://www.aniketmaithani.net/\" target=\"_blank\">http://www.aniketmaithani.net/</a>"};
 /** Picture Box
 	url: Link of the cover photo on google photos (For perfect size)
 	text: Name of the event
@@ -96,7 +97,8 @@ pics[3]= {url:"https://lh3.googleusercontent.com/qu04uXsdaq9jBzRPzzqZRStGZt42Kbj
 resource[0]={cta:"https://docs.google.com/document/d/1s3RWKEemXNnCOPb_YyEMFIjC5C6R8R8K2gxMXRQyG7U/edit?usp=sharing",url:"images/Resources/OpnSrcGrps.jpg", text:"Links to Opensource Communities in Delhi/NCR."};
 resource[1]={cta:"https://docs.google.com/document/d/13h5MoQZv4KgnLjkeDiRHjaAZRF-VaUpy-ZN4EltIwiA/edit?usp=sharing",url:"images/Resources/StudyMaterial.jpg", text:"Links to helpful Study Material & Resources."};
 resource[2]={cta:"https://docs.google.com/document/d/1BVU3XOpvL8Gb1Px1VlI_NU018Hoj06aOfp69_NgERjo/edit?usp=sharing",url:"images/Resources/RecCompt.jpg", text:"Links to events recommended for participation."};
- 
+resource[3]={cta:"https://docs.google.com/document/d/1Sajm4pMdaMSPxvLNbluY9Mbgx9934CxjwvnYPuKlylM/edit?usp=sharing",url:"images/Resources/OpnSrcCont.jpg", text:"Links to OpenSource projects for contribution."};
+resource[4]={cta:"https://docs.google.com/document/d/1R1wNNpz8XEaelWlJr1IH50JB-PU3hid-m5X3xAXAxr4/edit?usp=sharing",url:"images/Resources/OpnSrcSoft.jpg", text:"Links to OpenSource software you can use."};
 /** Team List 
 	team[0] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
 	name: Full Name
