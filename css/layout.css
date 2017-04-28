@@ -1,0 +1,891 @@
+/** Min Screen Size Overlay Styles **/
+.minScreenSizeOverlay{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:99999;
+	box-shadow:inset 0px 0px 100px 1px #6B6B6B;
+	background:#ECF0F1;
+}
+.minScreenSizeOverlay .contentContainer{
+	position:relative;
+	width:100%;
+}
+.minScreenSizeOverlay .content{
+	text-align:center;
+	position: fixed;
+	top: 50%;
+	margin-top: -100px;
+	width:100%;
+	font-size: 20px;
+}
+@media all and (min-width:300px){
+	.minScreenSizeOverlay{
+		display:none;
+	}
+}
+/** PreLoader **/
+.preloader{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	z-index:99999;
+	background:#2C3E50;
+	animation-name:color-changing-background;
+	animation-duration:10s;
+	animation-timing-function:linear;
+	animation-direction:alternate;
+	animation-iteration-count:infinite;
+}
+.preloader .content{
+	position:relative;
+	width:100%;height:100%;
+}
+.preloader .preloader-content{
+	position:absolute;
+	width:180px;
+	height:190px;
+	text-align:center;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+	color:rgba(255,255,255,0.9);
+	font-size:40px;
+	animation-name:blinking-text;
+	animation-duration:1s;
+	animation-timing-function:linear;
+	animation-direction:alternate;
+	animation-iteration-count:infinite;
+}
+/**FlashBox**/
+.flashbox{
+	display:none;
+	position:fixed;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	z-index:9999;
+	text-align:center;
+}
+.flashbox .content{
+	position:absolute;
+	width:95%;
+	max-height:95%;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+	overflow:hidden;
+}
+.flashbox .content .closeBtn{
+	position:absolute;
+	top:0;right:2px;
+	cursor:pointer;
+	color:#FFF;
+	font-size:25px;
+	z-index:3;
+}
+.flashbox .flashBox-content{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.flashbox .content .flashBox-content img{
+	position:absolute;
+	margin:auto;
+	top:0;bottom:0;
+	left:0;right:0;
+	height:auto;
+	max-height:100%;
+	max-width:100%;
+	width:auto;
+}
+/** FlashBox Styles end **/
+/** Slick Slider Custom Styles **/
+.slidesContainer{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.slide{
+    text-align: center;
+    height: inherit;
+}
+.slick-initialized .slick-slide{
+    display: inline-block;
+}
+.slide img{
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 700px;
+    width: 100%;
+}
+.slick-dark .slick-dots li button{
+	box-shadow: 0 0 0;
+}
+.slick-dark .slick-dots li button::before{
+	color:#FFF;
+}
+/** Slick Slider Custom Styles End **/
+/** Page Styles Start **/
+#contentWrap{
+    width: 100%;
+}
+@media all and (max-width:768px){
+    #contentWrap{
+        width: 100%;
+    }
+}
+.container{
+    max-width: 100%;
+}
+button{
+	border:none;
+	box-shadow:1px 1px 2px #000;
+	padding:10px;
+    background: #22313F;
+    color: #FFF;
+    margin: 0px 5px;
+}
+img.logo-med{
+    width:auto;
+    height: auto;
+    max-height: 100px;
+    max-width: 160px;
+}
+img.logo-sm{
+    width: auto;
+    height: auto;
+    max-height:50px;
+    max-width: 100px; 
+}
+img.logo-lg{
+	width: 300px;
+	height: auto;
+}
+@media all and (min-width:768px){
+	img.logo-lg{
+		width: 400px;
+	}
+}
+.iconMed{
+    font-size:24px;
+}
+/** Header : Default Layout**/
+#mainHeader{
+	position: fixed;
+	top: 0;
+	left: 0;
+    background: #FFF;
+    text-align: left;
+    font-size: 16px;
+	padding:0px 10px;
+    box-shadow: 0px 0px 5px #000;
+	width: inherit;
+	z-index: 9998;
+}
+#mainHeader .navbar>.container{
+	width: 100%;
+}
+/** Custom Styles for Bootstrap Navigation **/
+#mainHeader .navbar-toggle{
+	position: absolute;
+	top:4px;right: 0;
+	border: none;
+	box-shadow: 0 0 0;
+	background: rgba(0,0,0,0.1);
+	color: rgba(0,0,0,0.7);
+	font-size: 20px;
+	padding:4px 9px;
+}
+#mainHeader .navbar{
+    width: 100%;
+    min-height: 30px;
+    overflow: hidden;
+    margin: 7px auto;
+    box-shadow: none;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+#mainHeader .navbar li{
+    padding:5px;
+    float: none;
+    list-style-type: none;
+    display: block;
+    width:auto;
+    text-align: center;
+    margin:0;
+	background: transparent;
+}
+#mainHeader .navbar li a{
+    padding: 0;
+	background: transparent;
+}
+#mainHeader .navbar-default .navbar-nav>li>a.active{
+	color:#000;
+	text-decoration: underline;
+}
+@media all and (min-width:300px){
+	#mainHeader .navbar-nav{
+		padding: inherit;
+	}
+	#mainHeader .navbar li{
+		width: 100%;
+	}
+}
+@media all and (min-width:768px){
+    #mainHeader .navbar-toggle{
+        display: none;
+    }
+    #mainHeader .navbar li{
+        width: auto;
+        display: inline;
+		padding:2px 0px;
+    }
+	#mainHeader a{
+		font-size:15.5px;
+	}
+	#mainHeader .navbar-nav{
+		padding-top:1.8em;
+	}
+}
+@media all and (min-width: 992px){
+	#mainHeader a{
+		font-size:18px;
+	}
+	#mainHeader .navbar li{
+		padding:5px;
+	}
+}
+@media all and (min-width:1200px){
+	#mainHeader a{
+		font-size:25px;
+	}
+	#mainHeader .navbar li{
+		padding-top:15px;
+	}
+}
+/** End Custom Styles for Bootstrap Navgation **/
+.logo{
+    width: 300px;
+    height: auto;
+}
+@media all and (max-width:400px){
+    #mainHeader .logo{
+        width: 130px;
+    }
+}
+/** End Header: Default Layout **/
+/** Header: Sticky Layout **/
+/**
+#mainHeader.mainHeaderLayout1{
+    position:fixed;
+    top:0;
+    z-index:4;
+    width:inherit;
+   
+}
+**/
+#mainHeader #mainNav>div>.row{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+#mainHeader .navbar li{
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#mainHeader .logo{
+    width: 130px;
+    height: auto;
+    margin:7px 0px;
+    padding: 1px;
+    box-sizing: content-box;
+}
+@media all and (min-width:1200px){
+	#mainHeader .logo{
+		width:200px;
+	}
+}
+#mainHeader .navigationContainer{
+    float: right;
+}
+/** Header Styles End **/
+#mainHeader.mainHeaderLayout1{
+	position: fixed;
+	background: transparent;
+	top:0;left:0;
+	width: inherit;
+	box-shadow: none;
+	color: #FFF;
+	padding-top: 5px; 
+}
+#mainHeader.mainHeaderLayout1 .navbar li{
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media all and (max-width:768px){
+	#mainHeader.mainHeaderLayout1 .navbar-collapse{
+		background: rgba(255,255,255,0.9);
+	}
+}
+/** Section Default Styles **/
+section{
+    width: 100%;
+    margin: 10px 0;
+    padding-bottom: 10px; 
+}
+section .container{
+    width: inherit;
+}
+section .headerContainer{
+    border-bottom: 2px solid #000;
+    width: 55%;
+    clear: inherit;
+	margin:60px 0px 50px 0px;
+}
+@media all and (max-width:768px){
+    section .headerContainer{
+        width: 100%;
+    }
+}
+section .section-header{
+    background: transparent;
+    color: rgba(255,255,255,0.9);
+    text-transform: uppercase;
+    font-size: 30px;
+	padding:0px 20px;
+	left:0;right:0;
+    box-shadow: 0 0 0;
+}
+/** Section Styles End **/
+
+/** Home Styles **/
+#home{
+    width: inherit;
+	height: 100vh;
+    overflow: hidden;
+	margin-top:0; 
+}
+#home .container{
+    padding: 0;
+	height: inherit;
+}
+#home .slide{
+	height: 100vh;
+	background-size: cover;
+	background-position: center; 
+	background-attachment: fixed;
+	overflow: hidden;
+	position: relative;
+}
+#home .slide .container::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.1);
+}
+#home .slide .slideContent{
+	position: absolute;
+	width: 100%;
+}
+#home .slide .slideHeader h1{
+	font-size: 50px;
+}
+#home .slide button{
+	width:30%;
+	min-width: 100px;
+	height: 60px;
+	padding: 5px;
+	margin:20px 0 0 0;
+}
+@media all and (max-width:768px){
+	#home .slide .slideHeader h1{
+		font-size: 45px;
+	}
+}
+@media all and (min-width:1200px){
+	#home .slide .slideHeader h1{
+		font-size: 60px;
+	}
+}
+/** End Home Styles **/
+
+/** Intro Section **/
+#intro{
+    background: url("../images/bg-1080p-8.jpg");
+    color: #FFF;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#intro .headerContainer{
+	width: 100%;
+}
+#intro .section-header{
+    color: #FFF;
+    font-size: 45px;
+    background: transparent;
+    box-shadow: 0 0 0;
+    margin-top:20px; 
+	text-transform: none;
+}
+#intro p.description{
+	color: #a2a2a2;
+    font-size: 18px;
+}
+#intro .siteAboutHistory p.description{
+    font-size: 16px;
+}
+#intro .servicesList li{
+    position: relative;
+    color: #a2a2a2;
+    font-size: 16px;
+    padding-left:18px;
+}
+#intro .servicesList li .fa{
+    position: absolute;
+    left:0;
+    top:3px;
+}
+#intro #joinNowBtn{
+    background: transparent;
+    border:2px solid rgba(47,167,173,0.9);
+    border-radius: 5px;
+    color: rgba(47,167,173,0.9);
+    width: 70%;
+    font-size: 20px;
+	font-weight: 400;
+}
+#intro #joinNowBtn:hover,
+#intro #joinNowBtn:active,
+#intro #joinNowBtn:focus{
+    background: rgba(47,167,173,0.2);
+    color: rgba(130,249,255,0.9);
+}
+#intro .subheader{
+	padding:0px 0px 15px 0px;
+	margin:10px 0;
+}
+#intro .subheader>span{
+    border-bottom:3px solid #f1cf27;
+    padding:1px 0px 5px 0px;
+    margin:2px;
+    box-sizing: content-box;
+}
+#intro .heading{
+    font-size: 26px;
+    padding: 0;
+}
+@media screen and (max-width:768px){
+	/** Mobile devices **/
+	#intro .section-header{
+		text-align: center;
+	}
+	#intro .siteAboutContainer{
+		font-size:30px;
+	}
+    #intro .heading{
+        font-size: 26px;
+        padding: 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width:400px){
+	#intro .heading{
+		font-size:22px; 
+	}
+}
+/** Intro Section End **/
+
+/** Events Section **/
+#events{
+    background: url("../images/bg-1080p-2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000;
+    /** width: inherit;**/
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+#upcomingEventsHeader{
+    padding: 5px 0;
+    color: inherit;
+}
+#events .eventsList{
+	min-width:220px;
+	margin:auto;
+	left:0;right:0;
+}
+.eventBox,
+.youtubeBox{
+	height: 420px;
+	width: 340px;
+	max-width: 340px;	/** fix for Slick Slide CSS **/
+	margin:10px 20px;
+	padding:10px;
+	background:#F2F1EF;
+	box-shadow:2px 2px 15px #979696;
+	box-sizing:border-box;
+	color:#000;
+	text-align:center;
+	top:0;bottom: 0;
+}
+/** Event Box Styles **/
+.eventBox div{
+	margin:auto;
+	left:0;right:0;
+}
+.eventTitle{
+	height:98px;
+	width:100%;
+	overflow:hidden;
+	margin-bottom: 1px;
+}
+
+.eventBox .eventDesc,
+.eventBox .eventDescInfo{
+	padding:0;
+	text-align:left;
+}
+.eventBox .eventDescInfo .eventDescInfoContainer{
+	height:250px;
+	text-align:left;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+.eventBox .eventDescInfo .eventDescInfoContainer:hover{
+	overflow-y:auto;
+	overflow-x:auto;
+}
+.eventBox .eventCTA{
+	bottom:5px;
+	width:100%;
+}
+.eventBox .eventCTA div{
+	float:left;
+	margin:auto;
+	top:0;
+	bottom:0;
+	padding: 2px;
+}
+.eventBox .eventCTA button{
+	text-align: center;
+	width:100%;
+	font-weight:600;
+	font-size:18px;
+	margin-bottom: 10px;
+	color:#FFF;
+	padding:7px 2px;
+}
+.eventBox .event-buttons{
+	margin-right: 15px;
+	box-shadow:2px 3px 3px #000;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 20px;
+	margin-top:20px;
+	color:#FFF;
+}
+/** End Event Box Styles **/
+/** Youtube Box Styles **/
+.youtubeBox{
+	padding:0px;
+	height:380px;
+}
+.youtubeBox>div>div{
+	padding:0;
+}
+.youtubeBox .youtubeVideoContainer{
+	height:191px;	/** it should be calculated as (width of parent)*9/16 **/
+}
+.youtubeBox .youtubeVideoContainer div{
+	height:inherit;
+}
+.youtubeBox .youtubeVideo{
+	width:100%;
+	height:100%;
+	border:none;
+}
+.youtubeBox .youtubeInfoContainer{
+	height:188px;
+	overflow:hidden;
+}
+.youtubeBox .youtubeVideoTitleContainer{
+	height:60px;
+	overflow:hidden;
+}
+.youtubeBox .youtubeVideoDescContainer{
+	width:100%;
+	height:130px;
+	overflow:hidden;
+}
+.youtubeBox .youtubeVideoDescContainer:hover{
+	overflow-y:scroll;
+	overflow-x:scroll;
+}
+/** End Youtube Box Styles **/
+@media all and (max-width:299px){
+	.eventBox,
+	.youtubeBox{
+		display:none;
+	}
+}
+@media all and (min-width:300px) and (max-width:768px){
+	.eventBox, .youtubeBox{
+		width:250px;
+		margin:10px 2px;
+	}
+	.youtubeBox>div>div{
+		height:140px;
+	}
+}
+/** Common Styles for Youtube and Event Box **/
+.eventTitle h2,
+.youtubeVideoTitleContainer h2{
+	font-size:24px;
+	font-weight:600;
+}
+.youtubeVideoTitleContainer h2.text-small{
+	font-size:18px;	
+}
+/** Common Styles End **/
+
+/** Webinars Section **/
+#webinars{
+    background: url("../images/bg-1080p-4.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#webinars .headerContainer{
+    border-bottom-color: #FFF;
+}
+/** Webinars Section Custom Slick Slider Styles **/
+#webinars .slick-dots li button:before,
+#team .slick-dots li button:before,{
+    color: #FFF;
+}
+#webinars .slick-dots li.slick-active button:before,
+#team .slick-dots li.slick-active button:before{
+    color:#FFF;
+}
+#webinars .slick-arrow::before,
+#team .slick-arrow::before{
+    color:#000;
+}
+/** End Custom Slick Slider Styles **/
+/** End Webinar Section **/
+
+/** Alumni Section **/
+#alumni{
+	padding:25px 5px; 
+    background: url("../images/bg-1080p-3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#alumni .container{
+	height: 100%;
+}
+#alumni .alumniDescription{
+	position:relative;
+	padding:20px;
+	padding-left: 50px;
+	text-align:center;
+	color: #fff;
+}
+#alumni .alumniDescription p{
+	font-size:38px;
+	color: #fff;
+}
+/** BlockQuote **/
+#alumni .alumniDescription:before{
+	content:'\f10d';
+	position:absolute;
+	top:0;
+	left:0;
+	color: #fff;
+	opacity: 0.1;
+	font-size:45px;
+}
+#alumni .alumniDescription:after{
+	content:'\f10e';
+	position:absolute;
+	bottom:0;
+	right:0;
+	color: #fff;
+	opacity: 0.1;
+	font-size:45px;
+}
+/** BlockQuotes End **/
+/** Alumni Section End **/
+
+/** Team Section **/
+#team{
+	background: url("../images/bg-1080p-8.jpg");
+	padding-bottom:50px;
+    padding-top: 10px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#team .headerContainer{
+    border-bottom-color: #FFF;
+}
+
+/** Teambox Styles **/
+.teamBox{
+	position:relative;
+	width:180px;
+	max-width: 180px;
+	min-width: 180px;
+	height:180px;
+	padding:10px 2px;
+	text-align:center;
+	margin:30px 20px 40px 10px;
+	color:#000;
+	background: #FFF;
+	box-shadow: 0px 0px 6px #FFF;
+}
+.teamBox .teamPhotoContainer{
+	border-radius:50%;
+	border:5px solid #D4D4D4;
+	overflow:hidden;
+}
+.teamBox .teamPhotoContainer,
+.teamBox .teamPhotoContainer img{
+	height:100px;
+	max-height: 100px;
+	width:100px;
+}
+.teamBox .teamInfoContainer{
+	margin:5px;
+}
+.teamBox .teamName{
+	font-size:18px;
+}
+.teamBox .teamDesignation{
+	font-style:italic;
+	font-size:12px;
+}
+/** End Teambox Styles **/
+/** End Team Section **/
+
+/** Open Source and Events Participate Section Combined **/
+#openSource{
+    background: url("../images/repeat-1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#openSourceListContainer{
+    display: table;
+    margin:5px auto;
+    left:0;right: 0;
+}
+#openSource .logoContainer,
+#eventsParticipate .logoContainer{
+    vertical-align: middle;
+    width: auto;
+    height: 100%;
+    box-sizing: content-box;
+}
+#openSource .section-header{
+    color: #000;
+}
+#eventsParticipate{
+    background: url("../images/bg-1080p-2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#eventsParticipate .section-header{
+    color: #000;
+}
+/** End Open Source and Events Participate **/
+
+/** Footer Styles **/
+#footer{
+	background: #FFF;
+	margin-bottom:0px;
+}
+#footer>.container>div.row{
+	padding-top:5px;
+}
+#footer .attribution{
+    vertical-align: middle;
+}
+#footer .widgetTitle{
+	border-bottom:3px solid #000; 
+}
+#footer .widgetContent{
+	width: 100%;
+	overflow:hidden;
+	margin: 8px 0px;
+}
+#footer div.divider-top{
+	border-top:2px solid #979696;
+}
+/** End Footer Styles **/
+
+/** Contact Links Style**/
+.contactLinksContainer{
+	list-style-type: none;
+	padding:5px;
+}
+.contactLinksContainer li{
+	font-size: 18px;
+	position: relative;
+	padding-left:23px;
+	margin:5px 0px; 
+}
+.contactLinksContainer li i.fa{
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	top: 0;
+	left: 0;
+	margin-top:0.2em;
+}
+.contactLinksContainer li a{
+	font-size:16px;
+}
+.contactLinksContainer li a:hover,
+.contactLinksContainer li a:active,
+.contactLinksContainer li a:focus{
+	text-decoration: underline;
+}
+/** Communities Page Styles **/
+#content{
+	width: 100%;
+}
+section.communityBox{
+	width: 100%;
+    background: #FFF;
+    color: #000;
+	overflow: hidden;
+	padding:10px;
+}
+section.communityBox .section-header{
+    color: #000;
+}
+/** End Communities Page Styles **/
+/** Animations **/
+@keyframes color-changing-background{
+	0%{
+		background:#2C3E50;
+	}
+	25%{
+		background:#674172;
+	}
+	50%{
+		background:#96281B;
+	}
+	75%{
+		background:#336E7B;
+	}
+	100%{
+		background:#2C3E50;
+	}
+}

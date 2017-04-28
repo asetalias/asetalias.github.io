@@ -1,11 +1,10 @@
 /** Site Description **/
-var logoUrl = "images/logo.png";
+var logoUrl = "images/navLogo.png";
 var siteTitle = "ALiAS";
-var siteAbout = "Amity Linux Assistance Sapience";
-var siteMotto = "";
+var siteAbout = '<strong class="text-yellow">A</strong>mity <strong class="text-yellow">Li</strong>nux <strong class="text-yellow">A</strong>ssitance <strong class="text-yellow">S</strong>apience';
 
 /** Intro Section **/
-var siteAboutHistory = "<p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.<\p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.";
+var siteAboutHistory = "<p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.<\p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer";
 var joinNowBtnLink = "https://goo.gl/forms/mZAhlJMxqCwZVbRK2";
 
 
@@ -21,17 +20,15 @@ var flashBoxEndDate = new Date(2018,05,04); //It will end at 04/06/02017 00:00 P
 /** Alumni Section **/
 var alumniDescription = "Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain.";
 
-/**Rankers List**/
-var rankers = {name1:"Sample", ppicUrl1: "images/alumni/1.jpg",rank1:"0000", name2:"Sample", ppicUrl2: "images/alumni/1.jpg",rank2:"0000", name3:"Sample", ppicUrl3: "images/alumni/1.jpg",rank3:"0000"};
-
 /** Array Definitions**/
 var services = [];
 var events = [];
 var webinars = [];
+var openSource = [];
+var eventsP = [];
 var team = [];
-var pics = [];
-var resource = [];
-var footerContactLinks = [];
+var contactLinks = [];
+var communitiesDetailed = [];
 /** Services List **/
 
 services[0] = "Stand out of crowd and learn unique skills from people already working in the industry!";
@@ -59,13 +56,11 @@ services[6] = "Already know something? Teach it to others! That's how we work!";
 	events[0] = {title: "", cta: "", ctaText: "",cta2: "", cta2Text: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
 	
 **/
-
 /** Do not remove event[0], just comment it and add another event[0]. 
  * This one will be used when no event is available
- **/
-events[0] = {title:"No Upcoming Event",cta:"https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link",ctaText:"Host Event!",cta2: "#contactLinksContainer",cta2Text:"Write to us" ,date:"N/A",startTime:"N/A", endTime:"N/A",location:"Amity University",eventOD:1, description:'<strong>Want to give a talk,workshop or a webinar?</strong> <br> Just click on the link below and fill up the form :) to conduct a workshop or a webinar under ALiAS. ', cta2enable:1};
+ */
+events[0] = {title:"No Upcoming Event",cta:"https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link",ctaText:"Host an Event!",date:"N/A",startTime:"N/A", endTime:"N/A",location:"Amity University",eventOD:1, description:'<strong>Want to give a talk or coduct a workshop?</strong> <br> Just click on the link below and fill up the form :) to conduct a workshop or a webinar under ALiAS and spread the knowledge! <br><strong><em>Let Knowledge be open source!</em></strong>', cta2enable:0};
 /** End Events List **/
-
 /** Webinars List  
 	title: Title of webinar
 	videoId: https://youtube.com/watch?v=video_id
@@ -77,43 +72,69 @@ webinars[1] = {title: "Introduction to Command Line Interface", videoId:"gmi_YM_
 webinars[2]= {title: "Open Source Softwares", videoId: "JcYABQrAkaU", description: "Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">sanyamkhurana.com</a>"};
 webinars[3] = {title:"Wordpress 101", videoId: "fjxUa7HX0NY", description:"Wordpress is an online, open source website creation tool written in PHP. But in non-geek speak.It's probably the easiest and most powerful blogging and website content management system (or CMS) in existience today.Here's your chance to learn from the expert.<br><strong>Speakers:<br>Samriddha Prajapati:<br><a href=\"http://samriddha.hol.es/web/\" target=\"_blank\">http://samriddha.hol.es/web/</a>"};
 webinars[4] = {title:"GitHub 101", videoId: "i6vKEo12KfE", description:"New to GitHub? Learn about the basic working of GitHub and what it is from this webinar.You can look more over here w.r.t to downloads and what all you need to perform GIT config on your machine : https://desktop.github.com/<br><strong>Speakers:<br>Aniket Maithani<br><a href=\"http://www.aniketmaithani.net/\" target=\"_blank\">http://www.aniketmaithani.net/</a>"};
-/** Picture Box
-	url: Link of the cover photo on google photos (For perfect size)
-	text: Name of the event
-	date: Date of the event
-	cta: call to action (Link of the photos album) 
-	pics[]= {url:"", text:"", date:"", cta:""};
-**/
-pics[0]= {url:"https://lh3.googleusercontent.com/ToOSptmfFXY6qEXRlK7wgtUxBMYEjnt39pSBr_AxVXjyPPmpDa3pnnjdjAxQM3CDAk79GJrC1c0Y3CFTs9a8tIbEN9X-SGMywTZ7R001aOFwak9BzbC-dTb28oU3TrzWf2a9CynzbiZ0nhM4n4jqlw4IUWVLdLDKvayecAqElDxoON-hX-858oe6GjIF6QI4K-h7ETLiMi_SazzlMqoLuh0DiGo7LKFR1T2znC8Msf8GHELrqUZl3gNb_K54Ri9NYBl33S23Fc_4xMCVMBB-mogkCgTkt1qIcMaqg5e-YF-1O-lPLNSkC9qveEApcwzjQdXQflUVhHTTitfRLH0X8DL0CC2o7MwS36ZEismjU5gIey7rntdrrf2K3LaTXv_Fdh84Zv73SMEStmB7AEQlemd0mOh0Jo7nYHEE8bp-9npuUVtk3USt6CxIQDGBAWuDlEn6Qcbnqf7t4EWEyKK7wXv8zcJ9mTcp7b-JDYkTE17XQ8BLSFG1h_dYKLzZBa5MPhiwUTW3UdL_BL0voEXnwPhe-jNwYFPUbtE2MRZAMaZ5Gx94nhBwXID7obRaG0M3btRHkhCm-lrA0qmkRP3d_dpjtPDSDiHje_R5mBP4LQpBwiXv=s167-p-k-no", text:"Women's Day Event", date:"March 9' 2017", cta:"https://goo.gl/photos/sTgVqSFSJxDZGvH77"};
-pics[1]= {url:"https://lh3.googleusercontent.com/2Ez1kAfDIHsmPHSwTaUj8kNFyqyJTb2ZXY8UWdaUsAyGnXVRAiNNOXmiRl1-um5ro1-d2v9MGzZIktffAZcs7-EPJ5j8iHD5vsq0qGVppppSUhcQBiH2q2GDvjXV8fXMsODTw0A-y3COGqa4n8JYjDbAdGupiBWe9IOC7-aMhK71Sw8Ol6jdPEdZ2qadLJ6nyq0x-WMXGSS-b9G_I5nwohu_fLq1Kn0-IYaEV0LFOtP70kIMmTXtmSbVvRCEXX7MVTkTBnYM70DUDAwy0_wrO6i_LqjgqvasDDh1WrXJaWbecLu1XEk489dmHCAH5vaphK9FPrF_vpDuKyBcN4fmKjrYZwBiJOQllgs5SyvWCQugxs5SnDR7F2ycAg8ETqIh2_K_4lH07krqAYLzDuq67m5CTVPa1HnUqbnqeDn-S1shYXpjnawW8WPUhCMZtrL3Tx4uvjmC_pGy2OHYqlsfltYCHQ0RDZzQdRVQ1yaZnkdPsNGCKMBjfiPAIGn3o1nBtQsuu6IllQwwlV57jlpkvg30nb7l0M767yTU2sradqD7Q1VEN0_gfD2xY3p6eYZTGw0CBpv0nRTNCxzmUctjFaaYJ45SQfEcZqDJWWGikPHp-70b=s190-p-k-no", text:"Ethical Hacking", date:"March 2' 2017", cta:"https://goo.gl/photos/uoBWC4foibRyzxd58"};
-pics[2]= {url:"https://lh3.googleusercontent.com/JY1Xlzfyzsc8rhWDb8pFfrCTyJtdqkxMGqnX0xJfagYYrFlHRwrwgGjV_4oiLs4MQlHe21nhovTEixP3OjbIm__xTSAPpHoYBsR3K_WTrsoTpyjhsO0OOiRwPZj-Eec5cwW63e5NM28D4OPjvg7L-tb4uEYhxnsNgisABx0GTcDKgpIdYkmtUThjXP33NlqVYaqDmrqfdSYyTm_lItDu97ue4gtb8pLSVkWySFMlFKXACp8ByGaTkLfucExEaQbPsO99gbQ6nSVgw8Tlv5slRfxxd7giqjyJldYHS_3pWcpl68UeuW7CqYE--8Jl9EK8ku0OwBlXXpHMAGscg2nki6rfjV1V8IK22vTkOGfki3_mE-DigkyhePw5bQzawbUyqEBy0sZzv6obdN1MSiYay1tKJOTKqUnZYqxwtZWcPwLIIJT1o_Lk92_49kKXLbFTJ6q29dWlXDwOqNOdmL-Na2D2IPeaneCxZy-K6EQA0JfvysLMvddJLdRBi7jgi0YydvKwDJFkiJ7TB3ZiQaW4ZrHCgKbuqkmKDVv57CJytqkoZb2xWaB5knW7gAxSZuQ9SHcAgpUyokhTvL_HPJD5VfeBDLWTzrzaLLIoJ_jPienqvGng=s170-p-k-no", text:"Amity Youth Fest Meetup", date:"February 18' 2017", cta:"https://goo.gl/photos/HVBzRy8Jw1fs7Yyc7"};
-pics[3]= {url:"https://lh3.googleusercontent.com/qu04uXsdaq9jBzRPzzqZRStGZt42KbjTjJGaJdmoeBPq-AfoplY-grfZljZY984hAr7pNd3YC2Kr8fZfIO9_aBGEgr5HyZYNK1lPHNTtvRzfGONL0ko8Nk8eEq11cYTm1CJ3IxrnlQXonu2CQGiJO7ZdhLW1vscfMuur1C4S6SpUPH6hQuWV0zE-jrpcOHb3lulKPZjAkj5QofUD0KkT5-IT5iBg7qJem5AlZTE1TfR5QUGhsabt8-9j7Kb40tl6TsObzk6X3OsQ72Pph_J8sXkz75AF2HnIeHrRb655QT3A--lMF5CmxKaGxsrTk2ELLDPBZPLQFl7HiVZi6qi8j6rYlDRRbEfmrNbj_Bp-bd3lNG8RFhLgURIUS_wuQfUNyguMfQ52ru19c27alcwD4h04p0iUdVMc7Ykq66ngheBUS9uV-AWwdm2Fuk9u3J3s5D0pa_tQh1cj_YsEdT9K7l8ln6NsnB2nnEtBQ8kkYZMtVBHs5B-pp30-7AibFxhj4B8pozmb5uhE4BI2l6Y0y9W6gQIaomJYCyGQRday8jKt0nUD7wQf70HszrenSku9sQI2QwCCv4YZOfp8T8DGXynyNu491nZR2Kh3GuhizWdE0--5=s169-p-k-no", text:"Operating Systems", date:"February 7' 2017", cta:"https://goo.gl/photos/9D8csT4v9RsnrVzm7"};
 
-/** Resources Box List
-	cta: Call to action: Link to Document
-	url: Link to picture displayed
-	text: text to appear at mouse hover.
-**/
-resource[0]={cta:"https://docs.google.com/document/d/1s3RWKEemXNnCOPb_YyEMFIjC5C6R8R8K2gxMXRQyG7U/edit?usp=sharing",url:"images/Resources/OpnSrcGrps.jpg", text:"Links to Opensource Communities in Delhi/NCR."};
-resource[1]={cta:"https://docs.google.com/document/d/13h5MoQZv4KgnLjkeDiRHjaAZRF-VaUpy-ZN4EltIwiA/edit?usp=sharing",url:"images/Resources/StudyMaterial.jpg", text:"Links to helpful Study Material & Resources."};
-resource[2]={cta:"https://docs.google.com/document/d/1BVU3XOpvL8Gb1Px1VlI_NU018Hoj06aOfp69_NgERjo/edit?usp=sharing",url:"images/Resources/RecCompt.jpg", text:"Links to events recommended for participation."};
-resource[3]={cta:"https://docs.google.com/document/d/1Sajm4pMdaMSPxvLNbluY9Mbgx9934CxjwvnYPuKlylM/edit?usp=sharing",url:"images/Resources/OpnSrcCont.jpg", text:"Links to OpenSource projects for contribution."};
-resource[4]={cta:"https://docs.google.com/document/d/1R1wNNpz8XEaelWlJr1IH50JB-PU3hid-m5X3xAXAxr4/edit?usp=sharing",url:"images/Resources/OpnSrcSoft.jpg", text:"Links to OpenSource software you can use."};
+/** Open Source Communities List
+  
+ */
+openSource[0] = {url:"communities.htm#pydelhi", logo:"images/logos/pydelhi.png", title:"PyDelhi"};
+openSource[1] = {url:"communities.htm#ilugd", logo:"images/logos/ilugd.png", title:"Indian Linux Users Group Delhi"};
+openSource[2] = {url:"communities.htm#linuxchix", logo:"images/logos/linuxchix.png", title:"LinuxChix India"};
+openSource[3] = {url:"communities.htm#mozpacers", logo:"images/logos/mozpacers.png", title:"Mozilla Delhi"};
+openSource[4] = {url:"communities.htm#opensource", logo:"images/logos/opensource.png", title:"Open Source Community"};
+openSource[5] = {url:"communities.htm#pycon", logo:"images/logos/pycon.png", title:"PyCon India"};
+
+communitiesDetailed[0] = {title:"PyDelhi",tag:"pydelhi", desc:'<img src="images/logos/pydelhi.png" class="logo-med"><br>PyDelhi is a volunteer organization, a group of technically inclined students, professionals and teachers and entrepreneurs who want to learn something new having a common primary interest in the python programming language.'+
+'They Organize fortnight meetups, workshops and conference.<br><ul class="text-left"><li><strong>Website: </strong><a href="http://pydelhi.org">http://pydelhi.org</a></li>'+
+'<li><strong>Meetup Page: </strong><a href="https://www.meetup.com/pydelhi/">https://www.meetup.com/pydelhi/</a>'};
+communitiesDetailed[1] = {title:"Indian Linux Users Group Delhi",tag:"ilugd",desc:'<img src="images/logos/ilugd.png" class="logo-med"><br>ILUG-D (Indian Linux Users Group Delhi)<br><ul class="text-left"><li><strong>Website:</strong><a href="http://ilugd.github.io">http://ilugd.github.io</a></li>'+
+''};
+communitiesDetailed[2] = {title:"LinuxChix India",tag:"linuxchix",desc:'<img src="images/logos/linuxchix.png" class="logo-med"><br>LinuxChix is a community for women who like Linux and for anyone who wants to support women in computing. We aim to promote FOSS primarily Linux and related projects among women and other minorities in tech. We are a group of enthusiastic people ranging from students to professional experts willing to teach and foster the growth of Linux.'+
+'<br>LinuxChix India is a regional chapter in India of LinuxChix, a global community for women who like Linux and for anyone who wants to support women in computing. We are an international group of Free Software users and developers, founded in 1999 with the aim of supporting women in Linux. It is not only for women.'+
+'<br><ul class="text-left"><li><strong>Telegram:</strong> <a href="https://goo.gl/0hTwWn">https://goo.gl/0hTwWn</a></li>'+
+'<li><strong>Website:</strong> <a href="http://linuxchixindia.github.io">http://linuxchixindia.github.io</a></li></ul>'};
+communitiesDetailed[3] = {title:"Mozilla Delhi",tag:"mozpacers",desc:'<img src="images/logos/mozpacers.png" class="logo-med"><br>Mozpacers are the active Mozillians of the Delhi Mozilla Community. Two ReMos (Mozilla Representatives) Anup Kumar Mishra and Ajay Kumar, along with Bhuvnesh Dogra took up initiatives in early 2014, to ameliorate the existing Delhi Mozilla Community. Ever since then, the Community has been deluged with contributors from diverse disciplines.'+
+'We strongly believe in building up an Open and Dynamic Community, that will contribute actively to achieve Mozilla’s Mission i.e. Making a better Web'+
+'<ul class="text-left"><li><strong>Website:</strong> <a href="http://mozpacers.org/">http://mozpacers.org/</a></ul>'};
+communitiesDetailed[4] = {title:"Open Source Community",tag:"opensource",desc:'<img src="images/logos/opensource.png" class="logo-med"><br><ul class="text-left"><li><strong>Telegram Link:</strong> <a href="https://goo.gl/rjkbmI">https://goo.gl/rjkbmI</a></li>'+
+'<li><strong>Google Group Link: </strong> <a href="https://goo.gl/tmH3Mg">https://goo.gl/tmH3Mg</a></li>'+
+'<li><strong>Google Form Link: </strong> <a href="https://goo.gl/forms/teSEQh4j4697Saoz2">https://goo.gl/forms/teSEQh4j4697Saoz2</a></li>'+
+'<li><strong>Facebook group link: </strong> <a href="https://goo.gl/tMKxC8">https://goo.gl/tMKxC8</a>'+
+'<li><strong>Contact Number: </strong> +91-9654161510 (Telegram Handel - @uditwapt)</li>'+
+'<li><strong>Email ID:</strong> <a href="mailto:udit.gupta@owasp.org">udit.gupta@owasp.org</a>, <a href="mailto:uditwapt@gmail.com">uditwapt@gmail.com</a></li></ul>'};
+communitiesDetailed[5] = {title:"PyCon India",tag:"pycon",desc:'<img src="images/logos/pycon.png" class="logo-med"><br>PyCon India, the premier conference in India on using and developing the Python programming language is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.'+
+'<ul class="text-left"><li><strong>Website: </strong><a href="http://in.pycon.org">http://in.pycon.org/</a></li></ul>'};
+communitiesDetailed[6] = {title:"Other Dev Communities", tag:"others",desc:'Join other dev groups on Telegram:'+
+'<ul class="text-left"><li><strong>JavaScript:</strong> <a href="https://goo.gl/f7sSn9">https://goo.gl/f7sSn9</a></li>'+
+'<li><strong>Python:</strong> <a href="https://goo.gl/Q6NE71">https://goo.gl/Q6NE71</a></li>'+
+'<li><strong>Java:</strong> <a href="https://goo.gl/H8XBhL">https://goo.gl/H8XBhL</a></li>'+
+'<li><strong>PHP:</strong> <a href="https://goo.gl/Q1ipFx">https://goo.gl/Q1ipFx</a></li>'+
+'<li><strong>C/C++:</strong> <a href="https://goo.gl/8nQb3w">https://goo.gl/8nQb3w</a></li>'+
+'<li><strong>Android:</strong> <a href="https://goo.gl/ADW5Tv">https://goo.gl/ADW5Tv</a></li>'+
+'<li><strong>iOS/Swift:</strong> <a href="https://goo.gl/7q4X4g">https://goo.gl/7q4X4g</a></li>'+
+'<li><strong>UI/UX & Web Designers:</strong> <a href="https://goo.gl/a6Lcy2">https://goo.gl/a6Lcy2</a></li>'+
+'</ul>'};
+
+/*	Participate & Learn
+*/
+
+eventsP[0] = {url:"https://summerofcode.withgoogle.com/", logo:"images/logos/gsoc.png", title:"Google Summer of Code"};
+eventsP[1] = {url:"https://ilugd.github.io/", logo:"images/logos/outreachy.png", title:"Outreachy"};
+eventsP[2] = {url:"https://in.pycon.org", logo:"images/logos/pycon.png", title:"PyCon India"};
+
 /** Team List 
 	team[0] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
 	name: Full Name
-	designation: designation
+	designation: FIll your github username
 	ppicUrl: Realtive url to images/team/name.jpg
 **/
-team[0] = {name:"Shivam Rajput", designation: "", ppicUrl: "images/team/shivam.jpg"};
-team[1] = {name:"Ashish Dahiya", designation: "", ppicUrl: "images/team/ashish.jpg"};
-team[2] = {name:"Tanya Jain", designation: "", ppicUrl: "images/team/tanya.jpg"};
-team[4] = {name:"Ayush Agarwal", designation: "", ppicUrl: "images/team/ayush.jpg"};
-team[5] = {name:"Parth Sharma", designation: "", ppicUrl: "images/team/parth.jpg"};
-team[6] = {name:"Animesh Verma", designation: "", ppicUrl: "images/team/animesh.jpg"};
-team[7] = {name:"Omkar Yadav", designation: "", ppicUrl: "images/team/omkar.jpg"};
-team[8] = {name:"Vipul Gupta", designation: "", ppicUrl: "images/team/vipulg.jpg"};
-
+team[0] = {name:"Shivam Rajput", designation: "#", ppicUrl: "images/team/shivam.jpg"};
+team[1] = {name:"Ashish Dahiya", designation: "#", ppicUrl: "images/team/ashish.jpg"};
+team[2] = {name:"Tanya Jain", designation: "Tanya-Jain", ppicUrl: "images/team/tanya.jpg"};
+team[3] = {name:"Ayush Agarwal", designation: "thisisayush", ppicUrl: "images/team/ayush.jpg"};
+team[4] = {name:"Parth Sharma", designation: "parthsharma2", ppicUrl: "images/team/parth.jpg"};
+team[5] = {name:"Animesh Verma", designation: "AnimeshVerma17", ppicUrl: "images/team/animesh.jpg"};
+team[6] = {name:"Omkar Yadav", designation: "omkar108", ppicUrl: "images/team/omkar.jpg"};
+team[7] = {name:"Vipul Gupta", designation: "vipulgupta2048", ppicUrl: "images/team/vipulg.jpg"};
 /** End Team List **/
 
 /** Footer Contact Links 
@@ -121,15 +142,13 @@ team[8] = {name:"Vipul Gupta", designation: "", ppicUrl: "images/team/vipulg.jpg
  * url: url to redirect on click
  * hoverColor: any color from hover-* classes (don't add "hover-")
 */
-footerContactLinks[0] = {icon:"github",url:"https://github.com/asetalias",hoverColor:"grey"};
-footerContactLinks[1] = {icon:"youtube", url:"https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g", hoverColor:"red"};
-footerContactLinks[2] = {icon:"facebook", url:"https://www.facebook.com/asetalias/", hoverColor:"blue"};
-footerContactLinks[3] = {icon:"envelope",url:"mailto:asetalias1@gmail.com",hoverColor:"green"};
-footerContactLinks[4] = {icon:"google-plus-square",url:"https://groups.google.com/forum/#!forum/amity-linux-group",hoverColor:"yellow"};
+contactLinks[0] = {icon:"envelope", url:"mailto:contactasetalias@gmail.com", title: "Email", iconColor:"green"};
+contactLinks[1] = {icon:"github", url:"https://github.com/asetalias", title: "Github", iconColor:"grey"};
+contactLinks[2] = {icon:"youtube", url:"https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g", title:"YouTube", iconColor:"red"};
+contactLinks[3] = {icon:"facebook", url:"https://www.facebook.com/asetalias/", title:"Facebook", iconColor:"blue"};
+contactLinks[4] = {icon:"google-plus-square", url:"https://groups.google.com/forum/#!forum/amity-linux-group", title:"Mailing List", iconColor:"yellow"};
 /** Containers **/
-var coverLogoContainer = $(".coverLogo");
-var navbarLogoContainer = $("#navbarLogo");
-var siteMottoContainer = $(".motto");
+var logoContainer = $(".logo");
 var siteAboutContainer = $(".siteAboutContainer");
 var siteAboutHistoryContainer = $(".siteAboutHistory .description");
 var joinNowBtnLinkContainer = $(".joinNowBtnLink");
@@ -137,11 +156,10 @@ var siteServicesListContainer = $(".servicesList");
 var eventsListContainer = $("#eventsListContainer");
 var webinarsListContainer = $("#webinarsListContainer");
 var alumniDescriptionContainer = $(".alumniDescription p");
+var openSourceContainer = $("#openSourceListContainer");
+var eventsPListContainer = $("#eventsParticipateListContainer");	
 var teamListContainer = $(".teamList");
-var pastEventPicsContainer = $("#pastEventPicsContainer");
-var rankersListContainer = $("#RankersListContainer");
-var resourceListContainer = $("#resourceListContainer");
-var footerContactLinksContainer = $("#contactLinksContainer");
+var contactLinksContainer = $(".contactLinksContainer");
 /**Flashbox Containers */
 var flashBox = $(".flashbox");
 var flashBoxContentContainer = $(".flashBox-content");
