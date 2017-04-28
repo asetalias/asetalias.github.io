@@ -1,123 +1,15 @@
-.bg-amber{
-	background-color: #FFA000;
+.text-yellow{
+	color: #F1CF27;
 }
-.bg-amber:hover{
-	background-color: #FFB300;
+.text-green{
+	color: #019875; /** Green Haze **/
 }
-.bg-lime{
-	background-color: #AEEA00;
+.text-blue{
+	color: #4183D7; /** Royal Blue **/
 }
-.bg-lime:hover{
-	background-color: #C6FF00;
+.text-red{
+	color: #C0392B; /** Tall Poppy **/
 }
-.bg-green{
-	background-color: #2e7d32;
-}
-.bg-green:hover{
-	background-color: #388e3c;
-}
-.bg-green{
-	background-color: #2e7d32;
-}
-.bg-green:hover{
-	background-color: #388e3c;
-}
-.bg-light-blue{
-	background-color: #0277bd;
-}
-.bg-light-blue:hover{
-	background-color: #0288d1;
-}
-.bg-blue{
-	background-color: #1976d2;
-	color:#FFF;
-}
-.bg-blue:hover{
-	background-color: #1e88e5;
-}
-.bg-purple{
-	background-color: #7b1fa2;
-}
-.bg-purple:hover{
-	background-color: #6a1b9a;
-}
-.bg-purple{
-	background-color: #7b1fa2;
-}
-.bg-purple:hover{
-	background-color: #6a1b9a;
-}
-.bg-red{
-	background-color: #f44336;
-}
-.bg-red:hover{
-	background-color: #ef5350;
-}
-.bg-pink{
-	background-color: #ff4081;
-}
-.bg-pink:hover{
-	background-color: #ff80ab;
-}
-.bg-deep-orange{
-	background-color: #ff3d00;
-	color:#FFF;
-}
-.bg-deep-orange:hover{
-	background-color: #ff6e40;
-}
-/**More colors without Name**/
-.bg-dark-red:hover{
-	background-color: #ff1112;
-}
-.bg-dark-red:hover{
-	background-color: #FF3216;
-}
-.bg-light-orange{
-	background-color: #FF5500;
-}
-.bg-light-orange:hover{
-	background-color: #FF691E;
-}
-.bg-yellow{
-	background-color: #FFD500;
-}
-.bg-yellow:hover{
-	background-color: #FFDB27;
-}
-.bg-light-green{
-	background-color: #A5FF00;
-}
-.bg-light-green:hover{
-	background-color: #B2FF24;
-}
-.bg-light-blue{
-	background-color: #00FFFF;
-}
-.bg-light-blue:hover{
-	background-color: #5FFFFF;
-}
-.bg-purple2{
-	background-color: #6810FF;
-}
-.bg-purple2:hover{
-	background-color: #792BFF;
-}
-.bg-pink{
-	background-color: #FF006D;
-}
-.bg-pink:hover{
-	background-color: #FF1E7E;
-}
-.bg-pink2{
-	background-color: #FF005E;
-}
-.bg-pink2:hover{
-	background-color: #FF2B79;
-}
-.bg-red2{
-	background-color: #FF002F;
-}
-.bg-red2:hover{
-	background-color: #FF264E;
+.text-grey{
+	color: #BDC3C7; /** Silver Sand**/
 }

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,12 +25,23 @@
 	<!-- Font Awesome CSS -->
     <link href="css/font-awesome.min.css" rel="stylesheet" />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Anton|Oswald|Roboto+Condensed|Lobster|Aladin" rel="stylesheet">
+    
+    <!-- Slider CSS -->
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <!-- End Slider CSS -->
+    
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" />
+    <link href="css/layout.css" rel="stylesheet"/>
+    
+    <!-- Fonts -->
+    <link href="css/fonts.css" rel="stylesheet" />
+    
+    <!-- Colors -->
 	<link href="css/colors.css" rel="stylesheet" />
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -43,361 +53,234 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-	<div class="preloader">
-    	<div class="content">
-        	<div class="preloader-content"><img src="images/ALiAS.png" class="logo" style="width:150px;"><br>LOADING</div>
-        </div>
-    </div>
-	<div class="minScreenSizeOverlay">
-    	<div class="contentContainer">
-	    	<div class="content">
-    	    	<img src="images/ALiAS.png" class="logo"/><br>
-				Zoom out in browser or use a bigger display!
-	        </div>
-        </div>
-    </div>
-    <div class="flashbox">
-    	<div class="content">
-        	<a class="closeBtn"><i class="fa fa-minus-circle"></i></a>
-            <div class="flashBox-content">
-	        	&nbsp;
+<body id="page-top" data-spy="scroll">
+    <div id="contentWrap" class="auto-center">
+	    <!-- Loader Prepended by js/template/header.js -->
+	    <div class="minScreenSizeOverlay">
+        	<div class="contentContainer">
+	    	    <div class="content">
+        	    	<img src="images/ALiAS.png" class="logo-square"/><br>
+				    Zoom out in browser or use a bigger display!
+	            </div>
             </div>
         </div>
-    </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="navcontainer">
-            <div class="navbar-header page-scroll">
-
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <a class="page-scroll" href="#page-top">
-						<img src="./images/navlogo.png" class="logo logoDisplay" height="auto" style="margin: 5px 20px 5px 5px;"/>
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse navigation-links">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#intro" data-toggle="collapse" data-target=".navbar-ex1-collapse">About</a>
-                    </li>
-					<li>
-                        <a class="page-scroll" href="https://theletstream.com/techore/author/asetalias">Blog</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#events" data-toggle="collapse" data-target=".navbar-ex1-collapse">Events</a>
-                    </li>
-					<li>
-						<a class="page-scroll" href="#utilities" data-toggle="collapse" data-target=".navbar-ex1-collapse">Utilities</a>
-                    </li>
-                    <li>
-                    	<a class="page-scroll" href="#alumni" data-toggle="collapse" data-target=".navbar-ex1-collapse">Alumni</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team" data-toggle="collapse" data-target=".navbar-ex1-collapse">Our Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact" data-toggle="collapse" data-target=".navbar-ex1-collapse">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-  <section id="home" class="home-section">
-    	<div class="container">
-        	<div class="absolute-center cover-content">
-            	<img src="images/logo.png" class="coverLogo"/>
-                <p class="motto"></p>
-            	<br><br>
-                <p class="scrollMore">Scroll to know more</p>
-                <a href="#intro" class="page-scroll"><i class="fa fa-arrow-down scrollIcon"></i></a>
-            </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="siteAboutContainer animated"></p>
+        <div class="flashbox">
+        	<div class="content">
+        	    <a class="closeBtn"><i class="fa fa-minus-circle"></i></a>
+                <div class="flashBox-content">
+    	        	&nbsp;
                 </div>
             </div>
-            <div class="row  text-left siteAboutMore animated">
-            	<div class="siteAboutHistory">
-                    <!-- This div contains "How the club came to be?" -->
-                	<i class="fa fa-flag iconMed"></i> <span class="heading">The Journey</span>
-                     <p class="description">
-                         <!-- Content of this section is added through JavaScript 
-                            data variable: siteAboutHistory
-                         -->
-                     </p>
+        </div>
+
+        <header id="mainHeader" class="mainHeaderLayout1">
+            <!-- Data appended by js/template/header.js -->
+        </header>
+        
+        <section id="home" class="home-section ">
+        	<div class="container">
+        	    <div class="slidesContainer slider single-item slick-slider">
+                    <div class="slide" style="background-image: url('images/bg-1080p-2.jpg'); ">
+                        <!-- <div class="absolute-center" style="position: absolute;height:100%;width: 100%;"><img src="images/slides/slide1.jpg" style="height: 100%;width:auto;"></div> -->
+                        <div class="container" style="position: relative;height: 100%;width: 100%;">
+                            <div style="" class="text-center absolute-center slideContent">
+                                <div class="row slideHeader">
+                                    <div class="col-xs-12">
+                                        <img class="logo-lg" src="images/logo1.png"/>
+                                    </div>
+                                </div>
+                                <div class="row slideSubHeader">
+                                    <div class="col-xs-12"><h2><strong>A</strong>mity <strong>Li</strong>nux <strong>A</strong>ssitance <strong>S</strong>apience</h2></div>
+                                </div>
+                                <div class="row slideButton">
+                                    <div class="col-xs-12"><a href="#intro" class="page-scroll"><button>Join Now</button></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image:url('images/bg-1080p-2.jpg')">
+                        <div class="container" style="position: relative;height: 100%;width: 100%;">
+                            <div style="" class="text-center absolute-center slideContent">
+                                <div class="row slideHeader">
+                                    <div class="col-xs-12">
+                                        <i class="fa fa-flag fa-4x"></i><br/><h1>The Journey</h1>
+                                    </div>
+                                </div>
+                                <div class="row slideSubHeader">
+                                    <div class="col-xs-12 siteAboutHistory"><p class="description"></p></div>
+                                </div>
+                                <div class="row slideButton">
+                                    <div class="col-xs-12"><a href="#intro"><button>Read More</button></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        	    </div>
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section id="intro" class="intro-section ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 headerContainer">
+                        <p class="siteAboutContainer animated section-header"></p>
+                    </div>
                 </div>
-                <br>
-                <div class="siteAboutServices">
-                    <!-- This section contains "Why should I join the club" details and Join Club link button -->
-                	<i class="fa fa-university iconMed"></i> <span class="heading">Why should I join the club?</span>
-                    <div class="row">
-   		                 <div class="col-lg-8">
-            	        	<p class="description">
-                 		   		Join the club and which is just not about certificates or designation(s): <br/>
-                       			<ul class="list-group list-unstyled servicesList">
-                                       <!-- This List contains all that club offers 
-                                            Format: <li class="fa"><span>Service description</span></li>
-                                            fa class added in li is used to add Ticks using pseudo elements
+                <div class="row  text-left siteAboutMore animated">
+            	    <div class="siteAboutHistory col-sm-6">
+                        <!-- This div contains "How the club came to be?" -->
+                	    <div class="section-header subheader">
+                            <span><i class="fa fa-flag iconMed"></i> <span class="heading">The Journey</span></span>
+                	    </div>
+                        <p class="description">
+                            <!-- Content of this section is added through JavaScript 
+                                data variable: siteAboutHistory
+                            -->
+                        </p>
+                    </div>
+                    <div class="siteAboutServices col-sm-6">
+                        <!-- This section contains "Why should I join the club" details and Join Club link button -->
+                        <div class="section-header subheader">
+                    	    <span><i class="fa fa-university iconMed"></i> <span class="heading">Why should I join the club?</span></span>
+                        </div>
+            	        <p class="description">
+                 		   	Join the club and which is just not about certificates or designation(s): <br/>
+                            <ul class="list-group list-unstyled servicesList">
+                                        <!-- This List contains all that club offers 
+                                                Format: <li class="fa"><span>Service description</span></li>
+                                                fa class added in li is used to add Ticks using pseudo elements
                                        -->
-                                </ul>
-                    		</p>
-                 	  	</div>
-               		    <div class="col-lg-4">
-                    		<a class="joinNowBtnLink" href="#">
-                                <!-- This anchor contains link to Registration form of the club 
-                                    link is added using JavaScript
-                                    data variable: joinNowBtnLink
-                                -->
-                                <button id="joinNowBtn" class="theme-bg-primary">Join Now</button>
-                            </a>
-                    	</div>
-                    </div>
-                </div>    <!-- Site Services End -->
-            </div>    <!-- Site About More Ends -->
-        </div>    <!--Container Ends -->
-    </section>
-    <!-- Events Section -->
-    <section id="events" class="events-section theme-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1 class="section-header theme-bg-primary" id="upcomingEventsHeader">Upcoming Events</h1>
-                </div>
-				<div class="row eventsList text-center" id="eventsListContainer">
-                    <!-- This section contains all the upcoming events 
-                        <div class="col-lg-3 eventBox col-centered text-center">
-                            <div class="row eventTitle">
-                                <div class="col-lg-12 text-center">
-                                    <h2>events[x].title</h2>
-                                </div>
-                            </div>
-		                    <div class="row eventInfo">
-                                <div class="col-xs-7 eventDesc">
-                                    <div class="row eventDescInfo">
-                                        <div class="col-lg-12">
-                                            <p style="height: 250px" class="eventDescInfoContainer">
-                                                events[x].description
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-	                            <div class="col-xs-5 eventTiming text-left">
-                                    <div class="date">
-                                        <i class="fa fa-calendar"></i> <span><strong>events[x].date</strong></span>
-                                    </div>
-                                    <div class="startTimimg">
-                                        <i class="fa fa-clock-o"></i> <span><strong>events[x].startTime</strong></span>
-                                    </div>
-                                    <div class="endTimimg">
-                                        <i class="fa fa-clock-o"></i> <span><strong>events[x].endTime</strong></span>
-                                    </div>
-                                    <div class="eventLocation">
-                                        <i class="fa fa-map-marker"></i> <span><strong> events[x].location </strong></span>
-                                    </div>
-                                    <div class="eventOD">
-                                        <strong>OD</strong> <span class="text-success | text-danger">Yes | No </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row eventCTA">
-                                <div class="col-lg-12 text-center">
-                                    <a href="events[x].cta" target="_blank">
-                                        <button>events[x].ctaText</button>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row eventCTA">
-                                <div class="col-lg-12 text-center">
-                                    <a href="events[x].cta2" target="_blank">
-                                        <button>events[x].cta2Text
-                                </div>
-                            </div>
-                        </div>
-                    --> 
-				</div>
-           </div>
-        </div>
-			<div class="col-lg-12 text-right">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link"><button class="event-buttons theme-bg-primary" id="eventHostBtn">Want to host an event?</button></a>
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSf9l-82I3DhhDkpSjJol86lt4QQQyB49z97ovoR9HT64uEK0A/viewform?usp=sf_link"><button class="event-buttons theme-bg-secondary" id="eventSuggestBtn">Suggestion for future event?</button></a>
-			</div>
-        <!-- Previous Webinars Section -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1 class="section-header theme-bg-primary" id="previousWebinarsHeader">Previous Webinars</h1>
-				</div>
-             <div class="row eventsList text-center" id="webinarsListContainer">
-             <!-- Template : New 
-             	<div class="col-lg-3 youtubeBox col-centered text-center">
-                	<div class="row youtubeVideoContainer">
-                    	<div class="col-lg-12">
-                        	<iframe src="https://www.youtube.com/embed/V53n4wekU3c" class="youtubeVideo box-shadow"></iframe>
-                        </div>
-                    </div>
-                    <div class="row youtubeInfoContainer">
-                    	<div class="row youtubeVideoTitleContainer">
-                        	<div class="col-lg-12">
-	                        	<h2 class="youtubeVideoTitle"><a href="" target="_blank">Video Title</a></h2>
-                            </div>
-                        </div>
-                        <div class="row youtubeVideoDescContainer">
-                        	<div class="col-lg-12">
-	                        	<p class="youtubeVideoDesc">dkjfdf jdfj dofj do fodf d</p>
-                            </div>
-                        </div>
+                            </ul>
+            		    </p>
                     </div>
                 </div>
-                -->
-	         </div>
-			</div>
-		</div>
-    </section>
- <!-- Utilities Section -->
-   <section id="utilities" class="utilities-section">
-		<!-- This section is complete but not seen fit to release in this Pull Request; If the request is denied; All the related files will be remove in the coming pull requests, until Do not change the assciated files to avoid making any bugs.
-
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-                	<h1 class="section-header" id="utilities-color-fix">Hacker Rank Champions</h1>
-				</div>
-				<div class="row text-center" id="RankersListContainer">
-				</div>
-			</div>
-        </div>
-		<div class="row">
-			<div class="col-lg-12 text-right">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbrHv12-rYk3BxADOjpbmwbfmbHSyJRGsbvlfH8a4_A8tohQ/viewform?usp=sf_link"><button id="rankerBtn">Submit a higher rank!</button></a>
-			</div>
-		</div>
-
-		Section under consideration please read the note above-->
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-				<h1 class="section-header theme-bg-primary" id="resourcesHeader">Resources</h1>
-				</div>
-				<div class="row text-center" id="resourceListContainer">
-				</div>
-			</div>
-            <div class="row">
-				<div class="col-lg-12 text-center">
-						<h1 class="section-header theme-bg-primary" id="previousEventPhotosHeader">Previous Event Photos</h1>
-				</div>
-				<div class="row text-center" id="pastEventPicsContainer">
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 text-right">
-				<div id="MediaPartner">
-					Photography Partner:<a href="https://www.facebook.com/exposureamity/"><img src="./images/Exposure.png" height="100px"/></a>
-				</div>
-			</div>
-		</div>
-   </section>
-    <!-- Alumni Section -->
-    <section id="alumni" class="alumni-section">
-    	<div class="container">
-        	<div class="row">
-            	<div class="col-lg-12 text-center">
-                	<h1 class="section-header theme-bg-primary" id="alumniHeader">The Alumni</h1>
+                <div class="row">
+                   	<div class="col-lg-12">
+                        <a class="joinNowBtnLink" href="#">
+                                    <!-- This anchor contains link to Registration form of the club 
+                                        link is added using JavaScript
+                                        data variable: joinNowBtnLink
+                                    -->
+                            <button id="joinNowBtn" class="theme-bg-primary">Join Now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>    <!--Container Ends -->
+        </section>
+        <!-- Events Section -->
+        <section id="events" class="events-section theme-bg ">
+            <div class="container">
+                <div class="row row-centered">
+                    <div class="col-lg-12 headerContainer col-centered">
+                        <h1 class="section-header text-center" id="upcomingEventsHeader">Upcoming Events</h1>
+                    </div>
+                </div>
+			    <div class="row eventsList text-center row-centered" id="eventsListContainer">
+                        <!-- This se ction contains all the upcoming events -->        
+			    </div>
+            </div>
+			    <div class="row text-right">
+    				<a href="https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link"><button class="event-buttons theme-bg-primary" id="eventHostBtn">Want to host an event?</button></a>
+				    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9l-82I3DhhDkpSjJol86lt4QQQyB49z97ovoR9HT64uEK0A/viewform?usp=sf_link"><button class="event-buttons theme-bg-secondary" id="eventSuggestBtn">Suggestion for future event?</button></a>
+			    </div>
+        </section>
+        <section id="webinars" class="webinars-section">
+            <!-- Previous Webinars Section -->
+            <div class="container">
+                <div class="row row-centered">
+                    <div class="col-lg-12 text-center col-centered headerContainer">
+                        <h1 class="section-header theme-bg-primary" id="previousWebinarsHeader">Previous Webinars</h1>
+				    </div>
+                </div>
+                <div class="row eventsList text-center slick-dark" id="webinarsListContainer">
+                    <!-- Contains All Previous Webinars -->
+	            </div>     
+		    </div>  
+        </section>
+        <!-- Open Source Section -->
+        <section id="openSource" class="open-source-section">
+            <div class="container">
+                <div class="row row-centered">
+                    <div class="col-lg-12 headerContainer col-centered">
+                        <h1 class="section-header" id="openSourceHeader">Join the Open Source Communities</h1>
+                        <div><em>Click on logo to know more</em></div>
+                    </div>
+                </div>
+                <div class="row openSourceList text-center row-centered" id="openSourceListContainer">
+                    <!-- Content generated by Script -->
+                </div>  
+        </div> 
+        </section>
+        <!-- Alumni Section -->
+        <section id="alumni" class="alumni-section ">
+            <div class="container">
+                <div class="fa row alumniDescription row-centered">	<!-- Change class from alumniDescription to alumniList for old layout -->
+        	        <p></p>
+               </div>
+            </div>
+        </section>
+        <section id="eventsParticipate" class="events-participate-section">
+            <div class="container">
+                <div class="row row-centered">
+                    <div class="col-lg-12 headerContainer col-centered">
+                        <h1 class="section-header" id="openSourceHeader">Participate & Learn</h1>
+                    </div>
+                </div>
+                <div class="row eventsParticipateList text-center row-centered" id="eventsParticipateListContainer">
+                    <!-- Content generated by Script -->
                 </div>
             </div>
-            <div class="fa row alumniDescription row-centered">	<!-- Change class from alumniDescription to alumniList for old layout -->
-            	<p></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section id="team" class="team-section theme-bg">
-    	<div class="container">
-        	<div class="row">
-            	<div class="col-lg-12 text-center">
-                	<h1 class="section-header theme-bg-primary" id="teamHeader">Our Team</h1>
+         </section>
+        <!-- Team Section -->
+        <section id="team" class="team-section theme-bg ">
+        	<div class="container">
+        	    <div class="row row-centered">
+                	<div class="col-lg-12 headerContainer col-centered">
+                	    <h1 class="section-header" id="teamHeader">Our Team</h1>
+                    </div>
+                </div>
+                <div class="row teamList row-centered slick-dark">
+                    <!-- Content generated by Script -->
                 </div>
             </div>
-            <div class="row teamList row-centered">
+        </section>
 
-            </div>
-        </div>
-    </section>
+        <!-- Footer Section -->
+        <section id="footer">
+            <!-- Content generated by Script -->
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="section-header theme-bg-primary" id="contactHeader">Contact Us</h1>
-                 <div class="row text-center row-centered" id="contactLinksContainer">
-                     <!--
-                        <div class="col-sm-2 text-center col-centered">
-			                <a href = "" target="_blank">
-				                <i class="fa icon-grey fa- hover-"></i>
-			                </a>
-		                </div>
-
-                        data Variables: footerContactLinks
-                     -->
-                 </div>
-            </div>
-        </div>
-		<div>
-			&nbsp;
-		</div>
-    </section>
-
+    </div> <!-- Content Wrap Ends -->
+    
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Scrolling Nav JavaScript -->
+    <!-- Slick Slider -->
+    <script src="js/slick.min.js"></script>
+
+    <!-- Templates -->
+    <script src="js/template/header.js"></script>
+    <script src="js/template/loader.js"></script>
+    <script src="js/template/footer.js"></script>
+    
+    <!-- Other JS -->
     <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
     <script src="js/scrollreveal.js"></script>
-    <!-- Parallax effect JavaScript -->
-    <script src="js/parallax.js"></script>
+ 
     <!-- Google Analytics -->
     <script src="js/ganalytics.js"></script>
+    
     <!-- Functionality Scripts -->
     <script src="js/data.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/main.js"></script>
-    <script>
-		$(function() {
-			$(".section-header").addClass("animated");
-            window.sr = ScrollReveal({origin:'bottom'});
-			sr.reveal(".animated",{duration:1000});
-			sr.reveal(".eventBox",{duration:2000},500);
-
-        });
-	</script>
+    
+    <!-- Page Script -->
+    <script src="js/home-page.js"></script>
     
 </body>
 </html>
