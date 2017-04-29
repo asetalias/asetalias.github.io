@@ -75,7 +75,17 @@
     font-family: 'Cinzel', serif;
     color:rgba(255,255,255,0.9);
 }
-
+#fbGalleryContainer .albumHeader span.albumSubHeader{
+    font-size:14px;
+    font-style: italic;
+    margin-top:0px;
+    display: block;
+}
+#fbGalleryContainer .albumHeader a{
+    font:inherit;
+    color:inherit;
+    text-decoration: none;
+}
 #fbGalleryContainer .row{
     position: relative;
     z-index: 2;
@@ -89,48 +99,55 @@
     margin:10px auto;
     padding:10px;
 }
+#fbGalleryContainer .photosContainer .grid-sizer{
+    width:calc(100%/5);
+}
 #fbGalleryContainer .photosContainer .imageBox{
     box-sizing:border-box;
-    display: inline-block;
     text-align: center;
-    width: calc(90%/4);
-    margin: 5px;
-    height: 250px;
+    width: calc(95%/5);
+    height: auto;
+    margin-bottom:6px;
+    border-radius:3px;
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
-    background-image: url('loader.gif');
-    background-size: cover;
-    background-position: center;
 }
 @media all and (max-width:768px){
+    #fbGalleryContainer .photosContainer .grid-sizer{
+        width: calc(100%/3);
+    }
     #fbGalleryContainer .photosContainer .imageBox{
-        width: calc(90%/3);
-        height: 180px;
+        width: calc(93%/3);
     }
     #fbGalleryContainer .albumHeader{
         font-size: 25px;
     }
+    #fbGalleryContainer .albumHeader span.albumSubHeader{
+        font-size: 8px;
+    }
 }
 @media all and (max-width:400px){
+    #fbGalleryContainer .photosContainer .grid-sizer{
+        width: calc(100%/2);
+    }
     #fbGalleryContainer .photosContainer .imageBox{
-        width: calc(90%/2);
-        height: 150px;
+        width: calc(92%/2);
     }
     #fbGalleryContainer .albumHeader{
         font-size: 20px;
     }
 }
-#fbGalleryContainer .photosContainer .imageBox a>div{
+#fbGalleryContainer .photosContainer .imageBox a>img{
     vertical-align: middle;
     width: 100%;
-    height: 100%;
-    background-size: cover; 
+    height: auto;
+    display: none;
     transition: all 0.5s;
     background-repeat: no-repeat;
-
 }
-#fbGalleryContainer .photosContainer .imageBox:hover a>div,
-#fbGalleryContainer .photosContainer .imageBox:active a>div,
-#fbGalleryContainer .photosContainer .imageBox:focus a>div{
+
+#fbGalleryContainer .photosContainer .imageBox:hover a>img,
+#fbGalleryContainer .photosContainer .imageBox:active a>img,
+#fbGalleryContainer .photosContainer .imageBox:focus a>img{
     transform: scale(1.02);
     box-shadow: 0px 0px 10px 1px #000;
 }
@@ -139,6 +156,7 @@
     width: 100%;
     height: 100%;
     top:0;left: 0;
+    text-align: center;
     z-index:9999;
     background: rgba(0,0,0,0.5);
 }
@@ -174,11 +192,36 @@
 #lightbox .content .topbar i.fa:focus{
     color:rgba(0,0,0,0.9);
 }
-#lightbox .content a,
-#lightbox .content img{
-    max-width: 100%;
-    max-height: 100%;
+#lightbox .content .imageContainer{
+    width: 100%;
+    height: 100%;
+}
+#lightbox .content .imageContainer img{
+    position: absolute;
+    max-width: 98%;
+    max-height: 98%;
+    margin:auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
     box-sizing: border-box;
     box-shadow: 0 0 12px 3px #FFF;
-    cursor: alias;
+}
+#lightbox .content .link{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    background: #000;
+    padding: 5px;
+    font-family: 'Cinzel', serif;
+}
+#lightbox .content a{
+    text-decoration: none;
+}
+#lightbox .content .link:hover,
+#lightbox .content .link:focus,
+#lightbox .content .link:active{
+    background: rgba(0,0,0,0.8);
 }
