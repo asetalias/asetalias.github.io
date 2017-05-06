@@ -238,11 +238,11 @@ img.logo-lg{
 	text-decoration: underline;
     	background: transparent;
 }
-#mainHeader .navbar-default .navbar-nav>li>a.hover{
+/**#mainHeader .navbar-default .navbar-nav>li>a.hover{
 	color: none;
 	text-decoration: underline;
     	background: transparent;
-}
+}**/
 
 @media all and (min-width:300px){
 	#mainHeader .navbar-nav{
@@ -347,7 +347,7 @@ img.logo-lg{
 }
 @media all and (max-width:768px){
 	#mainHeader.mainHeaderLayout1 .navbar-collapse{
-		background: rgba(255,255,255,0.9);
+		background-color: #000;
 	}
 }
 /** Section Default Styles **/
