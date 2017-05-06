@@ -142,13 +142,17 @@
     max-width: 100%;
 }
 button{
-	border:none;
+	border-style: double;
+    border-width: medium;
+    border-color: rgba(47,167,173,0.9);
 	box-shadow:1px 1px 2px #000;
 	padding:10px;
     background: #22313F;
     color: #FFF;
     margin: 0px 5px;
 }
+
+
 img.logo-med{
     width:auto;
     height: auto;
@@ -182,7 +186,7 @@ img.logo-lg{
     text-align: left;
     font-size: 16px;
 	padding:0px 10px;
-    box-shadow: 0px 0px 5px #000;
+    box-shadow: 0px 0px 0px;
 	width: inherit;
 	z-index: 9998;
 }
@@ -195,12 +199,14 @@ img.logo-lg{
 	top:4px;right: 0;
 	border: none;
 	box-shadow: 0 0 0;
-	background: rgba(0,0,0,0.1);
-	color: rgba(0,0,0,0.7);
+	
+	
 	font-size: 20px;
 	padding:4px 9px;
 }
 #mainHeader .navbar{
+    list-style-type:  none;
+    margin: 0;
     width: 100%;
     min-height: 30px;
     overflow: hidden;
@@ -208,26 +214,36 @@ img.logo-lg{
     box-shadow: none;
     padding: 0;
     border: none;
-    background: transparent;
+    background-color: #333333;
 }
 #mainHeader .navbar li{
     padding:5px;
-    float: none;
+    float: left;
     list-style-type: none;
-    display: block;
+    
     width:auto;
     text-align: center;
     margin:0;
 	background: transparent;
 }
 #mainHeader .navbar li a{
-    padding: 0;
-	background: transparent;
+
+    color: rgba(255,255,255,0.9);
+    text-align: center;
+  	background: transparent;
+	text-decoration: none;
 }
 #mainHeader .navbar-default .navbar-nav>li>a.active{
-	color:#000;
+	color: none;
 	text-decoration: underline;
+    	background: transparent;
 }
+/**#mainHeader .navbar-default .navbar-nav>li>a.hover{
+	color: none;
+	text-decoration: underline;
+    	background: transparent;
+}**/
+
 @media all and (min-width:300px){
 	#mainHeader .navbar-nav{
 		padding: inherit;
@@ -286,7 +302,7 @@ img.logo-lg{
     top:0;
     z-index:4;
     width:inherit;
-   
+   0
 }
 **/
 #mainHeader #mainNav>div>.row{
@@ -331,7 +347,7 @@ img.logo-lg{
 }
 @media all and (max-width:768px){
 	#mainHeader.mainHeaderLayout1 .navbar-collapse{
-		background: rgba(255,255,255,0.9);
+		background-color: #333333;
 	}
 }
 /** Section Default Styles **/
@@ -462,7 +478,11 @@ section .section-header{
     font-size: 20px;
 	font-weight: 400;
 }
-#intro #joinNowBtn:hover,
+#intro #joinNowBtn:hover
+{
+  transition: all 2s ease;
+  border-radius: 50%;
+}
 #intro #joinNowBtn:active,
 #intro #joinNowBtn:focus{
     background: rgba(47,167,173,0.2);
