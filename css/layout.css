@@ -347,7 +347,7 @@ img.logo-lg{
 }
 @media all and (max-width:768px){
 	#mainHeader.mainHeaderLayout1 .navbar-collapse{
-		background-color:#333333;
+		background-color: #333333;
 	}
 }
 /** Section Default Styles **/
