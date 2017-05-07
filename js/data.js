@@ -59,7 +59,7 @@ services[6] = "Already know something? Teach it to others! That's how we work!";
 /** Do not remove event[0], just comment it and add another event[0]. 
  * This one will be used when no event is available
  */
-events[0] = {title:"No Upcoming Event",cta:"https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link",ctaText:"Host an Event!",date:"N/A",startTime:"N/A", endTime:"N/A",location:"Amity University",eventOD:1, description:'<strong>Want to give a talk or coduct a workshop?</strong> <br> Just click on the link below and fill up the form :) to conduct a workshop or a webinar under ALiAS and spread the knowledge! <br><strong><em>Let Knowledge be open source!</em></strong>', cta2enable:0};
+events[0] = {title:"No Upcoming Event",cta:"https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link",ctaText:"Host an Event!",date:"N/A",startTime:"N/A", endTime:"N/A",location:"Amity University",eventOD:1, description:'<strong>Want to give a talk or coduct a workshop?</strong> <br> Just click on the link below and fill up the form :) to conduct a workshop or a webinar with ALiAS and spread the knowledge! <br><strong><em>Let Knowledge be open source!</em></strong>', cta2enable:0};
 /** End Events List **/
 /** Webinars List  
 	title: Title of webinar
