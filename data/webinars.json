@@ -1,0 +1,27 @@
+[
+{
+    "title": "Introduction to Linux",
+    "videoId": "CTO-8BnzS_s",
+    "description": "This webinar would be about basics of Linux and its terminologies. We'll be covering basics of command lines/principles/every 'Must Know' things about Linux.<br/><strong>Speakers:</strong> <br/><strong>Anuvrat Parashar:<strong> <a href = \"http://anuvrat.in/\">http://anuvrat.in/</a>"
+},
+{
+    "title": "Introduction to Command Line Interface",
+    "videoId":"gmi_YM_N2L4",
+    "description": "This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">about.me/rohit</a> "
+},
+{
+    "title": "Open Source Softwares",
+    "videoId": "JcYABQrAkaU",
+    "description": "Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">sanyamkhurana.com</a>"
+},
+{
+    "title":"Wordpress 101",
+    "videoId": "fjxUa7HX0NY",
+    "description":"Wordpress is an online, open source website creation tool written in PHP. But in non-geek speak.It's probably the easiest and most powerful blogging and website content management system (or CMS) in existience today.Here's your chance to learn from the expert.<br><strong>Speakers:<br>Samriddha Prajapati:<br><a href=\"http://samriddha.hol.es/web/\" target=\"_blank\">http://samriddha.hol.es/web/</a>"
+},
+{
+    "title":"GitHub 101",
+    "videoId": "i6vKEo12KfE",
+    "description":"New to GitHub? Learn about the basic working of GitHub and what it is from this webinar.You can look more over here w.r.t to downloads and what all you need to perform GIT config on your machine : https://desktop.github.com/<br><strong>Speakers:<br>Aniket Maithani<br><a href=\"http://www.aniketmaithani.net/\" target=\"_blank\">http://www.aniketmaithani.net/</a>"
+}
+]

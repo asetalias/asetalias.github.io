@@ -1,0 +1,112 @@
+[
+    {
+        "alumni_description":"Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain",
+        "site_about":"<strong class=\"text-yellow\">A</strong>mity <strong class=\"text-yellow\">Li</strong>nux <strong class=\"text-yellow\">A</strong>ssitance <strong class=\"text-yellow\">S</strong>apience",
+        "site_history":"<p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.</p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer",
+        "services":[
+            "Stand out of crowd and learn unique skills from people already working in the industry!",
+            "Find like minded Delhi/NCR Tech Communities.",
+            "Find mentors for GSoC",
+            "Learn Linux, Android, Networking, etc. There is no limit on how much and what you can learn!",
+            "Chance to find Interships under our Alumni.",
+            "ALiAS welcomes each and every student of amity irrespective of their department.",
+            "Already know something? Teach it to others! That's how we work!"
+        ],
+        "open_source":[
+            {
+                "url":"communities.htm#pydelhi",
+                "logo":"images/logos/pydelhi.png",
+                "title":"PyDelhi"
+            },
+            {
+                "url":"communities.htm#ilugd",
+                "logo":"images/logos/ilugd.png",
+                "title":"Indian Linux Users Group Delhi"
+            },
+            {
+                "url":"communities.htm#linuxchix",
+                "logo":"images/logos/linuxchix.png",
+                "title":"LinuxChix India"
+            },
+            {
+                "url":"communities.htm#mozpacers",
+                "logo":"images/logos/mozpacers.png",
+                "title":"Mozilla Delhi"
+            },
+            {
+                "url":"communities.htm#opensource",
+                "logo":"images/logos/opensource.png",
+                "title":"Open Source Community"
+            },
+            {
+                "url":"communities.htm#pycon",
+                "logo":"images/logos/pycon.png",
+                "title":"PyCon India"
+            }
+        ],
+        "eventsP":[
+            {
+                "url":"https://summerofcode.withgoogle.com/",
+                "logo":"images/logos/gsoc.png",
+                "title":"Google Summer of Code"
+            },
+            {
+                "url":"https://ilugd.github.io/",
+                "logo":"images/logos/outreachy.png",
+                "title":"Outreachy"
+            },
+            {
+                "url":"https://in.pycon.org",
+                "logo":"images/logos/pycon.png",
+                "title":"PyCon India"
+            }
+        ],
+        "team":[
+            {
+                "name":"Dr. Shilpi Sharma",
+                "designation": "Faculty Coordinator",
+                "ppicUrl": "images/team/shilpi.jpg"
+            },
+            {
+                "name":"Shivam Rajput",
+                "designation": "",
+                "ppicUrl": "images/team/shivam.jpg"
+            },
+            {
+                "name":"Ashish Dahiya",
+                "designation": "",
+                "ppicUrl": "images/team/ashish.jpg"
+            },
+            {
+                "name":"Tanya Jain",
+                "github": "Tanya-Jain", 
+                "ppicUrl": "images/team/tanya.jpg"
+            },
+            {
+                "name":"Ayush Agarwal",
+                "github": "thisisayush",
+                "ppicUrl": "images/team/ayush.jpg"
+            },
+            {
+                "name":"Parth Sharma",
+                "github": "parthsharma2",
+                "ppicUrl": "images/team/parth.jpg"
+            },
+            {
+                "name":"Omkar Yadav",
+                "github": "omkar108",
+                "ppicUrl": "images/team/omkar.jpg"
+            },
+            {
+                "name":"Vipul Gupta",
+                "github": "vipulgupta2048",
+                "ppicUrl": "images/team/vipulg.jpg"
+            },
+            {
+                "name":"Ajay Tripathi",
+                "github":"ATB00ker",
+                "ppicUrl":"images/team/ajay.jpg"
+            }
+        ]
+    }
+]
