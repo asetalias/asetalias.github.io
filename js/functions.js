@@ -6,26 +6,81 @@ function generateAllBoxes(){
 	generateTeamBoxes();
 }
 
+function loadData(type){
+	switch(type){
+		case "meta":
+			$.getJSON("data/site-meta.json",function(response){
+				var meta = response;
+				logoUrl = meta[0].logo_url;
+				siteTitle = meta[0].site_title;
+				joinNowBtnLink = meta[0].join_now_link;
+				if(typeof(meta[0].contact_links)!=="undefined" || meta[0].contact_links!="undefined" ){
+					contactLinks = meta[0].contact_links;
+				}
+				if(typeof(meta[0].flashbox)!=="undefined" || meta[0].contact_links!="undefined" ){
+					flashbox = meta[0].flashbox;
+				}
+				$(document).trigger("aliasMetaDataLoaded");
+			});
+		break;
+		case "events":
+			$.getJSON("data/events.json",function(response){
+				events = response;
+				$(document).trigger("aliasEventsDataLoaded");
+			});
+		break;
+		case "webinars":
+			$.getJSON("data/webinars.json",function(response){
+				webinars = response;
+				$(document).trigger("aliasWebinarsDataLoaded");
+			});
+		break;
+		case "communities":
+			$.getJSON("data/communities.json", function(response){
+				communitiesDetailed = response;
+				$(document).trigger("aliasCommunitiesDataLoaded");
+			});
+		break;
+		case "home":
+			$.getJSON("data/data-home.json", function(response){
+				var home = response;
+				siteAbout = home[0].site_about;
+				siteAboutHistory = home[0].site_history;
+				alumniDescription = home[0].alumni_description;
+				services = home[0].services;
+				eventsP = home[0].eventsP;
+				openSource = home[0].open_source;
+				team = home[0].team;
+				loadData("events");
+				$(document).one("aliasEventsDataLoaded", function(){
+					loadData("webinars");
+					$(document).one("aliasWebinarsDataLoaded", function(){
+						$(document).trigger("aliasHomeDataLoaded");		
+					});
+				});
+				
+			});
+		break;
+		default:
+			return false;
+	}
+}
+
 function checkFlashBox(){
 	/** Load and enable FlashBox **/
-	if(showFlashBox){
-		if(flashBoxEndDate.getFullYear()>=currentDate.getFullYear()){
-			if(flashBoxEndDate.getMonth()>=currentDate.getMonth()){
-				if(flashBoxEndDate.getDate()>=currentDate.getDate()){
-					flashBoxContentContainer.html(flashBoxContent);
-					flashBox.fadeIn();
-				}
-				else if(flashBoxEndDate.getMonth()>currentDate.getMonth()){
-					flashBoxContentContainer.html(flashBoxContent);
-					flashBox.fadeIn();
-				}
-				else if(flashBoxEndDate.getFullYear()>currentDate.getFullYear()){
-					flashBoxContentContainer.html(flashBoxContent);
-					flashBox.fadeIn();
-				}
-			}
+	if(typeof(flashbox.enabled)=="undefined" || flashbox.enabled == "undefined")
+		return false;
+	if(flashbox.enabled){
+		var d = new Date(flashbox.endDate);
+		if(d.getTime() >= currentDate.getTime()){
+			flashboxContentContainer.html(flashbox.content);
+			flashboxContainer.fadeIn();
 		}
 	}
+	flashboxCloseBtn.click(function(e){
+		flashboxContainer.fadeOut();	
+	});
+
 }
 function loadServices(){
 	/** Generate Services **/
@@ -107,7 +162,17 @@ function generateTeamBoxes(){
 		html+='<div class="teamPhotoContainer horizon-center box-shadow"><img src="'+team[x].ppicUrl+'" alt="'+team[x].name+'" title="'+team[x].name+'"/></div>';
 		html+='<div class="row"><div class="col-lg-12 text-center"><div class="teamInfoContainer">';
 		html+='<strong><div class="teamName">'+team[x].name+'</div></strong>';
-		html+='<div class="teamSocial"><a href="https://github.com/'+team[x].designation+'" target="_blank">@'+team[x].designation+'</div>';
+		html+='<div class="teamSocial">';
+		if(typeof(team[x].designation)!="undefined" && team[x].designation!="undefined"){
+			html+=team[x].designation;
+		}else{
+			if(typeof(team[x].github)!="undefined" && team[x].github!="undefined"){
+				html += '<a href="https://github.com/'+team[x].github+'" target="_blank">@'+team[x].github+'</a>';
+			}else{
+				html += "&nbsp;";
+			}
+		}
+		html += '</div>';
 		html+='</div></div></div></div>';
 		teamListContainer.append(html);
 	}	
@@ -127,10 +192,6 @@ function setTheme(color1,color2){
 	$(".theme-bg-primary").addClass("bg-"+color1);
 	$(".theme-bg-secondary").addClass("bg-"+color2);
 }
-
-flashBoxCloseBtn.click(function(e){
-		flashBox.fadeOut();
-});
 
 function checkCollapseMenu(){
 	if($(window).width()<=768){

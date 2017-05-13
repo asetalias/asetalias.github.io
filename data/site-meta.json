@@ -1,0 +1,43 @@
+[{
+    "logo_url":"images/navLogo.png",
+    "site_title":"ALiAS: Amity Linux Assistance Sapience",
+    "join_now_link":"https://goo.gl/forms/mZAhlJMxqCwZVbRK2",
+    "contact_links":[
+        {
+            "icon":"envelope",
+            "url":"mailto:contactasetalias@gmail.com",
+            "title": "Email",
+            "iconColor":"green"
+        },
+        {
+            "icon":"github",
+            "url":"https://github.com/asetalias",
+            "title": "Github",
+            "iconColor":"grey"
+        },
+        {
+            "icon":"youtube",
+            "url":"https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g",
+            "title":"YouTube",
+            "iconColor":"red"
+        },
+        {
+            "icon":"facebook",
+            "url":"https://www.facebook.com/asetalias/",
+            "title":"Facebook",
+            "iconColor":"blue"
+        },
+        {
+            "icon":"google-plus-square",
+            "url":"https://groups.google.com/forum/#!forum/amity-linux-group",
+            "title":"Mailing List",
+            "iconColor":"yellow"
+        }
+    ],
+    "flashbox": {
+        "enabled":0,
+        "content":"<a href=\"https://www.facebook.com/events/1873570922897377/\" target=\"_blank\"><img src=\"images/flashbox/poster02032017.jpg\"></a>",
+        "endDate": "June 06 2017"
+    }
+}
+]

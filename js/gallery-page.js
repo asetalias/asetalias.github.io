@@ -1,6 +1,6 @@
 $(document).ready(function(e){
     $("#contentWrap").css("padding-top",$("#mainHeader").outerHeight(true)+15+"px");
-    $(document).on('fbSDKLoaded',loadGallery);
+    $(document).one('fbSDKLoaded',loadGallery);
     function loadGallery(){
         $("#mainSection").fbGallery({
             accessToken: '296257484143696|5fc04aadcc6fc9dd97a8d6f476148e81',
