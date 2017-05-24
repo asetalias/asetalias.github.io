@@ -8,6 +8,9 @@ h1{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 500;
 }
+.preloader .preloader-content .loading-text{
+	 font-family: 'Aladin', cursive;
+}
 #mainHeader{
     font-family: 'Anton', sans-serif;
 }

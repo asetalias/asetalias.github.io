@@ -1,5 +1,9 @@
 $(document).ready(function(e){
 
+    $(window).on("load",function(){
+        $(".preloader").fadeOut(1000);  //hide preloader
+    });
+
     /** Load Data **/
     loadData("meta");
     $(document).on("aliasMetaDataLoaded", function(){
@@ -53,7 +57,6 @@ $(document).ready(function(e){
                     }
                 }
             }();
-            $(".preloader").fadeOut(200);  //hide preloader
         });  
     });
 });
