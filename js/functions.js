@@ -85,7 +85,7 @@ function checkFlashBox(){
 function loadServices(){
 	/** Generate Services **/
 	for(var x in services){
-		var html = '<li><i class="fa fa-code-fork text-yellow"></i><span>'+services[x]+'</span></li>';
+		var html = '<li><i class="fa fa-code-fork text-danger"></i><span>'+services[x]+'</span></li>';
 		siteServicesListContainer.append(html);
 	}
 }
@@ -108,10 +108,10 @@ function generateEventBoxes(){
 		html += '</span></div>';
 		html += '</div></div>';    //closes eventTiming and eventInfo
 		if(events[x].cta2enable){	
-			html += '<div class="row eventCTA"><div class="col-xs-6 text-center"><a href="'+events[x].cta+'" target="_blank"><button class="theme-bg-primary">'+events[x].ctaText+'</button></a></div>';
-			html += '<div class="col-xs-6 text-center"><a href="'+events[x].cta2+'" target="_blank"><button class="theme-bg-secondary">'+events[x].cta2Text+'</button><a></div>';
+			html += '<div class="row eventCTA"><div class="col-xs-6 text-center"><a href="'+events[x].cta+'" target="_blank"><button class="btn btn-danger btn-lg">'+events[x].ctaText+'</button></a></div>';
+			html += '<div class="col-xs-6 text-center"><a href="'+events[x].cta2+'" target="_blank"><button class="btn btn-danger btn-semi-transparent btn-lg">'+events[x].cta2Text+'</button><a></div>';
 		}else{
-			html += '<div class="row eventCTA"><div class="col-xs-12 text-center"><a href="'+events[x].cta+'" target="_blank"><button class="theme-bg-primary">'+events[x].ctaText+'</button></a></div>';
+			html += '<div class="row eventCTA"><div class="col-xs-12 text-center"><a href="'+events[x].cta+'" target="_blank"><button class="btn btn-danger btn-lg">'+events[x].ctaText+'</button></a></div>';
 		
 		}
 		html += '</div></div>'
@@ -124,7 +124,8 @@ function generateWebinarBoxes(){
 	for (var x in webinars){
 		 var html = '<div class="col-lg-3 youtubeBox col-centered text-center slide">';
 		 html += '<div class="row youtubeVideoContainer">';
-		 html += '<div class="col-lg-12"><iframe src="https://www.youtube.com/embed/'+webinars[x].videoId+'" class="youtubeVideo box-shadow"></iframe></div>';
+		 html += '<img src="https://img.youtube.com/vi/'+webinars[x].videoId+'/mqdefault.jpg">';
+		 html += '<a href="https://youtube.com/watch?v='+webinars[x].videoId+'" target="_blank"><div class="video-overlay hover-opacity background-overlay background-overlay-20"><i class="fa fa-play fa-4x text-danger absolute-center play-icon"></i></div></a>'
 		 html += '</div>';
 		 html += '<div class="row youtubeInfoContainer">';
 		 html += '<div class="row youtubeVideoTitleContainer">';
@@ -158,22 +159,35 @@ function generateEventsPList(){
 function generateTeamBoxes(){
 	/** Load Team List **/
 	for (var x in team){
-		var html = '<div class="slide col-lg-2 teamBox box-shadow col-centered theme-bg-primary">';
-		html+='<div class="teamPhotoContainer horizon-center box-shadow"><img src="'+team[x].ppicUrl+'" alt="'+team[x].name+'" title="'+team[x].name+'"/></div>';
-		html+='<div class="row"><div class="col-lg-12 text-center"><div class="teamInfoContainer">';
-		html+='<strong><div class="teamName">'+team[x].name+'</div></strong>';
-		html+='<div class="teamSocial">';
+		var html = '<div class="col-lg-2 teamBox col-centered">';
+		html+='<div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80"><img src="'+team[x].ppicUrl+'" alt="'+team[x].name+'" title="'+team[x].name+'"/></div>';
+		html+='<div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">';
+		html+='<div class="col-xs-12 teamName no-padding">'+team[x].name+'</div>';
+		html+='<div class="col-xs-12 teamDesignation no-padding">';
 		if(typeof(team[x].designation)!="undefined" && team[x].designation!="undefined"){
 			html+=team[x].designation;
 		}else{
-			if(typeof(team[x].github)!="undefined" && team[x].github!="undefined"){
-				html += '<a href="https://github.com/'+team[x].github+'" target="_blank">@'+team[x].github+'</a>';
-			}else{
-				html += "&nbsp;";
-			}
+			html+="<br>";
+		}
+		html+='</div></div>';
+		html+='<div class="row teamSocial">'
+		if(typeof(team[x].github)!="undefined" && team[x].github!="undefined"){
+			html += '<div class="col-xs-2 no-padding"><a href="https://github.com/'+team[x].github+'" target="_blank" title="Github">'
+			+'<span class="fa-stack fa-lg pull-left hover-opacity"><i class="fa fa-circle fa-stack-2x fa-inverse"></i><i class="fa fa-github fa-stack-1x"></i>'
+			+'</span></a></div>';
+		}
+		if(typeof(team[x].facebook)!="undefined" && team[x].facebook!="undefined"){
+			html += '<div class="col-xs-2 no-padding"><a href="https://facebook.com/'+team[x].facebook+'" target="_blank" title="Facebook">'
+			+'<span class="fa-stack fa-lg pull-left hover-opacity"><i class="fa fa-circle fa-stack-2x fa-inverse"></i><i class="fa fa-facebook fa-stack-1x"></i>'
+			+'</span></a></div>';
+		}
+		if(typeof(team[x].website)!="undefined" && team[x].website!="undefined"){
+			html += '<div class="col-xs-2 no-padding"><a href="'+team[x].website+'" target="_blank" title="Website">'
+			+'<span class="fa-stack fa-lg pull-left hover-opacity"><i class="fa fa-circle fa-stack-2x fa-inverse"></i><i class="fa fa-link fa-stack-1x"></i>'
+			+'</span></a></div>';
 		}
 		html += '</div>';
-		html+='</div></div></div></div>';
+		html+='</div>';
 		teamListContainer.append(html);
 	}	
 }
@@ -186,11 +200,6 @@ function generateContactLinks(){
 		html += '</li>';
 		contactLinksContainer.append(html);
 	}
-}
-
-function setTheme(color1,color2){
-	$(".theme-bg-primary").addClass("bg-"+color1);
-	$(".theme-bg-secondary").addClass("bg-"+color2);
 }
 
 function checkCollapseMenu(){
@@ -208,7 +217,7 @@ function checkCollapseMenu(){
 function setSlideContentHeight(){
 	$("#home .slide").each(function(e){
        	var calHeight = 0;
-        $(this).find(".slideContent>div.row").each(function(){
+        $(this).find(".slideContent>div").each(function(){
 	        calHeight += $(this).height();
         });
         $(this).find(".slideContent").height(calHeight+5);
@@ -242,3 +251,4 @@ function loadCommunitiesDetailed(){
 		$("#content").append(html);
 	});
 }
+

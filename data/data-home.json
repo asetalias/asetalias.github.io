@@ -1,7 +1,7 @@
 [
     {
         "alumni_description":"Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain",
-        "site_about":"<strong class=\"text-yellow\">A</strong>mity <strong class=\"text-yellow\">Li</strong>nux <strong class=\"text-yellow\">A</strong>ssitance <strong class=\"text-yellow\">S</strong>apience",
+        "site_about":"<strong class=\"text-danger\">A</strong>mity <strong class=\"text-danger\">Li</strong>nux <strong class=\"text-danger\">A</strong>ssitance <strong class=\"text-danger\">S</strong>apience",
         "site_history":"<p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.</p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer",
         "services":[
             "Stand out of crowd and learn unique skills from people already working in the industry!",
@@ -63,49 +63,73 @@
         ],
         "team":[
             {
+                "name": "Ms. Nidhi Chandra",
+                "designation": "Coordinator",
+                "ppicUrl": "images/team/nidhi.png"
+            },
+            {
                 "name":"Dr. Shilpi Sharma",
                 "designation": "Faculty Coordinator",
                 "ppicUrl": "images/team/shilpi.jpg"
             },
             {
                 "name":"Shivam Rajput",
-                "designation": "",
+                "designation": "Student",
+                "github": "shivamdiehard",
                 "ppicUrl": "images/team/shivam.jpg"
             },
             {
                 "name":"Ashish Dahiya",
-                "designation": "",
+                "designation": "Student",
                 "ppicUrl": "images/team/ashish.jpg"
             },
             {
                 "name":"Tanya Jain",
+                "designation":"Student",
                 "github": "Tanya-Jain", 
+                "facebook":"tanya.jain3",
+                "website":"http://www.tanya-jain.xyz",
                 "ppicUrl": "images/team/tanya.jpg"
             },
             {
                 "name":"Ayush Agarwal",
+                "designation":"Student",
                 "github": "thisisayush",
+                "facebook": "thisisayushaa",
+                "website": "http://thisisayush.com",
                 "ppicUrl": "images/team/ayush.jpg"
             },
             {
                 "name":"Parth Sharma",
+                "designation":"Student",
                 "github": "parthsharma2",
                 "ppicUrl": "images/team/parth.jpg"
             },
             {
                 "name":"Omkar Yadav",
+                "designation":"Student",
                 "github": "omkar108",
+                "facebook":"omi.108",
                 "ppicUrl": "images/team/omkar.jpg"
             },
             {
                 "name":"Vipul Gupta",
+                "designation":"Student",
                 "github": "vipulgupta2048",
+                "website":"http://mixstersite.wordpress.com",
                 "ppicUrl": "images/team/vipulg.jpg"
             },
             {
                 "name":"Ajay Tripathi",
+                "designation":"Student",
                 "github":"ATB00ker",
                 "ppicUrl":"images/team/ajay.jpg"
+            },
+            {
+                "name":"Anuja Agarwal",
+                "designation":"Student",
+                "github":"anujagrazzel",
+                "ppicUrl":"images/team/anuja.jpeg"
             }
         ]
     }

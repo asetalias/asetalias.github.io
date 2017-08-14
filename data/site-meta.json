@@ -1,5 +1,5 @@
 [{
-    "logo_url":"images/navLogo.png",
+    "logo_url":"images/logo-dark.png",
     "site_title":"ALiAS: Amity Linux Assistance Sapience",
     "join_now_link":"https://goo.gl/forms/mZAhlJMxqCwZVbRK2",
     "contact_links":[
@@ -37,7 +37,7 @@
     "flashbox": {
         "enabled":0,
         "content":"<a href=\"https://www.facebook.com/events/1873570922897377/\" target=\"_blank\"><img src=\"images/flashbox/poster02032017.jpg\"></a>",
-        "endDate": "June 06 2017"
+        "endDate": "Aug 18 2017"
     }
 }
 ]

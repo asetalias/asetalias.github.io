@@ -1,9 +1,5 @@
 $(document).ready(function(e){
-
-    $(window).on("load",function(){
-        $(".preloader").fadeOut(1000);  //hide preloader
-    });
-
+    
     /** Load Data **/
     loadData("meta");
     $(document).on("aliasMetaDataLoaded", function(){
@@ -34,29 +30,31 @@ $(document).ready(function(e){
                 }, 1500, 'easeInOutExpo');
             });
         });
-        $(document).ready(function(e){
-            var isTrans = 0;    //for menu bar
-            var stickyMenu = function(){
-                var mainHeader = $("header#mainHeader");
-                if(mainHeader.hasClass("mainHeaderLayout1")){
-                    isTrans = 1;
+        var isTrans = 0;    //for menu bar
+        function stickMenu(){
+            var mainHeader = $("header#mainHeader");
+            if(mainHeader.hasClass("mainHeaderLayout1")){
+                isTrans = 1;
+            }
+            if(!isTrans){
+                return false;
+            }
+            setSticky();
+            $(window).scroll(function(e){
+                    setSticky();
+            });
+            function setSticky(){
+                var h = mainHeader.height();
+                if($(window).scrollTop()+10>h){
+                    mainHeader.find(".logo").attr("src",logoDarkLink);
+                    mainHeader.removeClass("mainHeaderLayout1");
+                }else{
+                    mainHeader.find(".logo").attr("src",logoLightLink);
+                    mainHeader.addClass("mainHeaderLayout1");
                 }
-                if(!isTrans){
-                    return false;
-                }
-                setSticky();
-                $(window).scroll(function(e){
-                        setSticky();
-                });
-                function setSticky(){
-                    var h = mainHeader.height();
-                    if($(window).scrollTop()+10>h){
-                        mainHeader.removeClass("mainHeaderLayout1");
-                    }else{
-                        mainHeader.addClass("mainHeaderLayout1");
-                    }
-                }
-            }();
-        });  
+            }
+        }
+        stickMenu();
+        $(".preloader").fadeOut(1000);  //hide preloader
     });
 });
