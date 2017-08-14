@@ -125,6 +125,13 @@
                 "designation":"Student",
                 "github":"anujagrazzel",
                 "ppicUrl":"images/team/anuja.jpeg"
+            },
+            {
+                "name":"Animesh Verma",
+                "designation":"Student",
+                "github": "AnimeshVerma17",
+                "facebook": "aniverma17",
+                "ppicUrl": "images/team/animesh.jpg"
             }
         ]
     }
