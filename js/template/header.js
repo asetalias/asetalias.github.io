@@ -2,13 +2,13 @@ var header =  '        <div id="mainNav">'+
 '                          <nav class="navbar navbar-default">'+ 
  '                              <div class="container auto-center">'+ 
  '                                  <div class="navbar-header logoContainer text-center">'+ 
- '                                      <a href="index.html#page-top" class="page-scroll"><img class="logo logoDisplay auto-center" src="./images/navLogo.png"></a>'+
+ '                                      <a href="index.html#page-top" class="page-scroll"><img class="logo logoDisplay auto-center" src="./images/logo-dark.png"></a>'+
  '                                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuPrimary">'+ 
  '                                           <i class="fa fa-bars"></i>'+ 
  '                                      </button>'+
  '                                   </div>' +
  '                                  <div class="collapse navbar-collapse text-center" id="menuPrimary">'+ 
- '                                      <ul class="nav navbar-nav">'+ 
+ '                                      <ul class="nav navbar-nav pull-right">'+ 
  '                                            <li class="nav-item hidden">'+ 
  '                                                <a class="page-scroll" href="index.html#page-top"> </a>'+ 
  '                                            </li>'+ 

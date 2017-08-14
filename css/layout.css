@@ -32,12 +32,7 @@
 	width:100%;
 	height:100%;
 	z-index:99999;
-	background:#2C3E50;
-	animation-name:color-changing-background;
-	animation-duration:10s;
-	animation-timing-function:linear;
-	animation-direction:alternate;
-	animation-iteration-count:infinite;
+	background:#000;
 }
 .preloader .content{
 	position:relative;
@@ -197,6 +192,7 @@ img.logo-lg{
     box-shadow: 0px 0px 5px #000;
 	width: inherit;
 	z-index: 9998;
+	transition: 0.3s;
 }
 #mainHeader .navbar>.container{
 	width: 100%;
@@ -207,7 +203,7 @@ img.logo-lg{
 	top:4px;right: 0;
 	border: none;
 	box-shadow: 0 0 0;
-	background: rgba(0,0,0,0.1);
+	background: rgba(255,255,255,0.5);
 	color: rgba(0,0,0,0.7);
 	font-size: 20px;
 	padding:4px 9px;
@@ -235,17 +231,25 @@ img.logo-lg{
 #mainHeader .navbar li a{
     padding: 0;
 	background: transparent;
+	transition: 0.5s;
+}
+#mainHeader .navbar li a:hover{
+	color: #000;
 }
 #mainHeader .navbar-default .navbar-nav>li>a.active{
 	color:#000;
-	text-decoration: underline;
+	padding-bottom: 5px;
+    border-bottom: 3px solid #000;
 }
 @media all and (min-width:300px){
 	#mainHeader .navbar-nav{
-		padding: inherit;
+		padding-top: 0.8%;
 	}
 	#mainHeader .navbar li{
 		width: 100%;
+	}
+	#mainHeader .navbar li>a{
+		color: #000;
 	}
 }
 @media all and (min-width:768px){
@@ -258,31 +262,26 @@ img.logo-lg{
 		padding:2px 0px;
     }
 	#mainHeader a{
-		font-size:15.5px;
+		color: #FFF;
 	}
 	#mainHeader .navbar-nav{
-		padding-top:1.8em;
+		padding-top
 	}
+
 }
 @media all and (min-width: 992px){
-	#mainHeader a{
-		font-size:18px;
-	}
 	#mainHeader .navbar li{
 		padding:5px;
 	}
 }
 @media all and (min-width:1200px){
-	#mainHeader a{
-		font-size:25px;
-	}
 	#mainHeader .navbar li{
 		padding-top:15px;
 	}
 }
 /** End Custom Styles for Bootstrap Navgation **/
 .logo{
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 @media all and (max-width:400px){
@@ -320,7 +319,7 @@ img.logo-lg{
 }
 @media all and (min-width:1200px){
 	#mainHeader .logo{
-		width:200px;
+		width:150px;
 	}
 }
 #mainHeader .navigationContainer{
@@ -334,29 +333,41 @@ img.logo-lg{
 	width: inherit;
 	box-shadow: none;
 	color: #FFF;
-	padding-top: 5px; 
+	padding-top: 10px; 
 }
 #mainHeader.mainHeaderLayout1 .navbar li{
     float: left;
     margin-left: 5px;
     margin-right: 5px;
 }
-@media all and (max-width:768px){
+#mainHeader.mainHeaderLayout1 .navbar li>a{
+	color: rgba(255,255,255,0.8);
+}
+#mainHeader.mainHeaderLayout1 .navbar li>a:hover{
+	color: #FFF;
+}
+@media all and (max-width:767px){
 	#mainHeader.mainHeaderLayout1 .navbar-collapse{
 		background: rgba(255,255,255,0.9);
+	}	
+	#mainHeader.mainHeaderLayout1 .navbar li>a{
+		color: rgba(0,0,0,0.8);
 	}
+	#mainHeader.mainHeaderLayout1 .navbar li>a:hover{
+		color: #000;
+	}
+
 }
 /** Section Default Styles **/
 section{
-    width: 100%;
-    margin: 10px 0;
+	width: 100%;
+	margin: 0;
     padding-bottom: 10px; 
 }
 section .container{
     width: inherit;
 }
 section .headerContainer{
-    border-bottom: 2px solid #000;
     width: 55%;
     clear: inherit;
 	margin:60px 0px 50px 0px;
@@ -389,6 +400,7 @@ section .section-header{
 	height: inherit;
 }
 #home .slide{
+	color: #FFF;
 	height: 100vh;
 	background-size: cover;
 	background-position: center; 
@@ -401,7 +413,7 @@ section .section-header{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,0.1);
+	background: rgba(0,0,0,0.4);
 }
 #home .slide .slideContent{
 	position: absolute;
@@ -417,6 +429,9 @@ section .section-header{
 	padding: 5px;
 	margin:20px 0 0 0;
 }
+#home .slide p.description{
+	font-size: 1.4em;
+}
 @media all and (max-width:768px){
 	#home .slide .slideHeader h1{
 		font-size: 45px;
@@ -431,7 +446,7 @@ section .section-header{
 
 /** Intro Section **/
 #intro{
-    background: url("../images/bg-1080p-8.jpg");
+    background: #2f2f2f;
     color: #FFF;
     background-attachment: fixed;
     background-size: cover;
@@ -449,43 +464,23 @@ section .section-header{
 }
 #intro p.description{
 	color: #a2a2a2;
-    font-size: 18px;
-}
-#intro .siteAboutHistory p.description{
-    font-size: 16px;
 }
 #intro .servicesList li{
     position: relative;
     color: #a2a2a2;
     font-size: 16px;
-    padding-left:18px;
+	padding-left:18px;
 }
 #intro .servicesList li .fa{
     position: absolute;
     left:0;
     top:3px;
 }
-#intro #joinNowBtn{
-    background: transparent;
-    border:2px solid rgba(47,167,173,0.9);
-    border-radius: 5px;
-    color: rgba(47,167,173,0.9);
-    width: 70%;
-    font-size: 20px;
-	font-weight: 400;
-}
-#intro #joinNowBtn:hover,
-#intro #joinNowBtn:active,
-#intro #joinNowBtn:focus{
-    background: rgba(47,167,173,0.2);
-    color: rgba(130,249,255,0.9);
-}
 #intro .subheader{
 	padding:0px 0px 15px 0px;
 	margin:10px 0;
 }
 #intro .subheader>span{
-    border-bottom:3px solid #f1cf27;
     padding:1px 0px 5px 0px;
     margin:2px;
     box-sizing: content-box;
@@ -614,15 +609,23 @@ section .section-header{
 	padding:0;
 }
 .youtubeBox .youtubeVideoContainer{
+	position: relative;
 	height:191px;	/** it should be calculated as (width of parent)*9/16 **/
 }
-.youtubeBox .youtubeVideoContainer div{
-	height:inherit;
-}
-.youtubeBox .youtubeVideo{
+.youtubeBox .youtubeVideoContainer img{
 	width:100%;
-	height:100%;
-	border:none;
+	height: 100%;
+}
+.youtubeBox .youtubeVideoContainer .video-overlay{
+	width:100%;
+	height: 100%;
+	top:0;
+	left:0;
+	position: absolute;
+	cursor: pointer;
+}
+.youtubeBox .youtubeVideoContainer .video-overlay .play-icon{
+	height: 1em;
 }
 .youtubeBox .youtubeInfoContainer{
 	height:188px;
@@ -674,10 +677,7 @@ section .section-header{
     background-attachment: fixed;
     background-size: cover;
 }
-#webinars .headerContainer{
-    border-bottom-color: #FFF;
-}
-/** Webinars Section Custom Slick Slider Styles **/
+/** Webinars Section Custom Slick Slider Styles 
 #webinars .slick-dots li button:before,
 #team .slick-dots li button:before,{
     color: #FFF;
@@ -695,7 +695,7 @@ section .section-header{
 
 /** Alumni Section **/
 #alumni{
-	padding:25px 5px; 
+	padding:100px 5px; 
     background: url("../images/bg-1080p-3.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -705,14 +705,14 @@ section .section-header{
 }
 #alumni .alumniDescription{
 	position:relative;
-	padding:20px;
-	padding-left: 50px;
+	margin: 0;
 	text-align:center;
 	color: #fff;
+	background: transparent;
 }
 #alumni .alumniDescription p{
-	font-size:38px;
-	color: #fff;
+	font-size:35px;
+	color: rgba(255,255,255,0.8);
 }
 /** BlockQuote **/
 #alumni .alumniDescription:before{
@@ -738,50 +738,46 @@ section .section-header{
 
 /** Team Section **/
 #team{
-	background: url("../images/bg-1080p-8.jpg");
+	background: url("../images/IMG_20170308_142700_01.jpg");
 	padding-bottom:50px;
     padding-top: 10px;
-	background-attachment: fixed;
 	background-size: cover;
+	background-position: center;
 }
-#team .headerContainer{
-    border-bottom-color: #FFF;
-}
-
 /** Teambox Styles **/
 .teamBox{
 	position:relative;
-	width:180px;
-	max-width: 180px;
-	min-width: 180px;
-	height:200px;
+	width:250px!important;
+	height:390px;
 	padding:10px 2px;
 	text-align:center;
-	margin:30px 20px 40px 10px;
-	color:#000;
-	background: #FFF;
-	box-shadow: 0px 0px 6px #FFF;
+	margin:30px;
+	color:#FFF;
 }
 .teamBox .teamPhotoContainer{
-	border-radius:50%;
+	border-radius:5px;
 	overflow:hidden;
-	box-shadow: 0px 0px 14px 3px rgb(76, 76, 76);
+	height:250px;
+	width:250px;
 }
-.teamBox .teamPhotoContainer,
 .teamBox .teamPhotoContainer img{
-	height:100px;
-	max-height: 100px;
-	width:100px;
+	position: relative;
+	width: 100%;
+	height: 100%;
 }
 .teamBox .teamInfoContainer{
-	margin:5px;
+	padding:10px 2px; 
+	width: 100%;
 }
 .teamBox .teamName{
-	font-size:17px;
+	margin: 5px 0;
 }
 .teamBox .teamDesignation{
-	font-style:italic;
-	font-size:12px;
+	margin:5px 0;
+	text-transform: uppercase;
+}
+.teamBox .teamSocial{
+	margin: 5px 0;
 }
 /** End Teambox Styles **/
 /** End Team Section **/

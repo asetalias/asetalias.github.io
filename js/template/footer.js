@@ -32,8 +32,9 @@ var html = '<div class="container">'+
 '                    <div class="widget">'+
 '                        <div class="widgetTitle"><h3>Subscribe us on YouTube</h3></div>'+
 '                        <div class="widgetContent">'+
-'                            <iframe style="width:100%;height:200px" src="https://www.youtube.com/embed/fjxUa7HX0NY?list=UUKkyqEMLFW3jz-q3nJIFL3g" frameborder="0" allowfullscreen></iframe>'+
-'                            <br>'+
+'                            <div class="youtubeVideo">'+
+'                            <img src="https://img.youtube.com/vi/fjxUa7HX0NY/mqdefault.jpg"/></a>'+
+'                            </div>'+
 '                            <script src="https://apis.google.com/js/platform.js"></script>'+
 '                            <div class="g-ytsubscribe" data-channelid="UCKkyqEMLFW3jz-q3nJIFL3g" data-layout="full" data-count="default"></div>'+
 '                        </div>'+

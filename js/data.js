@@ -3,6 +3,8 @@ var logoUrl = "";
 var siteTitle = "";
 var siteAbout = "";
 
+var logoDarkLink = "images/logo-dark.png";
+var logoLightLink = "images/logo-light.png";
 /** Intro Section **/
 var siteAboutHistory = "";
 var joinNowBtnLink = "";

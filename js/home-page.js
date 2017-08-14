@@ -13,7 +13,7 @@
         /** Slick Slider Code */
         $(".single-item").slick({
             dots: false,
-            autoplay:true,
+            autoplay:false,
             arrows: true,
             infinite: true,
             fade: true 
@@ -104,36 +104,8 @@
                     }
                 ]
             }); 
-        }   
-        $(".teamList").slick({
-            dots: true,
-            arrows: true,
-            centerMode: true,
-            centerPadding: '40px',
-            mobileFirst: true,
-            autoplay: true,
-            autoplaySpeed:1000,
-            responsive: [
-                {
-                    breakpoint: 900,
-                    settings: {
-                        slidesToShow: 4,
-                    }
-                },
-                {
-                    breakpoint: 700,
-                    settings: {
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 400,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
+        }
+        
         /** Slick Slider Code Ends **/
 
         /** Animate Header (The Pop In Effect) */
