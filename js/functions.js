@@ -109,7 +109,7 @@ function generateEventBoxes(){
 		html += '</div></div>';    //closes eventTiming and eventInfo
 		if(events[x].cta2enable){	
 			html += '<div class="row eventCTA"><div class="col-xs-6 text-center"><a href="'+events[x].cta+'" target="_blank"><button class="btn btn-danger btn-lg">'+events[x].ctaText+'</button></a></div>';
-			html += '<div class="col-xs-6 text-center"><a href="'+events[x].cta2+'" target="_blank"><button class="btn btn-danger btn-semi-transparent btn-lg">'+events[x].cta2Text+'</button><a></div>';
+			html += '<div class="col-xs-6 text-center"><a href="'+events[x].cta2+'" target="_blank"><button class="btn btn-primary btn-lg">'+events[x].cta2Text+'</button><a></div>';
 		}else{
 			html += '<div class="row eventCTA"><div class="col-xs-12 text-center"><a href="'+events[x].cta+'" target="_blank"><button class="btn btn-danger btn-lg">'+events[x].ctaText+'</button></a></div>';
 		

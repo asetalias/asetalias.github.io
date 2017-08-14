@@ -1,16 +1,16 @@
 [
 {
-    "title":"No Upcoming Event",
-    "cta":"https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link",
-    "ctaText":"Host an Event!",
-    "date":"24-10-2030",
-    "startTime":"N/A", 
-    "endTime":"N/A",
-    "location":"Amity University",
+    "title":"Kickstarter Event",
+    "cta":"http://bit.ly/2vvjuC5",
+    "ctaText":"RSVP",
+    "date":"17-08-2017",
+    "startTime":"11 AM", 
+    "endTime":"4 PM",
+    "location":"E-2 Audi",
     "eventOD":1,
-    "description":"<strong>Want to give a talk or coduct a workshop?</strong> <br> Just click on the link below and fill up the form :) to conduct a workshop or a webinar under ALiAS and spread the knowledge! <br><strong><em>Let Knowledge be open source!</em></strong>",
-    "cta2enable":0,
-    "cta2":"",
-    "cta2Text":""
+    "description":"Get to know about FOSS, GNU/Linux and opportunities like GSoC, PyCon India. Get apt answers to \"What to learn\", \"Where to begin\", and much more in this 'Kickstarter Event for Freshers'!<br>Non-Freshers are also welcome.<br>Meet the ALiAS Alumni and other interesting people. Full-stack developers and machine learning experts are invited as speakers :)",
+    "cta2enable":1,
+    "cta2":"http://bit.ly/2vBF87u",
+    "cta2Text":"View"
 }
 ]
