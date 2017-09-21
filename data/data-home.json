@@ -87,6 +87,11 @@
                 "ppicUrl": "images/team/tanya.jpg"
             },
             {
+                "name":"Ashish Dahiya",
+                "designation":"Student",
+                "ppicUrl": "images/team/ashish.jpg"
+            },
+            {
                 "name":"Ayush Agarwal",
                 "designation":"Student",
                 "github": "thisisayush",
