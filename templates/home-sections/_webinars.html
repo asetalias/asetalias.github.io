@@ -1,0 +1,41 @@
+<section id="webinars" class="webinars-section">
+    <!-- Previous Webinars Section -->
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-lg-12 text-center col-centered headerContainer">
+                <span class="bottom-border center bottom-border-white">
+                    <h1 class="section-header" id="previousWebinarsHeader">Previous Webinars</h1>
+                </span>
+            </div>
+        </div>
+        <div class="row eventsList text-center slick-dark" id="webinarsListContainer">
+            <!-- Contains All Previous Webinars -->
+            {%- for webinar in webinars %}
+            <div class="col-lg-3 youtubeBox col-centered text-center slide">
+                <div class="row youtubeVideoContainer">
+                    <img src="https://img.youtube.com/vi/{{ webinar.videoId }}/mqdefault.jpg" />
+                    <a href="https://youtube.com/watch?v={{ webinar.videoId }}" target="_blank">
+                        <div class="video-overlay hover-opacity background-overlay background-overlay-20">
+                            <i class="fa fa-play fa-4x text-danger absolute-center play-icon"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="row youtubeInfoContainer">
+                    <div class="row youtubeVideoTitleContainer">
+                        <div class="col-lg-12">
+                            <h2 class="youtubeVideoTitle {%- if webinar.title|length > 10 %}text-small{% else %}text-normal{% endif %}">
+                                <a href="https://youtube.com/watch?v={{ webinar.videoId }}"  target="_blank">{{ webinar.title }}</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row youtubeVideoDescContainer">
+                        <div class="col-lg-12">
+                            <p class="youtubeVideoDesc">{{ webinar.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            {%- endfor %}
+        </div>
+    </div>
+</section>

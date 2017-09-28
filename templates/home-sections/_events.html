@@ -1,0 +1,85 @@
+{# This template is a subpart for index.html and requires events context #}
+<section id="events" class="events-section theme-bg ">
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-lg-12 headerContainer col-centered">
+                <span class="bottom-border center"><h1 class="section-header text-center" id="upcomingEventsHeader">Upcoming Events</h1></span>
+            </div>
+        </div>
+        <div class="row eventsList text-center row-centered" id="eventsListContainer">
+            <!-- This section contains all the upcoming events -->
+            {%- for event in events %}
+                <div class="slide col-xs-3 eventBox col-centered text-center" id="eventBox-">
+                    <div class="row eventTitle">
+                        <div class="col-lg-12 text-center">
+                            <h2>{{ event.title }}</h2>
+                        </div>
+                    </div>
+                    <div class="row eventInfo">
+                        <div class="col-xs-7 eventDesc">
+                            <div class="row eventDescInfo">
+                                <div class="col-lg-12">
+                                    <p class="eventDescInfoContainer">
+                                        {{ event.description }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 eventTiming text-left">
+                            <div class="date">
+                                <i class="fa fa-calendar"></i>&nbsp;
+                                <span><strong>{{ event.date }}</strong></span>
+                            </div>
+                            <div class="startTimimg">
+                                <i class="fa fa-clock-o"></i>&nbsp;
+                                <span><strong>{{ event.startTime }}</strong></span>
+                            </div>
+                            <div class="endTimimg">
+                                <i class="fa fa-clock-o"></i>
+                                <span><strong>{{ event.endTime }}</strong></span>
+                            </div>
+                            <div class="eventLocation">
+                                <i class="fa fa-map-marker"></i>
+                                <span><strong>{{ event.location }}</strong></span>
+                            </div>
+                            <div class="eventOD">
+                                <strong>OD</strong>&nbsp;
+                                {%-if event.eventOD  %}
+                                <span class="text-success">Yes</span>
+                                {%- else %}
+                                <span class="text-danger">No</span>
+                                {%- endif %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row eventCTA">
+                    {%- if event.cta2enable %}
+                        <div class="col-xs-6 text-center">
+                            <a href="{{ event.cta }}" target="_blank">
+                                <button class="btn btn-danger btn-lg">{{ event.ctaText }}</button>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 text-center">
+                            <a href="{{ event.cta2 }}" target="_blank">
+                                <button class="btn btn-primary btn-lg">{{ event.cta2Text }}</button>
+                            </a>
+                        </div>
+                    {%- else %}
+                        <div class="col-xs-12 text-center">
+                            <a href="{{ event.cta }}" target="_blank">
+                                <button class="btn btn-danger btn-lg">{{ event.ctaText }}</button>
+                            </a>
+                        </div>
+                    {%- endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row text-right">
+        <div class="btn-group btn-sm">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link"><button class="event-buttons btn  btn-danger" id="eventHostBtn">Want to host an event?</button></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9l-82I3DhhDkpSjJol86lt4QQQyB49z97ovoR9HT64uEK0A/viewform?usp=sf_link"><button class="event-buttons btn  btn-primary" id="eventSuggestBtn">Suggestion for future event?</button></a>
+        </div>
+    </div>
+</section>

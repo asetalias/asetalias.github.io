@@ -1,16 +1,16 @@
 [
 {
-    "title": "Are you doing enough ?",
-    "cta": "http://www.tiny.cc/asetalias",
-    "ctaText": "Register Now",
-    "date": "25-08-2017",
-    "startTime": "1:30 PM",
-    "endTime": "3:30 PM",
-    "location": "F-3 Seminar Hall",
-    "eventOD":1,
-    "description":"You will get to learn <br>1) What is GSoC? How can you be a part of it?<br>2) What is Joomla? <br>3) How to contribute to opensource? <br>4) What should your CV have for you to get a good job/Industry trends.<br>5) Chance to ask questions about career one to one from a GSoC admin",
-    "cta2enable":1,
-    "cta2":"http://www.tiny.cc/gsocevent",
-    "cta2Text":"More Details"
+    "title":"No Upcoming Event",
+    "cta":"http://bit.ly/aliaseventsuggest",
+    "ctaText":"Suggest a Event",
+    "date":"NA",
+    "startTime":"NA", 
+    "endTime":"NA",
+    "location":"NA",
+    "eventOD":0,
+    "description":"No Upcoming Event, Stay Updated!",
+    "cta2enable":0,
+    "cta2":"#",
+    "cta2Text":"View"
 }
 ]

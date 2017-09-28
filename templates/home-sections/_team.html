@@ -1,0 +1,60 @@
+<section id="team" class="team-section background-overlay">
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-lg-12 headerContainer col-centered">
+                <span class="bottom-border bottom-border-success center"><h1 class="section-header" id="teamHeader">Meet Our Team</h1></span>
+            </div>
+        </div>
+        <div class="row teamList row-centered slick-dark">
+        {%- for member in team %}
+            <div class="col-lg-2 teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+                    <img src="{{ member.ppicUrl }}" alt="{{ member.name }}" title="{{ member.name }}" />
+                </div>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-xs-12 teamName no-padding">{{ member.name }}</div>
+                    <div class="col-xs-12 teamDesignation no-padding">
+                        {%- if member.designation %}
+                            {{ member.designation }}
+                        {%- else %}
+                        <br>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="row teamSocial">
+                    {%- if member.github %}
+                    <div class="col-xs-2 no-padding">
+                        <a href="https://github.com/{{ member.github }}" target="_blank" title="Github">
+                            <span class="fa-stack fa-lg pull-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    {%- endif %}
+                    {%- if member.facebook %}
+                    <div class="col-xs-2 no-padding">
+                        <a href="https://facebook.com/{{ member.facebook }}" target="_blank" title="Facebook">
+                            <span class="fa-stack fa-lg pull-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    {%- endif %}
+                    {%- if member.website %}
+                    <div class="col-xs-2 no-padding">
+                        <a href="{{ member.website }}" target="_blank" title="Website">
+                            <span class="fa-stack fa-lg pull-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-link fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    {%- endif %}
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>

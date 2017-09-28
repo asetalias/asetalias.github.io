@@ -1,0 +1,18 @@
+<section id="eventsParticipate" class="events-participate-section">
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-lg-12 headerContainer col-centered">
+                <span class="bottom-border center"><h1 class="section-header" id="openSourceHeader">Participate & Learn</h1></span>
+            </div>
+        </div>
+        <div class="row eventsParticipateList text-center row-centered" id="eventsParticipateListContainer">
+        {%- for event in eventsP %}        
+            <div class="col-sm-3 col-centered logoContainer">
+                <a href="{{ event.url }}"  target="_blank">
+                    <img src="{{ event.logo }}" class="logo-med" title="{{ event.title }}" alt="{{ event.title }}"/>
+                </a>
+            </div>
+        {%- endfor %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,44 @@
+{% extends 'components/_base.html' %} {% block css %}
+<!-- Slider CSS -->
+<link href="css/slick.css" rel="stylesheet">
+<link href="css/slick-theme.css" rel="stylesheet">
+<!-- End Slider CSS -->
+{% endblock %}
+
+{% block content %}
+{% include 'home-sections/_home.html' %}
+
+<!-- Intro Section -->
+{% include 'home-sections/_intro.html' %}
+
+<!-- Events Section -->
+{% include 'home-sections/_events.html' %}
+
+<!-- Webinar Section -->
+{% include 'home-sections/_webinars.html' %}
+
+<!-- Open Source Section -->
+{% include 'home-sections/_open-source.html' %}
+
+<!-- Alumni Section -->
+{% include 'home-sections/_alumni.html' %}
+
+<!-- Participate & Learn Section -->
+{% include 'home-sections/_events-participate.html' %}
+
+<!-- Team Section -->
+{% include 'home-sections/_team.html' %}
+
+{% endblock %}
+
+{% block js %}
+<!-- Slick Slider -->
+<script src="js/slick.min.js"></script>
+
+<!-- Other JS -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrollreveal.js"></script>
+
+<!-- Page Script -->
+<script src="js/home-page.js"></script>
+{% endblock %}
