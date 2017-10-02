@@ -1,0 +1,27 @@
+<div class="preloader">
+    <div class="content">
+        <div class="preloader-content">
+            <img src="{{ favicon }}" class="logo-med animated-pulse"><br>
+            <span class="loading-text">loading</span>
+        </div>
+    </div>
+</div>
+<div class="minScreenSizeOverlay">
+    <div class="contentContainer">
+        <div class="content">
+            <img src="{{ favicon }}" class="logo-med" /><br>
+            Zoom out in browser or use a bigger display!
+        </div>
+    </div>
+</div>
+<div class="flashbox">
+    <div class="content">
+        <a class="closeBtn"><i class="fa fa-minus-circle"></i></a>
+        <div class="flashBox-content">
+            &nbsp;
+        </div>
+    </div>
+</div>
+<header id="mainHeader" class="{{ header_class }}">
+    {% include 'components/_menu.html' %}
+</header>

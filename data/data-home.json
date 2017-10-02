@@ -14,32 +14,32 @@
         ],
         "open_source":[
             {
-                "url":"communities.htm#pydelhi",
+                "url":"communities.html#pydelhi",
                 "logo":"images/logos/pydelhi.png",
                 "title":"PyDelhi"
             },
             {
-                "url":"communities.htm#ilugd",
+                "url":"communities.html#ilugd",
                 "logo":"images/logos/ilugd.png",
                 "title":"Indian Linux Users Group Delhi"
             },
             {
-                "url":"communities.htm#linuxchix",
+                "url":"communities.html#linuxchix",
                 "logo":"images/logos/linuxchix.png",
                 "title":"LinuxChix India"
             },
             {
-                "url":"communities.htm#mozpacers",
+                "url":"communities.html#mozpacers",
                 "logo":"images/logos/mozpacers.png",
                 "title":"Mozilla Delhi"
             },
             {
-                "url":"communities.htm#opensource",
+                "url":"communities.html#opensource",
                 "logo":"images/logos/opensource.png",
                 "title":"Open Source Community"
             },
             {
-                "url":"communities.htm#pycon",
+                "url":"communities.html#pycon",
                 "logo":"images/logos/pycon.png",
                 "title":"PyCon India"
             }

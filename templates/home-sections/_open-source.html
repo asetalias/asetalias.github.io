@@ -1,0 +1,23 @@
+<section id="openSource" class="open-source-section">
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-lg-12 headerContainer col-centered">
+                <span class="bottom-border center">
+                    <h1 class="section-header" id="openSourceHeader">Join the Open Source Communities</h1>
+                    <div>
+                        <em>Click on logo to know more</em>
+                    </div>
+                </span>
+            </div>
+        </div>
+        <div class="row openSourceList text-center row-centered" id="openSourceListContainer">
+            {%- for community in open_source_communities %}
+            <div class="col-sm-2 col-centered logoContainer">
+                <a href="{{ community.url }}">
+                    <img src="{{ community.logo }}" class="logo-med" title="{{ community.title }}" alt="{{ community.title }}"/>
+                </a>
+            </div>
+            {%- endfor %}        
+        </div>
+    </div>
+</section>
