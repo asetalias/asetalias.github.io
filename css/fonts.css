@@ -42,9 +42,22 @@ p.description, .servicesList li{
     font-family: 'Dosis', sans-serif;
     font-weight: 300;
 }
-.youtubeVideoTitleContaier h2{
+.eventBox .eventCTA button{
     font-family: 'Dosis', sans-serif;
-    font-weight: 400;
+}
+.eventTitle h2, .youtubeVideoTitleContainer h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+@media all and (min-width:300px){
+    .eventTitle h2, .youtubeVideoTitleContainer h2{
+        font-size: 1.2em;
+    }
+}
+@media all and (min-width:768px){
+    .eventTitle h2, .youtubeVideoTitleContainer h2{
+        font-size: 1.4em;
+    }
 }
 #alumni .alumniDescription p{
     font-family: 'Pacifico', cursive;

@@ -81,6 +81,11 @@ a:hover {
 .width-60{
 	width: 60% !important;
 }
+.btn-flat{
+	border: 0;
+	border-radius: 0;
+	box-shadow: 0 0 0;
+}
 .btn-primary.btn-semi-transparent{
 	background: rgba(51,122,183,0.5);
 	border:3px solid rgba(51,122,183,1);
