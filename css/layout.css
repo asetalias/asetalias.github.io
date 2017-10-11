@@ -244,6 +244,7 @@ img.logo-lg{
 @media all and (min-width:300px){
 	#mainHeader .navbar-nav{
 		padding-top: 0.8%;
+		margin: 0;
 	}
 	#mainHeader .navbar li{
 		width: 100%;
@@ -535,7 +536,7 @@ section .section-header{
 	width: 340px;
 	max-width: 340px;	/** fix for Slick Slide CSS **/
 	margin:10px 20px;
-	padding:10px;
+	padding:0px;
 	background:#F2F1EF;
 	box-shadow:2px 2px 15px #979696;
 	box-sizing:border-box;
@@ -548,8 +549,24 @@ section .section-header{
 	margin:auto;
 	left:0;right:0;
 }
+.eventBox .eventThumb{
+	position: relative;
+	width: 100%;
+	height: 191px;
+	overflow: hidden;
+}
+.eventBox .eventThumb img{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	min-height: 100%;
+	height: auto;
+}
 .eventTitle{
-	height:98px;
+	max-height:98px;
 	width:100%;
 	overflow:hidden;
 	margin-bottom: 1px;
@@ -561,7 +578,7 @@ section .section-header{
 	text-align:left;
 }
 .eventBox .eventDescInfo .eventDescInfoContainer{
-	height:250px;
+	max-height:120px;
 	text-align:left;
 	overflow-x:hidden;
 	overflow-y:hidden;
@@ -570,25 +587,35 @@ section .section-header{
 	overflow-y:auto;
 	overflow-x:auto;
 }
+.eventBox .eventTiming>div{
+	position: relative;
+	padding-left: 1em;
+}
+.eventBox .eventTiming>div>i.icon{
+	position: absolute;
+	left:0;
+	top: 0;
+	bottom: 0;
+	width: 1em;
+	height: 1em;
+	margin: auto;
+	text-align: center;
+}
 .eventBox .eventCTA{
-	bottom:5px;
+	position: absolute;
+	bottom:0;
 	width:100%;
 }
 .eventBox .eventCTA div{
 	float:left;
-	margin:auto;
-	top:0;
-	bottom:0;
-	padding: 2px;
+	margin:0;
+	padding: 0px;
 }
 .eventBox .eventCTA button{
-	text-align: center;
 	width:100%;
-	font-weight:600;
-	font-size:18px;
-	margin-bottom: 10px;
+	font-size:1em;
+	margin:0;
 	color:#FFF;
-	padding:7px 2px;
 }
 .eventBox .event-buttons{
 	margin-right: 15px;
@@ -598,6 +625,11 @@ section .section-header{
 	padding: 20px;
 	margin-top:20px;
 	color:#FFF;
+}
+@media all and (min-width:1024px){	
+	.eventBox .eventCTA button{
+		font-size:1.2em;
+}
 }
 /** End Event Box Styles **/
 /** Youtube Box Styles **/
@@ -660,17 +692,7 @@ section .section-header{
 		height:140px;
 	}
 }
-/** Common Styles for Youtube and Event Box **/
-.eventTitle h2,
-.youtubeVideoTitleContainer h2{
-	font-size:24px;
-	font-weight:600;
-}
-.youtubeVideoTitleContainer h2.text-small{
-	font-size:18px;	
-}
 /** Common Styles End **/
-
 /** Webinars Section **/
 #webinars{
     background: url("../images/bg-1080p-4.jpg");

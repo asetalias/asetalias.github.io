@@ -2,8 +2,9 @@
 {
     "title":"No Upcoming Event",
     "cta":"http://bit.ly/aliaseventsuggest",
-    "ctaText":"Suggest a Event",
+    "ctaText":"Suggest an Event",
     "date":"NA",
+    "poster": "images/flashbox/default.jpg",
     "startTime":"NA", 
     "endTime":"NA",
     "location":"NA",
