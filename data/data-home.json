@@ -81,7 +81,7 @@
             {
                 "name":"Tanya Jain",
                 "designation":"Student",
-                "github": "Tanya-Jain", 
+                "github": "Tanya-Jain",
                 "facebook":"tanya.jain3",
                 "website":"http://www.tanya-jain.xyz",
                 "ppicUrl": "images/team/tanya.jpg"
@@ -98,6 +98,7 @@
                 "name":"Parth Sharma",
                 "designation":"Student",
                 "github": "parthsharma2",
+                "facebook": "parthsharma02",
                 "ppicUrl": "images/team/parth.jpg"
             },
             {
