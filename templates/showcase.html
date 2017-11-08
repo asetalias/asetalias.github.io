@@ -1,0 +1,98 @@
+{% extends 'components/_base.html' %}
+{% block title %}Projects Showcase{% endblock %}
+{% block css %}
+    <link href="css/showcase.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <section id="masthead">
+    <h1>Projects under ALiAS</h1>
+    </section>
+    <section class="background-overlay" id="proj-section">
+    <div class="container">
+        <div class="row row-centered">
+                {%- for proj in projects %}
+                    <div class="col-lg-2 col-centered scrl">
+                    <div class="proj_card">
+                        <div class="projBg" {%- if proj.proj_img %} style="background-image: url({{ proj.proj_img }})"{% endif %}></div>
+                        <h3 class="projName">{{ proj.proj_name }}</h3>
+                        <p class="desc">{{ proj.proj_desc }}</p>
+                        <p class="aname">By <b>{{ proj.author }}</b></p>
+                        <div class="social_links">
+                            {%- if proj.author_social.fb %}
+                                    <a href="https://facebook.com/{{ proj.author_social.fb }}" target="_blank">
+                            <span class="fa-stack fa-lg pull-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#4267B2"></i>
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </span>
+                                    </a>
+                            {%- endif %}
+                            {%- if proj.author_social.github %}
+                                    <a href="https://github.com/{{ proj.author_social.github }}" target="_blank">
+                            <span class="fa-stack fa-lg pull-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#24292E"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                                    </a>
+                            {%- endif %}
+                            {%- if proj.author_social.website %}
+                                    <a href="http://{{ proj.author_social.website }}" target="_blank">
+                            <span class="fa-stack fa-lg pull-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#34A853"></i>
+                                <i class="fa fa-link fa-stack-1x"></i>
+                            </span>
+                                    </a>
+                            {%- endif %}
+                        </div>
+                        <div class="tag_container">
+                            {%- for tag in proj.tags %}
+                                <span class="badge">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                        <div class="link_container">
+                        {%- if proj.view_link %}
+                        <a class="viewLink" href="http://{{ proj.view_link }}" target="_blank">Visit project</a>
+                        {%- endif %}
+                        {%- if proj.src_link %}
+                        <a class="srcLink" href="http://{{ proj.src_link }}" target="_blank">View source</a>
+                        {%- endif %}
+                        </div>
+                    </div>
+                    </div>
+                {% endfor %}
+        </div>
+    </div>
+    </section>
+    <div id="up">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+    </div>
+{% endblock %}
+
+{% block js %}
+<!-- Other JS -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrollreveal.js"></script>
+<script>
+    $(document).ready(function() {
+        //Parallax scroll effect
+        $(window).scroll(function () {
+            $('#masthead').css("transform", "translate3d(0," + $(window).scrollTop()/1.5 + "px,-1px)");
+        });
+        //Scroll reveal effect for cards
+        window.sr = ScrollReveal({
+        origin: 'bottom'
+        });
+        sr.reveal(".scrl", {
+        duration: 1000
+        });
+        //Up button functionality
+        $(window).on('load scroll',() => {
+            if($(window).scrollTop() > 200)
+                $('#up').show();
+            else
+                $('#up').hide();
+        });
+        $('#up').click(() => $('body,html').animate({scrollTop:0},500));
+    });
+</script>
+{% endblock %}

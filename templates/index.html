@@ -41,4 +41,11 @@
 
 <!-- Page Script -->
 <script src="js/home-page.js"></script>
+    <script>
+    $(document).ready(function () {
+        $("#menuPrimary").find('.page-scroll').each(function(){
+            $(this).attr("href", $(this).attr("href").replace("index.html", ""));
+        });
+    });
+    </script>
 {% endblock %}

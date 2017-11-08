@@ -1,5 +1,5 @@
 $(document).ready(function (e) {
-    $(window).resize(function (e) {
+    $(window).on('load resize',function (e) {
         checkCollapseMenu();
     });
 

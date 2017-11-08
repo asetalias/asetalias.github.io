@@ -111,6 +111,9 @@
                         <a href="communities.html" data-target="#menuPrimary">Communities</a>
                     </li>
                     <li class="nav-item">
+                        <a href="showcase.html" data-target="#menuPrimary">Showcase</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="page-scroll" href="index.html#eventsParticipate" data-target="#menuPrimary">Participate</a>
                     </li>
                     <li class="nav-item">
@@ -925,6 +928,13 @@
 
 <!-- Page Script -->
 <script src="js/home-page.js"></script>
+    <script>
+    $(document).ready(function () {
+        $("#menuPrimary").find('.page-scroll').each(function(){
+            $(this).attr("href", $(this).attr("href").replace("index.html", ""));
+        });
+    });
+    </script>
 
 </body>
 
