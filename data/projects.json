@@ -1,0 +1,64 @@
+[
+  {
+    "proj_name":"Lorem Ipsum",
+    "proj_img":"images/proj_logo_dummy.png",
+    "proj_desc":"This is dummy; just to show how it`s done",
+    "author":"Animesh Verma",
+    "author_social":{
+      "fb":"aniverma17",
+      "github":"AnimeshVerma17",
+      "website":"friendsarc.com"
+    },
+    "tags":["HTML","CSS","JavaScript","PHP","Java","Android","Python","JSON","SQL","XML"],
+    "view_link":"friendsarc.com",
+    "src_link":"github.com/friendsarc"
+  },
+  {
+    "proj_name":"Letstream",
+    "proj_img":"images/proj_logo_dummy.png",
+    "proj_desc":"A platform for emerging artists",
+    "author":"Ayush Agarwal",
+    "author_social":{
+      "fb":"thisisayushaa",
+      "github":"thisisayush",
+      "website":"thisisayush.com"
+    },
+    "tags":["HTML","CSS","JavaScript","PHP","Wordpress"],
+    "view_link":"www.theletstream.com"
+  },
+  {
+    "proj_name":"Amity Hub",
+    "proj_img":"images/proj_logo_dummy.png",
+    "proj_desc":"A stop place for all Amity needs",
+    "author":"Omkar Yadav",
+    "author_social":{
+      "fb":"omi.108",
+      "github":"omkar108"
+    },
+    "tags":["HTML","CSS","JavaScript","PHP","Wordpress"],
+    "view_link":"www.amityhub.com"
+  },
+  {
+    "proj_name":"PresentationCreationTool",
+    "proj_img":"images/proj_logo_dummy.png",
+    "proj_desc":"Tool to make presentation on HTML without coding.",
+    "author":"Ajay Tripathi",
+    "author_social":{
+      "github":"ATB00ker"
+    },
+    "tags":["JavaScript","HTML","CSS"],
+    "src_link":"github.com/ATB00ker/PresentationCreationTool"
+  },
+  {
+    "proj_name":"Scrape",
+    "proj_img":"images/proj_logo_dummy.png",
+    "proj_desc":"Mission - scraping the planet, one website at a time",
+    "author":"Vipul Gupta",
+    "author_social":{
+      "fb":"vipulgupta2048",
+      "website":"mixstersite.wordpress.com/about"
+    },
+    "tags":["Python"],
+    "src_link":"github.com/vipulgupta2048/scrape"
+  }
+]
