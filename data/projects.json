@@ -1,0 +1,63 @@
+[
+  {
+    "proj_name":"ASET ALiAS",
+    "proj_img":"images/logo.png",
+    "proj_desc":"Official website of ASET ALiAS club",
+    "author":"ALiAS",
+    "author_social":{
+      "fb":"asetalias",
+      "github":"asetalias"
+    },
+    "tags":["HTML","CSS","JavaScript","Bootstrap","Python","JSON"],
+    "view_link":"asetalias.in",
+    "src_link":"github.com/asetalias/asetalias.github.io"
+  },
+  {
+    "proj_name":"Letstream",
+    "proj_img":"images/proj_logo_dummy.png",
+    "proj_desc":"A platform for emerging artists",
+    "author":"Ayush Agarwal",
+    "author_social":{
+      "fb":"thisisayushaa",
+      "github":"thisisayush",
+      "website":"thisisayush.com"
+    },
+    "tags":["HTML","CSS","JavaScript","PHP","Wordpress"],
+    "view_link":"www.theletstream.com"
+  },
+  {
+    "proj_name":"Amity Hub",
+    "proj_img":"images/proj_logo_dummy.png",
+    "proj_desc":"A stop place for all Amity needs",
+    "author":"Omkar Yadav",
+    "author_social":{
+      "fb":"omi.108",
+      "github":"omkar108"
+    },
+    "tags":["HTML","CSS","JavaScript","PHP","Wordpress"],
+    "view_link":"www.amityhub.com"
+  },
+  {
+    "proj_name":"PresentationCreationTool",
+    "proj_img":"images/proj_logo_dummy.png",
+    "proj_desc":"Tool to make presentation on HTML without coding.",
+    "author":"Ajay Tripathi",
+    "author_social":{
+      "github":"ATB00ker"
+    },
+    "tags":["JavaScript","HTML","CSS"],
+    "src_link":"github.com/ATB00ker/PresentationCreationTool"
+  },
+  {
+    "proj_name":"Scrape",
+    "proj_img":"images/proj_logo_dummy.png",
+    "proj_desc":"Mission - scraping the planet, one website at a time",
+    "author":"Vipul Gupta",
+    "author_social":{
+      "fb":"vipulgupta2048",
+      "website":"mixstersite.wordpress.com/about"
+    },
+    "tags":["Python"],
+    "src_link":"github.com/vipulgupta2048/scrape"
+  }
+]

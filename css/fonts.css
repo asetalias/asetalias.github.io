@@ -73,6 +73,6 @@ p.description, .servicesList li{
     font-weight: 300;
 }
 .contactLinksContainer li a{
-    font-style: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 300;
 }

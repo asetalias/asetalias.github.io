@@ -12,6 +12,7 @@ if __name__ == "__main__":
     site_meta = {}
     webinars = {}
     communities = {}
+    projects = {}
     #Open and Read JSON Files
     try:
         with open(data_folder+'/data-home.json') as json_file:
@@ -24,6 +25,8 @@ if __name__ == "__main__":
             webinars = json.load(json_file)
         with open(data_folder+'/communities.json') as json_file:
             communities = json.load(json_file)
+        with open(data_folder+'/projects.json') as json_file:
+            projects = json.load(json_file)
     except Exception as e:
         print(e.message)
     #Create Contexts
@@ -50,11 +53,16 @@ if __name__ == "__main__":
     }
     context_gallery = {
         'header_class': 'mainHeaderLayout'
-    }    
+    }
+    context_projects = {
+        'header_class': 'mainHeaderLayout1',
+        'projects': projects
+    }
     context_home.update(context_base)
     context_communities.update(context_base)
     context_gallery.update(context_base)
-    contexts = [('index.html', context_home), ('communities.html', context_communities), ('gallery.html', context_gallery)]
+    context_projects.update(context_base)
+    contexts = [('index.html', context_home), ('communities.html', context_communities), ('gallery.html', context_gallery), ('showcase.html', context_projects)]
 
     #StaticJinja
     site = make_site(contexts = contexts)
