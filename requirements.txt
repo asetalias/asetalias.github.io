@@ -4,7 +4,6 @@ easywatch==0.0.3
 Jinja2==2.9.6
 MarkupSafe==1.0
 pathtools==0.1.2
-pkg-resources==0.0.0
 PyYAML==3.12
 staticjinja==0.3.3
 watchdog==0.8.3
