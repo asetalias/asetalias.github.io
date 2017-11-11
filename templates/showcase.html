@@ -1,71 +1,94 @@
 {% extends 'components/_base.html' %}
 {% block title %}Projects Showcase{% endblock %}
-{% block css %}
-    <link href="css/showcase.css" rel="stylesheet">
-{% endblock %}
 
 {% block content %}
     <section id="masthead">
-    <h1>Projects under ALiAS</h1>
+        <div class="jumbotron content">
+            <h1>Projects</h1>
+            <p>Projects done by the members of ALiAS</p>
+        </div>
     </section>
     <section class="background-overlay" id="proj-section">
     <div class="container">
         <div class="row row-centered">
                 {%- for proj in projects %}
-                    <div class="col-lg-2 col-centered scrl">
-                    <div class="proj_card">
-                        <div class="projBg" {%- if proj.proj_img %} style="background-image: url({{ proj.proj_img }})"{% endif %}></div>
-                        <h3 class="projName">{{ proj.proj_name }}</h3>
-                        <p class="desc">{{ proj.proj_desc }}</p>
-                        <p class="aname">By <b>{{ proj.author }}</b></p>
-                        <div class="social_links">
-                            {%- if proj.author_social.fb %}
-                                    <a href="https://facebook.com/{{ proj.author_social.fb }}" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#4267B2"></i>
-                                <i class="fa fa-facebook fa-stack-1x"></i>
-                            </span>
+                    <div class="col-xs-3 projectBox col-centered text-center">
+                        <div class="row projectThumb">
+                            <img src="{{ proj.thumbnail }}" />
+                            <div class="img-overlay">
+                                <div class="text-center">
+                                {%- if proj.cta2|length > 0 %}
+                                    <a href="{{ proj.cta }}">
+                                        <div class="col-xs-6">
+                                            <i class="fa fa-{{ proj.ctaIcon }} fa-2x"></i>
+                                            <p>{{ proj.ctaText }}</p>
+                                        </div>
                                     </a>
-                            {%- endif %}
-                            {%- if proj.author_social.github %}
-                                    <a href="https://github.com/{{ proj.author_social.github }}" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#24292E"></i>
-                                <i class="fa fa-github fa-stack-1x"></i>
-                            </span>
+                                    <a href="{{ proj.cta2 }}">
+                                        <div class="col-xs-6">
+                                            <i class="fa fa-{{ proj.cta2Icon }} fa-2x"></i>
+                                            <p>{{ proj.cta2Text }}</p>
+                                        </div>
                                     </a>
-                            {%- endif %}
-                            {%- if proj.author_social.website %}
-                                    <a href="http://{{ proj.author_social.website }}" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#34A853"></i>
-                                <i class="fa fa-link fa-stack-1x"></i>
-                            </span>
+                                {%- else %}
+                                    <a href="{{ proj.cta }}">
+                                        <div class="col-xs-12">
+                                            <i class="fa fa-{{ proj.ctaIcon }} fa-2x"></i>
+                                            <p>{{ proj.ctaText }}</p>
+                                        </div>
                                     </a>
-                            {%- endif %}
+                                {%- endif %}
+                                </div>
+                            </div>
                         </div>
-                        <div class="tag_container">
-                            {%- for tag in proj.tags %}
-                                <span class="badge">{{ tag }}</span>
-                            {% endfor %}
+                        <div class="row projectTitle">
+                            <div class="col-lg-12 text-center">
+                                <h2>{{ proj.name }}</h2>
+                            </div>
                         </div>
-                        <div class="link_container">
-                        {%- if proj.view_link %}
-                        <a class="viewLink" href="http://{{ proj.view_link }}" target="_blank">Visit project</a>
-                        {%- endif %}
-                        {%- if proj.src_link %}
-                        <a class="srcLink" href="http://{{ proj.src_link }}" target="_blank">View source</a>
-                        {%- endif %}
+                        <div class="row projectInfo">
+                            <div class="col-xs-7 projectDesc">
+                                <div class="row projectDescInfo">
+                                    <div class="col-xs-12 projectDescInfoContainer">
+                                            {{ proj.description }}
+                                    </div>
+                                </div>
+                                {%- if proj.github|length > 0 %}
+                                <div class="row projectContributors text-center">
+                                    <hr style="border-top-color:#000; margin: 2px;"> 
+                                    <div class="col-xs-12">
+                                        <a href="#" data-github = "{{ proj.github }}" data-toggle="tooltip">
+                                            <span class="projectContributors_num">...</span> Contributors
+                                            <div class="font-10">(Click to know more)</div>
+                                        </a>    
+                                    </div>
+                                </div>
+                                {% endif %}
+                            </div>
+                            <div class="col-xs-5 projectAuthor text-center">
+                                <img src="{{ proj.authorThumb }}" class="icon"/>
+                                <h5>{{ proj.author }}</h5>
+                                <div class="projectSocial">
+                                    <ul class="list-unstyled list-inline row text-left">
+                                        {%- for link in proj.authorSocial %}
+                                        <a href="{{ link.link }}" title="{{ link.title }}" class="col-xs-3 text-center no-padding"><li><i class="fa fa-{{ link.icon }}"></i></li></a>
+                                        {%- endfor %}
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <div class="row projectTags">
+                            <div class="col-xs-12">
+                                {%- for tag in proj.tags %}
+                                    <span class="badge">{{ tag }}</span>
+                                {% endfor %}
+                            </div>
+                        </div>
                     </div>
                 {% endfor %}
         </div>
     </div>
-    </section>
-    <div id="up">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-    </div>
+</section>
 {% endblock %}
 
 {% block js %}
@@ -85,14 +108,43 @@
         sr.reveal(".scrl", {
         duration: 1000
         });
-        //Up button functionality
-        $(window).on('load scroll',() => {
-            if($(window).scrollTop() > 200)
-                $('#up').show();
-            else
-                $('#up').hide();
-        });
-        $('#up').click(() => $('body,html').animate({scrollTop:0},500));
+        /** Fetch Contributors for Github Based Projects Using API **/
+        function fetchContributors(){
+            $('.projectContributors').each(function(){
+                var $this = $(this);
+                var github = $this.find("a:first-child").attr("data-github");
+                $.ajax({
+                    url:"https://api.github.com/repos/"+github+"/contributors", 
+                    type: "GET",
+                    success: function(response, status){
+                        if(status != "success")
+                            return false;
+                        r = response;
+                        loaddata(r);
+                    }
+                });
+                function loaddata(response){
+                    var html = "";
+                    $this.find(".projectContributors_num").html(response.length);
+                    html = '<ul class="list-unstyled text-white">';
+                    $.each(response, function(i,v){
+                        html += '<li><a href="'+v.html_url+'" class="text-white"> @'+v.login+'</a></li>';
+                    });
+                    html += '</ul>';
+                    $this.tooltip({
+                        html: true,
+                        title: html,
+                        trigger: 'hover focus',
+                        viewport: $(this).parents('div.projectBox')[0]
+                    }).click(function(e){
+                        e.preventDefault();
+                        $this.tooltip('toggle');
+                    });
+                }
+            });
+        }
+        fetchContributors();
     });
+    
 </script>
 {% endblock %}

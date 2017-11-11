@@ -531,7 +531,8 @@ section .section-header{
 	left:0;right:0;
 }
 .eventBox,
-.youtubeBox{
+.youtubeBox,
+.projectBox{
 	height: 420px;
 	width: 340px;
 	max-width: 340px;	/** fix for Slick Slide CSS **/
@@ -545,17 +546,20 @@ section .section-header{
 	top:0;bottom: 0;
 }
 /** Event Box Styles **/
-.eventBox div{
+.eventBox>div,
+.projectBox>div{
 	margin:auto;
 	left:0;right:0;
 }
-.eventBox .eventThumb{
+.eventBox .eventThumb,
+.projectBox .projectThumb{
 	position: relative;
 	width: 100%;
 	height: 191px;
 	overflow: hidden;
 }
-.eventBox .eventThumb img{
+.eventBox .eventThumb img,
+.projectBox .projectThumb img{
 	position: absolute;
 	top:0;
 	bottom: 0;
@@ -565,7 +569,8 @@ section .section-header{
 	min-height: 100%;
 	height: auto;
 }
-.eventTitle{
+.eventTitle,
+.projectTitle{
 	max-height:98px;
 	width:100%;
 	overflow:hidden;
@@ -573,15 +578,24 @@ section .section-header{
 }
 
 .eventBox .eventDesc,
-.eventBox .eventDescInfo{
+.eventBox .eventDescInfo,
+.projectBox .projectDesc,
+.projectBox .projectDescInfo{
 	padding:0;
 	text-align:left;
 }
-.eventBox .eventDescInfo .eventDescInfoContainer{
-	max-height:120px;
+.eventBox .eventDescInfo .eventDescInfoContainer,{
+	max-height:100px;
 	text-align:left;
 	overflow-x:hidden;
+}
+.eventBox .eventDesc{
 	overflow-y:hidden;
+}
+.eventBox .eventDesc:hover,
+.eventBox .eventDesc:focus,
+.eventBox .eventDesc:active{
+	overflow-y: scroll;
 }
 .eventBox .eventDescInfo .eventDescInfoContainer:hover{
 	overflow-y:auto;
@@ -679,12 +693,14 @@ section .section-header{
 /** End Youtube Box Styles **/
 @media all and (max-width:299px){
 	.eventBox,
-	.youtubeBox{
+	.youtubeBox,
+	.projectBox{
 		display:none;
 	}
 }
 @media all and (min-width:300px) and (max-width:768px){
-	.eventBox, .youtubeBox{
+	.eventBox, .youtubeBox,
+	.projectBox{
 		width:250px;
 		margin:10px 2px;
 	}
@@ -756,6 +772,103 @@ section .section-header{
 	font-size:45px;
 }
 /** BlockQuotes End **/
+/** Showcase Styles **/
+#masthead{
+    width: inherit;
+	height: 70vh;
+    overflow: hidden;
+	margin-top:0;
+    background: url("../images/bgrnd.jpeg") 0 -900px;
+    transform: translate3d(0,0,-1px);
+}
+#masthead .content{
+    height: 40%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /*font: 900 6em 'Dosis', sans-serif;*/
+    color: #fff;
+    background: transparent;
+}
+
+.projectBox .projectThumb .img-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.5s linear all;
+}
+.projectBox .projectThumb .img-overlay>div{
+	position: absolute;
+	width: 100%;
+	height: 4em;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+.projectBox .projectThumb:hover .img-overlay{
+	background: rgba(31, 164, 234, 0.8);
+	opacity: 1;
+}
+.projectBox .projectThumb .img-overlay>div>a{
+	transition: 0.3s all linear;
+}
+.projectBox .projectThumb .img-overlay>div>a:hover{
+	color: #FFF;
+}
+
+.projectBox .projectDescInfo{
+	height: 85px;
+	overflow:hidden;
+}
+.projectBox .projectDescInfo:hover,
+.projectBox .projectDescInfo:active,
+.projectBox .projectDescInfo:focus{
+	overflow: auto;
+}
+.projectBox .projectDescInfoContainer{
+	height: inherit;
+}
+@media all and (max-width:768px){
+	.projectBox .projectThumb .img-overlay{
+		position: absolute;
+		width: 100%;
+		height: 4em;
+		opacity: 1;
+		top:auto;
+		bottom: 0;
+		background: rgba(255,255,255, 0.2);
+	}
+	.projectBox .projectThumb:hover .img-overlay{
+		background: rgba(255,255,255, 0.2);
+		opacity: 1;
+	}
+	.projectBox .projectThumb .img-overlay>div>a{
+		transition: 0.3s all linear;
+	}
+	.projectBox .projectThumb .img-overlay>div>a:hover > div,
+	.projectBox .projectThumb .img-overlay>div>a:active > div,
+	.projectBox .projectThumb .img-overlay>div>a:focus > div{
+		background: rgba(31, 164, 234, 0.4) ;
+	}	
+	.projectBox .projectInfo{
+		height: 131px;
+	}
+	.projectBox .projectDesc, 
+	.projectBox .projectAuthor{
+		height: inherit;
+	}
+}
+/** Showcase Styles End **/
 /** Alumni Section End **/
 
 /** Team Section **/

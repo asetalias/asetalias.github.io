@@ -17,6 +17,17 @@ h1.heading{
 .underline{
     text-decoration: underline; 
 }
+ul.list-unstyled{
+	list-style-type: none;
+	padding: 0;
+}
+ul.list-inline li{
+	display: inline-block;
+}
+img.icon{
+	width:50px;
+	height: 50px;
+}
 /**Fix for white space**/
 .row{
 	margin-right:0px;
