@@ -1,15 +1,18 @@
 .text-yellow{
-	color: #F1CF27;
+	color: #F1CF27!important;
 }
 .text-green{
-	color: #019875; /** Green Haze **/
+	color: #019875!important; /** Green Haze **/
 }
 .text-blue{
-	color: #4183D7; /** Royal Blue **/
+	color: #4183D7!important; /** Royal Blue **/
 }
 .text-red{
-	color: #C0392B; /** Tall Poppy **/
+	color: #C0392B!important; /** Tall Poppy **/
 }
 .text-grey{
-	color: #BDC3C7; /** Silver Sand**/
+	color: #BDC3C7!important; /** Silver Sand**/
+}
+.text-white{
+	color:#FFF!important; /** White **/
 }

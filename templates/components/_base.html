@@ -49,7 +49,7 @@
 </head>
 
 <body id="page-top" data-spy="scroll">
-    <div id="contentWrap" class="auto-center">
+    <div id="contentWrap" class="auto-center" style="padding-top:{%- if header_class == 'mainHeaderLayout' %}70px{% else %}5px{%- endif %};">
         {% include 'components/_header.html' %}
         {% block content %}
         {% endblock %}

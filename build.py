@@ -1,10 +1,14 @@
 import json,os,re
 from staticjinja import make_site
-
+import markdown
 #Path to data folder
 data_folder = os.path.abspath(os.path.dirname(__file__)) + '/data'
 #Replace // and \ with /
 data_folder = re.sub(r"(\/\/){1}|(\\){1}", '/', data_folder)
+
+def convertToHtml(text):
+    print(text.replace("\\n","\n"))
+    return markdown.markdown(text.replace("\\n","\n"), output_format="html5")
 
 if __name__ == "__main__":
     data_home = {}
@@ -29,6 +33,17 @@ if __name__ == "__main__":
             projects = json.load(json_file)
     except Exception as e:
         print(e.message)
+    #Convert Markdown to HTML for selected
+    for event in events:
+        event['description'] = convertToHtml(event['description'])
+    data_home['alumni_description'] = convertToHtml(data_home['alumni_description'])
+    
+    for community in communities:
+        community['desc'] = convertToHtml(community['desc'])
+
+    for project in projects:
+        project['description'] = convertToHtml(project['description'])
+    
     #Create Contexts
     context_base = {'contact_links': site_meta['contact_links'],
                 'join_now_link': site_meta['join_now_link'],

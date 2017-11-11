@@ -37,8 +37,8 @@
     <!-- Colors -->
     <link href="css/colors.css" rel="stylesheet" />
     
-    <link href="css/showcase.css" rel="stylesheet">
-
+    <!-- Page CSS Here -->
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,7 +49,7 @@
 </head>
 
 <body id="page-top" data-spy="scroll">
-    <div id="contentWrap" class="auto-center">
+    <div id="contentWrap" class="auto-center" style="padding-top:5px;">
         <div class="preloader">
     <div class="content">
         <div class="preloader-content">
@@ -93,9 +93,6 @@
                         <a class="page-scroll" href="index.html#intro" data-target="#menuPrimary">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://theletstream.com/techore/author/asetalias" data-target="#menuPrimary">Blog</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="page-scroll" href="index.html#events" data-target="#menuPrimary">Events</a>
                     </li>
                     <li class="nav-item">
@@ -110,12 +107,6 @@
                     <li class="nav-item">
                         <a href="showcase.html" data-target="#menuPrimary">Showcase</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="page-scroll" href="index.html#eventsParticipate" data-target="#menuPrimary">Participate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="page-scroll" href="index.html#team" data-target="#menuPrimary">Our Team</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -124,198 +115,149 @@
 </header>
         
     <section id="masthead">
-    <h1>Projects under ALiAS</h1>
+        <div class="jumbotron content">
+            <h1>Projects</h1>
+            <p>Projects done by the members of ALiAS</p>
+        </div>
     </section>
     <section class="background-overlay" id="proj-section">
     <div class="container">
         <div class="row row-centered">
-                    <div class="col-lg-2 col-centered scrl">
-                    <div class="proj_card">
-                        <div class="projBg" style="background-image: url(images/logo.png)"></div>
-                        <h3 class="projName">ASET ALiAS</h3>
-                        <p class="desc">Official website of ASET ALiAS club</p>
-                        <p class="aname">By <b>ALiAS</b></p>
-                        <div class="social_links">
-                                    <a href="https://facebook.com/asetalias" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#4267B2"></i>
-                                <i class="fa fa-facebook fa-stack-1x"></i>
-                            </span>
+                    <div class="col-xs-3 projectBox col-centered text-center">
+                        <div class="row projectThumb">
+                            <img src="images/slides/slide1.jpg" />
+                            <div class="img-overlay">
+                                <div class="text-center">
+                                    <a href="http://asetalias.in">
+                                        <div class="col-xs-6">
+                                            <i class="fa fa-eye fa-2x"></i>
+                                            <p>Demo</p>
+                                        </div>
                                     </a>
-                                    <a href="https://github.com/asetalias" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#24292E"></i>
-                                <i class="fa fa-github fa-stack-1x"></i>
-                            </span>
+                                    <a href="http://github.com/asetalias/asetalias.github.io">
+                                        <div class="col-xs-6">
+                                            <i class="fa fa-code fa-2x"></i>
+                                            <p>Source</p>
+                                        </div>
                                     </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tag_container">
-                                <span class="badge">HTML</span>
-                            
-                                <span class="badge">CSS</span>
-                            
-                                <span class="badge">JavaScript</span>
-                            
-                                <span class="badge">Bootstrap</span>
-                            
-                                <span class="badge">Python</span>
-                            
-                                <span class="badge">JSON</span>
-                            
+                        <div class="row projectTitle">
+                            <div class="col-lg-12 text-center">
+                                <h2>ASET ALiAS Website</h2>
+                            </div>
                         </div>
-                        <div class="link_container">
-                        <a class="viewLink" href="http://asetalias.in" target="_blank">Visit project</a>
-                        <a class="srcLink" href="http://github.com/asetalias/asetalias.github.io" target="_blank">View source</a>
+                        <div class="row projectInfo">
+                            <div class="col-xs-7 projectDesc">
+                                <div class="row projectDescInfo">
+                                    <div class="col-xs-12 projectDescInfoContainer">
+                                            <p>Official website of ASET ALiAS club.</p>
+                                    </div>
+                                </div>
+                                <div class="row projectContributors text-center">
+                                    <hr style="border-top-color:#000; margin: 2px;"> 
+                                    <div class="col-xs-12">
+                                        <a href="#" data-github = "asetalias/asetalias.github.io" data-toggle="tooltip">
+                                            <span class="projectContributors_num">...</span> Contributors
+                                            <div class="font-10">(Click to know more)</div>
+                                        </a>    
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-xs-5 projectAuthor text-center">
+                                <img src="images/ALiAS.png" class="icon"/>
+                                <h5>ALiAS</h5>
+                                <div class="projectSocial">
+                                    <ul class="list-unstyled list-inline row text-left">
+                                        <a href="https://facebook.com/asetalias" title="Facebook" class="col-xs-3 text-center no-padding"><li><i class="fa fa-facebook"></i></li></a>
+                                        <a href="https://github.com/asetalias" title="Github" class="col-xs-3 text-center no-padding"><li><i class="fa fa-github"></i></li></a>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-centered scrl">
-                    <div class="proj_card">
-                        <div class="projBg" style="background-image: url(images/proj_logo_dummy.png)"></div>
-                        <h3 class="projName">Letstream</h3>
-                        <p class="desc">A platform for emerging artists</p>
-                        <p class="aname">By <b>Ayush Agarwal</b></p>
-                        <div class="social_links">
-                                    <a href="https://facebook.com/thisisayushaa" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#4267B2"></i>
-                                <i class="fa fa-facebook fa-stack-1x"></i>
-                            </span>
-                                    </a>
-                                    <a href="https://github.com/thisisayush" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#24292E"></i>
-                                <i class="fa fa-github fa-stack-1x"></i>
-                            </span>
-                                    </a>
-                                    <a href="http://thisisayush.com" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#34A853"></i>
-                                <i class="fa fa-link fa-stack-1x"></i>
-                            </span>
-                                    </a>
+                        <div class="row projectTags">
+                            <div class="col-xs-12">
+                                    <span class="badge">HTML</span>
+                                
+                                    <span class="badge">CSS</span>
+                                
+                                    <span class="badge">JavaScript</span>
+                                
+                                    <span class="badge">Bootstrap</span>
+                                
+                                    <span class="badge">Python</span>
+                                
+                                    <span class="badge">JSON</span>
+                                
+                            </div>
                         </div>
-                        <div class="tag_container">
-                                <span class="badge">HTML</span>
-                            
-                                <span class="badge">CSS</span>
-                            
-                                <span class="badge">JavaScript</span>
-                            
-                                <span class="badge">PHP</span>
-                            
-                                <span class="badge">Wordpress</span>
-                            
-                        </div>
-                        <div class="link_container">
-                        <a class="viewLink" href="http://www.theletstream.com" target="_blank">Visit project</a>
-                        </div>
-                    </div>
                     </div>
                 
-                    <div class="col-lg-2 col-centered scrl">
-                    <div class="proj_card">
-                        <div class="projBg" style="background-image: url(images/proj_logo_dummy.png)"></div>
-                        <h3 class="projName">Amity Hub</h3>
-                        <p class="desc">A stop place for all Amity needs</p>
-                        <p class="aname">By <b>Omkar Yadav</b></p>
-                        <div class="social_links">
-                                    <a href="https://facebook.com/omi.108" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#4267B2"></i>
-                                <i class="fa fa-facebook fa-stack-1x"></i>
-                            </span>
+                    <div class="col-xs-3 projectBox col-centered text-center">
+                        <div class="row projectThumb">
+                            <img src="images/slides/slide1.jpg" />
+                            <div class="img-overlay">
+                                <div class="text-center">
+                                    <a href="http://github.com/asetalias/aliasandroidapp">
+                                        <div class="col-xs-12">
+                                            <i class="fa fa-code fa-2x"></i>
+                                            <p>Source</p>
+                                        </div>
                                     </a>
-                                    <a href="https://github.com/omkar108" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#24292E"></i>
-                                <i class="fa fa-github fa-stack-1x"></i>
-                            </span>
-                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tag_container">
-                                <span class="badge">HTML</span>
-                            
-                                <span class="badge">CSS</span>
-                            
-                                <span class="badge">JavaScript</span>
-                            
-                                <span class="badge">PHP</span>
-                            
-                                <span class="badge">Wordpress</span>
-                            
+                        <div class="row projectTitle">
+                            <div class="col-lg-12 text-center">
+                                <h2>ASET ALiAS Android App</h2>
+                            </div>
                         </div>
-                        <div class="link_container">
-                        <a class="viewLink" href="http://www.amityhub.com" target="_blank">Visit project</a>
+                        <div class="row projectInfo">
+                            <div class="col-xs-7 projectDesc">
+                                <div class="row projectDescInfo">
+                                    <div class="col-xs-12 projectDescInfoContainer">
+                                            <p>Official Android App for ASET ALiAS.</p>
+                                    </div>
+                                </div>
+                                <div class="row projectContributors text-center">
+                                    <hr style="border-top-color:#000; margin: 2px;"> 
+                                    <div class="col-xs-12">
+                                        <a href="#" data-github = "asetalias/aliasandroidapp" data-toggle="tooltip">
+                                            <span class="projectContributors_num">...</span> Contributors
+                                            <div class="font-10">(Click to know more)</div>
+                                        </a>    
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-xs-5 projectAuthor text-center">
+                                <img src="images/ALiAS.png" class="icon"/>
+                                <h5>ALiAS</h5>
+                                <div class="projectSocial">
+                                    <ul class="list-unstyled list-inline row text-left">
+                                        <a href="https://facebook.com/asetalias" title="Facebook" class="col-xs-3 text-center no-padding"><li><i class="fa fa-facebook"></i></li></a>
+                                        <a href="https://github.com/asetalias" title="Github" class="col-xs-3 text-center no-padding"><li><i class="fa fa-github"></i></li></a>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-centered scrl">
-                    <div class="proj_card">
-                        <div class="projBg" style="background-image: url(images/proj_logo_dummy.png)"></div>
-                        <h3 class="projName">PresentationCreationTool</h3>
-                        <p class="desc">Tool to make presentation on HTML without coding.</p>
-                        <p class="aname">By <b>Ajay Tripathi</b></p>
-                        <div class="social_links">
-                                    <a href="https://github.com/ATB00ker" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#24292E"></i>
-                                <i class="fa fa-github fa-stack-1x"></i>
-                            </span>
-                                    </a>
+                        <div class="row projectTags">
+                            <div class="col-xs-12">
+                                    <span class="badge">Android</span>
+                                
+                                    <span class="badge">JAVA</span>
+                                
+                                    <span class="badge">Under Development</span>
+                                
+                            </div>
                         </div>
-                        <div class="tag_container">
-                                <span class="badge">JavaScript</span>
-                            
-                                <span class="badge">HTML</span>
-                            
-                                <span class="badge">CSS</span>
-                            
-                        </div>
-                        <div class="link_container">
-                        <a class="srcLink" href="http://github.com/ATB00ker/PresentationCreationTool" target="_blank">View source</a>
-                        </div>
-                    </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-centered scrl">
-                    <div class="proj_card">
-                        <div class="projBg" style="background-image: url(images/proj_logo_dummy.png)"></div>
-                        <h3 class="projName">Scrape</h3>
-                        <p class="desc">Mission - scraping the planet, one website at a time</p>
-                        <p class="aname">By <b>Vipul Gupta</b></p>
-                        <div class="social_links">
-                                    <a href="https://facebook.com/vipulgupta2048" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#4267B2"></i>
-                                <i class="fa fa-facebook fa-stack-1x"></i>
-                            </span>
-                                    </a>
-                                    <a href="http://mixstersite.wordpress.com/about" target="_blank">
-                            <span class="fa-stack fa-lg pull-left hover-opacity">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse" style="color:#34A853"></i>
-                                <i class="fa fa-link fa-stack-1x"></i>
-                            </span>
-                                    </a>
-                        </div>
-                        <div class="tag_container">
-                                <span class="badge">Python</span>
-                            
-                        </div>
-                        <div class="link_container">
-                        <a class="srcLink" href="http://github.com/vipulgupta2048/scrape" target="_blank">View source</a>
-                        </div>
-                    </div>
                     </div>
                 
         </div>
     </div>
-    </section>
-    <div id="up">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-    </div>
+</section>
 
         <section id="footer">
     <div class="container">
@@ -445,15 +387,44 @@
         sr.reveal(".scrl", {
         duration: 1000
         });
-        //Up button functionality
-        $(window).on('load scroll',() => {
-            if($(window).scrollTop() > 200)
-                $('#up').show();
-            else
-                $('#up').hide();
-        });
-        $('#up').click(() => $('body,html').animate({scrollTop:0},500));
+        /** Fetch Contributors for Github Based Projects Using API **/
+        function fetchContributors(){
+            $('.projectContributors').each(function(){
+                var $this = $(this);
+                var github = $this.find("a:first-child").attr("data-github");
+                $.ajax({
+                    url:"https://api.github.com/repos/"+github+"/contributors", 
+                    type: "GET",
+                    success: function(response, status){
+                        if(status != "success")
+                            return false;
+                        r = response;
+                        loaddata(r);
+                    }
+                });
+                function loaddata(response){
+                    var html = "";
+                    $this.find(".projectContributors_num").html(response.length);
+                    html = '<ul class="list-unstyled text-white">';
+                    $.each(response, function(i,v){
+                        html += '<li><a href="'+v.html_url+'" class="text-white"> @'+v.login+'</a></li>';
+                    });
+                    html += '</ul>';
+                    $this.tooltip({
+                        html: true,
+                        title: html,
+                        trigger: 'hover focus',
+                        viewport: $(this).parents('div.projectBox')[0]
+                    }).click(function(e){
+                        e.preventDefault();
+                        $this.tooltip('toggle');
+                    });
+                }
+            });
+        }
+        fetchContributors();
     });
+    
 </script>
 
 </body>

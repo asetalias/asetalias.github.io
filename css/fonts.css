@@ -4,6 +4,9 @@
     font-family: 'Dosis', sans-serif;
     font-weight: 700;
 }
+.font-10{
+    font-size: 10px;
+}
 h1{
     font-family: 'Dosis', sans-serif;
     font-weight: 500;
@@ -42,20 +45,27 @@ p.description, .servicesList li{
     font-family: 'Dosis', sans-serif;
     font-weight: 300;
 }
-.eventBox .eventCTA button{
+.eventBox .eventCTA button,
+.projectBox .projectCTA button{
     font-family: 'Dosis', sans-serif;
 }
-.eventTitle h2, .youtubeVideoTitleContainer h2{
+.projectBox .projectDescInfoContainer{
+    font-family: 'Dosis', sans-serif;    
+}
+.eventTitle h2, .youtubeVideoTitleContainer h2,
+.projectTitle h2{
     font-family: 'Dosis', sans-serif;
     font-weight: 700;
 }
 @media all and (min-width:300px){
-    .eventTitle h2, .youtubeVideoTitleContainer h2{
+    .eventTitle h2, .youtubeVideoTitleContainer h2,
+    .projectTitle h2{
         font-size: 1.2em;
     }
 }
 @media all and (min-width:768px){
-    .eventTitle h2, .youtubeVideoTitleContainer h2{
+    .eventTitle h2, .youtubeVideoTitleContainer h2,
+    .projectTitle h2{
         font-size: 1.4em;
     }
 }

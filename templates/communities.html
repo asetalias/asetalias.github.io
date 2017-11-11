@@ -11,6 +11,9 @@
                     </div>
                 </div>
                 <div class="row">
+                    {%- if community.logo|length > 0 %}
+                    <p><img class="logo-med" src="{{ community.logo }}"/></p>
+                    {%- endif %}
                     <p>{{ community.desc }}</p>
                 </div>
             </div>
