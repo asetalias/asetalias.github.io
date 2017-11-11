@@ -265,9 +265,6 @@ img.logo-lg{
 	#mainHeader a{
 		color: #FFF;
 	}
-	#mainHeader .navbar-nav{
-		padding-top
-	}
 
 }
 @media all and (min-width: 992px){
@@ -584,7 +581,7 @@ section .section-header{
 	padding:0;
 	text-align:left;
 }
-.eventBox .eventDescInfo .eventDescInfoContainer,{
+.eventBox .eventDescInfo .eventDescInfoContainer{
 	max-height:100px;
 	text-align:left;
 	overflow-x:hidden;
@@ -815,7 +812,7 @@ section .section-header{
 	margin: auto;
 }
 
-.projectBox .projectThumb:hover .img-overlay{
+.projectBox:hover .img-overlay{
 	background: rgba(31, 164, 234, 0.8);
 	opacity: 1;
 }
@@ -1016,6 +1013,37 @@ section.communityBox .section-header{
     color: #000;
 }
 /** End Communities Page Styles **/
+/** Up button styles **/
+#up{
+     display: none;
+     position: fixed;
+     bottom: 10vh;
+     right: 5vw;
+     height: 50px;
+     width: 50px;
+     border-radius: 25px;
+     z-index: 10;
+     cursor: pointer;
+     background-color: #45006e;
+     padding: 15px;
+     box-shadow: 0 0 5px 0 #ccccff;
+	 transition: all 0.2s linear;
+}
+#up:hover,#up:active{
+     background-color: #620090;
+}
+#up span{
+     color: #fff;
+}
+@media all and (min-width: 300px) and (max-width: 768px){
+	#up{
+         width: 40px;
+         height: 40px;
+         padding: 14px;
+         font-size: 1rem;
+    }
+}
+/** End Up button styles **/
 /** Animations **/
 @keyframes color-changing-background{
 	0%{

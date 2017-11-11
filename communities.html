@@ -11,8 +11,6 @@
     <meta name="keywords" content="Aset, Alias, Alias Club, Linux, Amity, Linux User Group, LUG, Amity LUG, Linux Assistance">
     <meta name="author" content="ALIAS">
     <!-- End Search Engine Optimisation -->
-    <!-- Browser tab theme color for Chrome on Android -->
-    <meta name="theme-color" content="#FFFFFF">
 
     <title>ALiAS: Open Source Communities</title>
 
@@ -332,6 +330,9 @@ LinuxChix India is a regional chapter in India of LinuxChix, a global community 
     </div>
 </section>
     </div>
+    <div id="up">
+     <span class="glyphicon glyphicon-chevron-up"></span>
+    </div>
 
     <!-- Jquery -->
     <script src="js/jquery.js"></script>
@@ -351,6 +352,15 @@ LinuxChix India is a regional chapter in India of LinuxChix, a global community 
     <script src="js/data.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $(window).on('load scroll',() => {
+             if($(window).scrollTop() > 200)
+                 $('#up').show();
+             else
+                 $('#up').hide();
+         });
+         $('#up').click(() => $('body,html').animate({scrollTop:0},500));
+    </script>
     
     <!-- Page Scripts -->
     <script src="js/communities-page.js"></script>

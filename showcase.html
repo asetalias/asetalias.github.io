@@ -11,8 +11,6 @@
     <meta name="keywords" content="Aset, Alias, Alias Club, Linux, Amity, Linux User Group, LUG, Amity LUG, Linux Assistance">
     <meta name="author" content="ALIAS">
     <!-- End Search Engine Optimisation -->
-    <!-- Browser tab theme color for Chrome on Android -->
-    <meta name="theme-color" content="#FFFFFF">
 
     <title>ALiAS: Projects Showcase</title>
 
@@ -351,6 +349,9 @@
     </div>
 </section>
     </div>
+    <div id="up">
+     <span class="glyphicon glyphicon-chevron-up"></span>
+    </div>
 
     <!-- Jquery -->
     <script src="js/jquery.js"></script>
@@ -370,6 +371,15 @@
     <script src="js/data.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $(window).on('load scroll',() => {
+             if($(window).scrollTop() > 200)
+                 $('#up').show();
+             else
+                 $('#up').hide();
+         });
+         $('#up').click(() => $('body,html').animate({scrollTop:0},500));
+    </script>
     
 <!-- Other JS -->
 <script src="js/jquery.easing.min.js"></script>
@@ -384,7 +394,7 @@
         window.sr = ScrollReveal({
         origin: 'bottom'
         });
-        sr.reveal(".scrl", {
+        sr.reveal(".projectBox", {
         duration: 1000
         });
         /** Fetch Contributors for Github Based Projects Using API **/
