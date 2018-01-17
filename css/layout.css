@@ -580,6 +580,7 @@ section .section-header{
 .projectBox .projectDescInfo{
 	padding:0;
 	text-align:left;
+	max-height: 137px;
 }
 .eventBox .eventDescInfo .eventDescInfoContainer{
 	max-height:100px;
