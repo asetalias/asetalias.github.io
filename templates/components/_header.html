@@ -14,11 +14,11 @@
         </div>
     </div>
 </div>
-<div class="flashbox">
+<div class="flashbox" data-enabled="{{ flashbox.enabled }}" data-enddate="{{ flashbox.endDate }}">
     <div class="content">
         <a class="closeBtn"><i class="fa fa-minus-circle"></i></a>
         <div class="flashBox-content">
-            &nbsp;
+            {{ flashbox.content }}
         </div>
     </div>
 </div>

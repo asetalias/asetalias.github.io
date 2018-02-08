@@ -42,5 +42,6 @@ $(document).ready(function (e) {
         }
     }
     stickMenu();
+    checkFlashBox();
     $(".preloader").fadeOut(1000); //hide preloader
 });

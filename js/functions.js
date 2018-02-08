@@ -1,16 +1,19 @@
 function checkFlashBox(){
 	/** Load and enable FlashBox **/
-	if(typeof(flashbox.enabled)=="undefined" || flashbox.enabled == "undefined")
+	var enabled = flashbox.attr('data-enabled');
+	if(typeof(enabled)=="0" || enabled == "undefined")
 		return false;
-	if(flashbox.enabled){
-		var d = new Date(flashbox.endDate);
+	if(enabled == "1"){
+		var endDate = flashbox.attr('data-enddate');
+		var currentDate = new Date();
+		var d = new Date(endDate);
+		console.log(currentDate);
 		if(d.getTime() >= currentDate.getTime()){
-			flashboxContentContainer.html(flashbox.content);
-			flashboxContainer.fadeIn();
+			flashbox.fadeIn();
 		}
 	}
-	flashboxCloseBtn.click(function(e){
-		flashboxContainer.fadeOut();	
+	flashbox.find('.closeBtn').click(function(e){
+		flashbox.fadeOut();	
 	});
 }
 

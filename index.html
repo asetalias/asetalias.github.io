@@ -67,11 +67,11 @@
         </div>
     </div>
 </div>
-<div class="flashbox">
+<div class="flashbox" data-enabled="1" data-enddate="Mar 09 2018">
     <div class="content">
         <a class="closeBtn"><i class="fa fa-minus-circle"></i></a>
         <div class="flashBox-content">
-            &nbsp;
+            <a href="http://hackthenight.asetalias.in/" target="_blank"><img src="images/flashbox/poster08032018.jpg"></a>
         </div>
     </div>
 </div>
@@ -118,6 +118,25 @@
 <section id="home" class="home-section ">
     <div class="container">
         <div class="slidesContainer slider single-item slick-slider">
+            <div class="slide" style="background-image: url('images/flashbox/poster08032018.jpg'); ">
+                <div class="container" style="position: relative;height: 100%;width: 100%;">
+                    <div style="" class="text-center absolute-center slideContent">
+                        <div class="row slideHeader">
+                            <h1>Hack The Night</h1>
+                        </div>
+                        <div class="row slideSubHeader">
+                            <p class="description">First Time in Amity, A 24 Hour Hackathon! Register Now!</p>
+                        </div>
+                        <div class="row slideButton">
+                            <div class="col-xs-12">
+                                <a href="http://hackthenight.asetalias.in/" class="page-scroll joinNowBtnLink">
+                                    <button class="btn btn-lg btn-success">Know More</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="slide" style="background-image: url('images/bgrnd.jpeg'); ">
                 <div class="container" style="position: relative;height: 100%;width: 100%;">
                     <div style="" class="text-center absolute-center slideContent">
@@ -233,11 +252,11 @@
             <!-- This section contains all the upcoming events -->
                 <div class="slide col-xs-3 eventBox col-centered text-center" id="eventBox-">
                     <div class="row eventThumb">
-                        <img src="images/flashbox/default.jpg" />
+                        <img src="images/flashbox/poster08032018.jpg" />
                     </div>
                     <div class="row eventTitle">
                         <div class="col-lg-12 text-center">
-                            <h2>No Upcoming Event</h2>
+                            <h2>Hack The Night</h2>
                         </div>
                     </div>
                     <div class="row eventInfo">
@@ -245,7 +264,7 @@
                             <div class="row eventDescInfo">
                                 <div class="col-lg-12">
                                     <p class="eventDescInfoContainer">
-                                        <p>No Upcoming Event, Check Back Later!</p>
+                                        <p>ALiAS is organising an event aims to bring together students, developers, experts, and enthusiasts to have a fun-filled learning experience under one roof. For the first time in Amity Youth Festival, prepare for <strong>Hack The Night</strong>, <em>a 24-hour hackathon</em>. </p><br><p>Participants will be given a real-world problem and a practical solution needs to be found in 24 hours. Participants are free to use any software/technology. Participation is allowed individually or in teams. </p><br><p><strong>Workshops:</strong>  For new developers, will be conducted for introducing them to technologies used by the experienced programmers. <br><strong>Mentors:</strong> Mentors would be there to help the participants and achieve the goal efficiently and under the time limit. </p>
                                     </p>
                                 </div>
                             </div>
@@ -253,30 +272,30 @@
                         <div class="col-xs-5 eventTiming text-left">
                             <div class="date">
                                 <i class="fa fa-calendar icon"></i>&nbsp;
-                                <span><strong>NA</strong></span>
+                                <span><strong>08 Mar 2018</strong></span>
                             </div>
                             <div class="startTimimg">
                                 <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>NA</strong></span>
+                                <span><strong>13:00</strong></span>
                             </div>
                             <div class="endTimimg">
                                 <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>NA</strong></span>
+                                <span><strong>09 Mar 15:00</strong></span>
                             </div>
                             <div class="eventLocation">
                                 <i class="fa fa-map-marker icon"></i>&nbsp;
-                                <span><strong>NA</strong></span>
+                                <span><strong>Incubator</strong></span>
                             </div>
                             <div class="eventOD">
-                                <i class="fa fa-thumbs-down icon text-danger"></i>&nbsp;
-                                <span><strong>No OD</strong></span>
+                                <i class="fa fa-thumbs-up icon text-success"></i>&nbsp;
+                                <span><strong>OD</strong></span>
                             </div>
                         </div>
                     </div>
                     <div class="row eventCTA">
                         <div class="col-xs-12 text-center">
-                            <a href="http://bit.ly/aliaseventsuggest" target="_blank">
-                                <button class="btn btn-danger btn-lg btn-flat">Suggest an Event</button>
+                            <a href="http://hackthenight.asetalias.in/" target="_blank">
+                                <button class="btn btn-danger btn-lg btn-flat">Know More</button>
                             </a>
                         </div>
                     </div>
@@ -904,6 +923,7 @@
     <script>
         var logoDarkLink = "images/logo-dark.png";
         var logoLightLink = "images/logo-light.png";
+        var flashbox = $(".flashbox");
     </script>
 
     <!-- Functionality Scripts -->

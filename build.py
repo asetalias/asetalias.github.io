@@ -8,7 +8,7 @@ data_folder = re.sub(r"(\/\/){1}|(\\){1}", '/', data_folder)
 
 def convertToHtml(text):
     print(text.replace("\\n","\n"))
-    return markdown.markdown(text.replace("\\n","\n"), output_format="html5")
+    return markdown.markdown(text.replace("\\n","\n"), output_format="html5").replace('\n', "<br>")
 
 if __name__ == "__main__":
     data_home = {}
@@ -49,7 +49,8 @@ if __name__ == "__main__":
                 'join_now_link': site_meta['join_now_link'],
                 'favicon': site_meta['favicon'],
                 'logo_dark': site_meta['logo_dark'],
-                'logo_light': site_meta['logo_light']
+                'logo_light': site_meta['logo_light'],
+                'flashbox': site_meta['flashbox']
                 }
     context_home = {'site_about':data_home['site_about'],
                 'site_history':data_home['site_history'],
