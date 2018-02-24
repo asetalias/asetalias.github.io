@@ -1,15 +1,15 @@
 [
 {
-    "title":"Hack The Night",
-    "cta":"http://hackthenight.asetalias.in/",
+    "title":"{{ GeekBattle }}",
+    "cta":"http://asetalias.in/geekbattle",
     "ctaText":"Know More",
-    "date":"08 Mar 2018",
-    "poster": "images/flashbox/poster08032018.jpg",
-    "startTime":"13:00",
-    "endTime":"09 Mar 15:00",
-    "location":"Incubator",
+    "date":"09 Mar 2018",
+    "poster": "images/flashbox/poster09032018.jpg",
+    "startTime":"10:00",
+    "endTime":"16:00",
+    "location":"E2 5th Floor",
     "eventOD":1,
-    "description":"ALiAS is organising an event aims to bring together students, developers, experts, and enthusiasts to have a fun-filled learning experience under one roof. For the first time in Amity Youth Festival, prepare for **Hack The Night**, *a 24-hour hackathon*. \\n \\n Participants will be given a real-world problem and a practical solution needs to be found in 24 hours. Participants are free to use any software/technology. Participation is allowed individually or in teams. \\n \\n**Workshops:**  For new developers, will be conducted for introducing them to technologies used by the experienced programmers. \\n**Mentors:** Mentors would be there to help the participants and achieve the goal efficiently and under the time limit. ",
+    "description":"This Amity Youth Fest, get ready to battle your geek skills at the GeekBattle brought to you by ALIAS() club. This event is organised in collaboration with HackerEarth. The event will prove to be a worthy challenge for programmers, tech gurus, hackers and enthusiasts alike. Use your wits and technical expertise and compete to win exciting prizes. <br> Click <strong>Know More</strong> for more details.",
     "cta2enable":0,
     "cta2":"#",
     "cta2Text":"View"
