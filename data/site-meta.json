@@ -37,7 +37,7 @@
         }
     ],
     "flashbox": {
-        "enabled":1,
+        "enabled": 0,
         "content":"<a href=\"http://asetalias.in/geekbattle\" target=\"_blank\"><img src=\"images/flashbox/poster09032018.jpg\"></a>",
         "endDate": "Mar 09 2018"
     }
