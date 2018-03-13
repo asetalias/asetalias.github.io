@@ -79,5 +79,42 @@
     "cta2Text": "",
     "cta2Icon": "",
     "github": ""
+  },
+  {
+    "name": "Beautiful-Bootstrap",
+    "thumbnail": "http://getbootstrap.com/assets/brand/bootstrap-social.png",
+    "description": "Beautifully Designed Bootstrap Components",
+    "author": "@thisisayush",
+    "authorThumb": "https://avatars2.githubusercontent.com/u/22245433?v=4",
+    "authorSocial":[
+      {
+        "title":"Facebook",
+        "link":"https://facebook.com/thisisayush",
+        "icon": "facebook"
+      },
+      {
+        "title":"Github",
+        "link":"https://github.com/thisisayush",
+        "icon": "github"
+      },
+      {
+        "title": "LinkedIn",
+        "link": "https://linkedin.com/in/thisisayush",
+        "icon": "linkedin"
+      },
+      {
+        "title": "Twitter",
+        "link": "https://twitter.com/thisisayushaa",
+        "icon": "twitter"
+      }
+    ],
+    "tags":["CSS", "SASS", "Bootstrap"],
+    "cta":"https://github.com/thisisayush/beautiful-bootstrap/",
+    "ctaText": "Source",
+    "ctaIcon": "code",
+    "cta2":"https://github.thisisayush.com/beautiful-bootstrap/",
+    "cta2Text": "Demo",
+    "cta2Icon": "eye",
+    "github": "thisisayush/beautiful-bootstrap"
   }
 ]
