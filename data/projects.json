@@ -52,5 +52,32 @@
     "cta2Text": "",
     "cta2Icon": "",
     "github": "asetalias/aliasandroidapp"
+  },
+  {
+    "name": "Community Connect",
+    "thumbnail": "images/slides/slide1.jpg",
+    "description": "Re-Usable Apps that'll power the Meetup Groups!",
+    "author": "ALiAS",
+    "authorThumb": "images/ALiAS.png",
+    "authorSocial":[
+      {
+        "title":"Facebook",
+        "link":"https://facebook.com/asetalias",
+        "icon": "facebook"
+      },
+      {
+        "title":"Github",
+        "link":"https://github.com/asetalias",
+        "icon": "github"
+      }
+    ],
+    "tags":["Django", "Python", "Under Development", "Web Development"],
+    "cta":"https://gitlab.com/asetalias/Community-Connect/",
+    "ctaText": "Source",
+    "ctaIcon": "code",
+    "cta2":"",
+    "cta2Text": "",
+    "cta2Icon": "",
+    "github": ""
   }
 ]
