@@ -18,7 +18,7 @@
 
 ## Instructions
 
-###Create and activate a python virtual environment
+### Create and activate a python virtual environment
 Create a virtual environment (You may have to run ```pip install venv```)
 ```
 virtualenv VENV_NAME
