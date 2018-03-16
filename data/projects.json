@@ -15,6 +15,11 @@
         "title":"Github",
         "link":"https://github.com/asetalias",
         "icon": "github"
+      },
+      {
+        "title": "Twitter",
+        "link": "https://twitter.com/asetalias",
+        "icon": "twitter"
       }
     ],
     "tags":["HTML","CSS","JavaScript","Bootstrap","Python","JSON"],
@@ -42,6 +47,11 @@
         "title":"Github",
         "link":"https://github.com/asetalias",
         "icon": "github"
+      },
+      {
+        "title": "Twitter",
+        "link": "https://twitter.com/asetalias",
+        "icon": "twitter"
       }
     ],
     "tags":["Android", "JAVA", "Under Development"],
@@ -69,6 +79,11 @@
         "title":"Github",
         "link":"https://github.com/asetalias",
         "icon": "github"
+      },
+      {
+        "title": "Twitter",
+        "link": "https://twitter.com/asetalias",
+        "icon": "twitter"
       }
     ],
     "tags":["Django", "Python", "Under Development", "Web Development"],
@@ -116,5 +131,37 @@
     "cta2Text": "Demo",
     "cta2Icon": "eye",
     "github": "thisisayush/beautiful-bootstrap"
+  },
+  {
+    "name": "Scrape",
+    "thumbnail": "images/projects/scrapy.jpg",
+    "description": "A project made over scrapy to crawl and store news from various Website.",
+    "author": "ASET ALiAS",
+    "authorThumb": "images/ALiAS.png",
+    "authorSocial":[
+      {
+        "title":"Facebook",
+        "link":"https://facebook.com/asetalias",
+        "icon": "facebook"
+      },
+      {
+        "title":"Github",
+        "link":"https://github.com/asetalias",
+        "icon": "github"
+      },
+      {
+        "title": "Twitter",
+        "link": "https://twitter.com/asetalias",
+        "icon": "twitter"
+      }
+    ],
+    "tags":["Python", "Scrapy", "PostgreSQL", "Linux"],
+    "cta":"https://github.com/vipulgupta2048/scrape/",
+    "ctaText": "Source",
+    "ctaIcon": "code",
+    "cta2":"",
+    "cta2Text": "",
+    "cta2Icon": "",
+    "github": "vipulgupta2048/scrape"
   }
 ]
