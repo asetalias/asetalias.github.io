@@ -741,18 +741,15 @@ color:black;
 background-color: white;
 }
 
-.btn-floating{
 
-	height:30px;
-	width: 30px;
-}
 .ib{
 	display:visible;
+	height:26px;
+	width:26px;
 }
-
 .ic{
 	position:relative;
-	bottom:5px;
+	bottom:8px;
 }
 @media all and (min-width:200px) and (max-width:399px){
 .alumininames{
@@ -760,6 +757,7 @@ background-color: white;
 	color:#417dde;
 	font-size: 11px;
 	font-weight: 10px;
+
 }
 .workplacename{
 	font-family: "Lucida Console", Times, serif;
@@ -767,7 +765,12 @@ background-color: white;
 	color:white;
 	font-size: 12px;
 	font-weight: 10px;
+
 }}
+.workplacebox{
+	background-color: black;
+position: relative;
+}
 @media all and (min-width:400px) and (max-width:800px){
 .alumininames{
 	font-family: "Times New Roman", Times, serif;
