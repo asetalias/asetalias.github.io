@@ -61,3 +61,4 @@ If you are using SimpleHTTPServer, you can view the changes at localhost:8000. I
 - @aniketmaithani 
 - @bhanuvrat
 - @ATB00ker
+- @vipulgupta2048
