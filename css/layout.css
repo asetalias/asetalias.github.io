@@ -1018,20 +1018,20 @@ section.communityBox .section-header{
 #up{
      display: none;
      position: fixed;
-     bottom: 10vh;
-     right: 5vw;
+     bottom: 4vh;
+     right: 2vw;
      height: 50px;
      width: 50px;
      border-radius: 25px;
      z-index: 10;
      cursor: pointer;
-     background-color: #45006e;
+     background-color: #1a8cff;
      padding: 15px;
      box-shadow: 0 0 5px 0 #ccccff;
 	 transition: all 0.2s linear;
 }
 #up:hover,#up:active{
-     background-color: #620090;
+     background-color: #1a8cff;
 }
 #up span{
      color: #fff;
