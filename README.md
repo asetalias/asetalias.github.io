@@ -57,9 +57,12 @@ If you are using SimpleHTTPServer, you can view the changes at localhost:8000. I
 ## Contributors 
 - @thisisayush
 - @parthsharma2
-- @AnimeshVerma17
+- @AniVerma17
 - @ConformalTomb
 - @aniketmaithani 
 - @bhanuvrat
 - @ATB00ker
 - @vipulgupta2048
+- @omi10859
+- @Manas-Kashyap
+- @JoyBhalla
