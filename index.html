@@ -21,20 +21,27 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
     <!-- Font Awesome CSS -->
     <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Materialize Icons CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/layout.css" rel="stylesheet" />
 
+
     <!-- Fonts -->
     <link href="css/fonts.css" rel="stylesheet" />
 
     <!-- Colors -->
     <link href="css/colors.css" rel="stylesheet" />
-    
+
 <!-- Slider CSS -->
 <link href="css/slick.css" rel="stylesheet">
 <link href="css/slick-theme.css" rel="stylesheet">
@@ -108,13 +115,16 @@
                     <li class="nav-item">
                         <a href="showcase.html" data-target="#menuPrimary">Projects</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="page-scroll" href="index.html#alumni" data-target="#menuPrimary">Alumini</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 </div>
 </header>
-        
+
 <section id="home" class="home-section ">
     <div class="container">
         <div class="slidesContainer slider single-item slick-slider">
@@ -283,7 +293,7 @@
                         </div>
                     </div>
                 </div>
-            
+
         </div>
     </div>
     <div class="row text-right">
@@ -498,7 +508,7 @@
                 <a href="communities.html#pycon">
                     <img src="images/logos/pycon.png" class="logo-med" title="PyCon India" alt="PyCon India"/>
                 </a>
-            </div>        
+            </div>
         </div>
     </div>
 </section>
@@ -506,10 +516,64 @@
 <!-- Alumni Section -->
 <section id="alumni" class="alumni-section ">
     <div class="container">
+      <div class="row row-centered">
+              <span class="col-lg-12 bottom-border bottom-border-success center"><h1 class="section-header text-center" id="aluminiheader">Alumini</h1></span>
+          </div>
+      <div class="row">
         <div class="fa jumbotron alumniDescription row-centered">
             <p><p>Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain</p></p>
         </div>
-    </div>
+      </div>
+            <div class="row"><br/>
+              <div class="offset-s1 col s5 center-align "><img onclick="press()" class="responsive-img aluminiphoto circle hoverable" src="images/alumini/anuvrat.jpg" alt="ANUVRAT PARASHAR" title="ANUVRAT PARASHAR"/>
+                <div class="row"><br/>
+                <span><p class="alumininames">ANUVRAT PARASHAR</p><span>
+                <span id="workplace">FOUNDER AT<p class="workplacename">ESSENTIA<br/> SOFTSERV</p></span>
+                <a href="https://www.linkedin.com/in/anuvratparashar/" class="ib indigo btn-floating"><i class="ic fa fa-linkedin fa-xs "></i></a>
+              </div>
+              </div>
+
+              <div class="col s5 center-align"><img class="responsive-img aluminiphoto circle hoverable" src="images/alumini/mukul.jpg" alt="MUKUL MALIK" title="MUKUL MALIK"/>
+                  <div class="row"><br/>
+                <span><p class="alumininames">MUKUL MALIK</p><span>
+
+                <span id="workplace">RESEARCHER<p class="workplacename">DEEP<br/> LEARNING(NLP/NLU)</p></span>
+                <a href="https://www.linkedin.com/in/mukul-malik-78ba68b2" class="ib indigo btn-floating"><i class="ic fa fa-linkedin "></i></a>
+              </div>
+              </div>
+           </div>
+
+           <div class="row">
+              <div class="offset-s1 col s5 center-align"><img class="responsive-img aluminiphoto circle hoverable" src="images/alumini/shyam.jpg" alt="SHYAM SAINI" title="SHYAM SAINI"/>
+                <div class="row"><br/>
+                  <span><p class="alumininames">SHYAM SAINI</p><span>
+                  <span id="workplace">WORKING AT <p class="workplacename">AMARULA<br/> SOLUTIONS</p></span>
+                <a href="https://www.linkedin.com/in/shyamsaini " class="ib indigo btn-floating"><i class="ic fa fa-linkedin "></i></a>
+              </div>
+              </div>
+
+              <div class=" col s5 center-align"><img class="responsive-img aluminiphoto circle hoverable" src="images/alumini/default.jpg" alt="SHYAM SAINI" title="SHYAM SAINI"/>
+                <div class="row"><br/>
+                  <span><p class="alumininames">HANUT SINGH</p><span>
+                  <span id="workplace">CO-FOUNDER AT<p class="workplacename">PATCH<br/>us</p></span>
+                <a href="https://www.linkedin.com/in/hanutsingh " class="ib indigo btn-floating"><i class="ic fa fa-linkedin "></i></a>
+              </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="offset-s1 col s5 center-align"><img class="responsive-img aluminiphoto circle hoverable" src="images/alumini/default.jpg" alt="SHYAM SAINI" title="SHYAM SAINI"/>
+                <div class="row"><br/>
+                  <span><p class="alumininames">DHRUV GUPTA</p><span>
+                  <span id="workplace">WORKING AT<p class="workplacename">HCL<br/>TECHNOLOGIES</p></span>
+                <a href="https://www.linkedin.com/in/dhruv-gupta-19716111/ " class="ib indigo btn-floating"><i class="ic fa fa-linkedin "></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
 </section>
 
 <!-- Participate & Learn Section -->
@@ -520,17 +584,17 @@
                 <span class="bottom-border center"><h1 class="section-header" id="openSourceHeader">Participate & Learn</h1></span>
             </div>
         </div>
-        <div class="row eventsParticipateList text-center row-centered" id="eventsParticipateListContainer">        
+        <div class="row eventsParticipateList text-center row-centered" id="eventsParticipateListContainer">
             <div class="col-sm-3 col-centered logoContainer">
                 <a href="https://summerofcode.withgoogle.com/"  target="_blank">
                     <img src="images/logos/gsoc.png" class="logo-med" title="Google Summer of Code" alt="Google Summer of Code"/>
                 </a>
-            </div>        
+            </div>
             <div class="col-sm-3 col-centered logoContainer">
                 <a href="https://ilugd.github.io/"  target="_blank">
                     <img src="images/logos/outreachy.png" class="logo-med" title="Outreachy" alt="Outreachy"/>
                 </a>
-            </div>        
+            </div>
             <div class="col-sm-3 col-centered logoContainer">
                 <a href="https://in.pycon.org"  target="_blank">
                     <img src="images/logos/pycon.png" class="logo-med" title="PyCon India" alt="PyCon India"/>
@@ -562,7 +626,7 @@
                 <div class="row teamSocial">
                 </div>
             </div>
-        
+
             <div class="col-lg-2 teamBox col-centered">
                 <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
                     <img src="images/team/shilpi.jpg" alt="Dr. Shilpi Sharma" title="Dr. Shilpi Sharma" />
@@ -576,7 +640,7 @@
                 <div class="row teamSocial">
                 </div>
             </div>
-        
+
             <div class="col-lg-2 teamBox col-centered">
                 <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
                     <img src="images/team/shivam.jpg" alt="Shivam Rajput" title="Shivam Rajput" />
@@ -598,7 +662,7 @@
                     </div>
                 </div>
             </div>
-        
+
             <div class="col-lg-2 teamBox col-centered">
                 <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
                     <img src="images/team/tanya.jpg" alt="Tanya Jain" title="Tanya Jain" />
@@ -636,7 +700,7 @@
                     </div>
                 </div>
             </div>
-        
+
             <div class="col-lg-2 teamBox col-centered">
                 <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
                     <img src="images/team/ayush.jpg" alt="Ayush Agarwal" title="Ayush Agarwal" />
@@ -674,7 +738,7 @@
                     </div>
                 </div>
             </div>
-        
+
             <div class="col-lg-2 teamBox col-centered">
                 <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
                     <img src="images/team/parth.jpg" alt="Parth Sharma" title="Parth Sharma" />
@@ -704,7 +768,7 @@
                     </div>
                 </div>
             </div>
-        
+
             <div class="col-lg-2 teamBox col-centered">
                 <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
                     <img src="images/team/omkar.jpg" alt="Omkar Yadav" title="Omkar Yadav" />
@@ -742,7 +806,7 @@
                     </div>
                 </div>
             </div>
-        
+
             <div class="col-lg-2 teamBox col-centered">
                 <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
                     <img src="images/team/vipulg.jpeg" alt="Vipul Gupta" title="Vipul Gupta" />
@@ -780,9 +844,34 @@
                     </div>
                 </div>
             </div>
-        
+
             <div class="col-lg-2 teamBox col-centered">
                 <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+<<<<<<< HEAD
+=======
+                    <img src="images/team/ajay.jpg" alt="Ajay Tripathi" title="Ajay Tripathi" />
+                </div>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-xs-12 teamName no-padding">Ajay Tripathi</div>
+                    <div class="col-xs-12 teamDesignation no-padding">
+                            Student
+                    </div>
+                </div>
+                <div class="row teamSocial">
+                    <div class="col-xs-2 no-padding">
+                        <a href="https://github.com/ATB00ker" target="_blank" title="Github">
+                            <span class="fa-stack fa-lg pull-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+>>>>>>> alumini section
                     <img src="images/team/anuja.jpeg" alt="Anuja Agarwal" title="Anuja Agarwal" />
                 </div>
                 <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
@@ -802,7 +891,7 @@
                     </div>
                 </div>
             </div>
-        
+
         </div>
     </div>
 </section>
@@ -904,6 +993,9 @@
      <span class="glyphicon glyphicon-chevron-up"></span>
     </div>
 
+  <!--  materialize javascript-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript" src="js/materialize.min.js"></script>
     <!-- Jquery -->
     <script src="js/jquery.js"></script>
 
@@ -932,7 +1024,7 @@
          });
          $('#up').click(() => $('body,html').animate({scrollTop:0},500));
     </script>
-    
+
 <!-- Slick Slider -->
 <script src="js/slick.min.js"></script>
 

@@ -159,7 +159,7 @@ img.logo-sm{
     width: auto;
     height: auto;
     max-height:50px;
-    max-width: 100px; 
+    max-width: 100px;
 }
 img.logo-lg{
 	width: 300px;
@@ -295,7 +295,7 @@ img.logo-lg{
     top:0;
     z-index:4;
     width:inherit;
-   
+
 }
 **/
 #mainHeader #mainNav>div>.row{
@@ -331,7 +331,7 @@ img.logo-lg{
 	width: inherit;
 	box-shadow: none;
 	color: #FFF;
-	padding-top: 10px; 
+	padding-top: 10px;
 }
 #mainHeader.mainHeaderLayout1 .navbar li{
     float: left;
@@ -347,7 +347,7 @@ img.logo-lg{
 @media all and (max-width:767px){
 	#mainHeader.mainHeaderLayout1 .navbar-collapse{
 		background: rgba(255,255,255,0.9);
-	}	
+	}
 	#mainHeader.mainHeaderLayout1 .navbar li>a{
 		color: rgba(0,0,0,0.8);
 	}
@@ -360,7 +360,7 @@ img.logo-lg{
 section{
 	width: 100%;
 	margin: 0;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
 }
 section .container{
     width: inherit;
@@ -391,7 +391,7 @@ section .section-header{
     width: inherit;
 	height: 100vh;
     overflow: hidden;
-	margin-top:0; 
+	margin-top:0;
 }
 #home .container{
     padding: 0;
@@ -401,7 +401,7 @@ section .section-header{
 	color: #FFF;
 	height: 100vh;
 	background-size: cover;
-	background-position: center; 
+	background-position: center;
 	background-attachment: fixed;
 	overflow: hidden;
 	position: relative;
@@ -457,7 +457,7 @@ section .section-header{
     font-size: 45px;
     background: transparent;
     box-shadow: 0 0 0;
-    margin-top:20px; 
+    margin-top:20px;
 	text-transform: none;
 }
 #intro p.description{
@@ -503,7 +503,7 @@ section .section-header{
 }
 @media screen and (max-width:400px){
 	#intro .heading{
-		font-size:22px; 
+		font-size:22px;
 	}
 }
 /** Intro Section End **/
@@ -638,7 +638,7 @@ section .section-header{
 	margin-top:20px;
 	color:#FFF;
 }
-@media all and (min-width:1024px){	
+@media all and (min-width:1024px){
 	.eventBox .eventCTA button{
 		font-size:1.2em;
 }
@@ -713,7 +713,7 @@ section .section-header{
     background-attachment: fixed;
     background-size: cover;
 }
-/** Webinars Section Custom Slick Slider Styles 
+/** Webinars Section Custom Slick Slider Styles
 #webinars .slick-dots li button:before,
 #team .slick-dots li button:before,{
     color: #FFF;
@@ -731,11 +731,74 @@ section .section-header{
 
 /** Alumni Section **/
 #alumni{
-	padding:100px 5px; 
+	padding:100px 5px;
     background: url("../images/bg-1080p-3.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
+#workplace{
+color:black;
+background-color: white;
+}
+
+
+.ib{
+	display:visible;
+	height:26px;
+	width:26px;
+}
+.ic{
+	position:relative;
+	bottom:8px;
+}
+@media all and (min-width:200px) and (max-width:399px){
+.alumininames{
+	font-family: "Times New Roman", Times, serif;
+	color:#417dde;
+	font-size: 11px;
+	font-weight: 10px;
+
+}
+.workplacename{
+	font-family: "Lucida Console", Times, serif;
+	background-color: black;
+	color:white;
+	font-size: 12px;
+	font-weight: 10px;
+
+}}
+.workplacebox{
+	background-color: black;
+position: relative;
+}
+@media all and (min-width:400px) and (max-width:800px){
+.alumininames{
+	font-family: "Times New Roman", Times, serif;
+	color:#417dde;
+	font-size: 12px;
+	font-weight: 10px;
+}
+.workplacename{
+	font-family: "Lucida Console", Times, serif;
+	background-color: black;
+	color:white;
+	font-size: 12px;
+	font-weight: 10px;
+}}
+@media all and (min-width:800px) and (max-width:1500px){
+.alumininames{
+	font-family: "Times New Roman", Times, serif;
+	color:#417dde;
+	font-size: 20px;
+	font-weight: 21px;
+}
+.workplacename{
+	font-family: "Lucida Console", Times, serif;
+	background-color: black;
+	color:white;
+	font-size: 20px;
+	font-weight: 21px;
+}}
 #alumni .container{
 	height: 100%;
 }
@@ -857,11 +920,11 @@ section .section-header{
 	.projectBox .projectThumb .img-overlay>div>a:active > div,
 	.projectBox .projectThumb .img-overlay>div>a:focus > div{
 		background: rgba(31, 164, 234, 0.4) ;
-	}	
+	}
 	.projectBox .projectInfo{
 		height: 131px;
 	}
-	.projectBox .projectDesc, 
+	.projectBox .projectDesc,
 	.projectBox .projectAuthor{
 		height: inherit;
 	}
@@ -899,7 +962,7 @@ section .section-header{
 	height: 100%;
 }
 .teamBox .teamInfoContainer{
-	padding:10px 2px; 
+	padding:10px 2px;
 	width: 100%;
 }
 .teamBox .teamName{
@@ -958,7 +1021,7 @@ section .section-header{
     vertical-align: middle;
 }
 #footer .widgetTitle{
-	border-bottom:3px solid #000; 
+	border-bottom:3px solid #000;
 }
 #footer .widgetContent{
 	width: 100%;
@@ -979,7 +1042,7 @@ section .section-header{
 	font-size: 18px;
 	position: relative;
 	padding-left:23px;
-	margin:5px 0px; 
+	margin:5px 0px;
 }
 .contactLinksContainer li i.fa{
 	position: absolute;
