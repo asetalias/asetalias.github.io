@@ -45,3 +45,4 @@ $(document).ready(function (e) {
     checkFlashBox();
     $(".preloader").fadeOut(1000); //hide preloader
 });
+
