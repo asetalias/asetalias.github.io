@@ -123,6 +123,39 @@
                 "github":"anujagrazzel",
                 "ppicUrl":"images/team/anuja.jpeg"
             }
+        ],
+
+        "alumini":[
+          {
+            "name":"ANUVRAT PARASHAR",
+           "currently_working":"ESSENTIA SOFTSERV",
+            "linkedin":"https://www.linkedin.com/in/anuvratparashar/",
+            "picurl":"images/alumini/anuvrat.jpeg"
+          },
+          {
+            "name":"MUKUL MALIK",
+           "currently_working":"DEEP LEARNING(NLP/NLU)",
+            "linkedin":"https://www.linkedin.com/in/mukul-malik-78ba68b2",
+            "picurl":"images/alumini/mukul.jpeg"
+          },
+          {
+            "name":"SHYAM SAINI",
+           "currently_working":"AMARULA SOLUTIONS",
+            "linkedin":"https://www.linkedin.com/in/shyamsaini",
+            "picurl":"images/alumini/shyam.jpeg"
+          },
+          {
+            "name":"HANUT SINGH",
+           "currently_working":"PATCH us",
+            "linkedin":"https://www.linkedin.com/in/hanutsingh",
+            "picurl":"images/alumini/default.jpeg"
+          },
+          {
+            "name":"DHRUV GUPTA",
+           "currently_working":"HCL TECHNOLOGIES",
+            "linkedin":"https://www.linkedin.com/in/dhruv-gupta-19716111/",
+            "picurl":"images/alumini/default.jpeg"
+          }
         ]
     }
 ]

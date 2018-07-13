@@ -159,7 +159,7 @@ img.logo-sm{
     width: auto;
     height: auto;
     max-height:50px;
-    max-width: 100px; 
+    max-width: 100px;
 }
 img.logo-lg{
 	width: 300px;
@@ -169,6 +169,10 @@ img.logo-lg{
 	img.logo-lg{
 		width: 400px;
 	}
+	#alumni .alumniDescription p{
+		padding-left: 60px;
+		padding-right: 60px;
+	} 
 }
 .iconMed{
     font-size:24px;
@@ -265,7 +269,20 @@ img.logo-lg{
 	#mainHeader a{
 		color: #FFF;
 	}
-
+	.mobile{
+		display:none;
+	}
+	.controlh:hover img.alumini_dp{
+		opacity:0.7;
+		}
+    .controlh:hover a.desktop{
+     opacity: 1;
+    }
+    .desktop{
+      bottom:87px;
+      opacity:0;
+      
+    }
 }
 @media all and (min-width: 992px){
 	#mainHeader .navbar li{
@@ -295,7 +312,7 @@ img.logo-lg{
     top:0;
     z-index:4;
     width:inherit;
-   
+
 }
 **/
 #mainHeader #mainNav>div>.row{
@@ -331,7 +348,7 @@ img.logo-lg{
 	width: inherit;
 	box-shadow: none;
 	color: #FFF;
-	padding-top: 10px; 
+	padding-top: 10px;
 }
 #mainHeader.mainHeaderLayout1 .navbar li{
     float: left;
@@ -347,7 +364,7 @@ img.logo-lg{
 @media all and (max-width:767px){
 	#mainHeader.mainHeaderLayout1 .navbar-collapse{
 		background: rgba(255,255,255,0.9);
-	}	
+	}
 	#mainHeader.mainHeaderLayout1 .navbar li>a{
 		color: rgba(0,0,0,0.8);
 	}
@@ -360,7 +377,7 @@ img.logo-lg{
 section{
 	width: 100%;
 	margin: 0;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
 }
 section .container{
     width: inherit;
@@ -391,7 +408,7 @@ section .section-header{
     width: inherit;
 	height: 100vh;
     overflow: hidden;
-	margin-top:0; 
+	margin-top:0;
 }
 #home .container{
     padding: 0;
@@ -401,7 +418,7 @@ section .section-header{
 	color: #FFF;
 	height: 100vh;
 	background-size: cover;
-	background-position: center; 
+	background-position: center;
 	background-attachment: fixed;
 	overflow: hidden;
 	position: relative;
@@ -457,7 +474,7 @@ section .section-header{
     font-size: 45px;
     background: transparent;
     box-shadow: 0 0 0;
-    margin-top:20px; 
+    margin-top:20px;
 	text-transform: none;
 }
 #intro p.description{
@@ -503,7 +520,7 @@ section .section-header{
 }
 @media screen and (max-width:400px){
 	#intro .heading{
-		font-size:22px; 
+		font-size:22px;
 	}
 }
 /** Intro Section End **/
@@ -638,7 +655,7 @@ section .section-header{
 	margin-top:20px;
 	color:#FFF;
 }
-@media all and (min-width:1024px){	
+@media all and (min-width:1024px){
 	.eventBox .eventCTA button{
 		font-size:1.2em;
 }
@@ -713,7 +730,7 @@ section .section-header{
     background-attachment: fixed;
     background-size: cover;
 }
-/** Webinars Section Custom Slick Slider Styles 
+/** Webinars Section Custom Slick Slider Styles
 #webinars .slick-dots li button:before,
 #team .slick-dots li button:before,{
     color: #FFF;
@@ -731,11 +748,89 @@ section .section-header{
 
 /** Alumni Section **/
 #alumni{
-	padding:100px 5px; 
-    background: url("../images/bg-1080p-3.jpg");
+	padding:10px 5px;
     background-attachment: fixed;
     background-size: cover;
+    background-color: rgba(242, 242, 242,1);
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.3);
 }
+.row-low{
+	height: 30% !important;
+}
+#aluminiHeader{
+	color:#1a1a1a !important;
+	padding: 0px !important;
+}
+@media all and (max-width:1100px){
+  .alumini_columns{
+    margin:40px;
+  }
+  }
+  @media all and (min-width:1101px){
+  .alumini_columns{
+    margin:20px;
+  }
+
+  }
+   .alumini_columns{
+	position: relative;
+	
+}
+
+ .iconlinkedin{
+	position: relative;
+	z-index:50;
+	background-color: #0077B5;
+	border-radius: 40%;
+	padding:5px;
+	transition: all 0.5s;
+	color:white !important;
+	
+	box-shadow: 3px 3px 4px 3px rgba(0, 0, 0, 0.3);
+}
+.alumini_card_divider{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: auto;
+    padding: 0; 
+    width:75%;
+}
+
+.alumini_dp{
+	position: relative;
+	border-radius:50%;
+	margin-left: auto;
+	margin-right: auto;
+	width:60%;
+	height:auto;
+	transition: opacity 0.5s;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.3));
+	vertical-align: middle;
+	
+}
+.controlh{
+
+	position: relative;
+	border-radius: 50%;
+	
+}
+.alumininames{
+	font-size: 1.4em;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+	color:#404040;
+}
+.workplacename{
+	font-size: 1.0em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color:#404040;
+
+}
+
+
 #alumni .container{
 	height: 100%;
 }
@@ -743,12 +838,14 @@ section .section-header{
 	position:relative;
 	margin: 0;
 	text-align:center;
-	color: #fff;
+	color:#737373;
 	background: transparent;
 }
 #alumni .alumniDescription p{
-	font-size:35px;
-	color: rgba(255,255,255,0.8);
+	font-size:23px;
+	color: #737373;
+	border-radius: 6px;
+	
 }
 /** BlockQuote **/
 #alumni .alumniDescription:before{
@@ -837,6 +934,7 @@ section .section-header{
 	height: inherit;
 }
 @media all and (max-width:768px){
+
 	.projectBox .projectThumb .img-overlay{
 		position: absolute;
 		width: 100%;
@@ -857,11 +955,11 @@ section .section-header{
 	.projectBox .projectThumb .img-overlay>div>a:active > div,
 	.projectBox .projectThumb .img-overlay>div>a:focus > div{
 		background: rgba(31, 164, 234, 0.4) ;
-	}	
+	}
 	.projectBox .projectInfo{
 		height: 131px;
 	}
-	.projectBox .projectDesc, 
+	.projectBox .projectDesc,
 	.projectBox .projectAuthor{
 		height: inherit;
 	}
@@ -899,7 +997,7 @@ section .section-header{
 	height: 100%;
 }
 .teamBox .teamInfoContainer{
-	padding:10px 2px; 
+	padding:10px 2px;
 	width: 100%;
 }
 .teamBox .teamName{
@@ -958,7 +1056,7 @@ section .section-header{
     vertical-align: middle;
 }
 #footer .widgetTitle{
-	border-bottom:3px solid #000; 
+	border-bottom:3px solid #000;
 }
 #footer .widgetContent{
 	width: 100%;
@@ -979,7 +1077,7 @@ section .section-header{
 	font-size: 18px;
 	position: relative;
 	padding-left:23px;
-	margin:5px 0px; 
+	margin:5px 0px;
 }
 .contactLinksContainer li i.fa{
 	position: absolute;
@@ -1037,12 +1135,23 @@ section.communityBox .section-header{
      color: #fff;
 }
 @media all and (min-width: 300px) and (max-width: 768px){
+	.desktop{
+       display: none;
+	}
+	.mobile{
+        top:10px;
+	}
+	.alumini_dp{
+		opacity:1;
+	}
 	#up{
          width: 40px;
          height: 40px;
          padding: 14px;
          font-size: 1rem;
     }
+   
+   
 }
 /** End Up button styles **/
 /** Animations **/

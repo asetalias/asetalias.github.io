@@ -61,6 +61,7 @@ if __name__ == "__main__":
                 'open_source_communities': data_home['open_source'],
                 'eventsP': data_home['eventsP'],
                 'team': data_home['team'],
+                    'alumini':data_home['alumini'],
                 'header_class': 'mainHeaderLayout1'
                 }
     context_communities = {
