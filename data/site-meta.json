@@ -38,8 +38,8 @@
     ],
     "flashbox": {
         "enabled": 1,
-        "content":"<a href=\"https://bit.ly/kickstarter2k18\" target=\"_blank\"><img src=\"images/flashbox/poster02082018.jpeg\"></a>",
-        "endDate": "Aug 03 2018"
+        "content":"<a href=\"#\" target=\"_blank\"><img src=\"images/flashbox/poster09082018.jpeg\"></a>",
+        "endDate": "Aug 10 2018"
     }
 }
 ]
