@@ -28,6 +28,29 @@
             "url":"https://www.facebook.com/asetalias/",
             "title":"Facebook",
             "iconColor":"blue"
+        },{
+            "icon":"gitlab",
+            "url":"https://gitlab.com/asetalias/",
+            "title": "Gitlab",
+            "iconColor":"grey"
+        },
+        {
+            "icon":"telegram",
+            "url":"https://www.t.me./asetalias/",
+            "title": "Telegram",
+            "iconColor":"blue"
+        },
+        {
+            "icon":"twitter",
+            "url":"https://www.twitter.com/asetalias/",
+            "title": "Twitter",
+            "iconColor":"blue"
+        },
+        {
+            "icon":"instagram",
+            "url":"https://www.instagram.com/asetalias/",
+            "title": "Instagram",
+            "iconColor":"red"
         },
         {
             "icon":"google-plus-square",
