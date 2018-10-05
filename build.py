@@ -1,5 +1,5 @@
 import json,os,re
-from staticjinja import make_site
+from staticjinja import Site
 import markdown
 #Path to data folder
 data_folder = os.path.abspath(os.path.dirname(__file__)) + '/data'
@@ -79,8 +79,8 @@ if __name__ == "__main__":
     context_communities.update(context_base)
     context_gallery.update(context_base)
     context_projects.update(context_base)
-    contexts = [('index.html', context_home), ('communities.html', context_communities), ('gallery.html', context_gallery), ('showcase.html', context_projects)]
-
+    contexts = [('components/_base.html', context_base), ('components/_header.html', context_base), ('index.html', context_home), ('communities.html', context_communities), ('gallery.html', context_gallery), ('showcase.html', context_projects)]
+    
     #StaticJinja
-    site = make_site(contexts = contexts)
+    site = Site.make_site(contexts = contexts, rules=((r'$_', False),))
     site.render(use_reloader=True)
