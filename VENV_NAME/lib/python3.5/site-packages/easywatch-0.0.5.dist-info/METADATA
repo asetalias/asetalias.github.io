@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: easywatch
+Version: 0.0.5
+Summary: super simple directory monitoring
+Home-page: https://github.com/Ceasar/easywatch
+Author: Ceasar Bautista
+Author-email: cbautista2010@gmail.com
+License: UNKNOWN
+Keywords: directory,polling,monitoring
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Requires-Dist: watchdog
+
+UNKNOWN
+
+

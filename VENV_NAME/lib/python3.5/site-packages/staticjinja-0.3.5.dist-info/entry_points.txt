@@ -1,0 +1,3 @@
+[console_scripts]
+staticjinja = staticjinja.cli:main
+
