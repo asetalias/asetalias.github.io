@@ -34,6 +34,12 @@
             "url":"https://groups.google.com/forum/#!forum/amity-linux-group",
             "title":"Mailing List",
             "iconColor":"yellow"
+        },
+        {
+            "icon":"linkedin-square",
+            "url":"https://www.linkedin.com/company/asetalias/",
+            "title":"LinkedIn",
+            "iconColor":"blue"
         }
     ],
     "flashbox": {
