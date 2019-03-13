@@ -40,7 +40,38 @@
             "url":"https://www.linkedin.com/company/asetalias/",
             "title":"LinkedIn",
             "iconColor":"blue"
+        },        
+        {
+            "icon":"telegram",
+            "url":"https://www.t.me/asetalias/",
+            "title":"Telegram",
+            "iconColor":"blue"
+        }, 
+        {
+            "icon":"gitlab",
+            "url":"https://www.gitlab.com/asetalias/",
+            "title":"GitLab",
+            "iconColor":"grey"
+        }, 
+        {
+            "icon":"instagram",
+            "url":"https://www.instagram.com/asetalias/",
+            "title":"Instagram",
+            "iconColor":"red"
+        },
+        {
+            "icon":"facebook",
+            "url":"https://www.facebook.com/asetalias/",
+            "title":"Facebook",
+            "iconColor":"blue"
+        },
+        {
+            "icon":"twitter",
+            "url":"https://www.twitter.com/asetalias/",
+            "title":"Twitter",
+            "iconColor":"blue"
         }
+            
     ],
     "flashbox": {
         "enabled": 1,
