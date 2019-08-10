@@ -36,24 +36,6 @@
             "iconColor":"yellow"
         },
         {
-            "icon":"linkedin-square",
-            "url":"https://www.linkedin.com/company/asetalias/",
-            "title":"LinkedIn",
-            "iconColor":"blue"
-        },        
-        {
-            "icon":"telegram",
-            "url":"https://www.t.me/asetalias/",
-            "title":"Telegram",
-            "iconColor":"blue"
-        }, 
-        {
-            "icon":"gitlab",
-            "url":"https://www.gitlab.com/asetalias/",
-            "title":"GitLab",
-            "iconColor":"grey"
-        }, 
-        {
             "icon":"instagram",
             "url":"https://www.instagram.com/asetalias/",
             "title":"Instagram",

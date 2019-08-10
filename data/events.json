@@ -1,5 +1,4 @@
 [{
-<<<<<<< HEAD
     "title": "No upcoming events",
     "cta": "https://docs.google.com/forms/d/e/1FAIpQLScpSM7nisQQKlBB5oYdkeo2cMV6I0b__F_KowLgbUJePyyLZg/viewform?usp=sf_link",
     "ctaText": "Want To host event",
@@ -9,19 +8,7 @@
     "endTime": "-",
     "location": "-",
     "eventOD": 0,
-    "description": "No upcoming event for now !!",
-=======
-    "title": "KickStarter 2019",
-    "cta": "https://asetalias.in",
-    "ctaText": "Open for all freshers, no registration required",
-    "date": "8 Aug '19",
-    "poster": "images/flashbox/poster08082019.jpg",
-    "startTime": "2:00 PM",
-    "endTime": "4:00 PM",
-    "location": "E3-104",
-    "eventOD": 1,
-    "description": "An introduction to the world of programming, CS careers and more",
->>>>>>> f6d46f649772e5f0acfe9dd1b67bb86cd5e68266
+    "description":  "No upcoming event for now !!",
     "cta2enable": 0,
     "cta2": "#",
     "cta2Text": "View"
