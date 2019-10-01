@@ -5,7 +5,7 @@
 
 ## Contribute 
 - Feel free to open an issue or recommend any changes which you want to see in the website. 
-- Adhere to the guidelines mentioned below if you want to contribute. 
+- Add here to the guidelines mentioned below if you want to contribute. 
 - To Contribute, check out official [wiki](https://github.com/asetalias/asetalias.github.io/wiki)
 
 ## Guidelines 
