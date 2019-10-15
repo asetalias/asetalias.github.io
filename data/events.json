@@ -1,15 +1,15 @@
 [{
-    "title": "KickStarter 2019",
-    "cta": "https://asetalias.in",
-    "ctaText": "Open for all freshers, no registration required",
-    "date": "8 Aug '19",
-    "poster": "images/flashbox/poster08082019.jpg",
-    "startTime": "2:00 PM",
-    "endTime": "4:00 PM",
-    "location": "E3-104",
+    "title": "ALiAS Hacktoberfest + Devsprint 2019",
+    "cta": "https://bit.ly/hack_sprint",
+    "ctaText": "Register Now!",
+    "date": "17 Oct '19",
+    "poster": "images/flashbox/poster17102019.jpg",
+    "startTime": "11:00 AM",
+    "endTime": "5:00 PM",
+    "location": "L1-Audi",
     "eventOD": 1,
-    "description": "An introduction to the world of programming, CS careers and more",
-    "cta2enable": 0,
-    "cta2": "#",
-    "cta2Text": "View"
+    "description": "Learn to contribute to open-source, win big prizes & grow your network with ALiAS",
+    "cta2enable": 1,
+    "cta2": "http://hacksprint.asetalias.in",
+    "cta2Text": "Visit Website"
 }]
