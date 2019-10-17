@@ -1,24 +1,23 @@
                                                 FAQs
 Q1. What is ASET AliAS?
-Ans. It’s not your regular Amity Club. ALiAS is a community, founded in 2010, which was developed with the aim to promote the use of Linux in the campus and get students familiar with the Open Source. We community members help students with their doubts pertaining tech, conduct workshops, webinars, have meet-ups (online and in-person) and most important get you connected.
+Ans. ALiAS is not your regular Amity Club. ALiAS is a community, founded in 2010, which was developed with the aim to promote the use of Linux in the campus and get students familiar with the world of Open Source. The community members help students with their doubts pertaining to tech, conduct workshops, webinars,organize meet-ups (online and in-person) and most important get you connected.
 
 Q2. Why should I join ALiAS?
-Ans. ALiAS is by far, the largest open-source community in Amity University, we are
+Ans. ALiAS is by far, the largest open-source community in Amity University. We are
 open to developers not only inside the campus, but also from various places. We have got assistance
-from alumni and people from tech, near and far. We have got presence in communities like PyDelhi, ILUG-D, LinuxChix India, Mozilla Delhi, etc. and can help you get connected.
+from alumni and people from tech, near and far. We have got a presence in communities like PyDelhi, ILUG-D, LinuxChix India, Mozilla Delhi, etc. and can help you get connected.
 
 Q3. How is the community of AliAS?
-And. We have got the most active developers in the campus. You will find people in nearly all domains,
-Web Development, Android Development, Artificial Intelligence, backend, frontend, industry people,
-etc. And best of all, we have got a great reach for people and further development.
+And. We have the most active developers in the campus. You will find people from nearly all domains,
+Web Development, Android Development, Artificial Intelligence, backend, frontend, industry people, designers, technical writers, theoretical CS enthusiasts,
+etc. And best of all, we have got a great reach for people and development.
 
 Q4. How should I join AliAS?
-And. Simple. Go and register yourself in http://asetalias.in/ . One of our developers will get you joined
-to the group.
+Ans. Simple. Go and register yourself on http://asetalias.in/ . One of us will add you to the WhatsApp and Telegram groups.
 
 Q5. Having joined, where should I start?
-And. We request you to drop a message, stating your name, course duration and your skills, if any. Also
-let us know which field you want to work, and we will guide you thereafter. Have one plan at a time.
+And. We request you to drop a message, stating your name, course duration, and your skills. Also
+let us know which field you are interested in, and we will guide you thereafter. Have one plan at a time.
 
 Q6. Best OS?
 Ans. Are you a designer? - Windows; Are you a developer? - Linux(Any)
