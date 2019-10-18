@@ -42,6 +42,12 @@
             "iconColor":"blue"
         },
         {
+            "icon":"facebook",
+            "url":"https://www.linkedin.com/company/asetalias/",
+            "title":"Facebook, join a group of 500+ hackers contributing to FOSS",
+            "iconColor":"blue"
+        },
+        {
             "icon":"instagram",
             "url":"https://www.asetalias.com/asetalias/",
             "title":"Instagram, follow Us!",
