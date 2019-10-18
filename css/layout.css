@@ -956,9 +956,6 @@ section .section-header{
 	.projectBox .projectThumb .img-overlay>div>a:focus > div{
 		background: rgba(31, 164, 234, 0.4) ;
 	}
-	.projectBox .projectInfo{
-		height: 131px;
-	}
 	.projectBox .projectDesc,
 	.projectBox .projectAuthor{
 		height: inherit;
