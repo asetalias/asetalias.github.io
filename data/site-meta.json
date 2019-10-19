@@ -14,13 +14,19 @@
         {
             "icon":"github",
             "url":"https://github.com/asetalias",
-            "title": "Github, we ❤️ open-source ",
+            "title": "Github, we ❤️ open-source",
+            "iconColor":"black"
+        },
+        {
+            "icon":"twitter",
+            "url":"https://twitter.com/asetalias",
+            "title": "Twitter, for all the latest updates",
             "iconColor":"black"
         },
         {
             "icon":"whatsapp",
             "url":"https://chat.whatsapp.com/Li2gDrZd9xzJIJdNvSzLbR",
-            "title":"Whatsapp, join our Public Channel",
+            "title":"Whatsapp, join our public channel",
             "iconColor":"green"
         },
         {
