@@ -26,13 +26,13 @@
         {
             "icon":"whatsapp",
             "url":"https://chat.whatsapp.com/Li2gDrZd9xzJIJdNvSzLbR",
-            "title":"Whatsapp, join our public channel",
+            "title":"Whatsapp, join the public channel for updates",
             "iconColor":"green"
         },
         {
             "icon":"telegram",
             "url":"https://t.me/asetalias",
-            "title":"Telegram, interact with our alumni",
+            "title":"Telegram, interact with the alumni",
             "iconColor":"blue"
         },
         {
@@ -44,7 +44,7 @@
         {
             "icon":"linkedin-square",
             "url":"https://www.linkedin.com/company/asetalias/",
-            "title":"LinkedIn, join us",
+            "title":"LinkedIn, join us today!",
             "iconColor":"blue"
         },
         {
