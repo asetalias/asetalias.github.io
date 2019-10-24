@@ -33,7 +33,7 @@ ALiAS has its own blog now, [ALiAS Writes](https://asetalias.in/blog). If you li
 - Upload Screenshot(s) or provide a link to the working demo of the website while making a PR.
 
 ## Contributors 
-Thanks to all the generous contributions both offline and online by our members, is behind the magic of everything that ALiAS does. 
+A big thanks to all the generous contributions both offline and online by our members, who are behind the magic of everything that ALiAS does.
 Head over to the [Contributors](https://github.com/asetalias/asetalias.github.io/graphs/contributors) section to get the full list of these people.
 
 ## License
