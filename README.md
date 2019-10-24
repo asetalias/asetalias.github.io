@@ -1,6 +1,6 @@
 ## ALiAS: Amity Linux Assistance Sapience
 
- [![HitCount](http://hits.dwyl.io/asetalias/asetalias.github.io.svg)](http://hits.dwyl.io/asetalias/asetalias.github.io) [![GitHub license](https://img.shields.io/github/license/asetalias/blog.svg?style=flat-square)](https://github.com/asetalias/asetalias.github.io/blob/master/LICENSE) 
+ [![HitCount](http://hits.dwyl.io/asetalias/asetalias.github.io.svg)](http://hits.dwyl.io/asetalias/asetalias.github.io) [![License](https://img.shields.io/github/license/asetalias/blog.svg?style=flat-square)](https://github.com/asetalias/asetalias.github.io/blob/master/LICENSE) 
 ![GitHub issues](https://img.shields.io/github/issues-raw/asetalias/asetalias.github.io.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/asetalias/asetalias.github.io.svg)
 ![Twitter Follow](https://img.shields.io/twitter/follow/asetalias.svg?style=social)
 
