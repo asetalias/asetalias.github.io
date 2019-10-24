@@ -16,7 +16,7 @@
 - Adhere to the guidelines mentioned below if you want to contribute. 
 - Before contributing, be sure to check out the official [wiki](https://github.com/asetalias/asetalias.github.io/wiki)
 
-## Contirbute to ALiAS Writes's blog!
+## Contribute to our blog: ALiAS Writes!
 
 ALiAS has its own blog now, [ALiAS Writes](https://asetalias.in/blog). If you like your contributions to be more content, than technical then we we would love to see your blogs be published on ALiAS Writes. [Read more about it here on How to Contibute](https://github.com/asetalias/blog/blob/master/README.md). 
 
