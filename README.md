@@ -18,7 +18,7 @@
 
 ## Contribute to our blog: ALiAS Writes!
 
-ALiAS has its own blog now, [ALiAS Writes](https://asetalias.in/blog). If you like your contributions to be more content, than technical then we we would love to see your blogs be published on ALiAS Writes. [Read more about it here on How to Contibute](https://github.com/asetalias/blog/blob/master/README.md). 
+ALiAS has its own blog now, [ALiAS Writes](https://asetalias.in/blog). If you like your contributions to be more content-centric than technical, we would love to see your blogs on ALiAS Writes. Read more about How to Contribute [here](https://github.com/asetalias/blog/blob/master/README.md). 
 
 <img src="https://user-images.githubusercontent.com/22801822/67155791-20c25880-f333-11e9-8d7b-ced2963b2d12.png" height=480>
 
