@@ -9,7 +9,7 @@
 - The website is hosted on gh-pages itself. 
 - This Website uses Staticjinja to build top-level HTML files. Follow Instructions to modify the HTML files.
 
-<img src="https://user-images.githubusercontent.com/22801822/67155846-3d12c500-f334-11e9-9125-dbf32ea573a9.png" height=480>
+<img src="https://user-images.githubusercontent.com/22801822/67522556-91b69700-f6ca-11e9-9007-29fceb0077fb.png" height=480>
 
 ## Contribute to the Website 
 - Feel free to open an issue or recommend any changes which you want to see on the website. 
