@@ -547,11 +547,10 @@ section .section-header{
 .eventBox,
 .youtubeBox,
 .projectBox{
-	height: 420px;
 	width: 340px;
 	max-width: 340px;	/** fix for Slick Slide CSS **/
 	margin:10px 20px;
-	padding:0px;
+	padding:0 0 8px 0;
 	background:#F2F1EF;
 	box-shadow:2px 2px 15px #979696;
 	box-sizing:border-box;
@@ -717,7 +716,7 @@ section .section-header{
 	.eventBox, .youtubeBox,
 	.projectBox{
 		width:250px;
-		margin:10px 2px;
+		margin:10px 5px;
 	}
 	.youtubeBox>div>div{
 		height:140px;
@@ -888,6 +887,14 @@ section .section-header{
     /*font: 900 6em 'Dosis', sans-serif;*/
     color: #fff;
     background: transparent;
+}
+
+#project-card-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content:center;
 }
 
 .projectBox .projectThumb .img-overlay{
