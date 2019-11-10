@@ -37,13 +37,13 @@ if __name__ == "__main__":
     for event in events:
         event['description'] = convertToHtml(event['description'])
     data_home['alumni_description'] = convertToHtml(data_home['alumni_description'])
-    
+
     for community in communities:
         community['desc'] = convertToHtml(community['desc'])
 
     for project in projects:
         project['description'] = convertToHtml(project['description'])
-    
+
     #Create Contexts
     context_base = {'contact_links': site_meta['contact_links'],
                 'join_now_link': site_meta['join_now_link'],
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     context_gallery.update(context_base)
     context_projects.update(context_base)
     contexts = [('components/_base.html', context_base), ('components/_header.html', context_base), ('index.html', context_home), ('communities.html', context_communities), ('gallery.html', context_gallery), ('showcase.html', context_projects)]
-    
+
     #StaticJinja
     site = Site.make_site(contexts = contexts, rules=((r'$_', False),))
-    site.render(use_reloader=True)
+    site.render(use_reloader=False)
