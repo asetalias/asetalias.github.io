@@ -16,6 +16,6 @@ deploy:
   keep_history: true
   verbose: true
   github_token: $GITHUB_TOKEN
-  target_branch: vipul-fix-travis
+  target_branch: gh-pages
   on:
     branch: master
