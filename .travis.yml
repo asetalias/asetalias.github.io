@@ -13,9 +13,10 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
   keep_history: true
+  verbose: true
+  github_token: $GITHUB_TOKEN
+  local_dir: ./
+  target_branch: master
   on:
     branch: master
-  target_branch: master
-  verbose: true
