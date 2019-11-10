@@ -16,7 +16,6 @@ deploy:
   keep_history: true
   verbose: true
   github_token: $GITHUB_TOKEN
-  local_dir: ./
-  target_branch: master
+  target_branch: vipul-fix-travis
   on:
     branch: master
