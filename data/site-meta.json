@@ -7,40 +7,59 @@
     "contact_links":[
         {
             "icon":"envelope",
-            "url":"mailto:contactasetalias@gmail.com",
-            "title": "Email",
-            "iconColor":"green"
+            "url":"mailto:asetalias1@gmail.com",
+            "title": "Drop us a message",
+            "iconColor":"darkgreen"
         },
         {
             "icon":"github",
             "url":"https://github.com/asetalias",
-            "title": "Github",
-            "iconColor":"grey"
+            "title": "Github, we ❤️ open-source",
+            "iconColor":"black"
         },
         {
-            "icon":"youtube",
-            "url":"https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g",
-            "title":"YouTube",
-            "iconColor":"red"
-        },
-        {
-            "icon":"facebook",
-            "url":"https://www.facebook.com/asetalias/",
-            "title":"Facebook",
+            "icon":"twitter",
+            "url":"https://twitter.com/asetalias",
+            "title": "Twitter, for all the latest updates",
             "iconColor":"blue"
         },
         {
-            "icon":"google-plus-square",
-            "url":"https://groups.google.com/forum/#!forum/amity-linux-group",
-            "title":"Mailing List",
-            "iconColor":"yellow"
+            "icon":"whatsapp",
+            "url":"https://chat.whatsapp.com/Li2gDrZd9xzJIJdNvSzLbR",
+            "title":"Whatsapp, join the public channel for updates",
+            "iconColor":"green"
+        },
+        {
+            "icon":"telegram",
+            "url":"https://t.me/asetalias",
+            "title":"Telegram, interact with the alumni",
+            "iconColor":"blue"
+        },
+        {
+            "icon":"medium",
+            "url":"https://asetalias.in/blog",
+            "title":"ALiAS Writes, read about ALiAS",
+            "iconColor":"brown"
         },
         {
             "icon":"linkedin-square",
             "url":"https://www.linkedin.com/company/asetalias/",
-            "title":"LinkedIn",
+            "title":"LinkedIn, join us today!",
             "iconColor":"blue"
+        },
+        {
+            "icon":"facebook",
+            "url":"https://www.facebook.com/asetalias/",
+            "title":"Facebook, join our group!",
+            "iconColor":"blue"
+        },
+        {
+            "icon":"instagram",
+            "url":"https://www.instagram.com/asetalias/",
+            "title":"Instagram, follow Us!",
+            "iconColor":"red"
         }
+
     ],
     "flashbox": {
         "enabled": 1,
