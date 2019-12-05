@@ -12,16 +12,12 @@
                 </div>
                 <div class="row">
                     {%- if community.logo|length > 0 %}
-                    <p><img class="logo-med" src="{{ community.logo }}"/></p>
+                    <img class="logo-med" src="{{ community.logo }}"/>
                     {%- endif %}
-                    <p>{{ community.desc }}</p>
+                    <p><br>{{ community.desc }}</p>
                 </div>
             </div>
         </section>
         {% endfor %}
     </div>
  {% endblock %}
- {% block js %}
-    <!-- Page Scripts -->
-    <script src="js/communities-page.js"></script>
-{% endblock %}
