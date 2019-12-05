@@ -73,12 +73,6 @@
                 "ppicUrl": "images/team/shilpi.jpg"
             },
             {
-                "name":"Shivam Rajput",
-                "designation": "Student",
-                "github": "shivamdiehard",
-                "ppicUrl": "images/team/shivam.jpg"
-            },
-            {
                 "name":"Tanya Jain",
                 "designation":"Student",
                 "github": "Tanya-Jain",
@@ -110,7 +104,7 @@
                 "ppicUrl": "images/team/omkar.jpg"
             },
             {
-                "name":"Mr. Vipul Gupta",
+                "name":"Vipul Gupta",
                 "designation":"Student",
                 "github": "vipulgupta2048",
                 "facebook": "vipulgupta2048",
@@ -149,6 +143,12 @@
            "currently_working":"PATCH us",
             "linkedin":"https://www.linkedin.com/in/hanutsingh",
             "picurl":"images/alumini/default.jpeg"
+          },
+          {
+            "name":"SHIVAM RAJPUT",
+            "currently_working":"NCR Corporation",
+            "linkedin":"https://www.linkedin.com/in/shivamrajput/",
+            "picurl": "images/alumni/shivam.jpeg"
           },
           {
             "name":"DHRUV GUPTA",
