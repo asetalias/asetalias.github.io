@@ -14,14 +14,24 @@
         ],
         "open_source":[
             {
+                "url":"communities.html#ilugd",
+                "logo":"images/logos/ilugd.png",
+                "title":"Indian Linux Users Group Delhi"
+            },
+            {
                 "url":"communities.html#pydelhi",
                 "logo":"images/logos/pydelhi.png",
                 "title":"PyDelhi"
             },
             {
-                "url":"communities.html#ilugd",
-                "logo":"images/logos/ilugd.png",
-                "title":"Indian Linux Users Group Delhi"
+                "url":"communities.html#pycon",
+                "logo":"images/logos/pycon.png",
+                "title":"PyCon India"
+            },
+            {
+                "url":"communities.html#pyladies",
+                "logo":"images/logos/pyladies.png",
+                "title":"PyLadies Delhi"
             },
             {
                 "url":"communities.html#linuxchix",
@@ -29,19 +39,9 @@
                 "title":"LinuxChix India"
             },
             {
-                "url":"communities.html#mozpacers",
-                "logo":"images/logos/mozpacers.png",
-                "title":"Mozilla Delhi"
-            },
-            {
-                "url":"communities.html#opensource",
-                "logo":"images/logos/opensource.png",
-                "title":"Open Source Community"
-            },
-            {
-                "url":"communities.html#pycon",
-                "logo":"images/logos/pycon.png",
-                "title":"PyCon India"
+                "url":"communities.html#jslovers",
+                "logo":"images/logos/jslovers.png",
+                "title":"JSLovers"
             }
         ],
         "eventsP":[
@@ -110,7 +110,7 @@
                 "ppicUrl": "images/team/omkar.jpg"
             },
             {
-                "name":"Vipul Gupta",
+                "name":"Mr. Vipul Gupta",
                 "designation":"Student",
                 "github": "vipulgupta2048",
                 "facebook": "vipulgupta2048",
