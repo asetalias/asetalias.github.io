@@ -1,2 +1,9 @@
 /components/
 /home-sections/
+venv/
+env/
+__pycache__/
+.DS_STORE/
+*.pyc
+temp/
+.vscode/
