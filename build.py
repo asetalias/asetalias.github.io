@@ -16,12 +16,16 @@ def convertToHtml(text):
 
     # Used for explicit line breaks
     final_text = text.replace("\\n", "\n")
-    
+    print("\n-- Parsing Markdown Text --")
     print(final_text)
     
-    return markdown.markdown(final_text, output_format="html5").replace(
+    converted_text = markdown.markdown(final_text, output_format="html5").replace(
         "\n", "<br>"
     )
+    print("-- Converted HTML --")
+    print(converted_text)
+
+    return converted_text
 
 if __name__ == "__main__":
     data_home = {}
