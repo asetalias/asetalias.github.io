@@ -1,0 +1,20 @@
+git:
+  depth: false
+  quiet: true
+language: python
+dist: xenial
+python:
+  - 3.6
+install:
+  - pip install -r requirements.txt
+script:
+  - python build.py
+deploy:
+  provider: pages
+  cleanup: true
+  keep_history: true
+  verbose: true
+  github_token: $GITHUB_TOKEN
+  target_branch: master
+  on:
+    branch: master
