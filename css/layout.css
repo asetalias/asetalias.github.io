@@ -802,7 +802,7 @@ section .section-header{
 
 .alumini_dp{
 	position: relative;
-	border-radius:50%;
+	border-radius:100%;
 	margin-left: auto;
 	margin-right: auto;
 	width:60%;
