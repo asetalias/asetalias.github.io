@@ -1,15 +1,15 @@
 [{
-    "title": "ALiAS Hacktoberfest + Devsprint 2019",
-    "cta": "https://bit.ly/hack_sprint",
-    "ctaText": "Register Now!",
-    "date": "17 Oct '19",
-    "poster": "images/flashbox/poster17102019.jpg",
-    "startTime": "11:00 AM",
-    "endTime": "5:00 PM",
-    "location": "L1-Audi",
-    "eventOD": 1,
-    "description": "Learn to contribute to open-source, win big prizes & grow your network with ALiAS",
-    "cta2enable": 1,
-    "cta2": "http://hacksprint.asetalias.in",
-    "cta2Text": "Visit Website"
+    "title": "Meetups every Thursday",
+    "cta": "",
+    "ctaText": "No need to register, just meet on location.",
+    "date": "Thursday",
+    "poster": "images/flashbox/default-thursday.png",
+    "startTime": "12:00 pm",
+    "endTime": "2:00 pm",
+    "location": "TBA",
+    "eventOD": 0,
+    "description": "Regular informal meetups to learn, share and network. Location sent on ALiAS Whatsapp grps. Join us now!",
+    "cta2enable": 0,
+    "cta2": "",
+    "cta2Text": ""
 }]
