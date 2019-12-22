@@ -73,12 +73,6 @@
                 "ppicUrl": "images/team/shilpi.jpg"
             },
             {
-                "name":"Shivam Rajput",
-                "designation": "Student",
-                "github": "shivamdiehard",
-                "ppicUrl": "images/team/shivam.jpg"
-            },
-            {
                 "name":"Tanya Jain",
                 "designation":"Student",
                 "github": "Tanya-Jain",
@@ -110,7 +104,7 @@
                 "ppicUrl": "images/team/omkar.jpg"
             },
             {
-                "name":"Mr. Vipul Gupta",
+                "name":"Vipul Gupta",
                 "designation":"Student",
                 "github": "vipulgupta2048",
                 "facebook": "vipulgupta2048",
@@ -126,36 +120,42 @@
         ],
 
         "alumini":[
-          {
-            "name":"ANUVRAT PARASHAR",
-           "currently_working":"ESSENTIA SOFTSERV",
-            "linkedin":"https://www.linkedin.com/in/anuvratparashar/",
-            "picurl":"images/alumini/anuvrat.jpeg"
-          },
-          {
-            "name":"MUKUL MALIK",
-           "currently_working":"DEEP LEARNING(NLP/NLU)",
-            "linkedin":"https://www.linkedin.com/in/mukul-malik-78ba68b2",
-            "picurl":"images/alumini/mukul.jpeg"
-          },
-          {
-            "name":"SHYAM SAINI",
-           "currently_working":"AMARULA SOLUTIONS",
-            "linkedin":"https://www.linkedin.com/in/shyamsaini",
-            "picurl":"images/alumini/shyam.jpeg"
-          },
-          {
-            "name":"HANUT SINGH",
-           "currently_working":"PATCH us",
-            "linkedin":"https://www.linkedin.com/in/hanutsingh",
-            "picurl":"images/alumini/default.jpeg"
-          },
-          {
-            "name":"DHRUV GUPTA",
-           "currently_working":"HCL TECHNOLOGIES",
-            "linkedin":"https://www.linkedin.com/in/dhruv-gupta-19716111/",
-            "picurl":"images/alumini/default.jpeg"
-          }
+            {
+              "name":"Anuvrat Parashar",
+              "currently_working":"Essentia Softserv",
+              "linkedin":"https://www.linkedin.com/in/anuvratparashar/",
+              "picurl":"images/alumini/anuvrat.jpeg"
+            },
+            {
+              "name":"Mukul Malik",
+              "currently_working":"Deep Learning(NLP/NLU)",
+              "linkedin":"https://www.linkedin.com/in/mukul-malik-78ba68b2",
+              "picurl":"images/alumini/mukul.jpeg"
+            },
+            {
+              "name":"Shyam Saini",
+             "currently_working":"Amarula Solutions",
+              "linkedin":"https://www.linkedin.com/in/shyamsaini",
+              "picurl":"images/alumini/shyam.jpeg"
+            },
+            {
+              "name":"Hanut Singh",
+              "currently_working":"Patch Us",
+              "linkedin":"https://www.linkedin.com/in/hanutsingh",
+              "picurl":"images/alumini/default.jpeg"
+            },
+            {
+              "name":"Shivam Rajput",
+              "currently_working":"NCR corporation",
+              "lnkedin":"Https://www.linkedin.com/in/shivamrajput/",
+              "picurl": "images/alumni/shivam.jpeg"
+            },
+            {
+              "name":"Dhruv Gupta",
+              "currently_working":"HCL Technologies",
+              "linkedin":"https://www.linkedin.com/in/dhruv-gupta-19716111/",
+              "picurl":"images/alumini/default.jpeg"
+            }
         ]
     }
 ]
