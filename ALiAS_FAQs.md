@@ -1,46 +1,43 @@
-                                                FAQs
-Q1. What is ASET AliAS?
-Ans. ALiAS is not your regular Amity Club. ALiAS is a community, founded in 2010, which was developed with the aim to promote the use of Linux in the campus and get students familiar with the world of Open Source. The community members help students with their doubts pertaining to tech, conduct workshops, webinars,organize meet-ups (online and in-person) and most important get you connected.
+# Frequently Asked Questions
+---
 
-Q2. Why should I join ALiAS?
-Ans. ALiAS is by far, the largest open-source community in Amity University. We are
-open to developers not only inside the campus, but also from various places. We have got assistance
-from alumni and people from tech, near and far. We have got a presence in communities like PyDelhi, ILUG-D, LinuxChix India, Mozilla Delhi, etc. and can help you get connected.
+#### Q1. What is ASET AliAS?
 
-Q3. How is the community of AliAS?
-And. We have the most active developers in the campus. You will find people from nearly all domains,
-Web Development, Android Development, Artificial Intelligence, backend, frontend, industry people, designers, technical writers, theoretical CS enthusiasts,
-etc. And best of all, we have got a great reach for people and development.
+__Ans.__ ALiAS is not your regular Amity Club. It's an open-source community, founded in 2010, to foster the use of Linux in the University and get students familiar with the world of Open Source. Our members are some of the most active developers in the campus. You will find people from nearly all domains, including Web Development, Android Development, Artificial Intelligence, backend, frontend, designers, technical writers, etc. ALiAS is the largest open-source community in Amity University, Noida and Lucknow.
+Ans. ALiAS is not your regular Amity Club. It's an open-source community, founded in 2010, to foster the use of Linux in the University and get students familiar with the world of Open Source. Our members are some of the most active developers in the campus. You will find people from nearly all domains, including Web Development, Android Development, Artificial Intelligence, backend, frontend, designers, technical writers, etc. ALiAS is the largest open-source community in Amity University, Noida and Lucknow.
 
-Q4. How should I join AliAS?
-Ans. Simple. Go and register yourself on http://asetalias.in/ . One of us will add you to the WhatsApp and Telegram groups.
+#### Q2. Why should I join ALiAS?
 
-Q5. Having joined, where should I start?
-And. We request you to drop a message, stating your name, course duration, and your skills. Also
-let us know which field you are interested in, and we will guide you thereafter. Have one plan at a time.
+__Ans.__ The community members can help students with their doubts, technical or non-technical. Many of our members are also part of other open-source communities like PyDelhi, ILUG-D, LinuxChix India, Mozilla Delhi, PyLadies, and many more. We also conduct regular workshops, webinars, organize meet-ups (online and in-person). But, most importantly, we can get you connected to experienced people in the industry, including our Alumni.
 
-Q6. Best OS?
-Ans. Are you a designer? - Windows; Are you a developer? - Linux(Any)
-Windows has great graphics. It spoon feeds you everything. Many design softwares, games, drivers and
-support is easily available in windows. Installing anything is a cup of cake for anyone. But if you want
-to delve into softwares deeper, please forget your games and ease. Being open source community, we
-recommend installing Linux as dual boot, and get into ease with it. The only difference you will see in
-different distros is the GUI. Some software packages and libraries are pre-installed in some distros,
-while some requires you to install. Install Ubuntu or Linux Mint if you are a beginner. Ubuntu has got
-best support for you. (Pro-tip: Give more space to Home directory as all your files are installed here).
+#### Q3. How can I join AliAS? 
 
-Q7. The language I should start with?
-Ans. Start with C++. Next learn JAVA, then Python. This will fulfill most of your software needs and
-problems.
+__Ans.__ Simple. Go and register yourself on [our website](http://asetalias.in/). We add new members to the groups every week/weekend/a set day.
 
-P.S. - Please DON’T ASK TO ASK, JUST ASK. We all are learners here, and all of us are noobs in
-some field or the other. Don’t be shy. If you don’t know, just admit it, and ask and learn to be better
-you.
+#### Q4. Having joined, where should I start?
 
-Join us-
-email: contactasetalias@gmail.com
-GitHub: https://github.com/asetalias
-YouTube: https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g
-Facebook: https://www.facebook.com/asetalias/
-Mailing List: https://groups.google.com/forum/#!forum/amity-linux-group
-LinkedIn: https://www.linkedin.com/company/asetalias/
+__Ans.__ You can start by introducing yourself to the community, telling us your name, course duration, and your skills. Also, let us know which field you are working on/interested in, and our members can help you with any problems you encounter.  We would also advise you to have one plan and focus on one thing at a time.
+
+#### Q5. Which Operating System should I use? How will it affect my work?
+
+__Ans.__ The choice of operating systems depends mostly on your taste. Each operating system comes with its strengths and flaws, but you can you any of them to do most of your work. 
+
+Windows is the most familiar operating system for most people, and it supports a broad range of software from various domains. It is the primary choice of gamers and designers as it provides strong support for gaming and Adobe software. 
+
+A vast majority of creative professionals also prefer macOS, but it is only useful for people with mac hardware. It also provides exceptional support for Adobe software, great security, and regular updates for its users. 
+
+Another awesome choice for an operating system, especially for developers, is Linux. The greatest strength of Linux is the flexibility and control it provides its users. The learning curve for Linux might be a little steep for first-time users, but once learned, the users can use it for almost all of their needs. Being a Linux community, we would recommend you to use Linux, play around with it, and find your best match.
+
+#### Q6. Which programming language should I learn first?
+
+__Ans.__ There is no right or wrong answer when it comes to choosing your first programming language. You may choose your first programming language based on what features you require, and how well it suits your work. If you are looking for a general-purpose, easy-to-learn language, we would recommend Python or Ruby. If you want to go in-depth with your programming and want to build a solid foundation, C and C++ are your best choice.  
+
+P.S. - __Don't ask to ask, just ask your questions__. Everyone is here to learn; no one knows everything. Don’t be shy. If you don’t know something, just ask.
+
+### Find us on-
+__Email:__ contactasetalias@gmail.com
+__Websitte:__ https://asetalias.in/
+__GitHub:__ https://github.com/asetalias
+__YouTube:__ https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g
+__Facebook:__ https://www.facebook.com/asetalias/
+__LinkedIn:__ https://www.linkedin.com/company/asetalias/
