@@ -12,6 +12,7 @@
             "ALiAS welcomes each and every student of amity irrespective of their department.",
             "Already know something? Teach it to others! That's how we work!"
         ],
+
         "open_source":[
             {
                 "url":"communities.html#ilugd",
@@ -44,14 +45,15 @@
                 "title":"JSLovers"
             }
         ],
+
         "eventsP":[
             {
-                "url":"https://summerofcode.withgoogle.com/",
+                "url":"https://asetalias.in/blog/post/aliasama/",
                 "logo":"images/logos/gsoc.png",
                 "title":"Google Summer of Code"
             },
             {
-                "url":"https://ilugd.github.io/",
+                "url":"https://www.outreachy.org/",
                 "logo":"images/logos/outreachy.png",
                 "title":"Outreachy"
             },
@@ -59,8 +61,29 @@
                 "url":"https://in.pycon.org",
                 "logo":"images/logos/pycon.png",
                 "title":"PyCon India"
+            },
+            {
+                "url":"https://fossee.in/fellowship",
+                "logo":"images/logos/fossee.png",
+                "title":"FOSSEE"
+            },
+            {
+                "url":"https://www.fsf.org/",
+                "logo":"images/logos/fsf.png",
+                "title":"Free Software Foundation"
+            },
+            {
+                "url":"https://railsgirlssummerofcode.org/",
+                "logo":"images/logos/rgsoc_logo.png",
+                "title":"Rails Girls Summer of Code (RGSoC)"
+            },
+            {
+                "url":"https://blog.torproject.org/join-tors-summer-privacy",
+                "logo":"images/logos/tor.png",
+                "title":"TOR Summer of Code"
             }
         ],
+
         "team":[
             {
                 "name": "Ms. Nidhi Chandra",
@@ -71,6 +94,12 @@
                 "name":"Dr. Shilpi Sharma",
                 "designation": "Faculty Coordinator",
                 "ppicUrl": "images/team/shilpi.jpg"
+            },
+            {
+                "name":"Shivam Rajput",
+                "designation": "Student",
+                "github": "shivamdiehard",
+                "ppicUrl": "images/team/shivam.jpg"
             },
             {
                 "name":"Tanya Jain",
@@ -104,12 +133,12 @@
                 "ppicUrl": "images/team/omkar.jpg"
             },
             {
-                "name":"Vipul Gupta",
+                "name":"Mr. Vipul Gupta",
                 "designation":"Student",
                 "github": "vipulgupta2048",
                 "facebook": "vipulgupta2048",
                 "website":"http://mixstersite.wordpress.com/about",
-                "ppicUrl": "images/team/vipul.jpg"
+                "ppicUrl": "images/team/vipulg.jpeg"
             },
             {
                 "name":"Anuja Agarwal",
@@ -121,38 +150,32 @@
 
         "alumini":[
             {
-              "name":"Anuvrat Parashar",
-              "currently_working":"Essentia Softserv",
+              "name":"ANUVRAT PARASHAR",
+             "currently_working":"ESSENTIA SOFTSERV",
               "linkedin":"https://www.linkedin.com/in/anuvratparashar/",
               "picurl":"images/alumini/anuvrat.jpeg"
             },
             {
-              "name":"Mukul Malik",
-              "currently_working":"Deep Learning(NLP/NLU)",
+              "name":"MUKUL MALIK",
+             "currently_working":"DEEP LEARNING(NLP/NLU)",
               "linkedin":"https://www.linkedin.com/in/mukul-malik-78ba68b2",
               "picurl":"images/alumini/mukul.jpeg"
             },
             {
-              "name":"Shyam Saini",
-             "currently_working":"Amarula Solutions",
+              "name":"SHYAM SAINI",
+             "currently_working":"AMARULA SOLUTIONS",
               "linkedin":"https://www.linkedin.com/in/shyamsaini",
               "picurl":"images/alumini/shyam.jpeg"
             },
             {
-              "name":"Hanut Singh",
-              "currently_working":"Patch Us",
+              "name":"HANUT SINGH",
+             "currently_working":"PATCH us",
               "linkedin":"https://www.linkedin.com/in/hanutsingh",
               "picurl":"images/alumini/default.jpeg"
             },
             {
-              "name":"Shivam Rajput",
-              "currently_working":"NCR corporation",
-              "lnkedin":"Https://www.linkedin.com/in/shivamrajput/",
-              "picurl": "images/alumni/shivam.jpeg"
-            },
-            {
-              "name":"Dhruv Gupta",
-              "currently_working":"HCL Technologies",
+              "name":"DHRUV GUPTA",
+             "currently_working":"HCL TECHNOLOGIES",
               "linkedin":"https://www.linkedin.com/in/dhruv-gupta-19716111/",
               "picurl":"images/alumini/default.jpeg"
             }

@@ -18,7 +18,7 @@ def convertToHtml(text):
     final_text = text.replace("\\n", "\n")
     print("\n-- Parsing Markdown Text --")
     print(final_text)
-    
+
     converted_text = markdown.markdown(final_text, output_format="html5").replace(
         "\n", "<br>"
     )
@@ -26,6 +26,7 @@ def convertToHtml(text):
     print(converted_text)
 
     return converted_text
+
 
 if __name__ == "__main__":
     data_home = {}
@@ -53,7 +54,7 @@ if __name__ == "__main__":
         print("=== Error in reading data files === ")
         print(e.message)
         exit()
-    
+
     # Convert Markdown to HTML for selected
     for event in events:
         event["description"] = convertToHtml(event["description"])
@@ -99,7 +100,7 @@ if __name__ == "__main__":
     context_gallery = {"header_class": "mainHeaderLayout"}
     # Projects Page
     context_projects = {"header_class": "mainHeaderLayout1", "projects": projects}
-    
+
     # Add Base context to page-specific contexts
     context_home.update(context_base)
     context_communities.update(context_base)
@@ -116,10 +117,7 @@ if __name__ == "__main__":
     ]
 
     # StaticJinja
-    site = Site.make_site(
-        contexts=contexts,
-        rules=((r"$_", False),)
-    )
+    site = Site.make_site(contexts=contexts, rules=((r"$_", False),))
     # Set reloader to true for hot-reloading.
     # Set reloader to false before pushing or travis will fail
-    site.render(use_reloader=False) 
+    site.render(use_reloader=False)
