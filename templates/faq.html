@@ -1,0 +1,30 @@
+{% extends 'components/_base.html' %}
+{% block title %}Frequently Asked Questions{% endblock %}
+{% block content %}
+    <section id="masthead">
+        <div class="jumbotron content">
+          <h1><i>Frequently Asked Questions</i></h1>
+        </div>
+    </section>
+    <div id="contentWrap">
+        {% for ques in faqs %}
+        <section id="events" class="events-section theme-bg">
+            <div class="container">
+                <div class="row">
+                    <h2><b>Q. {{ ques.seq}}</b> {{ques.ques}}</h2>
+                </div>
+                <div class="row">
+                  <p class="text-center">{{ ques.ans }}</p>
+                </div>
+            </div>
+        </section>
+        {% endfor %}
+        <section id="events" class="events-section theme-bg">
+            <div class="container">
+                <div class="row">
+                    <h3><b>P.S. - <i>Don't ask to ask, just ask your questions.</i></b> Everyone is here to learn; no one knows everything. Don’t be shy. If you don’t know something, just ask</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}

@@ -1,0 +1,32 @@
+[
+  {
+    "seq":"1",
+    "ques":"What is ASET AliAS?",
+    "ans":"ALiAS is not your regular Amity Club. It's an open-source community, founded in 2010, to foster the use of Linux in the University and get students familiar with the world of Open Source. Our members are some of the most active developers in the campus. You will find people from nearly all domains, including Web Development, Android Development, Artificial Intelligence, backend, frontend, designers, technical writers, etc. ALiAS is the largest open-source community in Amity University, Noida and Lucknow."
+  },
+  {
+    "seq":"2",
+    "ques":"Why should I join ALiAS?",
+    "ans":"The community members can help students with their doubts, technical or non-technical. Many of our members are also part of other open-source communities like PyDelhi, ILUG-D, LinuxChix India, Mozilla Delhi, PyLadies, and many more. We also conduct regular workshops, webinars, organize meet-ups (online and in-person). But, most importantly, we can get you connected to experienced people in the industry, including our Alumni."
+  },
+  {
+    "seq":"3",
+    "ques":"How can I join AliAS? ",
+    "ans":"Simple. Go and register yourself on [our website](http://asetalias.in/). We add new members to the groups every week/weekend/a set day."
+  },
+  {
+    "seq":"4",
+    "ques":"Having joined, where should I start?",
+    "ans":"You can start by introducing yourself to the community, telling us your name, course duration, and your skills. Also, let us know which field you are working on/interested in, and our members can help you with any problems you encounter.  We would also advise you to have one plan and focus on one thing at a time."
+  },
+  {
+    "seq":"5",
+    "ques":"Which Operating System should I use? How will it affect my work?",
+    "ans":"The choice of operating systems depends mostly on your taste. Each operating system comes with its strengths and flaws, but you can you any of them to do most of your work.\\n\\nWindows is the most familiar operating system for most people, and it supports a broad range of software from various domains. It is the primary choice of gamers and designers as it provides strong support for gaming and Adobe software.\\n\\nA vast majority of creative professionals also prefer macOS, but it is only useful for people with mac hardware. It also provides exceptional support for Adobe software, great security, and regular updates for its users.\\n\\nAnother awesome choice for an operating system, especially for developers, is Linux. The greatest strength of Linux is the flexibility and control it provides its users. The learning curve for Linux might be a little steep for first-time users, but once learned, the users can use it for almost all of their needs. Being a Linux community, we would recommend you to use Linux, play around with it, and find your best match."
+  },
+  {
+    "seq":"6",
+    "ques":"Which programming language should I learn first?",
+    "ans":"There is no right or wrong answer when it comes to choosing your first programming language. You may choose your first programming language based on what features you require, and how well it suits your work. If you are looking for a general-purpose, easy-to-learn language, we would recommend Python or Ruby. If you want to go in-depth with your programming and want to build a solid foundation, C and C++ are your best choice."
+  }
+]

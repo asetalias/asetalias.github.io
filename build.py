@@ -35,6 +35,7 @@ if __name__ == "__main__":
     webinars = {}
     communities = {}
     projects = {}
+    faqs = ()
 
     # Open and Read JSON Files
     try:
@@ -50,6 +51,8 @@ if __name__ == "__main__":
             communities = json.load(json_file)
         with open(data_folder + "/projects.json") as json_file:
             projects = json.load(json_file)
+        with open(data_folder + "/faq.json") as json_file:
+            faqs = json.load(json_file)
     except Exception as e:
         print("=== Error in reading data files === ")
         print(e.message)
@@ -58,6 +61,7 @@ if __name__ == "__main__":
     # Convert Markdown to HTML for selected
     for event in events:
         event["description"] = convertToHtml(event["description"])
+
     data_home["alumni_description"] = convertToHtml(data_home["alumni_description"])
 
     for community in communities:
@@ -65,6 +69,9 @@ if __name__ == "__main__":
 
     for project in projects:
         project["description"] = convertToHtml(project["description"])
+
+    for ques in faqs:
+        ques["ans"] = convertToHtml(ques["ans"])
 
     # Create Contexts
     # context_base is used in common to all pages
@@ -100,12 +107,18 @@ if __name__ == "__main__":
     context_gallery = {"header_class": "mainHeaderLayout"}
     # Projects Page
     context_projects = {"header_class": "mainHeaderLayout1", "projects": projects}
+    # FAQs page
+    context_faq = {
+        "header_class": "mainHeaderLayout",
+        "faqs": faqs
+    }
 
     # Add Base context to page-specific contexts
     context_home.update(context_base)
     context_communities.update(context_base)
     context_gallery.update(context_base)
     context_projects.update(context_base)
+    context_faq.update(context_base)
 
     contexts = [
         ("components/_base.html", context_base),
@@ -114,6 +127,7 @@ if __name__ == "__main__":
         ("communities.html", context_communities),
         ("gallery.html", context_gallery),
         ("showcase.html", context_projects),
+        ("faq.html", context_faq)
     ]
 
     # StaticJinja
