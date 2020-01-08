@@ -1,4 +1,5 @@
-[{
+[
+  {
     "title": "Meetups every Thursday",
     "cta": "",
     "ctaText": "No need to register, just meet on location.",
@@ -12,4 +13,20 @@
     "cta2enable": 0,
     "cta2": "",
     "cta2Text": ""
-}]
+  },
+  {
+    "title": "Introduction to VUI",
+    "cta": "https://forms.gle/AcA9agv8SwHPVtR76",
+    "ctaText": "Register Here",
+    "date": "9th January",
+    "poster": "images/flashbox/vui_event_poster.png",
+    "startTime": "02:30 PM",
+    "endTime": "04:40 PM",
+    "location": "TBA",
+    "eventOD": 0,
+    "description": "In this beginner friendly event learn what is VUI, how it functions and create your own VUI app using Alexa and Google Assistant without writing even a single line of code.",
+    "cta2enable": 0,
+    "cta2": "#",
+    "cta2Text": "View"
+  }
+]
