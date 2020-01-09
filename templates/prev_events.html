@@ -1,0 +1,52 @@
+{% extends 'components/_base.html' %}
+{% block title %}Previous Events{% endblock %}
+{% block content %}
+  <section id="masthead">
+      <div class="jumbotron content">
+          <h1>Previous Events</h1>
+      </div>
+  </section>
+  <section id="events" class="events-section theme-bg">
+    <div class="container">
+        <div class="row eventsList text-center row-centered" id="eventsListContainer">
+            {%- for event in prev_events %}
+                <div class="slide col-xs-3 eventBox col-centered text-center" id="eventBox-">
+                    <div class="row eventThumb">
+                        <img src="{{ event.poster }}" />
+                    </div>
+                    <div class="row eventTitle">
+                        <div class="col-lg-12 text-center">
+                            <h2>{{ event.title }}</h2>
+                        </div>
+                    </div>
+                    <div class="row eventInfo">
+                        <div class="col-xs-7 eventDesc">
+                            <div class="row eventDescInfo">
+                                <div class="col-lg-12">
+                                    <p class="eventDescInfoContainer">
+                                        {{ event.description }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 eventTiming text-left">
+                            <div class="date">
+                                <i class="fa fa-calendar icon"></i>&nbsp;
+                                <span><strong>{{ event.date }}</strong></span>
+                            </div>
+                            <div class="startTimimg">
+                                <i class="fa fa-clock-o icon"></i>&nbsp;
+                                <span><strong>{{ event.startTime }}</strong></span>
+                            </div>
+                            <div class="endTimimg">
+                                <i class="fa fa-clock-o icon"></i>&nbsp;
+                                <span><strong>{{ event.endTime }}</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+  </section>
+{% endblock %}
