@@ -101,11 +101,17 @@ if __name__ == "__main__":
     # Projects Page
     context_projects = {"header_class": "mainHeaderLayout1", "projects": projects}
 
+    context_webinars = {
+        "header_class": "mainHeaderLayout",
+        "webinars": webinars,
+    }
+
     # Add Base context to page-specific contexts
     context_home.update(context_base)
     context_communities.update(context_base)
     context_gallery.update(context_base)
     context_projects.update(context_base)
+    context_webinars.update(context_base)
 
     contexts = [
         ("components/_base.html", context_base),
@@ -114,6 +120,7 @@ if __name__ == "__main__":
         ("communities.html", context_communities),
         ("gallery.html", context_gallery),
         ("showcase.html", context_projects),
+        ("webinars.html", context_webinars),
     ]
 
     # StaticJinja

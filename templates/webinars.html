@@ -1,17 +1,17 @@
+{% extends 'components/_base.html' %}
+{% block title %}Webinars{% endblock %}
+{% block content %}
+<section id="masthead">
+    <div class="jumbotron content">
+        <h1><u><b>Previous Webinars</b></u></h1>
+    </div>
+</section>
 <section id="webinars" class="webinars-section">
     <!-- Previous Webinars Section -->
     <div class="container">
-        <div class="row row-centered">
-            <div class="col-lg-12 text-center col-centered headerContainer">
-                <span class="bottom-border center bottom-border-white">
-                    <h1 class="section-header" id="previousWebinarsHeader">Latest Webinar</h1>
-                </span>
-            </div>
-        </div>
         <div class="row eventsList text-center slick-dark" id="webinarsListContainer">
             <!-- Contains All Previous Webinars -->
             {%- for webinar in webinars %}
-            {%  if webinar.latest == 1 %}
             <div class="col-lg-3 youtubeBox col-centered text-center slide">
                 <div class="row youtubeVideoContainer">
                     <img src="https://img.youtube.com/vi/{{ webinar.videoId }}/mqdefault.jpg" />
@@ -36,13 +36,8 @@
                     </div>
                 </div>
             </div>
-            {% endif %}
             {%- endfor %}
         </div>
     </div>
-    <div class="row text-right">
-        <div class="btn-group btn-sm">
-            <a href="webinars.html"><button class="event-buttons btn  btn-danger" id="WebinarBtn">Previous Webinars</button></a>
-        </div>
-    </div>
 </section>
+{% endblock %}

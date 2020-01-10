@@ -1,16 +1,19 @@
 [
 {
     "title": "Are You Doing Enough? by Puneet Kala",
+    "latest": 1,
     "videoId": "feizCxzqzJk",
     "description": "In this webinar students get to learn: What is GSoC and how can they be a part of it. How to Contribute to Open Source and the different FOSS organisations.<br/><strong>Speakers:</strong> <br/><strong>Mr. Puneet Kala </strong>"
 },
 {
     "title": "[WEBINAR] Basics of Web Development in Collaboration with ALiAS Lucknow",
+    "latest": 1,
     "videoId": "cNn0DZM4ys8",
     "description": "In this webinar students get to learn the Basics of Web Development, HTM/JS/CSS, presented by ALiAS in collobaration with ALiAS Lucknow.<br/><strong>Speakers:</strong> <br/><strong>Akshat Pande, Tausheef Ahmad</strong>"
 },
 {
     "title": "GSoC Ask Me Anything with Raghav Puri",
+    "latest": 1,
     "videoId": "0W9BuKwm_h4",
     "description": "In this webinar students get to learn: What is GSoC and how can they be a part of it. How to Contribute to Open Source and the different FOSS organisations.<br/><strong>Speakers:</strong> <br/><strong>Raghav Puri</strong>"
 },
