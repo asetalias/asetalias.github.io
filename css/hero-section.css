@@ -1,0 +1,275 @@
+#hero-section{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 0;
+
+    position: relative;
+}
+
+#hero-section__welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 18px;
+}
+
+#hero-section__welcome > h1{
+    font-family: 'Lilita One';
+    font-size: 64px;
+    color: #232725;
+    text-align: center;
+
+    /* can remove after bootstrap independent*/
+    margin: 0;
+    padding: 0;
+}
+
+#hero-section__welcome > p{
+    position: absolute;
+    bottom: 10%;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: normal;
+    color: #232725;
+
+    margin-top: 8px;
+}
+
+#hero-section__buttons{
+    margin-top: 8px;
+}
+
+.hero-section__button{
+    width: 320px;
+    height: 48px;
+
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #FFF;
+    letter-spacing: 2px;
+
+    transition: all 0.5s ease-out;
+
+    cursor: pointer;
+}
+
+.hero-section__button:hover{
+    transform: scale(1.05);
+}
+
+.hero-section__button:focus{
+    outline: none;
+}
+
+.hero-section__button--green{
+    background: #35BC2C;
+
+    margin-right: 12px;
+}
+
+.hero-section__button--blue{
+    background: #2C4ABC;
+}
+
+#circle1{
+    position: absolute;
+    top: -300px;
+    left: -200px;
+    width: 600px;
+    height: 600px;
+    background-color: #FF7777;
+    opacity: 0.45;
+    border-radius: 50%;
+
+    z-index: -1;
+}
+
+#circle2{
+    position: absolute;
+    top: -12%;
+    right: 0;
+    width: 800px;
+    height: 800px;
+    background-color: #C477FF;
+    opacity: 0.45;
+
+    clip-path: circle(60% at 100% 0%);
+
+    z-index: -1;
+}
+
+#circle3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 800px;
+    height: 800px;
+    background-color: #69E3E6;
+    opacity: 0.45;
+    clip-path: circle(60% at 20% 130%);
+
+    z-index: -1;
+}
+
+#banner-holder{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    width: auto;
+    height: 60vh;
+
+    z-index: -1;
+}
+
+#banner {
+    position: relative;
+    width: auto;
+    height: 60vh;
+    bottom: -9%;
+    right: -10%;
+
+    z-index: -1;
+}
+
+@media (max-width: 950px) {
+    #circle1{
+        background-color: #FF7777;
+
+        top: -300px;
+        left: -200px;
+        width: 500px;
+        height: 500px;
+    }
+
+    #circle2{
+        background-color: #C477FF;
+
+        top: -12%;
+        right: 0;
+        width: 600px;
+        height: 600px;
+    }
+
+    #circle3{
+        background-color: #69E3E6;
+
+        bottom: 0;
+        left: 0;
+        width: 600px;
+        height: 600px;
+    }
+
+    #banner-holder{
+        height: 50vh;
+    }
+    
+    #banner {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 800px) {
+
+    #hero-section__buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0;
+    }
+
+    .hero-section__button--green{    
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+
+    #circle1{
+        background-color: #FF7777;
+
+        top: 0;
+        left: -200px;
+        width: 400px;
+        height: 400px;
+    }
+
+    #circle2{
+        background-color: #C477FF;
+
+        top: -12%;
+        right: 0;
+        width: 600px;
+        height: 600px;
+    }
+
+    #circle3{
+        background-color: #69E3E6;
+
+        bottom: 0;
+        left: 0;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #hero-section__welcome > h1{
+        font-size: 48px;
+    }
+
+    #hero-section__welcome > p{
+        display: none;
+    }
+
+    .hero-section__button{
+        width: 240px;
+        height: 48px;
+    }
+
+    #circle1{
+        background-color: #FF7777;
+
+        top: 12%;
+        left: -125px;
+        width: 250px;
+        height: 250px;
+    }
+
+    #circle2{
+        background-color: #C477FF;
+
+        top: -12%;
+        right: 0;
+        width: 400px;
+        height: 400px;
+    }
+
+    #circle3{
+        background-color: #69E3E6;
+
+        bottom: 0;
+        left: -200px;
+        width: 500px;
+        height: 500px;
+
+        clip-path: circle(80% at 20% 140%);
+    }
+
+    #banner-holder{
+        height: 40vh;
+    }
+    
+    #banner {
+        height: 40vh;
+    }
+}
