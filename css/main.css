@@ -6,6 +6,7 @@
 
 body{
 	text-align: center;
+	background: radial-gradient(49.02% 49.02% at 47.99% 50%, #FFFFFF 0%, #FFFFFF 0.01%, #E9E9E9 100%);
 }
 
 .hidden{
