@@ -64,6 +64,7 @@
 #hero-section__welcome > #amity-h1{
     font-size: 26px;
     letter-spacing: 12px;
+    margin-top: 14px;
 }
 
 #hero-section__buttons{
@@ -160,7 +161,6 @@
     #hero-section::after{
         top: 50%;
         margin-top: -270px; 
-        box-sizing: initial;
         width: 500px;
         height: 500px;
         clip-path: circle(50% at 120% 50%);
