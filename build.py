@@ -35,6 +35,7 @@ if __name__ == "__main__":
     webinars = {}
     communities = {}
     projects = {}
+    prev_events = ()
 
     # Open and Read JSON Files
     try:
@@ -50,6 +51,8 @@ if __name__ == "__main__":
             communities = json.load(json_file)
         with open(data_folder + "/projects.json") as json_file:
             projects = json.load(json_file)
+        with open(data_folder + "/prev_events.json") as json_file:
+            prev_events = json.load(json_file)
     except Exception as e:
         print("=== Error in reading data files === ")
         print(e.message)
@@ -58,6 +61,10 @@ if __name__ == "__main__":
     # Convert Markdown to HTML for selected
     for event in events:
         event["description"] = convertToHtml(event["description"])
+
+    for event in prev_events:
+        event["description"] = convertToHtml(event["description"])
+
     data_home["alumni_description"] = convertToHtml(data_home["alumni_description"])
 
     for community in communities:
@@ -101,11 +108,18 @@ if __name__ == "__main__":
     # Projects Page
     context_projects = {"header_class": "mainHeaderLayout1", "projects": projects}
 
+    #Previous Events Page
+    context_prev_events = {
+            "headerclass": "mainHeaderLayout",
+            "prev_events": prev_events,
+        }
+
     # Add Base context to page-specific contexts
     context_home.update(context_base)
     context_communities.update(context_base)
     context_gallery.update(context_base)
     context_projects.update(context_base)
+    context_prev_events.update(context_base)
 
     contexts = [
         ("components/_base.html", context_base),
@@ -114,6 +128,7 @@ if __name__ == "__main__":
         ("communities.html", context_communities),
         ("gallery.html", context_gallery),
         ("showcase.html", context_projects),
+        ("prev_events.html", context_prev_events),
     ]
 
     # StaticJinja
