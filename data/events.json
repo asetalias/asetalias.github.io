@@ -1,17 +1,17 @@
 [
   {
-    "title": "Meetups every Thursday",
-    "cta": "",
-    "ctaText": "No need to register, just meet on location.",
-    "date": "Thursday",
-    "poster": "images/flashbox/default-thursday.png",
-    "startTime": "12:00 pm",
-    "endTime": "2:00 pm",
-    "location": "TBA",
+    "title": "The Power of a Community in Open Source",
+    "cta": "#",
+    "ctaText": "Joining Link available @ 11:30 IST",
+    "date": "April 25",
+    "poster": "images/flashbox/poster25042020.jpeg",
+    "startTime": "12:00 PM",
+    "endTime": "2:00 PM",
+    "location": "MS-Teams",
     "eventOD": 0,
-    "description": "Regular informal meetups to learn, share and network. Location sent on ALiAS Whatsapp grps. Join us now!",
+    "description": "**For any queries**\nVidhi - 9654392065\nRaghav - 8368704748\nEmail: 731d3f05.amity.edu@apac.teams.ms \n\nPanel Discussion. The panel would include our Alumni and Senior year folks discussing the importance of Communities in the world of Open Source and how these communities including ours have helped them in their careers. \nWith this insightful one to one interaction between panel and students we aim to discuss industry on a wider picture. Join the official MS-Teams ALiAS Events Channel (Amitians Only): https://bit.ly/aliasamity \n\nRegards,\nALiAS\n",
     "cta2enable": 0,
-    "cta2": "",
-    "cta2Text": ""
+    "cta2": "#",
+    "cta2Text": "CTA2"
   }
 ]
