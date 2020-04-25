@@ -63,8 +63,8 @@
     ],
     "flashbox": {
         "enabled": 1,
-        "content":"<a href=\"#\" target=\"_blank\"><img src=\"images/flashbox/poster25042020.jpeg\"></a>",
-        "endDate": "Apr 25 2020"
+        "content":"<a href=\"https://bit.ly/nonamity\" target=\"_blank\"><img src=\"images/flashbox/poster25042020.jpeg\"></a>",
+        "endDate": "Apr 26 2020"
     }
 }
 ]
