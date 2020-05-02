@@ -151,11 +151,12 @@
     }
 
     #hero-section__buttons{
-        padding-left: 30px;
+        flex-direction: column;
     }
 
     .hero-section__button{
         font-size: 18px;
+        padding-bottom: 8px;
     }
 
     #hero-section::after{
