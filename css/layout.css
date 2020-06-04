@@ -1058,6 +1058,7 @@ section .section-header{
 #footer{
 	background: #FFF;
 	margin-bottom:0px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 #footer>.container>div.row{
 	padding-top:5px;
@@ -1106,20 +1107,54 @@ section .section-header{
 	text-decoration: underline;
 }
 /** Communities Page Styles **/
-#content{
-	width: 100%;
+#content {
+  width: 100%;
 }
-section.communityBox{
-	width: 100%;
-    background: #FFF;
-    color: #000;
-	overflow: hidden;
-	padding:10px;
-	margin-top:10px;
-	margin-bottom: 10px;
+
+.communitiesContentWrap {
+  background: url("../images/bg-1080p-2.jpg");
+  padding: 50px 0;
 }
-section.communityBox .section-header{
-    color: #000;
+
+.gridWrap {
+  width: 95%;
+  max-width: 1500px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1em;
+	margin: auto;
+}
+
+.grid-heading {
+	grid-column-start: 1;
+	grid-column-end: -1;
+	padding-bottom: 1em;
+}
+
+.card {
+  padding: 2em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.619);
+  display: grid;
+  grid-template-rows: 130px 1fr auto;
+  grid-gap: 1em;
+  justify-items: center;
+  align-items: center;
+}
+
+.cardFooter > a {
+  font-size: 20px;
+  color: #72a1d0;
+  margin: 5px;
+}
+
+.cardFooter > a:hover {
+  color: #717981;
+}
+
+.cardBody {
+  text-align: left;
+  align-self: start;
 }
 /** End Communities Page Styles **/
 /** Up button styles **/
