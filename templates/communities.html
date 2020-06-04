@@ -1,23 +1,29 @@
 {% extends 'components/_base.html' %}
 {% block title %}Open Source Communities{% endblock %}
 {% block content %}
-    <div id="contentWrap">
-        {% for community in communities %}
-        <section class="communityBox auto-center" id="{{ community.tag }}">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 headerContainer col-centered">
-                        <h1 class="section-header text-center">{{ community.title }}</h1>
-                    </div>
-                </div>
-                <div class="row">
+    <main id="contentWrap" class="communitiesContentWrap">
+        <div class="gridWrap">
+            {% for community in communities %}
+            <div class="card">
+                <div class="cardLogo">
                     {%- if community.logo|length > 0 %}
-                    <img class="logo-med" src="{{ community.logo }}"/>
+                        <img class="logo-med communities" src="{{ community.logo }}"/>
+                    {%- else%}
+                        <h1 class="section-header text-center">{{ community.title }}</h1>
                     {%- endif %}
-                    <p><br>{{ community.desc }}</p>
+                </div>
+                <div class="cardBody">
+                    {{ community.desc }}
+                </div>
+                <div class="cardFooter">
+                    {%- for link in community.links %}
+                        <a href="{{ link.url }}" target="_blank">
+                            <i class="fa fa-{{ link.icon }}"></i>
+                        </a>
+                    {%- endfor %}
                 </div>
             </div>
-        </section>
-        {% endfor %}
-    </div>
+            {% endfor %}
+        </div>
+    </main>
  {% endblock %}
