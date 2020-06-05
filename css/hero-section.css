@@ -76,7 +76,7 @@
 
 .hero-section__button{
     font-family: 'Montserrat';
-    font-size: 22px;
+    font-size: 18px;
     background: none;
     border: none;
     color: #000000;
@@ -85,6 +85,7 @@
     transition: all 0.5s ease-out;
     text-decoration: underline;
     cursor: pointer;
+    word-wrap: break-word;
 
     margin-right: 18px;
 }
@@ -125,7 +126,7 @@
     }
 
     .hero-section__button{
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
@@ -133,16 +134,16 @@
 
     #hero-section__welcome{
         padding-left: 30px;
+        width: 230px;
     }
 
     #hero-section__welcome > #howdy-h1{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 8px;
     }
 
     #hero-section__welcome > h1{
-        font-size: 42px;
-        word-spacing: 100vw;
+        font-size: 38px;
     }
 
     #hero-section__welcome > #amity-h1{
@@ -155,7 +156,7 @@
     }
 
     .hero-section__button{
-        font-size: 18px;
+        font-size: 14px;
         padding-bottom: 8px;
     }
 

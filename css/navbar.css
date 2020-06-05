@@ -5,11 +5,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 10%;
     width: 100%;
 
-    margin: 0;
-    padding: 0 1.5%;
+    margin: 0 auto;
+    padding: 10px 1.5%;
     box-sizing: border-box;
     background-color: #FFFFFF00;
 
@@ -66,10 +66,10 @@
     display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
     
     .nav-bar {
-        padding: 0 3%;
+        padding: 10px 3%;
     }    
 
     .navbar__list{
