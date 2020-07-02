@@ -1,0 +1,18 @@
+[
+    {
+      "title": "PyCon India",
+      "tag": "pycon",
+      "logo": "images/logos/pycon.png",
+      "desc": "The premier conference in India on using and developing the python programming language.",
+      "links": [
+        {
+          "icon": "link",
+          "url": "https://in.pycon.org/womenwhocode"
+        },
+        {
+          "icon": "twitter",
+          "url": "https://twitter.com/inpycon"
+        }
+      ]
+    }
+  ]
