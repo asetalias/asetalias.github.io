@@ -34,6 +34,7 @@ if __name__ == "__main__":
     site_meta = {}
     webinars = {}
     communities = {}
+    conferences = {}
     projects = {}
     prev_events = ()
 
@@ -49,6 +50,8 @@ if __name__ == "__main__":
             webinars = json.load(json_file)
         with open(data_folder + "/communities.json") as json_file:
             communities = json.load(json_file)
+        with open(data_folder + "/conferences.json") as json_file:
+            conferences = json.load(json_file)
         with open(data_folder + "/projects.json") as json_file:
             projects = json.load(json_file)
         with open(data_folder + "/prev_events.json") as json_file:
@@ -69,6 +72,9 @@ if __name__ == "__main__":
 
     for community in communities:
         community["desc"] = convertToHtml(community["desc"])
+
+    for conference in conferences:
+        conference["desc"] = convertToHtml(conference["desc"])
 
     for project in projects:
         project["description"] = convertToHtml(project["description"])
@@ -102,6 +108,7 @@ if __name__ == "__main__":
     context_communities = {
         "header_class": "nav-bar",
         "communities": communities,
+        "conferences": conferences,
     }
     # Gallery Page
     context_gallery = {"header_class": "nav-bar"}
