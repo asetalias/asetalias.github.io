@@ -96,21 +96,21 @@ if __name__ == "__main__":
         "eventsP": data_home["eventsP"],
         "team": data_home["team"],
         "alumini": data_home["alumini"],
-        "header_class": "mainHeaderLayout1",
+        "header_class": "nav-bar",
     }
     # Communities Page
     context_communities = {
-        "header_class": "mainHeaderLayout",
+        "header_class": "nav-bar",
         "communities": communities,
     }
     # Gallery Page
-    context_gallery = {"header_class": "mainHeaderLayout"}
+    context_gallery = {"header_class": "nav-bar"}
     # Projects Page
-    context_projects = {"header_class": "mainHeaderLayout1", "projects": projects}
+    context_projects = {"header_class": "nav-bar", "projects": projects}
 
     #Previous Events Page
     context_prev_events = {
-            "headerclass": "mainHeaderLayout",
+            "header_class": "nav-bar",
             "prev_events": prev_events,
         }
 
