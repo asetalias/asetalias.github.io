@@ -1,0 +1,176 @@
+#hero-section{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: 0;
+
+    position: relative;
+}
+
+#hero-section__welcome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 18px;
+    padding-left: 40px;
+}
+
+#hero-section__welcome > h1{
+    font-family: 'Lilita One';
+    font-size:  60px;
+    color: #232725;
+    text-align: left;
+    word-wrap: break-word;
+
+    /* can remove after bootstrap independent*/
+    margin: 0;
+}
+
+#hero-section__welcome::before{
+    content: '';
+    background: #903CD1;
+    width: 8px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+#hero-section::after{
+    content: '';
+    background: linear-gradient(40.3deg, #FF7777 16.08%, rgba(255, 192, 119, 0.81) 75.66%);;
+    width: 500px;
+    height: 500px;
+    display: block;
+    position: absolute;
+    right: 0;
+    clip-path: circle(50% at 85% 50%);
+    overflow: hidden;
+
+    z-index: -1;
+}
+
+#hero-section__welcome > #howdy-h1{
+    margin-bottom: 8px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+
+
+#hero-section__welcome > #amity-h1{
+    font-size: 26px;
+    letter-spacing: 12px;
+    margin-top: 14px;
+}
+
+#hero-section__buttons{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.hero-section__button{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    background: none;
+    border: none;
+    color: #000000;
+    letter-spacing: 2px;
+
+    transition: all 0.5s ease-out;
+    text-decoration: underline;
+    cursor: pointer;
+    word-wrap: break-word;
+
+    margin-right: 18px;
+}
+
+.hero-section__button:hover{
+    transform: scale(1.05);
+}
+
+.hero-section__button:focus{
+    outline: none;
+}
+
+#circle1{
+    position: absolute;
+    top: -250px;
+    left: -200px;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(173.71deg, #C477FF 37.36%, #77DEFF 95.03%);;
+    border-radius: 50%;
+
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+
+    #hero-section__welcome > #howdy-h1{
+        font-size: 24px;
+    }
+
+    #hero-section__welcome > h1{
+        font-size: 48px;
+    }
+
+    #hero-section__welcome > #amity-h1{
+        font-size: 22px;
+        word-spacing: normal;
+    }
+
+    .hero-section__button{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #hero-section__welcome{
+        padding-left: 30px;
+        width: 230px;
+    }
+
+    #hero-section__welcome > #howdy-h1{
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    #hero-section__welcome > h1{
+        font-size: 38px;
+    }
+
+    #hero-section__welcome > #amity-h1{
+        font-size: 20px;
+        word-spacing: normal;
+    }
+
+    #hero-section__buttons{
+        flex-direction: column;
+    }
+
+    .hero-section__button{
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+
+    #hero-section::after{
+        top: 50%;
+        margin-top: -270px; 
+        width: 500px;
+        height: 500px;
+        clip-path: circle(50% at 120% 50%);
+    }
+    
+    #circle1{
+        width: 400px;
+        height: 400px;
+        top: -300px;
+    }
+}

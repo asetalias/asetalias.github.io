@@ -46,3 +46,12 @@ $(document).ready(function (e) {
     $(".preloader").fadeOut(1000); //hide preloader
 });
 
+$(window).scroll(function () {
+    if ($(window).scrollTop() >= 50) {
+        $('.nav-bar').css('background','#FFFFFF');
+        $('.nav-bar').css('box-shadow','0px 1px 20px #313131');
+    } else {
+        $('.nav-bar').css('background','#FFFFFF00');
+        $('.nav-bar').css('box-shadow','none');
+    }
+});
