@@ -16,38 +16,12 @@ $(document).ready(function (e) {
             }, 1500, 'easeInOutExpo');
         });
     });
-    var isTrans = 0; //for menu bar
-    function stickMenu() {
-        var mainHeader = $("header#mainHeader");
-        if (mainHeader.hasClass("mainHeaderLayout1")) {
-            isTrans = 1;
-        }
-        if (!isTrans) {
-            return false;
-        }
-        setSticky();
-        $(window).scroll(function (e) {
-            setSticky();
-        });
-
-        function setSticky() {
-            var h = mainHeader.height();
-            if ($(window).scrollTop() + 10 > h) {
-                mainHeader.find(".logo").attr("src", logoDarkLink);
-                mainHeader.removeClass("mainHeaderLayout1");
-            } else {
-                mainHeader.find(".logo").attr("src", logoLightLink);
-                mainHeader.addClass("mainHeaderLayout1");
-            }
-        }
-    }
-    stickMenu();
     checkFlashBox();
     $(".preloader").fadeOut(1000); //hide preloader
 });
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() >= 50) {
+    if ($(window).scrollTop() >= 10) {
         $('.nav-bar').css('background','#FFFFFF');
         $('.nav-bar').css('box-shadow','0px 1px 20px #313131');
     } else {
