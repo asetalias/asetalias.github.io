@@ -96,88 +96,117 @@
                 "ppicUrl": "images/team/shilpi.jpg"
             },
             {
-                "name":"Shivam Rajput",
-                "designation": "Student",
-                "github": "shivamdiehard",
-                "ppicUrl": "images/team/shivam.jpg"
-            },
-            {
-                "name":"Tanya Jain",
-                "designation":"Student",
-                "github": "Tanya-Jain",
-                "facebook":"tanya.jain3",
-                "website":"http://www.tanya-jain.xyz",
-                "ppicUrl": "images/team/tanya.jpg"
-            },
-            {
-                "name":"Ayush Agarwal",
-                "designation":"Student",
-                "github": "thisisayush",
-                "facebook": "thisisayushaa",
-                "website": "http://thisisayush.com",
-                "ppicUrl": "images/team/ayush.jpg"
-            },
-            {
-                "name":"Parth Sharma",
-                "designation":"Student",
-                "github": "parthsharma2",
-                "facebook": "parthsharma02",
-                "ppicUrl": "images/team/parth.jpg"
-            },
-            {
-                "name":"Omkar Yadav",
-                "designation":"Student",
-                "github": "omi10859",
-                "website": "http://omkar.site",
-                "facebook":"omi.108",
-                "ppicUrl": "images/team/omkar.jpg"
-            },
-            {
-                "name":"Mr. Vipul Gupta",
-                "designation":"Student",
-                "github": "vipulgupta2048",
-                "facebook": "vipulgupta2048",
-                "website":"http://mixstersite.wordpress.com/about",
-                "ppicUrl": "images/team/vipulg.jpeg"
-            },
-            {
                 "name":"Anuja Agarwal",
                 "designation":"Student",
                 "github":"anujagrazzel",
                 "ppicUrl":"images/team/anuja.jpeg"
+            },
+            {
+                "name":"Raghav Chaddha",
+                "designation":"Student",
+                "github":"SubtleSkills",
+                "ppicUrl":"images/team/raghav.jpg"
+            },
+            {
+                "name":"Vidhi Gupta",
+                "designation":"Student",
+                "github":"vidhigupta9",
+                "ppicUrl":"images/team/vidhi.jpg"
+            },
+            {
+                "name":"Nikhil Maan",
+                "designation":"Student",
+                "github":"Sc0rpi0n101",
+                "ppicUrl":"images/team/nikhil.jpg"
+            },
+            {
+                "name":"Sahil Jha",
+                "designation":"Student",
+                "github":"sjha2048",
+                "ppicUrl":"images/team/sahil.jpg"
+            },
+            {
+                "name":"Anshul Gupta",
+                "designation":"Student",
+                "ppicUrl":"images/team/anshul.jpg"
             }
         ],
 
         "alumini":[
             {
               "name":"ANUVRAT PARASHAR",
-             "currently_working":"ESSENTIA SOFTSERV",
+              "currently_working":"ESSENTIA SOFTSERV",
               "linkedin":"https://www.linkedin.com/in/anuvratparashar/",
-              "picurl":"images/alumini/anuvrat.jpeg"
+              "picurl":"images/alumni/anuvrat.jpeg"
             },
             {
               "name":"MUKUL MALIK",
-             "currently_working":"DEEP LEARNING(NLP/NLU)",
+              "currently_working":"DEEP LEARNING(NLP/NLU)",
               "linkedin":"https://www.linkedin.com/in/mukul-malik-78ba68b2",
-              "picurl":"images/alumini/mukul.jpeg"
-            },
-            {
-              "name":"SHYAM SAINI",
-             "currently_working":"AMARULA SOLUTIONS",
-              "linkedin":"https://www.linkedin.com/in/shyamsaini",
-              "picurl":"images/alumini/shyam.jpeg"
+              "picurl":"images/alumni/mukul.jpeg"
             },
             {
               "name":"HANUT SINGH",
-             "currently_working":"PATCH us",
-              "linkedin":"https://www.linkedin.com/in/hanutsingh",
-              "picurl":"images/alumini/default.jpeg"
+              "currently_working":"RUNNEL.AI",
+              "linkedin":"https://www.linkedin.com/in/hanut",
+              "picurl":"images/alumni/hanut.jpg"
             },
             {
               "name":"DHRUV GUPTA",
-             "currently_working":"HCL TECHNOLOGIES",
+              "currently_working":"HCL TECHNOLOGIES",
               "linkedin":"https://www.linkedin.com/in/dhruv-gupta-19716111/",
-              "picurl":"images/alumini/default.jpeg"
+              "picurl":"images/alumni/dhruv.jpg"
+            },
+            {
+              "name":"SHYAM SAINI",
+              "currently_working":"FREELANCE LINUX KERNEL & EMBEDDED ENGINEER",
+              "linkedin":"https://www.linkedin.com/in/shyamsaini",
+              "picurl":"images/alumni/shyam.jpg"
+            },
+            {
+              "name":"SHIVAM RAJPUT",
+              "currently_working": "UHG",
+              "github": "shivamdiehard",
+              "picurl": "images/alumni/shivam.jpeg"
+            },
+            {
+              "name":"TANYA JAIN",
+              "currently_working":"ESSENTIA SOFTSERV",
+              "github": "TanyaaCJain",
+              "linkedin":"https://www.linkedin.com/in/tanyaacjain",
+              "website":"https://liveitwith.tanya-jain.xyz",
+              "picurl": "images/alumni/tanya.JPG"
+            },
+            {
+              "name":"AYUSH AGARWAL",
+              "currently_working":"LETSTREAM VENTURES",
+              "github": "thisisayush",
+              "facebook": "thisisayushaa",
+              "website": "https://thisisayush.com",
+              "picurl": "images/alumni/ayush.jpg"
+            },
+            {
+             "name":"PARTH SHARMA",
+             "currently_working":"ESSENTIA SOFTSERV",
+             "github": "parthsharma2",
+             "facebook": "parthsharma02",
+             "picurl": "images/alumni/parth.jpg"
+            },
+            {
+             "name":"OMKAR YADAV",
+             "currently_working":"OPSKUBE",
+             "github": "omi10859",
+             "website": "http://omkar.site",
+             "facebook":"omi.108",
+             "picurl": "images/alumni/omkar.jpg"
+            },
+            {
+             "name":"VIPUL GUPTA",
+             "currently_working":"BALENA",
+             "github": "vipulgupta2048",
+             "facebook": "vipulgupta2048",
+             "website":"http://mixstersite.wordpress.com/about",
+             "picurl": "images/alumni/vipulg.jpeg"
             }
         ]
     }
