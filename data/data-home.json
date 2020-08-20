@@ -96,12 +96,6 @@
                 "ppicUrl": "images/team/shilpi.jpg"
             },
             {
-                "name":"Anuja Agarwal",
-                "designation":"Student",
-                "github":"anujagrazzel",
-                "ppicUrl":"images/team/anuja.jpeg"
-            },
-            {
                 "name":"Raghav Chaddha",
                 "designation":"Student",
                 "github":"SubtleSkills",
@@ -129,6 +123,23 @@
                 "name":"Anshul Gupta",
                 "designation":"Student",
                 "ppicUrl":"images/team/anshul.jpg"
+            },
+            {
+                "name":"Chinmaya Sharma",
+                "designation":"Student",
+                "ppicUrl":"images/team/default.jpeg"
+            },
+            {
+                "name":"Siddharth Bhardawaj",
+                "designation":"Student",
+                "github":"pompeiifreckles",
+                "ppicUrl":"images/team/default.jpeg"
+            },
+            {
+                "name":"Swarnim Arun",
+                "designation":"Student",
+                "github":"swarnimarun",
+                "ppicUrl":"images/team/swarnim.jpg"
             }
         ],
 
@@ -143,7 +154,7 @@
               "name":"MUKUL MALIK",
               "currently_working":"DEEP LEARNING(NLP/NLU)",
               "linkedin":"https://www.linkedin.com/in/mukul-malik-78ba68b2",
-              "picurl":"images/alumni/mukul.jpeg"
+              "picurl":"images/alumni/mukul.jpg"
             },
             {
               "name":"HANUT SINGH",
@@ -186,27 +197,33 @@
               "picurl": "images/alumni/ayush.jpg"
             },
             {
-             "name":"PARTH SHARMA",
-             "currently_working":"ESSENTIA SOFTSERV",
-             "github": "parthsharma2",
-             "facebook": "parthsharma02",
-             "picurl": "images/alumni/parth.jpg"
+              "name":"PARTH SHARMA",
+              "currently_working":"ESSENTIA SOFTSERV",
+              "github": "parthsharma2",
+              "facebook": "parthsharma02",
+              "picurl": "images/alumni/parth.png"
             },
             {
-             "name":"OMKAR YADAV",
-             "currently_working":"OPSKUBE",
-             "github": "omi10859",
-             "website": "http://omkar.site",
-             "facebook":"omi.108",
-             "picurl": "images/alumni/omkar.jpg"
+              "name":"OMKAR YADAV",
+              "currently_working":"OPSKUBE",
+              "github": "omi10859",
+              "website": "http://omkar.site",
+              "facebook":"omi.108",
+              "picurl": "images/alumni/omkar.jpg"
             },
             {
-             "name":"VIPUL GUPTA",
-             "currently_working":"BALENA",
-             "github": "vipulgupta2048",
-             "facebook": "vipulgupta2048",
-             "website":"http://mixstersite.wordpress.com/about",
-             "picurl": "images/alumni/vipulg.jpeg"
+              "name":"VIPUL GUPTA",
+              "currently_working":"BALENA",
+              "github": "vipulgupta2048",
+              "facebook": "vipulgupta2048",
+              "website":"http://mixstersite.wordpress.com/about",
+              "picurl": "images/alumni/vipulg.jpeg"
+            },
+            {
+              "name":"ANUJA AGARWAL",
+              "currently_working":"STUDENT",
+              "github":"anujagrazzel",
+              "picurl":"images/alumni/anuja.jpeg"
             }
         ]
     }
