@@ -529,6 +529,41 @@ section .section-header{
     overflow: hidden;
     padding-bottom: 50px;
 }
+
+/** Previous event section**/
+.container h1{
+	font-size: 2.5em;
+	font-family: Dosis;
+	font-weight: 800;
+	line-height: 1.1;
+	padding-bottom: 10px;
+	width: 20%;
+	text-align: center;
+	margin: auto;
+}
+
+.container .heading-underline{
+margin:auto;
+padding-bottom: 30px;
+padding-top: 40px;
+}
+
+.container .heading-underline:hover .underline{
+	width: 14%;
+	transition-duration: 1s;
+}
+
+.container .underline{
+	border: 3px solid;
+	border-radius: 3px;
+	width: 18%;
+	text-align: center;
+	margin: auto;
+	transition-duration: 1s;
+}
+
+/** Previous event section end **/
+
 #upcomingEventsHeader{
     padding: 5px 0;
     color: inherit;
@@ -572,9 +607,14 @@ section .section-header{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
-	min-height: 100%;
-	height: auto;
+	width: 320px;
+	height: 180px;
+	padding: 2px;
+}
+.eventBox{
+	height: 400px;
+	width: 340px;
+	margin: 20px;
 }
 .eventTitle,
 .projectTitle{
