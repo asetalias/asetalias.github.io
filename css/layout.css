@@ -656,18 +656,18 @@ section .section-header{
 /** End Event Box Styles **/
 /** Youtube Box Styles **/
 .youtubeBox{
-	padding:0px;
-	height:380px;
+	padding:5px;
+	height:100%;
 }
 .youtubeBox>div>div{
 	padding:0;
 }
 .youtubeBox .youtubeVideoContainer{
 	position: relative;
-	height:191px;	/** it should be calculated as (width of parent)*9/16 **/
+	height:100%;	/** it should be calculated as (width of parent)*9/16 **/
 }
 .youtubeBox .youtubeVideoContainer img{
-	width:100%;
+	width: 100%;
 	height: 100%;
 }
 .youtubeBox .youtubeVideoContainer .video-overlay{
@@ -682,7 +682,7 @@ section .section-header{
 	height: 1em;
 }
 .youtubeBox .youtubeInfoContainer{
-	height:188px;
+	height:100%;
 	overflow:hidden;
 }
 .youtubeBox .youtubeVideoTitleContainer{
@@ -691,8 +691,9 @@ section .section-header{
 }
 .youtubeBox .youtubeVideoDescContainer{
 	width:100%;
-	height:130px;
+	height:100%;
 	overflow:hidden;
+    padding: 10px;
 }
 .youtubeBox .youtubeVideoDescContainer:hover{
 	overflow-y:scroll;
@@ -719,9 +720,6 @@ section .section-header{
 /** Common Styles End **/
 /** Webinars Section **/
 #webinars{
-    background: url("../images/bg-1080p-4.jpg");
-    background-attachment: fixed;
-    background-size: cover;
 }
 /** Webinars Section Custom Slick Slider Styles
 #webinars .slick-dots li button:before,
