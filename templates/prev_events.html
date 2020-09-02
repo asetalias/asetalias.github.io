@@ -15,29 +15,29 @@
     <title>ALiAS: Previous Events</title>
 
     <!-- Site favicon -->
-    <link href="../images/ALiAS.png" rel="shortcut icon">
-    <link href="../images/ALiAS.png" rel="apple-touch-icon">
+    <link href="images/ALiAS.png" rel="shortcut icon">
+    <link href="images/ALiAS.png" rel="apple-touch-icon">
 
     <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome CSS -->
-    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
 
     <!-- Custom CSS -->
-    <link href="../css/scrolling-nav.css" rel="stylesheet">
-    <link href="../css/main.css" rel="stylesheet" />
-    <link href="../css/layout.css" rel="stylesheet" />
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/layout.css" rel="stylesheet" />
 
     <!-- Fonts -->
-    <link href="../css/fonts.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
 
     <!-- Colors -->
-    <link href="../css/colors.css" rel="stylesheet" />
+    <link href="css/colors.css" rel="stylesheet" />
 
-    <link href="../css/navbar.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
 
 
     <!-- Page CSS Here -->
@@ -56,7 +56,7 @@
         <div class="preloader">
     <div class="content">
         <div class="preloader-content">
-            <img src="../images/ALiAS.png" class="logo-med animated-pulse"><br>
+            <img src="images/ALiAS.png" class="logo-med animated-pulse"><br>
             <span class="loading-text">loading</span>
         </div>
     </div>
@@ -64,7 +64,7 @@
 <div class="minScreenSizeOverlay">
     <div class="contentContainer">
         <div class="content">
-            <img src="../images/ALiAS.png" class="logo-med" /><br>
+            <img src="images/ALiAS.png" class="logo-med" /><br>
             Zoom out in browser or use a bigger display!
         </div>
     </div>
@@ -141,19 +141,19 @@
             <a class="page-scroll" href="../index.html#events" data-target="#menuPrimary">EVENTS</a>
         </li>
         <li>
-            <a href="../prev_events.html" data-target="#menuPrimary">PREVIOUS EVENTS</a>
+            <a href="prev_events.html" data-target="#menuPrimary">PREVIOUS EVENTS</a>
         </li>
         <li>
             <a class="page-scroll" href="../index.html#webinars" data-target="#menuPrimary">WEBINARS</a>
         </li>
         <li>
-            <a href="../gallery.html" data-target="#menuPrimary">GALLERY</a>
+            <a href="gallery.html" data-target="#menuPrimary">GALLERY</a>
         </li>
         <li>
-            <a href="../communities.html" data-target="#menuPrimary">COMMUNITIES</a>
+            <a href="communities.html" data-target="#menuPrimary">COMMUNITIES</a>
         </li>
         <li>
-            <a href="../showcase.html" data-target="#menuPrimary">PROJECTS</a>
+            <a href="showcase.html" data-target="#menuPrimary">PROJECTS</a>
         </li>
         <li>
             <a href="https://asetalias.in/blog/" data-target="#menuPrimary">BLOG</a>
@@ -170,188 +170,48 @@
             <h1>PREVIOUS EVENTS</h1>
             <p class="underline"></p>
           </div>
+                {%- for event in prev_events %}
                 <div class="slide col-xs-3 eventBox col-centered text-center" id="eventBox-">
                     <div class="row eventThumb">
-                        <img src="../images/flashbox/vui_event_poster.png" />
+                        <img src="{{ event.poster }}" />
                     </div>
-                    <div class="row eventTitle">
-                        <div class="col-lg-12 text-center">
-                            <h2>Introduction to VUI</h2>
-                        </div>
-                    </div>
-                    <div class="row eventInfo">
-                        <div class="col-xs-7 eventDesc">
-                            <div class="row eventDescInfo">
-                                <div class="col-lg-12">
-                                    <p class="eventDescInfoContainer">
-                                        <p>In this beginner friendly event learn what is VUI, how it functions and create your own VUI app using Alexa and Google Assistant without writing even a single line of code.</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-5 eventTiming text-left">
-                            <div class="date">
-                                <i class="fa fa-calendar icon"></i>&nbsp;
-                                <span><strong>9th January</strong></span>
-                            </div>
-                            <div class="startTimimg">
-                                <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>02:30 PM</strong></span>
-                            </div>
-                            <div class="endTimimg">
-                                <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>04:40 PM</strong></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slide col-xs-3 eventBox col-centered text-center" id="eventBox-">
-                    <div class="row eventThumb">
-                        <img src="../images/flashbox/poster17102019.jpg" />
-                    </div>
-                    <div class="row eventTitle">
-                        <div class="col-lg-12 text-center">
-                            <h2>ALiAS Hacktoberfest + Devsprint 2019</h2>
-                        </div>
-                    </div>
-                    <div class="row eventInfo">
-                        <div class="col-xs-7 eventDesc">
-                            <div class="row eventDescInfo">
-                                <div class="col-lg-12">
-                                    <p class="eventDescInfoContainer">
-                                        <p>Learn to contribute to open-source, win big prizes &amp; grow your network with ALiAS</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-5 eventTiming text-left">
-                            <div class="date">
-                                <i class="fa fa-calendar icon"></i>&nbsp;
-                                <span><strong>17 Oct '19</strong></span>
-                            </div>
-                            <div class="startTimimg">
-                                <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>11:00 AM</strong></span>
-                            </div>
-                            <div class="endTimimg">
-                                <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>5:00 PM</strong></span>
-                            </div>
-                        </div>
+                    <div class="prevEventsDate">
+                      <div class="row eventTitle">
+                          <div class="col-lg-12 text-center">
+                              <h2>{{ event.title }}</h2>
+                          </div>
+                      </div>
+                      <div class="row eventInfo">
+                          <div class="col-xs-7 eventDesc">
+                              <div class="row eventDescInfo">
+                                  <div class="col-lg-12">
+                                      <p class="eventDescInfoContainer">
+                                          <p>{{ event.description }}</p>
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xs-5 eventTiming text-left">
+                              <div class="date">
+                                  <i class="fa fa-calendar icon"></i>&nbsp;
+                                  <span><strong>{{ event.date }}</strong></span>
+                              </div>
+                              <div class="startTimimg">
+                                  <i class="fa fa-clock-o icon"></i>&nbsp;
+                                  <span><strong>{{ event.startTime }}</strong></span>
+                              </div>
+                              <div class="endTimimg">
+                                  <i class="fa fa-clock-o icon"></i>&nbsp;
+                                  <span><strong>{{ event.endTime }}</strong></span>
+                              </div>
+                          </div>
+                      </div>
                     </div>
                 </div>
-                <br>
-                <div class="slide col-xs-3 eventBox col-centered text-center" id="eventBox-">
-                    <div class="row eventThumb">
-                        <img src="../images/flashbox/poster08082019.jpg" />
-                    </div>
-                    <div class="row eventTitle">
-                        <div class="col-lg-12 text-center">
-                            <h2>KickStarter 2019</h2>
-                        </div>
-                    </div>
-                    <div class="row eventInfo">
-                        <div class="col-xs-7 eventDesc">
-                            <div class="row eventDescInfo">
-                                <div class="col-lg-12">
-                                    <p class="eventDescInfoContainer">
-                                        <p>An introduction to the world of programming, CS careers and more</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-5 eventTiming text-left">
-                            <div class="date">
-                                <i class="fa fa-calendar icon"></i>&nbsp;
-                                <span><strong>8 Aug '19</strong></span>
-                            </div>
-                            <div class="startTimimg">
-                                <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>2:00 PM</strong></span>
-                            </div>
-                            <div class="endTimimg">
-                                <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>4:00 PM</strong></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slide col-xs-3 eventBox col-centered text-center" id="eventBox-">
-                    <div class="row eventThumb">
-                        <img src="../images/flashbox/poster14032019.jpeg" />
-                    </div>
-                    <div class="row eventTitle">
-                        <div class="col-lg-12 text-center">
-                            <h2>Ethical Hacking & Cyber security Workshop</h2>
-                        </div>
-                    </div>
-                    <div class="row eventInfo">
-                        <div class="col-xs-7 eventDesc">
-                            <div class="row eventDescInfo">
-                                <div class="col-lg-12">
-                                    <p class="eventDescInfoContainer">
-                                        <p>By Mr. Surmeet Singh Ethical Hacker &amp; Security Engineer</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-5 eventTiming text-left">
-                            <div class="date">
-                                <i class="fa fa-calendar icon"></i>&nbsp;
-                                <span><strong>14 March 2019</strong></span>
-                            </div>
-                            <div class="startTimimg">
-                                <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>1:15 PM</strong></span>
-                            </div>
-                            <div class="endTimimg">
-                                <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>5:15 PM</strong></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="slide col-xs-3 eventBox col-centered text-center" id="eventBox-">
-                    <div class="row eventThumb">
-                        <img src="../images/flashbox/poster22102018.jpg" />
-                    </div>
-                    <div class="row eventTitle">
-                        <div class="col-lg-12 text-center">
-                            <h2>Hacktoberfest!</h2>
-                        </div>
-                    </div>
-                    <div class="row eventInfo">
-                        <div class="col-xs-7 eventDesc">
-                            <div class="row eventDescInfo">
-                                <div class="col-lg-12">
-                                    <p class="eventDescInfoContainer">
-                                        <p>Are you ready to start your open source journey but don't know where to begin with?<br>Join us in the grand open-source party 'Hacktoberfest' in association with ALiAS and OpenEBS!</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-5 eventTiming text-left">
-                            <div class="date">
-                                <i class="fa fa-calendar icon"></i>&nbsp;
-                                <span><strong>22 Oct 2018</strong></span>
-                            </div>
-                            <div class="startTimimg">
-                                <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>01:15 PM</strong></span>
-                            </div>
-                            <div class="endTimimg">
-                                <i class="fa fa-clock-o icon"></i>&nbsp;
-                                <span><strong>05:00 PM</strong></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                {% endfor %}
         </div>
     </div>
+
   </section>
 
         <section id="footer">
@@ -438,24 +298,24 @@
     </div>
 
     <!-- Jquery -->
-    <script src="../js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Google Analytics -->
-    <script src="../js/ganalytics.js"></script>
+    <script src="js/ganalytics.js"></script>
     <!-- Essential Data -->
     <script>
-        var logoDarkLink = "../images/logo-dark.png";
-        var logoLightLink = "../images/logo-light.png";
+        var logoDarkLink = "images/logo-dark.png";
+        var logoLightLink = "images/logo-light.png";
         var flashbox = $(".flashbox");
     </script>
 
     <!-- Functionality Scripts -->
-    <script src="../js/data.js"></script>
-    <script src="../js/functions.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
     <script>
         $(window).on('load scroll',() => {
              if($(window).scrollTop() > 200)

@@ -139,7 +139,7 @@
     }
 }
 .container{
-    max-width: 100%;
+  width: 100%;
 }
 
 img.logo-med{
@@ -552,14 +552,24 @@ padding-top: 40px;
 }
 
 .eventBox{
-	height: 400px;
-	width: 450px;
+	height: 200px;
+	width: 675px;
+	display: flex;
+	margin:10px 20px;
+	padding:0 0 8px 0;
+	background:#F2F1EF;
+	box-shadow:2px 2px 15px #979696;
+	box-sizing:border-box;
+	color:#000;
+	text-align:center;
+	top:0;bottom: 0;
 }
 
 .eventBox img{
 	padding-top: 10px;
 	height: 200px;
 	width: 320px;
+	padding: 10px;
 }
 
 /** Previous event section end **/
@@ -583,7 +593,7 @@ padding-top: 40px;
 	margin:auto;
 	left:0;right:0;
 }
-.eventBox,
+
 .youtubeBox,
 .projectBox{
 	width: 340px;
@@ -603,14 +613,14 @@ padding-top: 40px;
 	margin:auto;
 	left:0;right:0;
 }
-.eventBox .eventThumb,
+
 .projectBox .projectThumb{
 	position: relative;
 	width: 100%;
 	height: 191px;
 	overflow: hidden;
 }
-.eventBox .eventThumb img,
+
 .projectBox .projectThumb img{
 	position:static;
 	top:0;
@@ -636,7 +646,6 @@ padding-top: 40px;
 }
 .eventBox .eventDescInfo .eventDescInfoContainer{
 	max-height:100px;
-	text-align:left;
 	overflow-x:hidden;
 }
 .eventBox .eventDesc{
