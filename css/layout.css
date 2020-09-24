@@ -538,14 +538,14 @@ padding-top: 40px;
 }
 
 .container .heading-underline:hover .underline{
-	width: 25%;
+	width: 13%;
 	transition-duration: 1s;
 }
 
 .container .underline{
 	border: 3px solid;
 	border-radius: 3px;
-	width: 35%;
+	width: 18%;
 	text-align: center;
 	margin: auto;
 	transition-duration: 1s;
@@ -553,9 +553,9 @@ padding-top: 40px;
 
 .eventBox{
 	height: 200px;
-	width: 675px;
-	display: flex;
-	margin:10px 20px;
+	width: 650px;
+	display: inline-flex;
+	margin:40px 20px;
 	padding:0 0 8px 0;
 	background:#F2F1EF;
 	box-shadow:2px 2px 15px #979696;
@@ -568,7 +568,7 @@ padding-top: 40px;
 .eventBox img{
 	padding-top: 10px;
 	height: 200px;
-	width: 320px;
+	width: 270px;
 	padding: 10px;
 }
 
