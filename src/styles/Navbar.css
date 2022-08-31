@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400&display=swap');
+
+body {
+  margin: 0;
+  font-family:'JetBrains Mono';
+}
+/* SVG animation settings*/
+svg{
+  width: auto;
+  height: 8vh;
+}
+
+.navbar__logo:hover #right-hand {
+  animation: logo-hand 1s ease-in forwards;
+  transform-origin: 5% 28%;
+  transform-box: fill-box;
+}
+
+.navbar__logo:hover #Group_23 {
+  animation: logo-body 1s ease forwards;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#right-hand{
+  animation: logo-hand-reverse 1s ease-in forwards;
+  transform-origin: 5% 28%;
+  transform-box: fill-box;
+}
+
+#Group_23{
+  animation: logo-body-reverse 1s ease forwards;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.navbar__logo:hover #right-hand{
+  animation: logo-hand 1s ease-in forwards;
+  transform-origin: 5% 28%;
+  transform-box: fill-box;
+}
+
+.navbar__logo:hover #Group_23{
+  animation: logo-body 1s ease forwards;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes logo-hand{
+  from{
+      transform: rotateZ(0deg);
+  }  to {
+      transform: rotateZ(-90deg);
+  }
+}
+
+@keyframes logo-hand-reverse{
+  from{
+      transform: rotateZ(-90deg);
+  }  to {
+      transform: rotateZ(0deg);
+  }
+}
+
+@keyframes logo-body{
+  from{
+      transform: rotateZ(0deg);
+  }  to {
+      transform: rotateZ(-8deg);
+  }
+}
+
+@keyframes logo-body-reverse{
+  from{
+      transform: rotateZ(-8deg);
+  }  to {
+      transform: rotateZ(0deg);
+  }
+}
+
+.navbtn{
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+
+}
+.navbtn:hover{
+ 
+    background-color: #94a3b8;
+    cursor: pointer;
+  
+}
+
+#join-us{
+  
+   background-color: #a1ace0 ;
+    color: whitesmoke;
+}
+ #join-us:hover{
+  background-color: #5b5f82 ;
+}
+
