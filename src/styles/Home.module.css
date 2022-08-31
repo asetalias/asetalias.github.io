@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.heroWrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.hero {
+  padding: 0 0 0 0;
+}
+
+.hero h1 {
+  font-size: 6vw;
+  border-left: #f83a3a solid 4px;
+  padding: 0 0 0 20px;
+}
+
+.subHero {
+  padding: 0 0 0 5px;
+}
+
+.subHero h2 {
+  font-size: 2.6vw;
+}

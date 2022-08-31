@@ -3,6 +3,7 @@ import BaseHead from "@/components/BaseHead.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "@/config";
+import HeroSection from "@/components/HeroSection.tsx";
 ---
 
 <!DOCTYPE html>
@@ -11,6 +12,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "@/config";
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body>
+    <HeroSection/>
     <Header title={SITE_TITLE} />
     <main>
       <h1>🧑‍🚀 Hello, Astronaut!</h1>
