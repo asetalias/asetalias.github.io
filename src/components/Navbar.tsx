@@ -18,26 +18,24 @@ const navButton = style({
   }
 });
 
-const navDiv = {
+const navDiv = style({
   display: "flex",
   backgroundColor: "#d1d5db",
   alignItems: "center",
   padding: "0.2vh 1vw",
   justifyContent: "space-between"
-};
+});
 
-const navItems = {
+const navItems = style({
   display: "flex",
   justifyContent: "end",
   gap: "1vw"
-};
+});
 
 const Navbar = () => {
   return (
 
-    <div style={navDiv}>
-      {/* <h1 className={navButton}>Sagar Deep</h1> */}
-
+    <div className={navDiv}>
 
       <div className="navbar__logo">
         <svg
@@ -203,7 +201,7 @@ const Navbar = () => {
           </g>
         </svg>
       </div>
-      <div style={navItems}>
+      <div className ={navItems}>
 
         <div className={navButton} >About Us</div>
 
@@ -215,10 +213,10 @@ const Navbar = () => {
         <div className={navButton}>Blog</div>
         {/* <Link to="#">About Us</Link> */}
 
-        <div className="navbtn">Projects</div>
+        <div className= {navButton}>Projects</div>
         {/* <Link to="#">About Us</Link> */}
 
-        <div className="navbtn" id="join-us">Join Us</div>
+        <div className= {navButton} id="join-us">Join Us</div>
         {/* <Link to="#">About Us</Link> */}
       </div>
     </div>

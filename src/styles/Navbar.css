@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family:'JetBrains Mono';
 }
+
 /* SVG animation settings*/
 svg{
   width: auto;
@@ -78,23 +79,7 @@ svg{
   }
 }
 
-.navbtn{
-  padding: 5px;
-  font-size: 20px;
-  border-radius: 4px;
-  color: black;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-
-}
-.navbtn:hover{
- 
-    background-color: #94a3b8;
-    cursor: pointer;
-  
-}
-
+/* join us button */
 #join-us{
   
    background-color: #a1ace0 ;
