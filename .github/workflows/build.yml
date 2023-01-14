@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "16"
-          cache: yarn
+          cache: pnpm
 
       - name: Install Surge
         run: npm install -g surge
