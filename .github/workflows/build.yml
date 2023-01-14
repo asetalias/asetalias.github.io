@@ -19,24 +19,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: "16"
-          cache: yarn
+          cache: pnpm
 
       - name: Install Surge
-        run: npm install -g surge
+        run: pnpm install -g surge
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
 
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Build
-        run: yarn build
+        run: pnpm build
 
       - name: Deploy preview
         run: surge ./dist alias-preview-${{ github.run_id }}.surge.sh --token ${{ secrets.SURGE_TOKEN }}

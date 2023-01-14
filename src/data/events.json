@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Event 1",
+    "date": "2023-01-13:00:00.000Z",
+    "poster": "/posters/event1.png",
+    "startTime": "02:30 PM",
+    "endTime": "04:40 PM",
+    "location": "E3-104",
+    "description": "In this beginner friendly event learn what is VUI, how it functions and create your own VUI app using Alexa and Google Assistant without writing even a single line of code."
+  },
+  {
+    "title": "Event 2",
+    "date": "2023-01-14:00:00.000Z",
+    "poster": "/posters/event1.png",
+    "startTime": "02:30 PM",
+    "endTime": "04:40 PM",
+    "location": "E3-104",
+    "description": "In this beginner friendly event learn what is VUI, how it functions and create your own VUI app using Alexa and Google Assistant without writing even a single line of code."
+  },
+  {
+    "title": "Event 3",
+    "date": "2023-01-15:00:00.000Z",
+    "poster": "/posters/event1.png",
+    "startTime": "02:30 PM",
+    "endTime": "04:40 PM",
+    "location": "E3-104",
+    "description": "In this beginner friendly event learn what is VUI, how it functions and create your own VUI app using Alexa and Google Assistant without writing even a single line of code."
+  },
+  {
+    "title": "Event 4",
+    "date": "2023-01-16:00:00.000Z",
+    "poster": "/posters/event1.png",
+    "startTime": "02:30 PM",
+    "endTime": "04:40 PM",
+    "location": "E3-104",
+    "description": "In this beginner friendly event learn what is VUI, how it functions and create your own VUI app using Alexa and Google Assistant without writing even a single line of code."
+  }
+]
