@@ -1,6 +1,6 @@
 <script>
   import { MapIcon, CalendarIcon, RadioIcon } from 'svelte-feather-icons';
-  import { google } from 'calendar-link';
+  import { getClientLink } from 'pin-on-calendar';
   import { parse, format } from 'date-fns';
 
   let currentSlide = 0;
@@ -28,11 +28,11 @@
             <p><CalendarIcon class="inline-block mr-4 text-purple-300" /><span>{format(parse(event.start, 'yyyy-MM-dd HH:mm', new Date()), 'do MMM yy')}</span></p>
             <p><MapIcon class="inline-block mr-4 text-rose-300" /><span>{event.location}</span></p>
             <a
-              href={google({
+              href={getClientLink('google', {
                 title: event.title,
                 description: event.description,
-                start: parse(event.start, 'yyyy-MM-dd HH:mm', new Date()).toJSON(),
-                end: parse(event.end, 'yyyy-MM-dd HH:mm', new Date()).toJSON(),
+                startDate: parse(event.start, 'yyyy-MM-dd HH:mm', new Date()).toJSON(),
+                endDate: parse(event.end, 'yyyy-MM-dd HH:mm', new Date()).toJSON(),
                 location: event.location,
               })}
               target="_blank"
