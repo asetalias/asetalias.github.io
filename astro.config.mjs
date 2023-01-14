@@ -9,5 +9,5 @@ import svelte from "@astrojs/svelte";
 
 export default defineConfig({
   site: "https://example.com",
-  integrations: [mdx(), react(), sitemap(), tailwind(), svelte()]
+  integrations: [mdx(), react(), sitemap(), tailwind(), svelte()],
 });
