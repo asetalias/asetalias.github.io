@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Introduction to VUI",
+    "date": "9th January",
+    "poster": "images/flashbox/vui_event_poster.png",
+    "startTime": "02:30 PM",
+    "endTime": "04:40 PM",
+    "location": "E3-104",
+    "description": "In this beginner friendly event learn what is VUI, how it functions and create your own VUI app using Alexa and Google Assistant without writing even a single line of code."
+  },
+  {
+    "title": "ALiAS Hacktoberfest + Devsprint 2019",
+    "cta": "https://bit.ly/hack_sprint",
+    "ctaText": "Register Now!",
+    "date": "17 Oct '19",
+    "poster": "images/flashbox/poster17102019.jpg",
+    "startTime": "11:00 AM",
+    "endTime": "5:00 PM",
+    "location": "L1-Audi",
+    "eventOD": 1,
+    "description": "Learn to contribute to open-source, win big prizes & grow your network with ALiAS",
+    "cta2enable": 1,
+    "cta2": "http://hacksprint.asetalias.in",
+    "cta2Text": "Visit Website"
+  },
+  {
+    "title": "KickStarter 2019",
+    "cta": "https://asetalias.in",
+    "ctaText": "Open for all freshers, no registration required",
+    "date": "8 Aug '19",
+    "poster": "images/flashbox/poster08082019.jpg",
+    "startTime": "2:00 PM",
+    "endTime": "4:00 PM",
+    "location": "E3-104",
+    "eventOD": 1,
+    "description": "An introduction to the world of programming, CS careers and more",
+    "cta2enable": 0,
+    "cta2": "#",
+    "cta2Text": "View"
+  },
+  {
+    "title": "Ethical Hacking & Cyber security Workshop",
+    "cta": "https://goo.gl/forms/BcmbeWHJBeYFusSb2",
+    "ctaText": "Register Now",
+    "date": "14 March 2019",
+    "poster": "images/flashbox/poster14032019.jpeg",
+    "startTime": "1:15 PM",
+    "endTime": "5:15 PM",
+    "location": "-",
+    "eventOD": 1,
+    "description": "By Mr. Surmeet Singh Ethical Hacker & Security Engineer",
+    "cta2enable": 0,
+    "cta2": "#",
+    "cta2Text": "View"
+  },
+  {
+    "title": "Hacktoberfest!",
+    "cta": "http://bit.ly/hfest18rsvp",
+    "ctaText": "Register Now!",
+    "date": "22 Oct 2018",
+    "poster": "images/flashbox/poster22102018.jpg",
+    "startTime": "01:15 PM",
+    "endTime": "05:00 PM",
+    "location": "E2 Auditorium",
+    "eventOD": 1,
+    "description": "Are you ready to start your open source journey but don't know where to begin with?\nJoin us in the grand open-source party 'Hacktoberfest' in association with ALiAS and OpenEBS!",
+    "cta2enable": 0,
+    "cta2": "#",
+    "cta2Text": "View"
+  }
+]
