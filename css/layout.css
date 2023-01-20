@@ -519,6 +519,35 @@ section .section-header{
 }
 /** Intro Section End **/
 
+.text-calender {
+    color: #6ee7b7;
+  }
+  a.text-calender:hover,
+  a.text-calender:focus {
+    color: #50d19d;
+  }
+  .text-duration {
+    color: #BA68C8;
+  }
+  a.text-duration:hover,
+  a.text-duration:focus {
+    color: #a651b5;
+  }
+  .text-venue {
+    color: #fda4af;
+  }
+  a.text-venue:hover,
+  a.text-venue:focus {
+    color: #e67e8a;
+  }
+
+.text-alignment{
+  display:flex;
+  flex-flow:column nowrap;
+  align-items:center;
+  /* justify-content: flex-end; */
+}
+
 /** Events Section **/
 #events{
     background: url("../images/bg-1080p-2.jpg");
@@ -550,7 +579,11 @@ section .section-header{
 	box-sizing:border-box;
 	color:#000;
 	text-align:center;
-	top:0;bottom: 0;
+	/* display:block;
+	margin-left:auto;
+	margin-right:auto; */
+	top:0;
+	bottom: 0;
 }
 /** Event Box Styles **/
 .eventBox>div,
@@ -563,7 +596,7 @@ section .section-header{
 	position: relative;
 	width: 100%;
 	height: 191px;
-	overflow: hidden;
+	overflow: scroll;
 }
 .eventBox .eventThumb img,
 .projectBox .projectThumb img{
@@ -596,6 +629,7 @@ section .section-header{
 	max-height:100px;
 	text-align:left;
 	overflow-x:hidden;
+	/* margin-bottom: 20px; */
 }
 .eventBox .eventDesc{
 	overflow-y:hidden;
@@ -1107,6 +1141,27 @@ section .section-header{
   padding: 50px 0;
 }
 
+.individualEventWrap{
+	background: url("../images/bg-1080p-2.jpg");
+	display:flex;
+	flex-flow:column;
+	gap: 2em;
+}
+
+.meetupDescriptionContainer{
+	/* display:block; */
+	text-align:left;
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content: center;
+	align-items: center;
+	gap:1em;
+}
+
+.partInformationContainer{
+	text-align:left;
+}
+
 .gridWrap {
   width: 95%;
   max-width: 1500px;
@@ -1114,6 +1169,17 @@ section .section-header{
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1em;
 	margin: auto;
+}
+
+.actualFormContent{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content: center;
+	align-items: center;
+	gap:3em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top:2em;
 }
 
 .grid-heading {
@@ -1131,6 +1197,10 @@ section .section-header{
   grid-gap: 1em;
   justify-items: center;
   align-items: center;
+}
+
+.cardFooter{
+	padding-top: 2.2em;;
 }
 
 .cardFooter > a {
