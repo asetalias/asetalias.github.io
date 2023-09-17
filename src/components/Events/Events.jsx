@@ -67,6 +67,7 @@ const Events = () => {
         Galore!
       </h1>
       <Carousel
+        id="events__carousel"
         props={data.map((item) => {
           return (
             <EventItem
