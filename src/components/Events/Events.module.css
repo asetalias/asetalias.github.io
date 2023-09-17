@@ -1,54 +1,58 @@
 .events {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .events__title {
-    color: white;
-    font-weight: 800;
-    font-size: var(--font-large);
+  color: white;
+  font-weight: 800;
+  font-size: var(--font-large);
 }
 
 .events__title_highlight {
-    background-image: linear-gradient(90deg, rgba(255, 116, 25, 1) 0%, rgba(255, 184, 0, 1) 80%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 116, 25, 1) 0%,
+    rgba(255, 184, 0, 1) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
 }
 
 .events__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: var(--margin-large-l);
-    width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--margin-large-l);
+  width: 100%;
 }
 
 .events__container__carousel {
-    display: flex;
-    height: 43rem;
-    width: 92rem;
-    gap: var(--margin-medium);
-    overflow-x: hidden;
+  display: flex;
+  height: 43rem;
+  width: 92rem;
+  gap: var(--margin-medium);
+  overflow-x: hidden;
 }
 
 .carousel__button__left {
-    background: url(/assets/icons/left-arrow.svg) no-repeat;
-    height: 4rem;
-    width: 4rem;
-    border: none;
-    cursor: pointer;
-    margin: 0 var(--margin-medium);
-  }
+  background: url(/assets/icons/left-arrow.svg) no-repeat;
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  cursor: pointer;
+  margin: 0 var(--margin-medium);
+}
 
-  .carousel__button__right {
-    background: url(/assets/icons/right-arrow.svg) no-repeat;
-    height: 4rem;
-    width: 4rem;
-    border: none;
-    cursor: pointer;
-    margin: 0 var(--margin-medium);
-  }
+.carousel__button__right {
+  background: url(/assets/icons/right-arrow.svg) no-repeat;
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  cursor: pointer;
+  margin: 0 var(--margin-medium);
+}
