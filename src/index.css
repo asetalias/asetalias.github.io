@@ -1,0 +1,45 @@
+@import 'variables.css';
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#root {
+  margin: 0 auto;
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+}

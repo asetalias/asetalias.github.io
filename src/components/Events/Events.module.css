@@ -1,0 +1,25 @@
+.events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.events__title {
+    color: white;
+    font-weight: 800;
+    font-size: var(--font-large);
+}
+
+.events__title_highlight {
+    background-image: linear-gradient(90deg, rgba(255,116,25,1) 0%, rgba(255,184,0,1) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
+
+.events__container {
+    display: flex;
+    margin: var(--margin-large-l);
+}

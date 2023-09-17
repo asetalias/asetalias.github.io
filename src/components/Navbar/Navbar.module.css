@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--margin-small) var(--margin-large);
+    transition: all 0.3s;
+    height: 8rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar__scrolling {
+    backdrop-filter: blur(15px);
+    background: rgba(0,0,0, 0.5);
+    height: 4rem;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0, 0.8);
+}
+
+.navbar__logo {
+    color: #000;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navbar__logo__scrolling {
+    transform: scale(0.7);
+}
+
+.navbar__list {
+    display: flex;
+    list-style: none;
+    gap: var(--margin-medium);
+}
+
+.navbar__list__item {
+    font-size: var(--font-medium-sm);
+    margin: 0 var(--margin-medium);
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+}

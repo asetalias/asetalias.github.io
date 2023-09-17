@@ -1,0 +1,93 @@
+.hero {
+    margin-top: var(--margin-large-xl);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__one {
+    color: white;
+    font-weight: 800;
+    font-size: var(--font-large);
+}
+
+.hero__one_highlight {
+    background-image: linear-gradient(90deg, rgba(255,116,25,1) 0%, rgba(255,184,0,1) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
+
+.hero__two {
+    color: white;
+    font-weight: 800;
+    font-size: var(--font-large);
+}
+
+.hero__description {
+    margin-top: var(--margin-large);
+    font-family: 'JetBrains Mono', monospace;
+    color: #CDCDCD;
+    font-size: var(--font-medium);
+    max-width: 60rem;
+}
+
+.hero__btn_container {
+    width: 40%;
+}
+
+.hero__button {
+    margin-bottom: 20rem;
+    border: 4px solid #FF6F1C;
+    background: none;
+    border-radius: 3rem;
+    padding: 1rem 3rem;
+    font-size: var(--font-medium);
+    font-weight: 600;
+    color:#FF6F1C;
+    text-shadow: 0 0 10px #FF6F1C,
+                 0 0 20px #FF6F1C,
+                 0 0 40px #FF6F1C,
+                 0 0 80px #FF6F1C;
+    box-shadow: inset 0 0 10px #FF6F1C, 0 0 15px #FF6F1C;
+    cursor: pointer;
+    transition: all 0.1s;
+    opacity: 0.8;
+}
+
+.hero__button:hover {
+    opacity: 1;
+}
+
+.hero__interactive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__interactive img {
+    width: 30%;
+}
+
+.hero__one_image {
+    animation: float 4s ease-in-out infinite
+}
+
+.hero__two_image {
+    animation: float 6s ease-in-out infinite
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-1rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

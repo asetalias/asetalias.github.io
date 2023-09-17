@@ -1,0 +1,21 @@
+:root {
+    --font-large-l: 6rem;
+    --font-large: 4rem;
+    --font-medium-lm: 3rem;
+    --font-medium-large: 2.5rem;
+    --font-medium: 2rem;
+    --font-medium-sm: 1.5rem;
+    --font-medium-s: 1.25rem;
+    --font-small: 1rem;
+  
+    --margin-large-xl: 14rem;
+    --margin-large-l: 6rem;
+    --margin-large: 4rem;
+    --margin-medium-lm: 3rem;
+    --margin-medium-large: 2.5rem;
+    --margin-medium: 2rem;
+    --margin-medium-sm: 1.5rem;
+    --margin-medium-s: 1.25rem;
+    --margin-small: 1rem;
+    --margin-small-s: 0.75rem;
+  }
