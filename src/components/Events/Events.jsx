@@ -61,7 +61,7 @@ const Events = () => {
   ];
 
   return (
-    <div id="about" className={styles.events}>
+    <div id="events" className={styles.events}>
       <h1 className={styles.events__title}>
         Our <span className={styles.events__title_highlight}>Events</span>{" "}
         Galore!
