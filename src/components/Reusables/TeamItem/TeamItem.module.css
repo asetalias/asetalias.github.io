@@ -44,6 +44,7 @@
   width: 16rem;
   padding: var(--margin-small);
   box-shadow: inset var(--color-accent) 0 0 30px 0, var(--color-accent) 0px 0px 30px 0px;
+  background-color: #ff6f1c1f;
 }
 
 .team_item__quote_text {
