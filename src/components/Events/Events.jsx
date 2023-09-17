@@ -1,8 +1,50 @@
+import React from "react";
 import EventItem from "../Reusables/EventItem/EventItem";
 import styles from "./Events.module.css";
+import Carousel from "../Reusables/Carousel/Carousel";
 
 const Events = () => {
   const data = [
+    {
+      image: "/assets/images/poster.png",
+      title: "Hacktoberfest 2021",
+      date: "September 16th, 2023",
+      time: "10:00 AM",
+      venue: "Amity University, Lucknow Campus",
+      about: "Hacktoberfest is a month-long celebration of open source software run by DigitalOce."
+    },
+    {
+      image: "/assets/images/poster.png",
+      title: "Hacktoberfest 2021",
+      date: "September 16th, 2023",
+      time: "10:00 AM",
+      venue: "Amity University, Lucknow Campus",
+      about: "Hacktoberfest is a month-long celebration of open source software run by DigitalOce."
+    },
+    {
+      image: "/assets/images/poster.png",
+      title: "Hacktoberfest 2021",
+      date: "September 16th, 2023",
+      time: "10:00 AM",
+      venue: "Amity University, Lucknow Campus",
+      about: "Hacktoberfest is a month-long celebration of open source software run by DigitalOce."
+    },
+    {
+      image: "/assets/images/poster.png",
+      title: "Hacktoberfest 2021",
+      date: "September 16th, 2023",
+      time: "10:00 AM",
+      venue: "Amity University, Lucknow Campus",
+      about: "Hacktoberfest is a month-long celebration of open source software run by DigitalOce."
+    },
+    {
+      image: "/assets/images/poster.png",
+      title: "Hacktoberfest 2021",
+      date: "September 16th, 2023",
+      time: "10:00 AM",
+      venue: "Amity University, Lucknow Campus",
+      about: "Hacktoberfest is a month-long celebration of open source software run by DigitalOce."
+    },
     {
       image: "/assets/images/poster.png",
       title: "Hacktoberfest 2021",
@@ -19,8 +61,8 @@ const Events = () => {
         Our <span className={styles.events__title_highlight}>Events</span>{" "}
         Galore!
       </h1>
-      <div className={styles.events__container}>
-        {data.map((item) => {
+      <Carousel
+        props={data.map((item) => {
           return (
             <EventItem
               key={item.title}
@@ -32,8 +74,8 @@ const Events = () => {
               about={item.about}
             />
           );
-        })}
-      </div>
+        })
+        } />
     </div>
   );
 };

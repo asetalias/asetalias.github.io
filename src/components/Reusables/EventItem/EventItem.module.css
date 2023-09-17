@@ -10,8 +10,8 @@
   border-radius: 16px;
   width: 28rem;
   height: 40rem;
-  background-color: antiquewhite;
-  transition: transform 0.3s;
+  background-color: white;
+  transition: transform 0.5s;
   transform-style: preserve-3d;
   position: relative;
   cursor: pointer;
@@ -20,6 +20,11 @@
 .event:hover .event__container,
 .event:focus .event__container {
   transform: rotateY(180deg);
+}
+
+.event:hover .content__btn {
+  transform: rotateY(180deg);
+  bottom: -65px;
 }
 
 .poster,
@@ -40,7 +45,6 @@
   height: 100%;
   width: 100%;
   border-radius: 1rem;
-  background-color: white;
   transform: rotateY(180deg);
 }
 
@@ -100,8 +104,12 @@
   font-weight: 600;
   color: white;
   cursor: pointer;
-  bottom: -65px;
+  bottom: -5px;
   position: absolute;
   left: 0;
   right: 0;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  transition: all 0.8s;
+  z-index: 3;
 }

@@ -50,8 +50,8 @@ const EventItem = ({ image, title, date, time, venue, about }) => {
             </div>
           </div>
         </div>
-      </div>
       <button className={styles.content__btn}>Register</button>
+      </div>
     </div>
   );
 };
