@@ -1,26 +1,26 @@
 [
   {
-    "image": "/assets/images/tanish.png",
+    "image": "/assets/images/members/tanish.png",
     "name": "Tanish Mishra",
     "role": "Kuch toh krte hi hoge"
   },
   {
-    "image": "/assets/images/amay.png",
+    "image": "/assets/images/members/amay.png",
     "name": "Amay Mishra",
     "role": "Kuch toh krte hi hoge"
   },
   {
-    "image": "/assets/images/abhinandan.png",
+    "image": "/assets/images/members/abhinandan.png",
     "name": "Abhinandan Yadav",
     "role": "Kuch toh krte hi hoge"
   },
   {
-    "image": "/assets/images/aviraj.png",
+    "image": "/assets/images/members/aviraj.png",
     "name": "Aviraj Saxena",
     "role": "Kuch toh krte hi hoge"
   },
   {
-    "image": "/assets/images/kanish.png",
+    "image": "/assets/images/members/kanish.png",
     "name": "Kanish Bhodhwani",
     "role": "Kuch toh krte hi hoge"
   }
