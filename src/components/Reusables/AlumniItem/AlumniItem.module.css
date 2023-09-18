@@ -1,0 +1,62 @@
+.alumni_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.alumni_item__detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alumni_item__img {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.alumni_item__firstname {
+  font-family: "JetBrains Mono", monospace;
+  margin-top: var(--margin-small);
+  font-size: var(--font-medium);
+  font-weight: 400;
+  color: white;
+}
+
+.alumni_item__lastname {
+  font-family: "JetBrains Mono", monospace;
+  font-size: var(--font-medium);
+  font-weight: 400;
+  color: white;
+}
+
+.alumni_item__quote {
+  display: flex;
+  position: relative;
+  left: -2rem;
+  top: 2rem;
+  align-items: center;
+  border: 6px solid var(--color-accent);
+  border-radius: 1rem;
+  height: 8rem;
+  width: 16rem;
+  padding: var(--margin-small);
+  box-shadow: inset var(--color-accent) 0 0 30px 0,
+    var(--color-accent) 0px 0px 30px 0px;
+  background-color: #ff6f1c1f;
+}
+
+.alumni_item__quote_text {
+  font-family: "JetBrains Mono", monospace;
+  font-size: var(--font-medium-s);
+  font-weight: 400;
+  color: white;
+  padding: var(--margin-small);
+  text-align: center;
+  text-shadow: 0 0 100px var(--color-accent);
+}

@@ -1,0 +1,57 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__title {
+  color: white;
+  font-weight: 800;
+  font-size: var(--font-large);
+  text-align: center;
+}
+
+.contact__title_highlight {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 116, 25, 1) 0%,
+    rgba(255, 184, 0, 1) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+}
+
+.contact__social {
+  display: flex;
+  gap: var(--margin-large);
+  margin: var(--margin-large-l) 0;
+}
+
+.social__img {
+  height: 4rem;
+  width: 4rem;
+  filter: invert(97%) sepia(100%) saturate(0%) hue-rotate(262deg)
+    brightness(106%) contrast(102%);
+  transition: all 0.3s ease-in-out;
+}
+
+.social__img:hover {
+  filter: invert(55%) sepia(97%) saturate(2704%) hue-rotate(346deg)
+    brightness(100%) contrast(104%) drop-shadow(0 0 0.75rem #ff6f1cad);
+}
+
+.contact__credits {
+  color: white;
+  font-size: var(--font-medium-s);
+  font-weight: 500;
+  text-align: center;
+  margin: var(--margin-large) 0;
+}
+
+.contact__heart {
+  color: red;
+  text-shadow: 0 0 10px var(--color-accent), 0 0 20px var(--color-accent);
+}

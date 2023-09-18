@@ -1,21 +1,24 @@
+/* eslint-disable react/prop-types */
 import styles from "./TeamItem.module.css";
 
-const TeamItem = () => {
+/**
+ * team card component.
+ *
+ * @param {string} image - The image of the team.
+ * @param {string} date - The date of the team.
+ * @param {string} time - The time of the team.
+ * @param {string} venue - The venue of the team.
+ * @returns {JSX.Element} - The team card component.
+ */
+const TeamItem = ({ image, name, role }) => {
   return (
-    <div className={styles.team_item}>
-      <div className={styles.team_item__detail}>
-        <img
-          className={styles.team_item__img}
-          src="/assets/images/photo.png"
-          alt="photo"
-        />
-        <h1 className={styles.team_item__firstname}>Venkatesh</h1>
-        <h1 className={styles.team_item__lastname}>Chaturvedi</h1>
-      </div>
-      <div className={styles.team_item__quote}>
-        <p className={styles.team_item__quote_text}>
-          “Ask questions! No matter what”
-        </p>
+    <div className={styles.team}>
+      <div className={styles.team__container}>
+        <img src={image} alt="picture" className={styles.picture} />
+        <div className={styles.content}>
+            <h1 className={styles.content__name}>{name}</h1>
+            <p className={styles.content__role}>{role}</p>
+        </div>
       </div>
     </div>
   );

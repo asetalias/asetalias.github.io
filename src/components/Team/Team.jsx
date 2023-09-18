@@ -5,14 +5,25 @@ import TeamItem from "../Reusables/TeamItem/TeamItem";
 const Team = () => {
   const data = [
     {
-      title: "/assets/images/poster.png",
+      image: "/assets/images/tanish.jpg",
+      name: "Venkatesh",
+      role: "Babaji",
     },
     {
-      title: "/assets/images/poster.png",
+      image: "/assets/images/tanish.jpg",
+      name: "Venkatesh",
+      role: "Babaji",
     },
     {
-      title: "/assets/images/poster.png",
+      image: "/assets/images/tanish.jpg",
+      name: "Venkatesh",
+      role: "Babaji",
     },
+    {
+      image: "/assets/images/tanish.jpg",
+      name: "Venkatesh",
+      role: "Babaji",
+    },  
   ];
 
   return (
@@ -24,7 +35,14 @@ const Team = () => {
       <Carousel
         id="team__carousel"
         props={data.map((item) => {
-          return <TeamItem key={item.title} />;
+          return (
+            <TeamItem
+              key={item.name}
+              image={item.image}
+              name={item.name}
+              role={item.role}
+            />
+          );
         })}
       />
     </div>
