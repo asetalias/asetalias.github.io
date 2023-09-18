@@ -1,30 +1,20 @@
+import { useState, useEffect } from "react";
 import styles from "./Team.module.css";
 import Carousel from "../Reusables/Carousel/Carousel";
 import TeamItem from "../Reusables/TeamItem/TeamItem";
 
 const Team = () => {
-  const data = [
-    {
-      image: "/assets/images/tanish.jpg",
-      name: "Venkatesh",
-      role: "Babaji",
-    },
-    {
-      image: "/assets/images/tanish.jpg",
-      name: "Venkatesh",
-      role: "Babaji",
-    },
-    {
-      image: "/assets/images/tanish.jpg",
-      name: "Venkatesh",
-      role: "Babaji",
-    },
-    {
-      image: "/assets/images/tanish.jpg",
-      name: "Venkatesh",
-      role: "Babaji",
-    },  
-  ];
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  async function fetchData() {
+    const response = await fetch("/data/members.json");
+    const data = await response.json();
+    setData(data);
+  }
 
   return (
     <div id="team" className={styles.team}>

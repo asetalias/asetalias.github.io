@@ -1,24 +1,18 @@
+import { useState, useEffect } from "react";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
-  const data = [
-    {
-      id: "instagram",
-      link: "https://www.instagram.com/asetaliaslko/",
-    },
-    {
-      id: "github",
-      link: "https://github.com/asetalias",
-    },
-    {
-      id: "linkedin",
-      link: "https://www.linkedin.com/company/asetalias/",
-    },
-    {
-      id: "twitter",
-      link: "https://twitter.com/asetalias",
-    },
-  ];
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  async function fetchData() {
+    const response = await fetch("/data/socials.json");
+    const data = await response.json();
+    setData(data);
+  }
 
   return (
     <div id="contact" className={styles.contact}>
@@ -42,7 +36,11 @@ const Contact = () => {
       <a href="https://asetalias.in" target="_blank" rel="no noreferrer">
         <img src="/assets/images/chapter.svg" alt="Chapter of ALiAS" />
       </a>
-      <h2 className={styles.contact__credits}>Designed with <span className={styles.contact__heart}>&nbsp;&#10084;&nbsp;</span> by ALiAS Lucknow</h2>
+      <h2 className={styles.contact__credits}>
+        Designed with{" "}
+        <span className={styles.contact__heart}>&nbsp;&#10084;&nbsp;</span> by
+        ALiAS Lucknow
+      </h2>
     </div>
   );
 };

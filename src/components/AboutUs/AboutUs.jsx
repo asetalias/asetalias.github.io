@@ -1,27 +1,21 @@
+import { useState, useEffect } from "react";
 import AboutItem from "../Reusables/AboutItem/AboutItem";
 import styles from "./AboutUs.module.css";
 
 const AboutUs = () => {
-  const data = [
-    {
-      image: "/assets/images/hero-one.png",
-      title: "What?",
-      description:
-        "We are ALiAS (Amity Linux Assistance Sapience), a passionate coding club dedicated to the exploration and promotion of Linux and open-source technologies.",
-    },
-    {
-      image: "/assets/images/hero-one.png",
-      title: "Why?",
-      description:
-        "We exist to inspire, educate, and collaborate with students who share our enthusiasm for open-source software and to create a thriving community of tech enthusiasts.",
-    },
-    {
-      image: "/assets/images/hero-one.png",
-      title: "How?",
-      description:
-        "We reach our goals through workshops, hackathons, open-source contributions, and a focus on skill development, all in a supportive learning community.",
-    },
-  ];
+  const [data, setData] = useState([]);
+
+  useEffect( () => {
+    fetchData();
+  }, []);
+
+  async function fetchData() {
+    const response = await fetch("/data/about.json");
+    console.log(response);
+    const data = await response.json();
+    console.log(data);
+    setData(data);
+  }
 
   return (
     <div id="about" className={styles.aboutus}>

@@ -1,64 +1,20 @@
+import { useState, useEffect } from "react";
 import EventItem from "../Reusables/EventItem/EventItem";
 import styles from "./Events.module.css";
 import Carousel from "../Reusables/Carousel/Carousel";
 
 const Events = () => {
-  const data = [
-    {
-      image: "/assets/images/poster.png",
-      title: "Hacktoberfest 2021",
-      date: "September 16th, 2023",
-      time: "10:00 AM",
-      venue: "Amity University, Lucknow Campus",
-      about:
-        "Hacktoberfest is a month-long celebration of open source software run by DigitalOce.",
-    },
-    {
-      image: "/assets/images/poster.png",
-      title: "Hacktoberfest 2021",
-      date: "September 16th, 2023",
-      time: "10:00 AM",
-      venue: "Amity University, Lucknow Campus",
-      about:
-        "Hacktoberfest is a month-long celebration of open source software run by DigitalOce.",
-    },
-    {
-      image: "/assets/images/poster.png",
-      title: "Hacktoberfest 2021",
-      date: "September 16th, 2023",
-      time: "10:00 AM",
-      venue: "Amity University, Lucknow Campus",
-      about:
-        "Hacktoberfest is a month-long celebration of open source software run by DigitalOce.",
-    },
-    {
-      image: "/assets/images/poster.png",
-      title: "Hacktoberfest 2021",
-      date: "September 16th, 2023",
-      time: "10:00 AM",
-      venue: "Amity University, Lucknow Campus",
-      about:
-        "Hacktoberfest is a month-long celebration of open source software run by DigitalOce.",
-    },
-    {
-      image: "/assets/images/poster.png",
-      title: "Hacktoberfest 2021",
-      date: "September 16th, 2023",
-      time: "10:00 AM",
-      venue: "Amity University, Lucknow Campus",
-      about:
-        "Hacktoberfest is a month-long celebration of open source software run by DigitalOce.",
-    },
-    {
-      image: "/assets/images/poster.png",
-      title: "Hacktoberfest 2021",
-      date: "September 16th, 2023",
-      time: "10:00 AM",
-      venue: "Amity University, Lucknow Campus",
-      about:
-        "Hacktoberfest is a month-long celebration of open source software run by DigitalOce.",
-    },
-  ];
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  async function fetchData() {
+    const response = await fetch("/data/events.json");
+    const data = await response.json();
+    setData(data);
+  }
 
   return (
     <div id="events" className={styles.events}>

@@ -1,28 +1,20 @@
+import { useState, useEffect } from "react";
 import styles from "./Alumni.module.css";
 import Carousel from "../Reusables/Carousel/Carousel";
 import AlumniItem from "../Reusables/AlumniItem/AlumniItem";
 
 const Alumni = () => {
-  const data = [
-    {
-      image: "/assets/images/photo.png",
-      firstName: "Venkatesh",
-      lastName: "Kumar",
-      quote: "Ask questions! No matter what",
-    },
-    {
-      image: "/assets/images/photo.png",
-      firstName: "Venkatesh",
-      lastName: "Kumar",
-      quote: "Ask questions! No matter what",
-    },
-    {
-      image: "/assets/images/photo.png",
-      firstName: "Venkatesh",
-      lastName: "Kumar",
-      quote: "Ask questions! No matter what",
-    },
-  ];
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  async function fetchData() {
+    const response = await fetch("/data/alumni.json");
+    const data = await response.json();
+    setData(data);
+  }
 
   return (
     <div id="alumni" className={styles.alumni}>
