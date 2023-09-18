@@ -4,8 +4,9 @@
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  background-color: #000000;
+  background: url(/assets/images/bg.png) repeat 0 0;
+  animation: bg-scrolling-reverse 3s infinite;
+  animation-timing-function: linear;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,6 +14,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
+}
+
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
 }
 
 body {
