@@ -13,11 +13,19 @@
   align-items: center;
 }
 
-.alumni_item__img {
+.alumni_item__img_container {
   height: 18rem;
   width: 18rem;
   border-radius: 50%;
   z-index: 1;
+  background: linear-gradient(180deg, rgba(255,111,28,1) 40%, rgba(0,0,0,1) 100%);
+}
+
+.alumni_item__img {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 50%;
+  z-index: 2;
 }
 
 .alumni_item__firstname {

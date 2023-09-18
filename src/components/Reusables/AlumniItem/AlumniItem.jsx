@@ -5,7 +5,9 @@ const AlumniItem = ({ image, firstName, lastName, quote }) => {
   return (
     <div className={styles.alumni_item}>
       <div className={styles.alumni_item__detail}>
-        <img className={styles.alumni_item__img} src={image} alt="photo" />
+        <div className={styles.alumni_item__img_container}>
+          <img className={styles.alumni_item__img} src={image} alt="photo" />
+        </div>
         <h1 className={styles.alumni_item__firstname}>{firstName}</h1>
         <h1 className={styles.alumni_item__lastname}>{lastName}</h1>
       </div>
