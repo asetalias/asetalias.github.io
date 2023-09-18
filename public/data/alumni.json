@@ -1,20 +1,74 @@
 [
   {
-    "image": "/assets/images/photo.png",
-    "firstName": "Venkatesh",
-    "lastName": "Kumar",
+    "image": "/assets/images/akshat-pande.png",
+    "firstName": "Akshat",
+    "lastName": "Pande",
     "quote": "Ask questions! No matter what"
   },
   {
-    "image": "/assets/images/photo.png",
+    "image": "/assets/images/venkatesh.png",
     "firstName": "Venkatesh",
-    "lastName": "Kumar",
+    "lastName": "Chaturvedi",
     "quote": "Ask questions! No matter what"
   },
   {
-    "image": "/assets/images/photo.png",
-    "firstName": "Venkatesh",
-    "lastName": "Kumar",
+    "image": "/assets/images/Rohan.png",
+    "firstName": "Rohan Raj",
+    "lastName": "Gupta",
+    "quote": "Ask questions! No matter what"
+  },
+  {
+    "image": "/assets/images/alok-singh.png",
+    "firstName": "Alok",
+    "lastName": "Singh",
+    "quote": "Ask questions! No matter what"
+  },
+  {
+    "image": "/assets/images/vaibhav-singh.png",
+    "firstName": "Vaibhav",
+    "lastName": "Singh",
+    "quote": "Ask questions! No matter what"
+  },
+  {
+    "image": "/assets/images/vigya-gupta.png",
+    "firstName": "Vigya",
+    "lastName": "Gupta",
+    "quote": "Ask questions! No matter what"
+  },
+  {
+    "image": "/assets/images/umang-jain.png",
+    "firstName": "Umang",
+    "lastName": "Jain",
+    "quote": "Ask questions! No matter what"
+  },
+  {
+    "image": "/assets/images/tauseef-ahmad.png",
+    "firstName": "Tauseef",
+    "lastName": "Ahmad",
+    "quote": "Ask questions! No matter what"
+  },
+  {
+    "image": "/assets/images/harsh-tiwari.png",
+    "firstName": "Harsh",
+    "lastName": "Tiwari",
+    "quote": "Ask questions! No matter what"
+  },
+  {
+    "image": "/assets/images/lakshya.png",
+    "firstName": "Lakshya",
+    "lastName": "Srivastava",
+    "quote": "Ask questions! No matter what"
+  },
+  {
+    "image": "/assets/images/pranjal-shikhar.png",
+    "firstName": "Pranjal",
+    "lastName": "Shikhar",
+    "quote": "Ask questions! No matter what"
+  },
+  {
+    "image": "/assets/images/anuj-gupta.png",
+    "firstName": "Anuj",
+    "lastName": "Gupta",
     "quote": "Ask questions! No matter what"
   }
 ]
