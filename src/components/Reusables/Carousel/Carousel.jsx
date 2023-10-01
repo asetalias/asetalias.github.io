@@ -28,14 +28,18 @@ const Carousel = ({ id, props }) => {
       <button
         className={styles.carousel__button__left}
         onClick={() => handleClickScrollLeft(id)}
-      ></button>
+      >
+        <img className={styles.carousel__button__img} src="/assets/icons/left-arrow.svg" alt="arrow" />
+      </button>
       <div id={id} className={styles.carousel}>
         {props}
       </div>
       <button
         className={styles.carousel__button__right}
         onClick={() => handleClickScrollRight(id)}
-      ></button>
+      >
+        <img className={styles.carousel__button__img} src="/assets/icons/right-arrow.svg" alt="arrow" />
+      </button>
     </div>
   );
 };

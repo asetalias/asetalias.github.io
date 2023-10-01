@@ -3,12 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  --items: 2;
 }
 
 .alumni__title {
   color: white;
   font-weight: 800;
-  font-size: var(--font-large);
 }
 
 .alumni__title_highlight {
@@ -21,4 +21,10 @@
   -webkit-background-clip: text;
   -moz-background-clip: text;
   color: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+  .alumni {
+    --items: 1;
+  }
 }

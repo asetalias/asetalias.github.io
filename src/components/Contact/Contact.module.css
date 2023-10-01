@@ -8,8 +8,8 @@
 .contact__title {
   color: white;
   font-weight: 800;
-  font-size: var(--font-large);
   text-align: center;
+  margin: 0 var(--margin-medium-s);
 }
 
 .contact__title_highlight {
@@ -54,4 +54,30 @@
 .contact__heart {
   color: red;
   text-shadow: 0 0 10px var(--color-accent), 0 0 20px var(--color-accent);
+}
+
+@media screen and (max-width: 768px) {
+}
+  
+@media screen and (max-width: 425px) {
+  .contact__social {
+    gap: var(--margin-medium);
+    margin-top: var(--margin-large);
+    margin-bottom: var(--margin-medium);
+  }
+
+  .social__img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .contact__chapter {
+    height: 8rem;
+    margin: var(--margin-medium) 0;
+  }
+
+  .contact__credits {
+    font-size: var(--font-small);
+    margin: var(--margin-medium) 0;
+  }
 }

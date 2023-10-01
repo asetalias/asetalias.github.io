@@ -1,5 +1,7 @@
 .team {
   position: relative;
+  height: 40rem;
+  width: clamp(60%, 100%, 100%);
 }
 
 .team__container {
@@ -7,9 +9,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 var(--margin-small);
   border-radius: 1rem;
-  width: 28rem;
-  height: 40rem;
+  height: 100%;
   position: relative;
   cursor: pointer;
 }
@@ -38,7 +40,7 @@
 }
 
 .content__name {
-  font-size: var(--font-medium);
+  font-size: clamp(var(--font-medium-sm), 100%, var(--font-medium));
   font-weight: 600;
   color: white;
   text-align: center;
@@ -49,4 +51,22 @@
   font-weight: 400;
   color: white;
   margin-bottom: var(--margin-small-s);
+}
+
+@media screen and (max-width: 1024px) {
+  .team {
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .team {
+    height: 25rem;
+  }
 }

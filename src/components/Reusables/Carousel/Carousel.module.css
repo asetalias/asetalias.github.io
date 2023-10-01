@@ -1,33 +1,85 @@
+:root {
+  --items: 3;
+  --gap: 1rem;
+}
+
 .carousel__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: var(--margin-large-l);
-    width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--margin-large-l);
+  width: 100%;
 }
 
 .carousel {
-    display: flex;
-    height: 43rem;
-    width: 92rem;
-    gap: var(--margin-medium);
-    overflow-x: hidden;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - var(--gap)) / var(--items));
+  gap: var(--gap);
+  overflow-x: auto;
+  scrollbar-width: none;
+  width: 100%;
+  max-width: 1445px;
 }
 
-.carousel__button__left {
-    background: url(/assets/icons/left-arrow.svg) no-repeat;
-    height: 4rem;
-    width: 4rem;
-    border: none;
-    cursor: pointer;
-    margin: 0 var(--margin-medium);
+/* Hide scrollbar for Chrome, Safari and Opera */
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.carousel {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.carousel__button__left,
+.carousel__button__right {
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  cursor: pointer;
+  margin: 0 var(--margin-medium);
+  background: none;
+}
+
+.carousel__button__img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --items: 2;
+    --gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel__button__left,
+  .carousel__button__right {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 625px) {
+  :root {
+    --items: 1;
+    --gap: 1rem;
   }
 
-  .carousel__button__right {
-    background: url(/assets/icons/right-arrow.svg) no-repeat;
-    height: 4rem;
-    width: 4rem;
-    border: none;
-    cursor: pointer;
-    margin: 0 var(--margin-medium);
+  .carousel {
+    margin-left: var(--gap);
   }
+
+}
+
+@media screen and (max-width: 426px) {
+  :root {
+    --items: 1;
+    --gap: 1rem;
+  }
+}

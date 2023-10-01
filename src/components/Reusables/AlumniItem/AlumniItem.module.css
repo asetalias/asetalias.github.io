@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: fit-content;
 }
 
@@ -67,4 +66,47 @@
   padding: var(--margin-small);
   text-align: center;
   text-shadow: 0 0 100px var(--color-accent);
+}
+
+@media screen and (max-width: 768px) {
+  .alumni_item {
+    /* flex-direction: column; */
+    /* height: 40rem; */
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .alumni_item {
+    flex-direction: row;
+    height: fit-content;
+  }
+
+  .alumni_item__quote {
+    left: -2rem;
+    top: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .alumni_item__img_container,
+  .alumni_item__img {
+    height: 11rem;
+    width: 11rem;
+  }
+
+  .alumni_item__quote {
+    height: 5rem;
+    width: 10rem;
+    left: -1.5rem;
+    top: 1rem;
+  }
+
+  .alumni_item__firstname,
+  .alumni_item__lastname {
+    font-size: var(--font-medium-s);
+  }
+
+  .alumni_item__quote_text {
+    font-size: var(--font-small);
+  }
 }

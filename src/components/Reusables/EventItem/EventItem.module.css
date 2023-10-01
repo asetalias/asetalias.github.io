@@ -1,5 +1,7 @@
 .event {
-  position: relative;
+  height: 40rem;
+  width: 100%;
+  overflow-y: hidden;
 }
 
 .event__container {
@@ -8,12 +10,11 @@
   align-items: center;
   justify-content: center;
   border-radius: 16px;
-  width: 28rem;
-  height: 40rem;
+  margin: 0 var(--margin-small);
+  height: 90%;
   background-color: white;
   transition: transform 0.5s;
   transform-style: preserve-3d;
-  position: relative;
   cursor: pointer;
 }
 
@@ -55,7 +56,7 @@
 }
 
 .content__title {
-  font-size: var(--font-medium);
+  font-size: clamp(var(--font-medium-s), 2.5vw, var(--font-medium));
   font-weight: 800;
   text-align: center;
 }
@@ -72,19 +73,19 @@
 }
 
 .content__item img {
-  height: 35px;
-  width: 35px;
+  height: clamp(20px, 2.5vw, 35px);
+  width: clamp(20px, 2.5vw, 35px);
 }
 
 .content__item p {
-  font-size: var(--font-medium-s);
+  font-size: var(--font-small);
   font-weight: 500;
 }
 
 .content__desc_title {
-  font-size: var(--font-medium-s);
+  font-size: clamp(var(--font-small), 2.5vw, var(--font-medium-s));
   font-weight: 700;
-  margin-bottom: var(--margin-small-s);
+  margin-bottom: var(--margin-small);
 }
 
 .content__desc_detail {
@@ -100,7 +101,7 @@
   border-radius: 1rem;
   border: none;
   padding: 1rem 2rem;
-  font-size: var(--font-medium);
+  font-size: clamp(var(--font-small), 2.5vw, var(--font-medium));
   font-weight: 600;
   color: white;
   cursor: pointer;
@@ -112,4 +113,45 @@
   transform: rotateY(180deg);
   transition: all 0.8s;
   z-index: 3;
+}
+
+@media screen and (max-width: 1445px) {
+  .event {
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .event {
+    height: 36rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .event {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .event {
+    height: 40rem;
+  }
+  
+}
+
+@media screen and (max-width: 425px) {
+  .event {
+    height: 35rem;
+  }
+
+  .content__container {
+    padding: var(--margin-medium) var(--margin-small);
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .event {
+    height: 25rem;
+  }
 }

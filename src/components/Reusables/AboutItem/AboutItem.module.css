@@ -8,8 +8,8 @@
 }
 
 .about_item__image {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -24,4 +24,21 @@
     color: white;
     font-weight: 400;
     text-align: center;
+}
+
+@media  screen and (max-width: 1024px) {
+    .about_item {
+        width: 70%;
+        margin: var(--margin-medium) 0;
+    }
+
+    .about_item__description {
+        font-size: var(--font-small);
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .about_item {
+        width: 100%;
+    }
 }

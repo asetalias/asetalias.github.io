@@ -8,7 +8,7 @@
 .team__title {
   color: white;
   font-weight: 800;
-  font-size: var(--font-large);
+  text-align: center;
 }
 
 .team__title_highlight {

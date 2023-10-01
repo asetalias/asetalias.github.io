@@ -44,9 +44,35 @@ p {
 }
 
 h1 {
+  font-size: var(--font-large);
   line-height: 1.2;
+}
+
+h2 {
+  font-size: var(--font-medium-lm);
 }
 
 button {
   font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: var(--font-medium-lm);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: var(--font-medium-large);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: var(--font-medium);
+  }
+}
+
+@media screen and (max-width: 320px) {
 }

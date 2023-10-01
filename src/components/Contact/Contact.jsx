@@ -34,7 +34,7 @@ const Contact = () => {
         })}
       </div>
       <a href="https://asetalias.in" target="_blank" rel="no noreferrer">
-        <img src="/assets/images/chapter.svg" alt="Chapter of ALiAS" />
+        <img className={styles.contact__chapter} src="/assets/images/chapter.svg" alt="Chapter of ALiAS" />
       </a>
       <h2 className={styles.contact__credits}>
         Designed with{" "}
