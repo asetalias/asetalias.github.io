@@ -26,7 +26,7 @@ const Alumni = () => {
         props={data.map((item) => {
           return (
             <AlumniItem
-              key={item.name}
+              key={item.id}
               image={item.image}
               firstName={item.firstName}
               lastName={item.lastName}

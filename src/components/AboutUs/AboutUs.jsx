@@ -26,7 +26,7 @@ const AboutUs = () => {
         {data.map((item) => {
           return (
             <AboutItem
-              key={item.title}
+              key={item.id}
               image={item.image}
               title={item.title}
               description={item.description}

@@ -27,7 +27,7 @@ const Team = () => {
         props={data.map((item) => {
           return (
             <TeamItem
-              key={item.name}
+              key={item.id}
               image={item.image}
               name={item.name}
               role={item.role}

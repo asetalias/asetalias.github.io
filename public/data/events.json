@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "image": "/assets/images/poster.png",
     "title": "Hacktoberfest 2021",
     "date": "September 16th, 2023",
@@ -8,6 +9,7 @@
     "about": "Hacktoberfest is a month-long celebration of open source software run by DigitalOce."
   },
   {
+    "id": 2,
     "image": "/assets/images/poster.png",
     "title": "Hacktoberfest 2021",
     "date": "September 16th, 2023",
@@ -16,6 +18,7 @@
     "about": "Hacktoberfest is a month-long celebration of open source software run by DigitalOce."
   },
   {
+    "id": 3,
     "image": "/assets/images/poster.png",
     "title": "Hacktoberfest 2021",
     "date": "September 16th, 2023",
@@ -24,6 +27,7 @@
     "about": "Hacktoberfest is a month-long celebration of open source software run by DigitalOce."
   },
   {
+    "id": 4,
     "image": "/assets/images/poster.png",
     "title": "Hacktoberfest 2021",
     "date": "September 16th, 2023",

@@ -27,7 +27,7 @@ const Events = () => {
         props={data.map((item) => {
           return (
             <EventItem
-              key={item.title}
+              key={item.id}
               image={item.image}
               title={item.title}
               date={item.date}
