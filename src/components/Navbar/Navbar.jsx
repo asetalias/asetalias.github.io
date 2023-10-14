@@ -57,7 +57,7 @@ const Navbar = () => {
     >
       <div className={`${styles.navbar__overlay} ${scrolling ? styles.navbar__overlay__scrolling : ""}`}>
         <img
-          src="/assets/images/logo.png"
+          src="/assets/icons/logo.svg"
           alt="logo"
           className={` ${styles.navbar__logo} ${scrolling ? styles.navbar__logo__scrolling : ""}`}
         />
