@@ -31,6 +31,7 @@ const Team = () => {
               image={item.image}
               name={item.name}
               role={item.role}
+              socials={item.social}
             />
           );
         })}

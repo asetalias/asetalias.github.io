@@ -4,83 +4,203 @@
     "image": "/assets/images/alumni/akshat-pande.png",
     "firstName": "Akshat",
     "lastName": "Pande",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 2,
     "image": "/assets/images/alumni/venkatesh.png",
     "firstName": "Venkatesh",
     "lastName": "Chaturvedi",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 3,
     "image": "/assets/images/alumni/Rohan.png",
     "firstName": "Rohan Raj",
     "lastName": "Gupta",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 4,
     "image": "/assets/images/alumni/alok-singh.png",
     "firstName": "Alok",
     "lastName": "Singh",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 5,
     "image": "/assets/images/alumni/vaibhav-singh.png",
     "firstName": "Vaibhav",
     "lastName": "Singh",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 6,
     "image": "/assets/images/alumni/vigya-gupta.png",
     "firstName": "Vigya",
     "lastName": "Gupta",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 7,
     "image": "/assets/images/alumni/umang-jain.png",
     "firstName": "Umang",
     "lastName": "Jain",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 8,
     "image": "/assets/images/alumni/tauseef-ahmad.png",
     "firstName": "Tauseef",
     "lastName": "Ahmad",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 9,
     "image": "/assets/images/alumni/harsh-tiwari.png",
     "firstName": "Harsh",
     "lastName": "Tiwari",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 10,
     "image": "/assets/images/alumni/lakshya.png",
     "firstName": "Lakshya",
     "lastName": "Srivastava",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 11,
     "image": "/assets/images/alumni/pranjal-shikhar.png",
     "firstName": "Pranjal",
     "lastName": "Shikhar",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 12,
     "image": "/assets/images/alumni/anuj-gupta.png",
     "firstName": "Anuj",
     "lastName": "Gupta",
-    "quote": "Ask questions! No matter what"
+    "quote": "Ask questions! No matter what",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   }
 ]

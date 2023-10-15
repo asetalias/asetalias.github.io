@@ -34,6 +34,7 @@ const Events = () => {
               time={item.time}
               venue={item.venue}
               about={item.about}
+              register={item.register}
             />
           );
         })}

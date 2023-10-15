@@ -53,13 +53,28 @@ const Navbar = () => {
   // Render the Navbar component
   return (
     <nav
-      className={`${styles.navbar} ${scrolling ? styles.navbar__scrolling : ""} ${open ? styles.navbar__active : ""}`}
+      className={`${styles.navbar} ${
+        scrolling ? styles.navbar__scrolling : ""
+      } ${open ? styles.navbar__active : ""}`}
     >
-      <div className={`${styles.navbar__overlay} ${scrolling ? styles.navbar__overlay__scrolling : ""}`}>
+      <img
+        src="/assets/icons/logo.svg"
+        alt="logo"
+        className={` ${styles.navbar__logo} ${
+          scrolling ? styles.navbar__logo__scrolling : ""
+        } ${styles.navbar__logo__responsive}`}
+      />
+      <div
+        className={`${styles.navbar__overlay} ${
+          scrolling ? styles.navbar__overlay__scrolling : ""
+        }`}
+      >
         <img
           src="/assets/icons/logo.svg"
           alt="logo"
-          className={` ${styles.navbar__logo} ${scrolling ? styles.navbar__logo__scrolling : ""}`}
+          className={` ${styles.navbar__logo} ${
+            scrolling ? styles.navbar__logo__scrolling : ""
+          }`}
         />
         <div
           className={`${styles.hamburger} ${open ? styles.active : ""}`}

@@ -57,6 +57,10 @@
   opacity: 0.8;
 }
 
+.hero__button a {
+  text-decoration: none;
+}
+
 .hero__button:hover {
   opacity: 1;
 }

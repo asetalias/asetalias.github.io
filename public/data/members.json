@@ -3,30 +3,80 @@
     "id": 1,
     "image": "/assets/images/members/tanish.png",
     "name": "Tanish Mishra",
-    "role": "Kuch toh krte hi hoge"
+    "role": "Kuch toh krte hi hoge",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 2,
     "image": "/assets/images/members/amay.png",
     "name": "Amay Mishra",
-    "role": "Kuch toh krte hi hoge"
+    "role": "Kuch toh krte hi hoge",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 3,
     "image": "/assets/images/members/abhinandan.png",
     "name": "Abhinandan Yadav",
-    "role": "Kuch toh krte hi hoge"
+    "role": "Kuch toh krte hi hoge",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 4,
     "image": "/assets/images/members/aviraj.png",
     "name": "Aviraj Saxena",
-    "role": "Kuch toh krte hi hoge"
+    "role": "Kuch toh krte hi hoge",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   },
   {
     "id": 5,
     "image": "/assets/images/members/kanish.png",
     "name": "Kanish Bhodhwani",
-    "role": "Kuch toh krte hi hoge"
+    "role": "Kuch toh krte hi hoge",
+    "social": [
+      {
+        "id": "instagram",
+        "link": "https://www.instagram.com/asetaliaslko/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/asetalias"
+      }
+    ]
   }
 ]

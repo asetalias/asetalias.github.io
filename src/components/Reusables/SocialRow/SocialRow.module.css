@@ -1,0 +1,18 @@
+.social {
+  display: flex;
+  gap: var(--margin-medium);
+  margin: var(--margin-medium-s) 0;
+}
+
+.social__img {
+  height: 2rem;
+  width: 2rem;
+  filter: invert(97%) sepia(100%) saturate(0%) hue-rotate(262deg)
+    brightness(106%) contrast(102%);
+  transition: all 0.3s ease-in-out;
+}
+
+.social__img:hover {
+  filter: invert(55%) sepia(97%) saturate(2704%) hue-rotate(346deg)
+    brightness(100%) contrast(104%) drop-shadow(0 0 0.75rem #ff6f1cad);
+}

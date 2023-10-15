@@ -21,7 +21,11 @@ const Hero = () => {
             className={styles.hero__one_image}
           />
           <div className={styles.hero__btn_container}>
-            <button className={styles.hero__button}>Enroll Now</button>
+            <button className={styles.hero__button}>
+              <a href="https://bit.ly/joinalias" target="_blank" rel="noreferrer">
+                Enroll Now
+              </a>
+            </button>
           </div>
           <img
             src="/assets/images/hero-two.png"

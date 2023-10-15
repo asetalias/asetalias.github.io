@@ -31,6 +31,7 @@ const Alumni = () => {
               firstName={item.firstName}
               lastName={item.lastName}
               quote={item.quote}
+              socials={item.social}
             />
           );
         })}

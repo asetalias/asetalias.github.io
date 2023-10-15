@@ -10,7 +10,7 @@ import styles from "./EventItem.module.css";
  * @param {string} venue - The venue of the event.
  * @returns {JSX.Element} - The event card component.
  */
-const EventItem = ({ image, title, date, time, venue, about }) => {
+const EventItem = ({ image, title, date, time, venue, about, register }) => {
   return (
     <div className={styles.event}>
       <div className={styles.event__container}>
@@ -50,7 +50,13 @@ const EventItem = ({ image, title, date, time, venue, about }) => {
             </div>
           </div>
         </div>
-      <button className={styles.content__btn}>Register</button>
+        {register && (
+          <button className={styles.content__btn}>
+            <a href={register} target="_blank" rel="noreferrer">
+              Register
+            </a>
+          </button>
+        )}
       </div>
     </div>
   );

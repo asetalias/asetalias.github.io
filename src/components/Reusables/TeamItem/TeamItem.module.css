@@ -50,7 +50,6 @@
   font-size: var(--font-medium-s);
   font-weight: 400;
   color: white;
-  margin-bottom: var(--margin-small-s);
 }
 
 @media screen and (max-width: 1024px) {
