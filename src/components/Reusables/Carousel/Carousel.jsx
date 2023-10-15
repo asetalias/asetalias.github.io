@@ -4,7 +4,6 @@ import styles from "./Carousel.module.css";
 const Carousel = ({ id, props }) => {
   const handleClickScrollLeft = (e) => {
     const carousel = document.getElementById(e);
-    console.log(carousel);
     if (carousel) {
       carousel.scrollBy({
         left: -carousel.offsetWidth,
@@ -15,7 +14,6 @@ const Carousel = ({ id, props }) => {
 
   const handleClickScrollRight = (e) => {
     const carousel = document.getElementById(e);
-    console.log(carousel);
     if (carousel) {
       carousel.scrollBy({
         left: carousel.offsetWidth,
