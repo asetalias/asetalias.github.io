@@ -3,79 +3,158 @@
     "id": 1,
     "image": "/assets/images/members/tanish.png",
     "name": "Tanish Mishra",
-    "role": "Kuch toh krte hi hoge",
+    "role": "President",
     "social": [
       {
-        "id": "instagram",
-        "link": "https://www.instagram.com/asetaliaslko/"
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/tanish-mishra-5a7478265/"
       },
       {
         "id": "github",
-        "link": "https://github.com/asetalias"
+        "link": "https://github.com/tanish-mishra"
       }
     ]
-  },
-  {
+  },{
     "id": 2,
-    "image": "/assets/images/members/amay.png",
-    "name": "Amay Mishra",
-    "role": "Kuch toh krte hi hoge",
+    "image": "/assets/images/members/abhinandan.png",
+    "name": "Abhinandan Yadav",
+    "role": "Volunteer",
     "social": [
       {
-        "id": "instagram",
-        "link": "https://www.instagram.com/asetaliaslko/"
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/abhinandanyadav01"
       },
       {
         "id": "github",
-        "link": "https://github.com/asetalias"
+        "link": "https://github.com/aby00"
       }
     ]
   },
   {
     "id": 3,
-    "image": "/assets/images/members/abhinandan.png",
-    "name": "Abhinandan Yadav",
-    "role": "Kuch toh krte hi hoge",
+    "image": "/assets/images/members/dhruvi.png",
+    "name": "Dhruvi Gaur",
+    "role": "Volunteer",
     "social": [
       {
-        "id": "instagram",
-        "link": "https://www.instagram.com/asetaliaslko/"
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/diva-gupta-a6107421b/"
       },
       {
         "id": "github",
-        "link": "https://github.com/asetalias"
+        "link": "https://github.com/GuptaDiva"
       }
     ]
   },
   {
     "id": 4,
-    "image": "/assets/images/members/aviraj.png",
-    "name": "Aviraj Saxena",
-    "role": "Kuch toh krte hi hoge",
+    "image": "/assets/images/members/abhinav.png",
+    "name": "Abhinav Shukla",
+    "role": "Volunteer",
     "social": [
       {
-        "id": "instagram",
-        "link": "https://www.instagram.com/asetaliaslko/"
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/abhinav-shukla-28157a291/"
       },
       {
         "id": "github",
-        "link": "https://github.com/asetalias"
+        "link": "https://github.com/shuklaabhinavv"
       }
     ]
   },
   {
     "id": 5,
-    "image": "/assets/images/members/kanish.png",
-    "name": "Kanish Bhodhwani",
-    "role": "Kuch toh krte hi hoge",
+    "image": "/assets/images/members/aviraj.png",
+    "name": "Aviraj Saxena",
+    "role": "Volunteer",
     "social": [
       {
-        "id": "instagram",
-        "link": "https://www.instagram.com/asetaliaslko/"
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/theavirajsaxena/"
       },
       {
         "id": "github",
-        "link": "https://github.com/asetalias"
+        "link": "https://github.com/theavirajsaxena"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/members/amay.png",
+    "name": "Amay Mishra",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/amay-mishra-0940/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/crucie"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/members/diva.png",
+    "name": "Diva Gupta",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/diva-gupta-a6107421b/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/GuptaDiva"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/members/amritansh.png",
+    "name": "Amritansh Mishra",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/amritanshmsh"
+      },
+      {
+        "id": "github",
+        "link": "https://www.github.com/amritanshmsh"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/members/utkarsh.png",
+    "name": "Utkarsh Agarwal",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/utkarsh-agarwal-/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/Ag-Utkarsh"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "/assets/images/members/kanish.png",
+    "name": "Kanish Bhodwani",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/kanish-bodhwani/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/kanishbodhwani"
       }
     ]
   }
