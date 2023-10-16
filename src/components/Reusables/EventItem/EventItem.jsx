@@ -2,13 +2,17 @@
 import styles from "./EventItem.module.css";
 
 /**
- * Event card component.
+ * Renders an individual event item component.
  *
- * @param {string} image - The image of the event.
- * @param {string} date - The date of the event.
- * @param {string} time - The time of the event.
- * @param {string} venue - The venue of the event.
- * @returns {JSX.Element} - The event card component.
+ * @param {Object} props - The properties object.
+ * @param {string} props.image - The image source for the event.
+ * @param {string} props.title - The title of the event.
+ * @param {string} props.date - The date of the event.
+ * @param {string} props.time - The time of the event.
+ * @param {string} props.venue - The venue of the event.
+ * @param {string} props.about - The description of the event.
+ * @param {string} props.register - The link to register for the event.
+ * @returns {JSX.Element} - The rendered event item component.
  */
 const EventItem = ({ image, title, date, time, venue, about, register }) => {
   return (

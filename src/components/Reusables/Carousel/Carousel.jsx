@@ -1,6 +1,14 @@
 /* eslint-disable react/prop-types */
 import styles from "./Carousel.module.css";
 
+/**
+ * Renders an individual carousel component.
+ *
+ * @param {Object} props - The properties object.
+ * @param {string} props.id - The id of the carousel
+ * @param {JSX.Element} props.props - The children of the carousel
+ * @returns {JSX.Element} - The rendered carousel item component.
+ */
 const Carousel = ({ id, props }) => {
   const handleClickScrollLeft = (e) => {
     const carousel = document.getElementById(e);

@@ -3,6 +3,11 @@ import styles from "./Team.module.css";
 import Carousel from "../Reusables/Carousel/Carousel";
 import TeamItem from "../Reusables/TeamItem/TeamItem";
 
+/**
+ * Fetches data from "/data/members.json" and sets the fetched data in the component's state.
+ *
+ * @return {JSX.Element} The rendered Team component.
+ */
 const Team = () => {
   const [data, setData] = useState([]);
 

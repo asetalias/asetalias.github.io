@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import styles from "./Contact.module.css";
 
+/**
+ * Fetches data from "/data/socials.json" and sets the fetched data in the component's state.
+ *
+ * @return {JSX.Element} The rendered Contact component.
+ */
 const Contact = () => {
   const [data, setData] = useState([]);
 

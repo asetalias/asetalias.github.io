@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Navbar.module.css";
 
 /**
- * Render the Navbar component.
+ * Renders the Navbar component.
  *
  * @returns {JSX.Element} The rendered Navbar component.
  */

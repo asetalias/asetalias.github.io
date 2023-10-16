@@ -2,6 +2,11 @@ import { useState, useEffect } from "react";
 import AboutItem from "../Reusables/AboutItem/AboutItem";
 import styles from "./AboutUs.module.css";
 
+/**
+ * Fetches data from "/data/about.json" and sets the fetched data in the component's state.
+ *
+ * @return {JSX.Element} The rendered AboutUs component.
+ */
 const AboutUs = () => {
   const [data, setData] = useState([]);
 

@@ -3,13 +3,14 @@ import SocialRow from "../SocialRow/SocialRow";
 import styles from "./TeamItem.module.css";
 
 /**
- * team card component.
+ * Renders an individual team item component.
  *
- * @param {string} image - The image of the team.
- * @param {string} date - The date of the team.
- * @param {string} time - The time of the team.
- * @param {string} venue - The venue of the team.
- * @returns {JSX.Element} - The team card component.
+ * @param {Object} props - The properties object.
+ * @param {string} props.image - The image source for the team member.
+ * @param {string} props.name - The name of the team member.
+ * @param {string} props.role - The role of the team member.
+ * @param {Array} props.socials - An array of social media objects for the team member.
+ * @returns {JSX.Element} - The rendered team item component.
  */
 const TeamItem = ({ image, name, role, socials }) => {
   return (

@@ -8,6 +8,11 @@ import Team from '../../components/Team/Team'
 
 import styles from './Home.module.css'
 
+/**
+ * Renders the home page component.
+ *
+ * @return {JSX.Element} The rendered home page component.
+ */
 const Home = () => {
   return (
     <div className={styles.home__container}>

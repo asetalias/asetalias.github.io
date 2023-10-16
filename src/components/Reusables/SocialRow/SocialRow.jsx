@@ -1,6 +1,13 @@
 /* eslint-disable react/prop-types */
 import styles from "./SocialRow.module.css";
 
+/**
+ * Renders an individual social row component.
+ *
+ * @param {Object} props - The properties object.
+ * @param {Array} props.socials - An array of social media objects for the social row.
+ * @returns {JSX.Element} - The rendered social row item component.
+ */
 const SocialRow = ({ socials }) => {
   return (
     <div className={styles.social}>

@@ -1,6 +1,11 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import styles from "./Hero.module.css";
 
+/**
+ * Renders the Hero component.
+ *
+ * @return {JSX.Element} The rendered Hero component.
+ */
 const Hero = () => {
   return (
     <div id="home">

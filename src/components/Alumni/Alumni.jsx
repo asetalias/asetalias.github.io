@@ -3,6 +3,11 @@ import styles from "./Alumni.module.css";
 import Carousel from "../Reusables/Carousel/Carousel";
 import AlumniItem from "../Reusables/AlumniItem/AlumniItem";
 
+/**
+ * Fetches data from "/data/alumni.json" and sets the fetched data in the component's state.
+ *
+ * @return {JSX.Element} The rendered Alumni component.
+ */
 const Alumni = () => {
   const [data, setData] = useState([]);
 

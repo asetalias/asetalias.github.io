@@ -3,6 +3,11 @@ import EventItem from "../Reusables/EventItem/EventItem";
 import styles from "./Events.module.css";
 import Carousel from "../Reusables/Carousel/Carousel";
 
+/**
+ * Fetches data from "/data/events.json" and sets the fetched data in the component's state.
+ *
+ * @return {JSX.Element} The rendered Events component.
+ */
 const Events = () => {
   const [data, setData] = useState([]);
 
