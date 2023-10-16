@@ -9,6 +9,7 @@
   color: white;
   font-weight: 800;
   text-align: center;
+  margin: 0 var(--margin-small-s);
 }
 
 .team__title_highlight {
