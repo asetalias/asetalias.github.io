@@ -43,6 +43,22 @@
     brightness(100%) contrast(104%) drop-shadow(0 0 0.75rem #ff6f1cad);
 }
 
+.powered {
+  display: flex;
+  flex-direction: row;
+  gap: var(--margin-large);
+}
+
+.powered a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__chapter {
+  width: 100%;
+}
+
 .contact__credits {
   color: white;
   font-size: var(--font-medium-s);
@@ -57,6 +73,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .powered {
+    flex-direction: column;
+  }
 }
   
 @media screen and (max-width: 425px) {
@@ -71,8 +90,12 @@
     width: 2.5rem;
   }
 
+  .powered {
+    gap: 0;
+  }
+
   .contact__chapter {
-    height: 8rem;
+    width: 70%;
     margin: var(--margin-medium) 0;
   }
 

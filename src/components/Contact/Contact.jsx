@@ -38,9 +38,22 @@ const Contact = () => {
           );
         })}
       </div>
-      <a href="https://asetalias.in" target="_blank" rel="no noreferrer">
-        <img className={styles.contact__chapter} src="assets/images/chapter.svg" alt="Chapter of ALiAS" />
-      </a>
+      <div className={styles.powered}>
+        <a href="https://asetalias.in" target="_blank" rel="no noreferrer">
+          <img
+            className={styles.contact__chapter}
+            src="assets/images/chapter.svg"
+            alt="Chapter of ALiAS"
+          />
+        </a>
+        <a href="https://asetalias.in" target="_blank" rel="no noreferrer">
+          <img
+            className={styles.contact__chapter}
+            src="assets/images/amity.svg"
+            alt="Amity University"
+          />
+        </a>
+      </div>
       <h2 className={styles.contact__credits}>
         Designed with{" "}
         <span className={styles.contact__heart}>&nbsp;&#10084;&nbsp;</span> by
