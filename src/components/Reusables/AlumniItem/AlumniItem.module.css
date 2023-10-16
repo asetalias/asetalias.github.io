@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: fit-content;
+  overflow-y: hidden;
 }
 
 .alumni_item__detail {
@@ -49,6 +49,7 @@
   position: relative;
   left: -2rem;
   top: 2rem;
+  width: 16rem;
 }
 
 .alumni_item__quote {
@@ -77,27 +78,25 @@
 @media screen and (max-width: 625px) {
   .alumni_item {
     flex-direction: row;
-    height: fit-content;
-  }
-
-  .alumni_item__quote {
-    left: -2rem;
-    top: 2rem;
   }
 }
 
 @media screen and (max-width: 425px) {
   .alumni_item__img_container,
   .alumni_item__img {
-    height: 11rem;
-    width: 11rem;
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .alumni_item__container {
+    width: 10rem;
+    left: -1rem;
+    top: 1.5rem;
   }
 
   .alumni_item__quote {
     height: 5rem;
     width: 10rem;
-    left: -1.5rem;
-    top: 1rem;
   }
 
   .alumni_item__firstname,
