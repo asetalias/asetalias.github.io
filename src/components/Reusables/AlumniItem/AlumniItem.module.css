@@ -49,6 +49,7 @@
   position: relative;
   left: -2rem;
   top: 2rem;
+  width: 16rem;
 }
 
 .alumni_item__quote {
@@ -79,11 +80,6 @@
     flex-direction: row;
     height: fit-content;
   }
-
-  .alumni_item__quote {
-    left: -2rem;
-    top: 2rem;
-  }
 }
 
 @media screen and (max-width: 425px) {
@@ -93,11 +89,15 @@
     width: 11rem;
   }
 
+  .alumni_item__container {
+    width: 10rem;
+    left: -1rem;
+    top: 1.5rem;
+  }
+
   .alumni_item__quote {
     height: 5rem;
     width: 10rem;
-    left: -1.5rem;
-    top: 1rem;
   }
 
   .alumni_item__firstname,
