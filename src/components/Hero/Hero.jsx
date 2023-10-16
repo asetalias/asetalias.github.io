@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
         <div className={styles.hero__interactive}>
           <img
-            src="/assets/images/hero-one.png"
+            src="assets/images/hero-one.png"
             alt="hero"
             className={styles.hero__one_image}
           />
@@ -33,7 +33,7 @@ const Hero = () => {
             </button>
           </div>
           <img
-            src="/assets/images/hero-two.png"
+            src="assets/images/hero-two.png"
             alt="hero"
             className={styles.hero__two_image}
           />

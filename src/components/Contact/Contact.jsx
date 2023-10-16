@@ -14,7 +14,7 @@ const Contact = () => {
   }, []);
 
   async function fetchData() {
-    const response = await fetch("/data/socials.json");
+    const response = await fetch("data/socials.json");
     const data = await response.json();
     setData(data);
   }
@@ -31,7 +31,7 @@ const Contact = () => {
             <a className={styles.social} href={item.link} key={item.id}>
               <img
                 className={styles.social__img}
-                src={`/assets/icons/${item.id}.svg`}
+                src={`assets/icons/${item.id}.svg`}
                 alt={item.id}
               />
             </a>
@@ -39,7 +39,7 @@ const Contact = () => {
         })}
       </div>
       <a href="https://asetalias.in" target="_blank" rel="no noreferrer">
-        <img className={styles.contact__chapter} src="/assets/images/chapter.svg" alt="Chapter of ALiAS" />
+        <img className={styles.contact__chapter} src="assets/images/chapter.svg" alt="Chapter of ALiAS" />
       </a>
       <h2 className={styles.contact__credits}>
         Designed with{" "}

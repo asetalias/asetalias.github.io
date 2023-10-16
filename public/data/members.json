@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/members/tanish.png",
+    "image": "assets/images/members/tanish.png",
     "name": "Tanish Mishra",
     "role": "President",
     "social": [
@@ -16,7 +16,7 @@
     ]
   },{
     "id": 2,
-    "image": "/assets/images/members/abhinandan.png",
+    "image": "assets/images/members/abhinandan.png",
     "name": "Abhinandan Yadav",
     "role": "Volunteer",
     "social": [
@@ -32,7 +32,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/images/members/dhruvi.png",
+    "image": "assets/images/members/dhruvi.png",
     "name": "Dhruvi Gaur",
     "role": "Volunteer",
     "social": [
@@ -48,7 +48,7 @@
   },
   {
     "id": 4,
-    "image": "/assets/images/members/abhinav.png",
+    "image": "assets/images/members/abhinav.png",
     "name": "Abhinav Shukla",
     "role": "Volunteer",
     "social": [
@@ -64,7 +64,7 @@
   },
   {
     "id": 5,
-    "image": "/assets/images/members/aviraj.png",
+    "image": "assets/images/members/aviraj.png",
     "name": "Aviraj Saxena",
     "role": "Volunteer",
     "social": [
@@ -80,7 +80,7 @@
   },
   {
     "id": 6,
-    "image": "/assets/images/members/amay.png",
+    "image": "assets/images/members/amay.png",
     "name": "Amay Mishra",
     "role": "Volunteer",
     "social": [
@@ -96,7 +96,7 @@
   },
   {
     "id": 7,
-    "image": "/assets/images/members/diva.png",
+    "image": "assets/images/members/diva.png",
     "name": "Diva Gupta",
     "role": "Volunteer",
     "social": [
@@ -112,7 +112,7 @@
   },
   {
     "id": 8,
-    "image": "/assets/images/members/amritansh.png",
+    "image": "assets/images/members/amritansh.png",
     "name": "Amritansh Mishra",
     "role": "Volunteer",
     "social": [
@@ -128,7 +128,7 @@
   },
   {
     "id": 9,
-    "image": "/assets/images/members/utkarsh.png",
+    "image": "assets/images/members/utkarsh.png",
     "name": "Utkarsh Agarwal",
     "role": "Volunteer",
     "social": [
@@ -144,7 +144,7 @@
   },
   {
     "id": 10,
-    "image": "/assets/images/members/kanish.png",
+    "image": "assets/images/members/kanish.png",
     "name": "Kanish Bhodwani",
     "role": "Volunteer",
     "social": [

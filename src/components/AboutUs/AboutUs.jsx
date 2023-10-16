@@ -15,7 +15,7 @@ const AboutUs = () => {
   }, []);
 
   async function fetchData() {
-    const response = await fetch("/data/about.json");
+    const response = await fetch("data/about.json");
     const data = await response.json();
     setData(data);
   }

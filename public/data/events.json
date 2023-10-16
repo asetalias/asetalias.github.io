@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/posters/linux-install-fest.png",
+    "image": "assets/images/posters/linux-install-fest.png",
     "title": "Linux Install Fest",
     "date": "March 2nd, 2022",
     "time": "2:00 PM - 5:00 PM",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/images/posters/kickstarter.png",
+    "image": "assets/images/posters/kickstarter.png",
     "title": "Kickstarter",
     "date": "September 15th, 2023",
     "time": "2:00 PM - 5:00 PM",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/images/posters/git-mania-1.png",
+    "image": "assets/images/posters/git-mania-1.png",
     "title": "Git Mania I",
     "date": "October 9th, 2023",
     "time": "2:00 AM - 5:00 PM",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "image": "/assets/images/posters/git-mania-1.png",
+    "image": "assets/images/posters/git-mania-1.png",
     "title": "Git Mania II",
     "date": "October 12th, 2023",
     "time": "2:00 AM - 5:00 PM",

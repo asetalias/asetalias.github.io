@@ -16,7 +16,7 @@ const Alumni = () => {
   }, []);
 
   async function fetchData() {
-    const response = await fetch("/data/alumni.json");
+    const response = await fetch("data/alumni.json");
     const data = await response.json();
     setData(data);
   }

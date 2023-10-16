@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/alumni/akshat-pande.png",
+    "image": "assets/images/alumni/akshat-pande.png",
     "firstName": "Akshat",
     "lastName": "Pande",
     "quote": "Ask questions! No matter what.",
@@ -18,7 +18,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/images/alumni/venkatesh.png",
+    "image": "assets/images/alumni/venkatesh.png",
     "firstName": "Venkatesh",
     "lastName": "Chaturvedi",
     "quote": "You only live once! So use Archlinux and enjoy life.",
@@ -35,7 +35,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/images/alumni/Rohan.png",
+    "image": "assets/images/alumni/Rohan.png",
     "firstName": "Rohan Raj",
     "lastName": "Gupta",
     "quote": "Don't think too much, just start with it.",

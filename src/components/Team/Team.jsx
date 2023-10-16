@@ -16,7 +16,7 @@ const Team = () => {
   }, []);
 
   async function fetchData() {
-    const response = await fetch("/data/members.json");
+    const response = await fetch("data/members.json");
     const data = await response.json();
     setData(data);
   }

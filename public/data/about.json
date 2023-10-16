@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/what.svg",
+    "image": "assets/images/what.svg",
     "title": "What?",
     "description": "We are ALiAS (Amity Linux Assistance Sapience), a passionate coding club dedicated to the exploration and promotion of Linux and open-source technologies."
   },
   {
     "id": 2,
-    "image": "/assets/images/why.svg",
+    "image": "assets/images/why.svg",
     "title": "Why?",
     "description": "We exist to inspire, educate, and collaborate with students who share our enthusiasm for open-source software and to create a thriving community of tech enthusiasts."
   },
   {
     "id": 3,
-    "image": "/assets/images/how.svg",
+    "image": "assets/images/how.svg",
     "title": "How?",
     "description": "We reach our goals through workshops, hackathons, open-source contributions, and a focus on skill development, all in a supportive learning community."
   }

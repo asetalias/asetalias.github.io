@@ -35,7 +35,7 @@ const Carousel = ({ id, props }) => {
         className={styles.carousel__button__left}
         onClick={() => handleClickScrollLeft(id)}
       >
-        <img className={styles.carousel__button__img} src="/assets/icons/left-arrow.svg" alt="arrow" />
+        <img className={styles.carousel__button__img} src="assets/icons/left-arrow.svg" alt="arrow" />
       </button>
       <div id={id} className={styles.carousel}>
         {props}
@@ -44,7 +44,7 @@ const Carousel = ({ id, props }) => {
         className={styles.carousel__button__right}
         onClick={() => handleClickScrollRight(id)}
       >
-        <img className={styles.carousel__button__img} src="/assets/icons/right-arrow.svg" alt="arrow" />
+        <img className={styles.carousel__button__img} src="assets/icons/right-arrow.svg" alt="arrow" />
       </button>
     </div>
   );

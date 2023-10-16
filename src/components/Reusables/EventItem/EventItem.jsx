@@ -26,7 +26,7 @@ const EventItem = ({ image, title, date, time, venue, about, register }) => {
               <div className={styles.content__item}>
                 <img
                   className={styles.content__item_img}
-                  src="/assets/icons/date.svg"
+                  src="assets/icons/date.svg"
                   alt="date"
                 />
                 <p className={styles.content__item_detail}>{date}</p>
@@ -34,7 +34,7 @@ const EventItem = ({ image, title, date, time, venue, about, register }) => {
               <div className={styles.content__item}>
                 <img
                   className={styles.content__item_img}
-                  src="/assets/icons/time.svg"
+                  src="assets/icons/time.svg"
                   alt="time"
                 />
                 <p className={styles.content__item_detail}>{time}</p>
@@ -42,7 +42,7 @@ const EventItem = ({ image, title, date, time, venue, about, register }) => {
               <div className={styles.content__item}>
                 <img
                   className={styles.content__item_img}
-                  src="/assets/icons/venue.svg"
+                  src="assets/icons/venue.svg"
                   alt="venue"
                 />
                 <p className={styles.content__item_detail}>{venue}</p>

@@ -16,7 +16,7 @@ const Events = () => {
   }, []);
 
   async function fetchData() {
-    const response = await fetch("/data/events.json");
+    const response = await fetch("data/events.json");
     const data = await response.json();
     setData(data);
   }

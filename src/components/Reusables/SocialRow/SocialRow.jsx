@@ -16,7 +16,7 @@ const SocialRow = ({ socials }) => {
           <a href={item.link} key={item.id} target="_blank" rel="noreferrer">
             <img
               className={styles.social__img}
-              src={`/assets/icons/${item.id}.svg`}
+              src={`assets/icons/${item.id}.svg`}
               alt={item.id}
             />
           </a>
