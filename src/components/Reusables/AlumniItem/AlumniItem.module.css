@@ -84,8 +84,8 @@
 @media screen and (max-width: 425px) {
   .alumni_item__img_container,
   .alumni_item__img {
-    height: 11rem;
-    width: 11rem;
+    height: 10rem;
+    width: 10rem;
   }
 
   .alumni_item__container {
