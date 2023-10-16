@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: fit-content;
+  overflow-y: hidden;
 }
 
 .alumni_item__detail {
@@ -78,7 +78,6 @@
 @media screen and (max-width: 625px) {
   .alumni_item {
     flex-direction: row;
-    height: fit-content;
   }
 }
 
