@@ -16,7 +16,7 @@ const Hero = () => {
         </h1>
         <h1 className={styles.hero__two}>Byte by Byte.</h1>
         <p className={styles.hero__description}>
-          /*The environment we aim to create with ALIAS LUCKNOW would set new
+          /*The environment we aim to create with ALiAS LUCKNOW would set new
           milestones of skills and open source development in the campus.*/
         </p>
         <div className={styles.hero__interactive}>
