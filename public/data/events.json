@@ -3,7 +3,7 @@
     "id": 5,
     "image": "assets/images/posters/figma_workshop.png",
     "title": "FigMaster",
-    "date": "October 17th, 2022",
+    "date": "October 17th, 2023",
     "time": "2:00 PM - 5:00 PM",
     "venue": "Multi-Purpose Hall, Clock Tower",
     "about": "Embark on a creative journey at ALiAS's FIGMA workshop, your gateway to the world of UI/UX design, unraveling the power of digital innovation.",
@@ -43,9 +43,9 @@
     "id": 1,
     "image": "assets/images/posters/linux-install-fest.png",
     "title": "Linux Install Fest",
-    "date": "March 2nd, 2022",
+    "date": "March 2nd, 2023",
     "time": "2:00 PM - 5:00 PM",
-    "venue": "LT 003, AB3",
+    "venue": "Multi-Purpose Hall, Clock Tower",
     "about": "ALiAS organized a successful Linux Install Fest for first-year students, enriching the tech community with hands-on open-source experience."
     
   }
