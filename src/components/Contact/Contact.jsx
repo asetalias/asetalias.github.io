@@ -46,7 +46,7 @@ const Contact = () => {
             alt="Chapter of ALiAS"
           />
         </a>
-        <a href="https://asetalias.in" target="_blank" rel="no noreferrer">
+        <a href="https://amity.edu/lucknow" target="_blank" rel="no noreferrer">
           <img
             className={styles.contact__chapter}
             src="assets/images/amity.svg"
