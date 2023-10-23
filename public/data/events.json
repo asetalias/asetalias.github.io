@@ -6,9 +6,7 @@
     "date": "October 21st, 2023",
     "time": "7:00 PM - 9:00 PM",
     "venue": "Online Meet, Discord",
-    "about": "Get ready to break the ice at ALiAS' \"Ask Me Anything\" event, where students introduce themselves and dive into interactive conversations, turning strangers into friends!",
-    "register": "https://bit.ly/eventalias"
-    
+    "about": "Get ready to break the ice at ALiAS' \"Ask Me Anything\" event, where students introduce themselves and dive into interactive conversations, turning strangers into friends!"
   },
   {
     "id": 5,
@@ -17,8 +15,8 @@
     "date": "October 17th, 2023",
     "time": "2:00 PM - 5:00 PM",
     "venue": "Multi-Purpose Hall, Clock Tower",
-    "about": "Embark on a creative journey at ALiAS's FIGMA workshop, your gateway to the world of UI/UX design, unraveling the power of digital innovation."
-    
+    "about": "Embark on a creative journey at ALiAS's FIGMA workshop, your gateway to the world of UI/UX design, unraveling the power of digital innovation.",
+    "gallery": "https://drive.google.com/drive/folders/15aap6-PaeyU2kFxqj46XbugMIKYZLLTH?usp=share_link"
   },
   {
     "id": 4,
@@ -27,7 +25,8 @@
     "date": "October 12th, 2023",
     "time": "2:00 AM - 5:00 PM",
     "venue": "Multi-Purpose Hall, Clock Tower",
-    "about": "This event turned our tech enthusiasts into Git masters, blending interactive learning and hands-on sessions."
+    "about": "This event turned our tech enthusiasts into Git masters, blending interactive learning and hands-on sessions.",
+    "gallery": "https://drive.google.com/drive/folders/1nX1IZ0i1AP6r3gWjl2h5XPKQWeig7UWr?usp=share_link"
   },
   {
     "id": 3,
@@ -36,8 +35,8 @@
     "date": "October 9th, 2023",
     "time": "2:00 AM - 5:00 PM",
     "venue": "Multi-Purpose Hall, Clock Tower",
-    "about": "This event turned our tech enthusiasts into Git masters, blending interactive learning and hands-on sessions."
-    
+    "about": "This event turned our tech enthusiasts into Git masters, blending interactive learning and hands-on sessions.",
+    "gallery": "https://drive.google.com/drive/folders/1nX1IZ0i1AP6r3gWjl2h5XPKQWeig7UWr?usp=share_link"
   },
   {
     "id": 2,
@@ -46,8 +45,8 @@
     "date": "September 15th, 2023",
     "time": "2:00 PM - 5:00 PM",
     "venue": "Auditorium, Clock Tower",
-    "about": "ALiAS orchestrated \"Kickstarter,\" an event where our Alumni introduced freshers to diverse technology domains and coding strategies."
-    
+    "about": "ALiAS orchestrated \"Kickstarter,\" an event where our Alumni introduced freshers to diverse technology domains and coding strategies.",
+    "gallery": "https://drive.google.com/drive/folders/1XIGzt7IspL1660buTbyo2V5mVVFZwong?usp=share_link"
   },
   {
     "id": 1,
@@ -57,6 +56,5 @@
     "time": "2:00 PM - 5:00 PM",
     "venue": "Multi-Purpose Hall, Clock Tower",
     "about": "ALiAS organized a successful Linux Install Fest for first-year students, enriching the tech community with hands-on open-source experience."
-    
   }
 ]

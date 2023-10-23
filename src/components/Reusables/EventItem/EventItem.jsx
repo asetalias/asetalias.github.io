@@ -14,7 +14,7 @@ import styles from "./EventItem.module.css";
  * @param {string} props.register - The link to register for the event.
  * @returns {JSX.Element} - The rendered event item component.
  */
-const EventItem = ({ image, title, date, time, venue, about, register }) => {
+const EventItem = ({ image, title, date, time, venue, about, register, gallery}) => {
   return (
     <div className={styles.event}>
       <div className={styles.event__container}>
@@ -58,6 +58,13 @@ const EventItem = ({ image, title, date, time, venue, about, register }) => {
           <button className={styles.content__btn}>
             <a href={register} target="_blank" rel="noreferrer">
               Register
+            </a>
+          </button>
+        )},
+        {gallery && (
+          <button className={styles.content__btn}>
+            <a href={gallery} target="_blank" rel="noreferrer">
+              View Gallery
             </a>
           </button>
         )}

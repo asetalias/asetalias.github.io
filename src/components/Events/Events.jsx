@@ -40,6 +40,7 @@ const Events = () => {
               venue={item.venue}
               about={item.about}
               register={item.register}
+              gallery={item.gallery}
             />
           );
         })}
