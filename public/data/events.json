@@ -1,5 +1,15 @@
 [
   {
+    "id": 7,
+    "image": "assets/images/posters/dev-rush.png",
+    "title": "Dev Rush",
+    "date": "October 26th, 2023",
+    "time": "2:00 PM - 5:00 PM",
+    "venue": "Multi-Purpose Hall, Clock Tower",
+    "about": "Join the coding frenzy! Dev-Rush Hackathon: Show your web dev skills, win surprises! October 26 - November 21, 2023.",
+    "register": "https://bit.ly/eventalias"
+  },
+  {
     "id": 6,
     "image": "assets/images/posters/ama-session.png",
     "title": "Penguin Talks",
@@ -23,7 +33,7 @@
     "image": "assets/images/posters/git-mania-2.png",
     "title": "Git Mania II",
     "date": "October 12th, 2023",
-    "time": "2:00 AM - 5:00 PM",
+    "time": "2:00 PM - 5:00 PM",
     "venue": "Multi-Purpose Hall, Clock Tower",
     "about": "This event turned our tech enthusiasts into Git masters, blending interactive learning and hands-on sessions.",
     "gallery": "https://drive.google.com/drive/folders/1nX1IZ0i1AP6r3gWjl2h5XPKQWeig7UWr?usp=share_link"
@@ -33,7 +43,7 @@
     "image": "assets/images/posters/git-mania-1.png",
     "title": "Git Mania I",
     "date": "October 9th, 2023",
-    "time": "2:00 AM - 5:00 PM",
+    "time": "2:00 PM - 5:00 PM",
     "venue": "Multi-Purpose Hall, Clock Tower",
     "about": "This event turned our tech enthusiasts into Git masters, blending interactive learning and hands-on sessions.",
     "gallery": "https://drive.google.com/drive/folders/1nX1IZ0i1AP6r3gWjl2h5XPKQWeig7UWr?usp=share_link"
