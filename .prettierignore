@@ -1,25 +1,5 @@
-# build output
-dist/
-
-# dependencies
-node_modules/
-
-# editor config
-.vscode/
-.idea/
-
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# misc
-pnpm-lock.yaml
-
-# environment variables
-.env
-.env.production
-
-# macOS-specific files
-.DS_Store
+node_modules
+coverage
+build
+src/globe/countries-110m.json
+src/us-cities.json
