@@ -127,7 +127,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .hero {
     margin-top: var(--margin-large-xl);
   }

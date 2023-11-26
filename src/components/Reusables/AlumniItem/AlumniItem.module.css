@@ -81,7 +81,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .alumni_item__img_container,
   .alumni_item__img {
     height: 10rem;

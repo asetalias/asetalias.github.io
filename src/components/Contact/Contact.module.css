@@ -75,7 +75,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .contact__social {
     gap: var(--margin-medium);
     margin-top: var(--margin-large);

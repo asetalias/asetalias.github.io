@@ -32,7 +32,7 @@
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .aboutus__container {
     flex-direction: column;
   }
