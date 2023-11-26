@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "assets/images/members/shilpi-sharma.png",
+    "image": "assets/images/members/shilpi-sharma.jpeg",
     "name": "Dr. Shilpi Sharma",
     "role": "Faculty Coordinator",
     "social": [
@@ -15,7 +15,7 @@
     "id": 2,
     "image": "assets/images/members/shivam-shandilya.jpeg",
     "name": "Shivam Shandilya",
-    "role": "President",
+    "role": "Volunteer",
     "social": [
       {
         "id": "linkedin",
@@ -30,7 +30,7 @@
     "id": 3,
     "image": "assets/images/members/vijit-chandna.png",
     "name": "Vijit Chandna",
-    "role": "Vice President",
+    "role": "Volunteer",
     "social": [
       {
         "id": "linkedin",
@@ -44,9 +44,9 @@
   },
   {
     "id": 4,
-    "image": "assets/images/members/shambhavi-mishra.png",
+    "image": "assets/images/members/shambhavi-mishra.jpg",
     "name": "Shambhavi Mishra",
-    "role": "Vice President",
+    "role": "Volunteer",
     "social": [
       {
         "id": "linkedin",
@@ -60,274 +60,63 @@
   },
   {
     "id": 5,
-    "image": "assets/images/members/abhinav.png",
-    "name": "Abhinav Shukla",
+    "image": "assets/images/members/bhavya-dang.jpg",
+    "name": "Bhavya Dang",
     "role": "Volunteer",
     "social": [
       {
         "id": "linkedin",
-        "link": "https://www.linkedin.com/in/abhinav-shukla-28157a291/"
+        "link": "https://www.linkedin.com/in/bhavya-dang-27506b223/"
       },
       {
         "id": "github",
-        "link": "https://github.com/shuklaabhinavv"
+        "link": "https://github.com/Sync-Codes"
       }
     ]
   },
   {
     "id": 6,
-    "image": "assets/images/members/aviraj.png",
-    "name": "Aviraj Saxena",
+    "image": "assets/images/members/sanya-saini.jpg",
+    "name": "Sanya Saini",
     "role": "Volunteer",
     "social": [
       {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/theavirajsaxena/"
-      },
-      {
         "id": "github",
-        "link": "https://github.com/theavirajsaxena"
+        "link": "https://github.com/spaceavenue"
       }
     ]
   },
   {
     "id": 7,
-    "image": "assets/images/members/amay.png",
-    "name": "Amay Mishra",
+    "image": "assets/images/members/manik-rana.jpeg",
+    "name": "Manik Rana",
     "role": "Volunteer",
     "social": [
       {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/amay-mishra-0940/"
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/manik-r-91234824a/"
       },
       {
         "id": "github",
-        "link": "https://github.com/crucie"
+        "link": "https://github.com/spaceavenue"
       }
     ]
   },
   {
     "id": 8,
-    "image": "assets/images/members/diva.png",
-    "name": "Diva Gupta",
+    "image": "assets/images/members/diya-bhandari.jpeg",
+    "name": "Diya Bhandari",
     "role": "Volunteer",
     "social": [
       {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/diva-gupta-a6107421b/"
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/diya-bhandari-30845a250/"
       },
       {
         "id": "github",
-        "link": "https://github.com/GuptaDiva"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "image": "assets/images/members/amritansh.png",
-    "name": "Amritansh Mishra",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/amritanshmsh"
-      },
-      {
-        "id": "github",
-        "link": "https://www.github.com/amritanshmsh"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "image": "assets/images/members/utkarsh.png",
-    "name": "Utkarsh Agarwal",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/utkarsh-agarwal-/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/Ag-Utkarsh"
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "image": "assets/images/members/kanish.png",
-    "name": "Kanish Bhodwani",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/kanish-bodhwani/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/kanishbodhwani"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "image": "assets/images/members/juhi.png",
-    "name": "Juhi Dwivedi",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/juhi-dwivedi/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/Inconsequential-24"
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "image": "assets/images/members/Sanjana.png",
-    "name": "Sanjana Bisht",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/sanjana-bisht-981454297/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/saanjbisht"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "image": "assets/images/members/Akshay.png",
-    "name": "Akshay Singh",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/akshay-singh-98314b169/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/RandomPerson365"
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "image": "assets/images/members/Naman.png",
-    "name": "Naman Chawla",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/naman-chawla-63529b21b/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/nam710"
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "image": "assets/images/members/Shaswat.png",
-    "name": "Shashwat Gupta",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/shashwat-gupta-064840220/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/gupta-shashwat"
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "image": "assets/images/members/Apoorv.png",
-    "name": "Apoorv Pachori",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/apoorv-pachori-7b914424b/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/apoorv9984171745"
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "image": "assets/images/members/Cassia.png",
-    "name": "Cassia Rose Kataria",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/cassia-rose-kataria-822703251/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/cassia-crypto"
-      }
-    ]
-  },
-  {
-    "id": 19,
-    "image": "assets/images/members/Utkarsh.png",
-    "name": "Utkarsh",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/utkarsh-v/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/uv547756"
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "image": "assets/images/members/Manika.png",
-    "name": "Manika Srivastava",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/manika-srivastava-80328125a/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/CodeMosaic7"
-      }
-    ]
-  },
-  {
-    "id": 21,
-    "image": "assets/images/members/Vabhav.png",
-    "name": "Vabhav Tripathi",
-    "role": "Volunteer",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/vabhav/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/realwanheda"
+        "link": "https://github.com/diyabhandari/"
       }
     ]
   }
+
 ]
