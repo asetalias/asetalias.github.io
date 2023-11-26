@@ -98,8 +98,11 @@ const Navbar = () => {
         <li className={styles.navbar__list__item}>
           <span onClick={() => handleClickScroll("team")}>Volunteers</span>
         </li>
-        <li className={styles.navbar__list__item}>
+        {/* <li className={styles.navbar__list__item}>
           <span><a href="https://bit.ly/galleryalias" target="_blank">Gallery</a></span>
+        </li> */}
+        <li className={styles.navbar__list__item}>
+          <span onClick={() => handleClickScroll("community")}>Communities</span>
         </li>
         <li className={styles.navbar__list__item}>
           <span onClick={() => handleClickScroll("contact")}>Contact</span>
