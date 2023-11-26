@@ -5,6 +5,7 @@ import Events from '../../components/Events/Events'
 import Hero from '../../components/Hero/Hero'
 import Navbar from '../../components/Navbar/Navbar'
 import Team from '../../components/Team/Team'
+import Community from '../../components/Community/Community'
 
 import styles from './Home.module.css'
 
@@ -22,6 +23,7 @@ const Home = () => {
         <Events />
         <Team />
         <Alumni />
+        <Community />
         <Contact />
     </div>
   )
