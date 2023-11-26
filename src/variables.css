@@ -1,6 +1,9 @@
 :root {
 
     --color-accent: #61acfe;
+    --color-gradient:linear-gradient(90deg,
+    rgba(95, 189, 255, 1) 0%,
+    rgba(105, 112, 250, 1) 80%);
 
     --font-large-l: 6rem;
     --font-large: 4rem;

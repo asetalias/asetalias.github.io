@@ -11,11 +11,7 @@
 }
 
 .events__title_highlight {
-  background-image: linear-gradient(
-    90deg,
-    rgba(95, 189, 255, 1) 0%,
-    rgba(105, 112, 250, 1) 80%
-  );
+  background-image: var(--color-gradient);
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
