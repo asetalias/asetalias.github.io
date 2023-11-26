@@ -25,7 +25,7 @@ const Team = () => {
     <div id="team" className={styles.team}>
       <h1 className={styles.team__title}>
         Meet Our{" "}
-        <span className={styles.team__title_highlight}>CodeTastic</span> Crew!
+        <span className={styles.team__title_highlight}>Volunteers</span>!
       </h1>
       <Carousel
         id="team__carousel"
