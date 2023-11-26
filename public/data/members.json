@@ -130,7 +130,39 @@
       },
       {
         "id": "github",
-        "link": "https://github.com/ADV1K /"
+        "link": "https://github.com/ADV1K/"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "assets/images/members/saumya-singh.jpg",
+    "name": "Saumya Singh",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/destinyclover/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/DestinyClover/"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "assets/images/members/manav-kumar-dubey.jpeg",
+    "name": "Manav Kumar Dubey",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/manav-kumar-dubey-828703260/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/manavkdubey/"
       }
     ]
   }
