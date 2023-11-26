@@ -58,7 +58,7 @@ const Navbar = () => {
       } ${open ? styles.navbar__active : ""}`}
     >
       <img
-        src="assets/icons/logo.svg"
+        src="assets/icons/logo.png"
         alt="logo"
         className={` ${styles.navbar__logo} ${
           scrolling ? styles.navbar__logo__scrolling : ""
@@ -70,7 +70,7 @@ const Navbar = () => {
         }`}
       >
         <img
-          src="assets/icons/logo.svg"
+          src="assets/icons/logo.png"
           alt="logo"
           className={` ${styles.navbar__logo} ${
             scrolling ? styles.navbar__logo__scrolling : ""
