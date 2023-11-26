@@ -57,6 +57,7 @@
 
 .contact__chapter {
   width: 100%;
+  max-width: 300px;
 }
 
 .contact__credits {
