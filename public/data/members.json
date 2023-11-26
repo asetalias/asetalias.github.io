@@ -117,6 +117,22 @@
         "link": "https://github.com/diyabhandari/"
       }
     ]
+  },
+  {
+    "id": 9,
+    "image": "assets/images/members/advik-singh.jpg",
+    "name": "Advik Singh",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/advik-singh/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/ADV1K /"
+      }
+    ]
   }
 
 ]
