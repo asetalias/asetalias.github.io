@@ -96,7 +96,7 @@ const Navbar = () => {
           <span onClick={() => handleClickScroll("events")}>Events</span>
         </li>
         <li className={styles.navbar__list__item}>
-          <span onClick={() => handleClickScroll("team")}>Team</span>
+          <span onClick={() => handleClickScroll("team")}>Volunteers</span>
         </li>
         <li className={styles.navbar__list__item}>
           <span><a href="https://bit.ly/galleryalias" target="_blank">Gallery</a></span>
