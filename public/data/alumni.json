@@ -1,23 +1,90 @@
 [
   {
     "id": 1,
-    "image": "assets/images/alumni/akshat-pande.png",
-    "firstName": "Akshat",
-    "lastName": "Pande",
-    "quote": "Ask questions! No matter what.",
+    "image": "assets/images/alumni/anuvrat-parashar.webp",
+    "firstName": "Anuvrat",
+    "lastName": "Parashar",
+    "quote": "",
     "social": [
       {
         "id": "linkedin",
-        "link": "https://www.linkedin.com/in/akshat-p-7b05b0121/"
+        "link": "https://www.linkedin.com/in/anuvratparashar/"
       },
       {
         "id": "github",
-        "link": "https://github.com/akshat0047"
+        "link": "https://github.com/bhanuvrat"
       }
     ]
   },
   {
     "id": 2,
+    "image": "assets/images/alumni/vipul-gupta.png",
+    "firstName": "Vipul",
+    "lastName": "Gupta",
+    "quote": "",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/vipulgupta2048/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/vipulgupta2048/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "assets/images/alumni/dishant-sethi.png",
+    "firstName": "Dishant",
+    "lastName": "Sethi",
+    "quote": "",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/dishantsethi/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/dishantsethi/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "assets/images/alumni/nikhil-maan.png",
+    "firstName": "Nikhil",
+    "lastName": "Maan",
+    "quote": "",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/sc0rpi0n101/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/Sc0rpi0n101"
+      }
+    ]
+  },
+
+
+  {
+    "id": 5,
+    "image": "assets/images/alumni/aniket-maithani.png",
+    "firstName": "Aniket",
+    "lastName": "Maithani",
+    "quote": "",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/aniketmaithani/"
+      }
+    ]
+  },
+
+  {
+    "id": 6,
     "image": "assets/images/alumni/venkatesh.png",
     "firstName": "Venkatesh",
     "lastName": "Chaturvedi",
@@ -30,23 +97,6 @@
       {
         "id": "github",
         "link": "https://github.com/Blaster4385"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "image": "assets/images/alumni/Rohan.png",
-    "firstName": "Rohan Raj",
-    "lastName": "Gupta",
-    "quote": "Don't think too much, just start with it.",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/rohan-raj-gupta/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/rohan09-raj"
       }
     ]
   }
