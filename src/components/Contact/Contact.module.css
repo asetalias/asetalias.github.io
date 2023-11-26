@@ -29,14 +29,14 @@
 .social__img {
   height: 4rem;
   width: 4rem;
-  filter: invert(97%) sepia(100%) saturate(0%) hue-rotate(262deg)
+  filter: invert(97%) sepia(100%) saturate(0%) hue-rotate(190deg)
     brightness(106%) contrast(102%);
   transition: all 0.3s ease-in-out;
 }
 
 .social__img:hover {
-  filter: invert(55%) sepia(97%) saturate(2704%) hue-rotate(346deg)
-    brightness(100%) contrast(104%) drop-shadow(0 0 0.75rem #ff6f1cad);
+  filter: invert(55%) sepia(97%) saturate(2704%) hue-rotate(190deg)
+    brightness(100%) contrast(104%) drop-shadow(0 0 0.75rem var(--color-accent));
 }
 
 .powered {
