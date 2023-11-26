@@ -1,64 +1,60 @@
 [
   {
     "id": 1,
-    "image": "assets/images/members/namrata.png",
-    "name": "Prof.(Dr.) Namrata Dhanda",
+    "image": "assets/images/members/shilpi-sharma.png",
+    "name": "Dr. Shilpi Sharma",
     "role": "Faculty Coordinator",
     "social": [
       {
         "id": "linkedin",
-        "link": "https://www.linkedin.com/in/namrata-dhanda-023604282/"
-      },
-      {
-        "id": "instagram",
-        "link": "https://www.instagram.com/namrata_051078/"
+        "link": "https://www.linkedin.com/in/dr-shilpi-sharma-13241a30/"
       }
     ]
   },
   {
     "id": 2,
-    "image": "assets/images/members/tanish.png",
-    "name": "Tanish Mishra",
+    "image": "assets/images/members/shivam-shandilya.jpeg",
+    "name": "Shivam Shandilya",
     "role": "President",
     "social": [
       {
         "id": "linkedin",
-        "link": "https://www.linkedin.com/in/tanish-mishra-5a7478265/"
+        "link": "https://www.linkedin.com/in/vyogami/"
       },
       {
         "id": "github",
-        "link": "https://github.com/tanish-mishra"
+        "link": "https://github.com/vyogami"
       }
     ]
   },{
     "id": 3,
-    "image": "assets/images/members/abhinandan.png",
-    "name": "Abhinandan Yadav",
-    "role": "Volunteer",
+    "image": "assets/images/members/vijit-chandna.png",
+    "name": "Vijit Chandna",
+    "role": "Vice President",
     "social": [
       {
         "id": "linkedin",
-        "link": "https://www.linkedin.com/in/abhinandanyadav01"
+        "link": "https://www.linkedin.com/in/vijit-chandna/"
       },
       {
         "id": "github",
-        "link": "https://github.com/aby00"
+        "link": "https://github.com/jailbreakerVC/"
       }
     ]
   },
   {
     "id": 4,
-    "image": "assets/images/members/dhruvi.png",
-    "name": "Dhruvi Gaur",
-    "role": "Volunteer",
+    "image": "assets/images/members/shambhavi-mishra.png",
+    "name": "Shambhavi Mishra",
+    "role": "Vice President",
     "social": [
       {
         "id": "linkedin",
-        "link": "https://www.linkedin.com/in/dhruvi-gaur-71b37024b/"
+        "link": "https://www.linkedin.com/in/nebulatris/"
       },
       {
         "id": "github",
-        "link": "https://github.com/DhruviGaur30"
+        "link": "https://github.com/nebulatris"
       }
     ]
   },

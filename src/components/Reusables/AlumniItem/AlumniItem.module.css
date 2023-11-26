@@ -17,7 +17,7 @@
   width: 18rem;
   border-radius: 50%;
   z-index: 1;
-  background: linear-gradient(180deg, rgba(255,111,28,1) 40%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 40%, rgba(0,0,0,1) 100%);
 }
 
 .alumni_item__img {
@@ -62,7 +62,7 @@
   padding: var(--margin-small);
   box-shadow: inset var(--color-accent) 0 0 30px 0,
     var(--color-accent) 0px 0px 30px 0px;
-  background-color: #ff6f1c1f;
+  background-color: #61adfe1c;
 }
 
 .alumni_item__quote_text {

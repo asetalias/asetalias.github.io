@@ -11,13 +11,11 @@ const Hero = () => {
     <div id="home">
       <div className={styles.hero}>
         <h1 className={styles.hero__one}>
-          Where Code Meets{" "}
-          <span className={styles.hero__one_highlight}>Creativity</span>,
+        Where {" "}
+          <span className={styles.hero__one_highlight}>Open Source</span> meets people
         </h1>
-        <h1 className={styles.hero__two}>Byte by Byte.</h1>
         <p className={styles.hero__description}>
-          /*The environment we aim to create with ALiAS LUCKNOW would set new
-          milestones of skills and open source development in the campus.*/
+          &lt;ALiAS is the largest open source community in Amity/&gt;
         </p>
         <div className={styles.hero__interactive}>
           <img

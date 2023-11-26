@@ -23,7 +23,7 @@ const Contact = () => {
     <div id="contact" className={styles.contact}>
       <h1 className={styles.contact__title}>
         Stay Connected in the <br />
-        <span className={styles.contact__title_highlight}> Codeverse!</span>
+        <span className={styles.contact__title_highlight}> Matrix!</span>
       </h1>
       <div className={styles.contact__social}>
         {data.map((item) => {
@@ -39,14 +39,14 @@ const Contact = () => {
         })}
       </div>
       <div className={styles.powered}>
-        <a href="https://asetalias.in" target="_blank" rel="no noreferrer">
+        <a href="https://lucknow.asetalias.in" target="_blank" rel="no noreferrer">
           <img
             className={styles.contact__chapter}
-            src="assets/images/chapter.svg"
+            src="assets/images/alias-lucknow.svg"
             alt="Chapter of ALiAS"
           />
         </a>
-        <a href="https://amity.edu/lucknow" target="_blank" rel="no noreferrer">
+        <a href="https://amity.edu/" target="_blank" rel="no noreferrer">
           <img
             className={styles.contact__chapter}
             src="assets/images/amity.svg"
@@ -55,9 +55,8 @@ const Contact = () => {
         </a>
       </div>
       <h2 className={styles.contact__credits}>
-        Designed with{" "}
-        <span className={styles.contact__heart}>&nbsp;&#10084;&nbsp;</span> by
-        ALiAS Lucknow
+        forked with {" "}
+        <span className={styles.contact__heart}>&nbsp;&#10084;&nbsp;</span> from <a href="https://lucknow.asetalias.in">ALiAS Lucknow</a>
       </h2>
     </div>
   );

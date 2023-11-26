@@ -13,11 +13,7 @@
 }
 
 .contact__title_highlight {
-  background-image: linear-gradient(
-    90deg,
-    rgba(255, 116, 25, 1) 0%,
-    rgba(255, 184, 0, 1) 80%
-  );
+  background-image: var(--color-gradient);
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -57,6 +53,7 @@
 
 .contact__chapter {
   width: 100%;
+  max-width: 300px;
 }
 
 .contact__credits {
@@ -77,7 +74,7 @@
     flex-direction: column;
   }
 }
-  
+
 @media screen and (max-width: 425px) {
   .contact__social {
     gap: var(--margin-medium);
