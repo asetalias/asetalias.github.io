@@ -95,8 +95,9 @@
   }
 
   .alumni_item__quote {
-    height: 5rem;
+    height: 10rem;
     width: 10rem;
+    border-radius: 2rem;
   }
 
   .alumni_item__firstname,
