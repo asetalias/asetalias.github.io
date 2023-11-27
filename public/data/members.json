@@ -181,6 +181,22 @@
         "link": "https://github.com/jtee0-0/"
       }
     ]
+  },
+  {
+    "id": 13,
+    "image": "assets/images/members/priyanshu-verma.jpeg",
+    "name": "Priyanshu Verma",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/blonteractor/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/blonterator/"
+      }
+    ]
   }
 
 ]
