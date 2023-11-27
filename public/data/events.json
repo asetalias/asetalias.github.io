@@ -1,70 +1,106 @@
 [
   {
-    "id": 7,
-    "image": "assets/images/posters/dev-rush.png",
-    "title": "Dev Rush",
-    "date": "October 26th, 2023 - November 21st, 2023",
-    "time": "2:00 PM - 5:00 PM",
-    "venue": "LT-003, AB3",
-    "about": "Join the coding frenzy! Dev-Rush Hackathon: Show your web dev skills, win surprises! October 26 - November 21, 2023.",
-    "register": "https://bit.ly/devrush"
+    "image": "assets/images/posters/20231019.png",
+    "title": "Docker 101",
+    "date": "October 19th, 2023",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E3 311",
+    "about": "Join Achintya where he teaches us the fundamentals of Docker and how it makes developers lives easier."
   },
   {
-    "id": 6,
-    "image": "assets/images/posters/ama-session.png",
-    "title": "Penguin Talks",
-    "date": "October 21st, 2023",
-    "time": "7:00 PM - 9:00 PM",
-    "venue": "Online Meet, Discord",
-    "about": "Get ready to break the ice at ALiAS' \"Ask Me Anything\" event, where students introduce themselves and dive into interactive conversations, turning strangers into friends!"
+    "image": "assets/images/posters/20230928.png",
+    "title": "Hacktoberfest 2023",
+    "date": "September 28th, 2023",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E3 216",
+    "about": "Join us for an event to kickstart Hacktoberfest, a month long festival and celebration of open source."
   },
   {
-    "id": 5,
-    "image": "assets/images/posters/figma_workshop.png",
-    "title": "FigMaster",
-    "date": "October 17th, 2023",
-    "time": "2:00 PM - 5:00 PM",
-    "venue": "Multi-Purpose Hall, Clock Tower",
-    "about": "Embark on a creative journey at ALiAS's FIGMA workshop, your gateway to the world of UI/UX design, unraveling the power of digital innovation.",
-    "gallery": "https://drive.google.com/drive/folders/15aap6-PaeyU2kFxqj46XbugMIKYZLLTH?usp=share_link"
+    "image": "assets/images/posters/20230901.png",
+    "title": "ASoC: ALiAS Summer of Code",
+    "date": "September 1st, 2023 - October 31st, 2023",
+    "time": "As you wish",
+    "venue": "Remote",
+    "about": "ASoC is a program where you contribute to open source under the guidance of experienced mentors!"
   },
   {
-    "id": 4,
-    "image": "assets/images/posters/git-mania-2.png",
-    "title": "Git Mania II",
-    "date": "October 12th, 2023",
-    "time": "2:00 PM - 5:00 PM",
-    "venue": "Multi-Purpose Hall, Clock Tower",
-    "about": "This event turned our tech enthusiasts into Git masters, blending interactive learning and hands-on sessions.",
-    "gallery": "https://drive.google.com/drive/folders/1nX1IZ0i1AP6r3gWjl2h5XPKQWeig7UWr?usp=share_link"
+    "image": "assets/images/posters/20230810.png",
+    "title": "Intro to fullstack with MEVN",
+    "date": "August 10th, 2023",
+    "time": "As you wish",
+    "venue": "Remote",
+    "about": "Learn fullstack MEVN development with Bhavya DANG!"
   },
   {
-    "id": 3,
-    "image": "assets/images/posters/git-mania-1.png",
-    "title": "Git Mania I",
-    "date": "October 9th, 2023",
-    "time": "2:00 PM - 5:00 PM",
-    "venue": "Multi-Purpose Hall, Clock Tower",
-    "about": "This event turned our tech enthusiasts into Git masters, blending interactive learning and hands-on sessions.",
-    "gallery": "https://drive.google.com/drive/folders/1nX1IZ0i1AP6r3gWjl2h5XPKQWeig7UWr?usp=share_link"
+    "image": "assets/images/posters/20230413.png",
+    "title": "Socket.io 101",
+    "date": "April 13th, 2023",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E3 104",
+    "about": "A hands on workshop about the use and implementation of Socket IO."
   },
   {
-    "id": 2,
-    "image": "assets/images/posters/kickstarter.png",
-    "title": "Kickstarter",
-    "date": "September 15th, 2023",
-    "time": "2:00 PM - 5:00 PM",
-    "venue": "Auditorium, Clock Tower",
-    "about": "ALiAS orchestrated \"Kickstarter,\" an event where our Alumni introduced freshers to diverse technology domains and coding strategies.",
-    "gallery": "https://drive.google.com/drive/folders/1XIGzt7IspL1660buTbyo2V5mVVFZwong?usp=share_link"
+    "image": "assets/images/posters/20230223.jpeg",
+    "title": "API 101 with Postman",
+    "date": "February 23th, 2023",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E3 104",
+    "about": "Join us for a workshop by postman Ambassador Manik! Where he guides us about the fundamentals of APIs."
   },
   {
-    "id": 1,
-    "image": "assets/images/posters/linux-install-fest.png",
+    "image": "assets/images/posters/20230216.png",
     "title": "Linux Install Fest",
-    "date": "March 2nd, 2023",
-    "time": "2:00 PM - 5:00 PM",
-    "venue": "Multi-Purpose Hall, Clock Tower",
-    "about": "ALiAS organized a successful Linux Install Fest for first-year students, enriching the tech community with hands-on open-source experience."
+    "date": "February 16th, 2023",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "I1 308 Lab",
+    "about": "Purge windows and embrace the way of Linux, Join us this thursday for a Linux install fest!"
+  },
+  {
+    "image": "assets/images/posters/20230202.png",
+    "title": "Streamline with Notion",
+    "date": "E3 217",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E2 Seminar Hall",
+    "about": "Join us for a workshop by Notion Ambassador Vensy! Where she will guide us through creating a personal HQ."
+  },
+  {
+    "image": "assets/images/posters/20230127.png",
+    "title": "Alumni meet and interaction",
+    "date": "January 27th, 2023",
+    "time": "11:00 AM - 4:00 PM",
+    "venue": "E2 Seminar Hall",
+    "about": "Meet ALiAS alumni and listen to them talk about overcoming obstacles and becoming good engineers."
+  },
+  {
+    "image": "assets/images/posters/20230112.jpeg",
+    "title": "Roadmap to GSoC 2023",
+    "date": "January 12th, 2023",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E3 104",
+    "about": "Learn about the best way to apply to GSoC from past mentees, mentors and org admins!"
+  },
+  {
+    "image": "assets/images/posters/20221120.png",
+    "title": "Flutter 101",
+    "date": "November 20th, 2022",
+    "time": "8:00 PM",
+    "venue": "Discord",
+    "about": "A bird's eye view into mobile development with Achintya, the unofficial flutter ambassador!"
+  },
+  {
+    "image": "assets/images/posters/20220929.png",
+    "title": "Hacktoberfest 2022",
+    "date": "September 29th, 2022",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E3 G18",
+    "about": "Join us for an event to kickstart Hacktoberfest, a month long festival and celebration of open source."
+  },
+  {
+    "image": "assets/images/posters/20220801.jpeg",
+    "title": "Job Readiness",
+    "date": "September 1st, 2022",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E2 Seminar Hall",
+    "about": "Join us for an event to kickstart Hacktoberfest, a month long festival and celebration of open source."
   }
 ]
