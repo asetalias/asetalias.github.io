@@ -73,13 +73,27 @@
   .powered {
     flex-direction: column;
   }
+
+  .contact__social {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--margin-medium);
+    margin-top: var(--margin-large);
+    margin-bottom: var(--margin-medium);
+    margin-left: var(--margin-medium);
+    margin-right: var(--margin-medium);
+  }
 }
 
 @media screen and (max-width: 430px) {
   .contact__social {
+    flex-wrap: wrap;
+    justify-content: center;
     gap: var(--margin-medium);
     margin-top: var(--margin-large);
     margin-bottom: var(--margin-medium);
+    margin-left: var(--margin-medium);
+    margin-right: var(--margin-medium);
   }
 
   .social__img {
