@@ -165,6 +165,22 @@
         "link": "https://github.com/manavkdubey/"
       }
     ]
+  },
+  {
+    "id": 12,
+    "image": "assets/images/members/jayant-thakur.jpg",
+    "name": "Jayant Thakur",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/jayant-thakur/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/jtee0-0/"
+      }
+    ]
   }
 
 ]
