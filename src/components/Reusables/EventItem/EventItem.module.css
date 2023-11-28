@@ -1,6 +1,6 @@
 .event {
   height: 40rem;
-  width: 100%;
+  aspect-ratio: 69 / 100;
   overflow-y: hidden;
 }
 
@@ -135,24 +135,28 @@
 @media screen and (max-width: 1445px) {
   .event {
     height: 35rem;
+    aspect-ratio: inherit;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .event {
     height: 36rem;
+    aspect-ratio: inherit;
   }
 }
 
 @media screen and (max-width: 768px) {
   .event {
     height: 30rem;
+    aspect-ratio: inherit;
   }
 }
 
 @media screen and (max-width: 625px) {
   .event {
     height: 40rem;
+    aspect-ratio: inherit;
   }
 
 }
@@ -160,6 +164,7 @@
 @media screen and (max-width: 430px) {
   .event {
     height: 35rem;
+    aspect-ratio: inherit;
   }
 
   .content__container {
@@ -170,5 +175,6 @@
 @media screen and (max-width: 325px) {
   .event {
     height: 25rem;
+    aspect-ratio: inherit;
   }
 }
