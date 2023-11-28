@@ -110,7 +110,7 @@
 
 .content__btn {
   margin: var(--margin-medium);
-  background: #ff6f1c;
+  background: var(--color-accent);
   border-radius: 1rem;
   border: none;
   padding: 1rem 2rem;
