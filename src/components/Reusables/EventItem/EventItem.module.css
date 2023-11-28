@@ -12,7 +12,6 @@
   border-radius: 16px;
   margin: 0 var(--margin-small);
   height: 90%;
-  background-color: white;
   transition: transform 0.5s;
   transform-style: preserve-3d;
   cursor: pointer;
@@ -29,6 +28,8 @@
 }
 
 .poster,
+.poster__background,
+.poster__background__container,
 .content {
   backface-visibility: hidden;
   position: absolute;
@@ -40,13 +41,25 @@
   border-radius: 1rem;
   z-index: 2;
   transform: rotateY(0deg);
+  object-fit: contain;
+  backdrop-filter: blur(20px);
 }
+
+.poster__background {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  z-index: 1;
+
+}
+
 
 .content {
   height: 100%;
   width: 100%;
   border-radius: 1rem;
   transform: rotateY(180deg);
+  background-color: white;
 }
 
 .content__container {
@@ -141,7 +154,7 @@
   .event {
     height: 40rem;
   }
-  
+
 }
 
 @media screen and (max-width: 430px) {

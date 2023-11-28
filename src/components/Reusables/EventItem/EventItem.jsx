@@ -19,6 +19,7 @@ const EventItem = ({ image, title, date, time, venue, about, register, gallery})
     <div className={styles.event}>
       <div className={styles.event__container}>
         <img src={image} alt="poster" className={styles.poster} />
+        <img src={image} alt="poster" className={styles.poster__background} />
         <div className={styles.content}>
           <div className={styles.content__container}>
             <h1 className={styles.content__title}>{title}</h1>
