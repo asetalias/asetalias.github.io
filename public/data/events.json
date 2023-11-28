@@ -24,12 +24,38 @@
     "about": "ASoC is a program where you contribute to open source under the guidance of experienced mentors!"
   },
   {
+    "image": "assets/images/posters/20230831.png",
+    "title": "ALiAS Kickstarter",
+    "date": "August 31st, 2023",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "M Block, Amtiy Incubator",
+    "about": "Join us this thursday and get introduced to the biggest open source society of Amity!",
+    "gallery": "https://drive.google.com/drive/folders/12K1Oh0ls9_ayfABsMFczcALvHMvdZLAT"
+  },
+  {
+    "image": "assets/images/posters/20230819.png",
+    "title": "Pydelhi Conference 2023",
+    "date": "August 19th, 2023",
+    "time": "11:00 AM - 4:00 PM",
+    "venue": "Conf center, Faculty of technology, University of Delhi",
+    "about": "PyDelhi conference is hosted annually by PyDelhi Community with an aim to promote Python programming language, for all.",
+    "gallery": "https://photos.app.goo.gl/aWZ3LVefPoKTEVu7A"
+  },
+  {
     "image": "assets/images/posters/20230810.png",
     "title": "Intro to fullstack with MEVN",
     "date": "August 10th, 2023",
     "time": "As you wish",
     "venue": "Remote",
     "about": "Learn fullstack MEVN development with Bhavya DANG!"
+  },
+  {
+    "image": "assets/images/posters/20230727.jpeg",
+    "title": "Git, Github and beyond with MLSA",
+    "date": "July 27th, 2023",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E3 317",
+    "about": "Learn about basics to intermediate version control system using git from Manik the Microsoft learn student ambassador and Shivam!"
   },
   {
     "image": "assets/images/posters/20230413.png",
@@ -69,7 +95,8 @@
     "date": "January 27th, 2023",
     "time": "11:00 AM - 4:00 PM",
     "venue": "E2 Seminar Hall",
-    "about": "Meet ALiAS alumni and listen to them talk about overcoming obstacles and becoming good engineers."
+    "about": "Meet ALiAS alumni and listen to them talk about overcoming obstacles and becoming good engineers.",
+    "gallery": "https://drive.google.com/drive/folders/1vN7zXPE05gzpXoRoI0ddbwIW_nlHznv-"
   },
   {
     "image": "assets/images/posters/20230112.jpeg",
