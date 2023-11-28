@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "assets/images/members/shilpi-sharma.jpg",
+    "image": "assets/images/members/shilpi-sharma.webp",
     "name": "Dr. Shilpi Sharma",
     "role": "Faculty Coordinator",
     "social": [
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "image": "assets/images/members/shivam-shandilya.jpeg",
+    "image": "assets/images/members/shivam-shandilya.webp",
     "name": "Shivam Shandilya",
     "role": "Volunteer",
     "social": [
@@ -28,7 +28,7 @@
     ]
   },{
     "id": 3,
-    "image": "assets/images/members/vijit-chandna.png",
+    "image": "assets/images/members/vijit-chandna.webp",
     "name": "Vijit Chandna",
     "role": "Volunteer",
     "social": [
@@ -44,7 +44,7 @@
   },
   {
     "id": 4,
-    "image": "assets/images/members/shambhavi-mishra.jpg",
+    "image": "assets/images/members/shambhavi-mishra.webp",
     "name": "Shambhavi Mishra",
     "role": "Volunteer",
     "social": [
@@ -60,7 +60,7 @@
   },
   {
     "id": 5,
-    "image": "assets/images/members/bhavya-dang.jpg",
+    "image": "assets/images/members/bhavya-dang.webp",
     "name": "Bhavya Dang",
     "role": "Volunteer",
     "social": [
@@ -76,7 +76,7 @@
   },
   {
     "id": 6,
-    "image": "assets/images/members/sanya-saini.jpg",
+    "image": "assets/images/members/sanya-saini.webp",
     "name": "Sanya Saini",
     "role": "Volunteer",
     "social": [
@@ -88,7 +88,7 @@
   },
   {
     "id": 7,
-    "image": "assets/images/members/manik-rana.jpeg",
+    "image": "assets/images/members/manik-rana.webp",
     "name": "Manik Rana",
     "role": "Volunteer",
     "social": [
@@ -104,7 +104,7 @@
   },
   {
     "id": 8,
-    "image": "assets/images/members/diya-bhandari.jpeg",
+    "image": "assets/images/members/diya-bhandari.webp",
     "name": "Diya Bhandari",
     "role": "Volunteer",
     "social": [
@@ -120,7 +120,7 @@
   },
   {
     "id": 9,
-    "image": "assets/images/members/advik-singh.jpg",
+    "image": "assets/images/members/advik-singh.webp",
     "name": "Advik Singh",
     "role": "Volunteer",
     "social": [
@@ -136,7 +136,7 @@
   },
   {
     "id": 10,
-    "image": "assets/images/members/saumya-singh.jpg",
+    "image": "assets/images/members/saumya-singh.webp",
     "name": "Saumya Singh",
     "role": "Volunteer",
     "social": [
@@ -152,7 +152,7 @@
   },
   {
     "id": 11,
-    "image": "assets/images/members/manav-kumar-dubey.jpeg",
+    "image": "assets/images/members/manav-kumar-dubey.webp",
     "name": "Manav Kumar Dubey",
     "role": "Volunteer",
     "social": [
@@ -168,7 +168,7 @@
   },
   {
     "id": 12,
-    "image": "assets/images/members/jayant-thakur.jpg",
+    "image": "assets/images/members/jayant-thakur.webp",
     "name": "Jayant Thakur",
     "role": "Volunteer",
     "social": [
@@ -184,7 +184,7 @@
   },
   {
     "id": 13,
-    "image": "assets/images/members/priyanshu-verma.jpeg",
+    "image": "assets/images/members/priyanshu-verma.webp",
     "name": "Priyanshu Verma",
     "role": "Volunteer",
     "social": [
@@ -200,7 +200,7 @@
   },
   {
     "id": 14,
-    "image": "assets/images/members/ashwin-kumar-yadav.png",
+    "image": "assets/images/members/ashwin-kumar-yadav.webp",
     "name": "Ashwin Kumar Yadav",
     "role": "Volunteer",
     "social": [

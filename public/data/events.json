@@ -1,6 +1,6 @@
 [
   {
-    "image": "assets/images/posters/20231019.png",
+    "image": "assets/images/posters/20231019.webp",
     "title": "Docker 101",
     "date": "October 19th, 2023",
     "time": "2:00 PM - 4:00 PM",
@@ -8,7 +8,7 @@
     "about": "Join Achintya where he teaches us the fundamentals of Docker and how it makes developers lives easier."
   },
   {
-    "image": "assets/images/posters/20230928.png",
+    "image": "assets/images/posters/20230928.webp",
     "title": "Hacktoberfest 2023",
     "date": "September 28th, 2023",
     "time": "2:00 PM - 4:00 PM",
@@ -16,7 +16,7 @@
     "about": "Join us for an event to kickstart Hacktoberfest, a month long festival and celebration of open source."
   },
   {
-    "image": "assets/images/posters/20230901.png",
+    "image": "assets/images/posters/20230901.webp",
     "title": "ASoC: ALiAS Summer of Code",
     "date": "September 1st, 2023 - October 31st, 2023",
     "time": "As you wish",
@@ -24,7 +24,7 @@
     "about": "ASoC is a program where you contribute to open source under the guidance of experienced mentors!"
   },
   {
-    "image": "assets/images/posters/20230831.png",
+    "image": "assets/images/posters/20230831.webp",
     "title": "ALiAS Kickstarter",
     "date": "August 31st, 2023",
     "time": "2:00 PM - 4:00 PM",
@@ -33,7 +33,7 @@
     "gallery": "https://drive.google.com/drive/folders/12K1Oh0ls9_ayfABsMFczcALvHMvdZLAT"
   },
   {
-    "image": "assets/images/posters/20230819.png",
+    "image": "assets/images/posters/20230819.webp",
     "title": "Pydelhi Conference 2023",
     "date": "August 19th, 2023",
     "time": "11:00 AM - 4:00 PM",
@@ -42,7 +42,7 @@
     "gallery": "https://photos.app.goo.gl/aWZ3LVefPoKTEVu7A"
   },
   {
-    "image": "assets/images/posters/20230810.png",
+    "image": "assets/images/posters/20230810.webp",
     "title": "Intro to fullstack with MEVN",
     "date": "August 10th, 2023",
     "time": "As you wish",
@@ -50,7 +50,7 @@
     "about": "Learn fullstack MEVN development with Bhavya DANG!"
   },
   {
-    "image": "assets/images/posters/20230727.jpeg",
+    "image": "assets/images/posters/20230727.webp",
     "title": "Git, Github and beyond with MLSA",
     "date": "July 27th, 2023",
     "time": "2:00 PM - 4:00 PM",
@@ -58,7 +58,7 @@
     "about": "Learn about basics to intermediate version control system using git from Manik the Microsoft learn student ambassador and Shivam!"
   },
   {
-    "image": "assets/images/posters/20230413.png",
+    "image": "assets/images/posters/20230413.webp",
     "title": "Socket.io 101",
     "date": "April 13th, 2023",
     "time": "2:00 PM - 4:00 PM",
@@ -66,7 +66,7 @@
     "about": "A hands on workshop about the use and implementation of Socket IO."
   },
   {
-    "image": "assets/images/posters/20230223.jpeg",
+    "image": "assets/images/posters/20230223.webp",
     "title": "API 101 with Postman",
     "date": "February 23th, 2023",
     "time": "2:00 PM - 4:00 PM",
@@ -74,7 +74,7 @@
     "about": "Join us for a workshop by postman Ambassador Manik! Where he guides us about the fundamentals of APIs."
   },
   {
-    "image": "assets/images/posters/20230216.png",
+    "image": "assets/images/posters/20230216.webp",
     "title": "Linux Install Fest",
     "date": "February 16th, 2023",
     "time": "2:00 PM - 4:00 PM",
@@ -82,7 +82,7 @@
     "about": "Purge windows and embrace the way of Linux, Join us this thursday for a Linux install fest!"
   },
   {
-    "image": "assets/images/posters/20230202.png",
+    "image": "assets/images/posters/20230202.webp",
     "title": "Streamline with Notion",
     "date": "E3 217",
     "time": "2:00 PM - 4:00 PM",
@@ -91,7 +91,7 @@
     "gallery": "https://drive.google.com/drive/folders/13dCjIJwrHWQqUZwWDJsy9MTnFu1OTwc_?usp=sharing"
   },
   {
-    "image": "assets/images/posters/20230127.png",
+    "image": "assets/images/posters/20230127.webp",
     "title": "Alumni meet and interaction",
     "date": "January 27th, 2023",
     "time": "11:00 AM - 4:00 PM",
@@ -100,7 +100,7 @@
     "gallery": "https://drive.google.com/drive/folders/1vN7zXPE05gzpXoRoI0ddbwIW_nlHznv-"
   },
   {
-    "image": "assets/images/posters/20230112.jpeg",
+    "image": "assets/images/posters/20230112.webp",
     "title": "Roadmap to GSoC 2023",
     "date": "January 12th, 2023",
     "time": "2:00 PM - 4:00 PM",
@@ -108,7 +108,7 @@
     "about": "Learn about the best way to apply to GSoC from past mentees, mentors and org admins!"
   },
   {
-    "image": "assets/images/posters/20221120.png",
+    "image": "assets/images/posters/20221120.webp",
     "title": "Flutter 101",
     "date": "November 20th, 2022",
     "time": "8:00 PM",
@@ -116,7 +116,7 @@
     "about": "A bird's eye view into mobile development with Achintya, the unofficial flutter ambassador!"
   },
   {
-    "image": "assets/images/posters/20220929.png",
+    "image": "assets/images/posters/20220929.webp",
     "title": "Hacktoberfest 2022",
     "date": "September 29th, 2022",
     "time": "2:00 PM - 4:00 PM",
@@ -124,7 +124,7 @@
     "about": "Join us for an event to kickstart Hacktoberfest, a month long festival and celebration of open source."
   },
   {
-    "image": "assets/images/posters/20220801.jpeg",
+    "image": "assets/images/posters/20220801.webp",
     "title": "Job Readiness",
     "date": "September 1st, 2022",
     "time": "2:00 PM - 4:00 PM",

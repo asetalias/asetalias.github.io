@@ -1,7 +1,7 @@
 [
   {
     "id": 2,
-    "image": "assets/images/alumni/vipul-gupta.png",
+    "image": "assets/images/alumni/vipul-gupta.webp",
     "firstName": "Vipul",
     "lastName": "Gupta",
     "quote": "Life is vanilla, when it's butterscotch, then you just need to ride the bumps 🐣",
@@ -18,7 +18,7 @@
   },
   {
     "id": 3,
-    "image": "assets/images/alumni/dishant-sethi.png",
+    "image": "assets/images/alumni/dishant-sethi.webp",
     "firstName": "Dishant",
     "lastName": "Sethi",
     "quote": "Embrace the lessons, celebrate the memories and continue the legacy of ALiAS",
@@ -35,7 +35,7 @@
   },
   {
     "id": 6,
-    "image": "assets/images/alumni/venkatesh.png",
+    "image": "assets/images/alumni/venkatesh.webp",
     "firstName": "Venkatesh",
     "lastName": "Chaturvedi",
     "quote": "You only live once! So use Archlinux and enjoy life.",
@@ -69,7 +69,7 @@
   },
   {
     "id": 4,
-    "image": "assets/images/alumni/nikhil-maan.png",
+    "image": "assets/images/alumni/nikhil-maan.webp",
     "firstName": "Nikhil",
     "lastName": "Maan",
     "quote": "",
@@ -86,7 +86,7 @@
   },
   {
     "id": 5,
-    "image": "assets/images/alumni/aniket-maithani.png",
+    "image": "assets/images/alumni/aniket-maithani.webp",
     "firstName": "Aniket",
     "lastName": "Maithani",
     "quote": "",
