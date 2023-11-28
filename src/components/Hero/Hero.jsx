@@ -15,7 +15,7 @@ const Hero = () => {
           <span className={styles.hero__one_highlight}>Open Source</span> meets people
         </h1>
         <p className={styles.hero__description}>
-          &lt;ALiAS is the largest open source community in Amity/&gt;
+          &lt;/ALiAS is the largest open source community in Amity. We aim to foster and fuel hacker culture across the city/&gt;
         </p>
         <div className={styles.hero__interactive}>
           <img
