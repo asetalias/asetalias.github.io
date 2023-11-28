@@ -197,6 +197,22 @@
         "link": "https://github.com/blonterator/"
       }
     ]
+  },
+  {
+    "id": 14,
+    "image": "assets/images/members/ashwin-kumar-yadav.png",
+    "name": "Ashwin Kumar Yadav",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/maximousblk/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/maximousblk/"
+      }
+    ]
   }
 
 ]
