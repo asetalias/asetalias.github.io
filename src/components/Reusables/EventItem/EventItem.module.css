@@ -50,7 +50,11 @@
   width: 100%;
   border-radius: 1rem;
   z-index: 1;
+}
 
+.poster__background__container {
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -176,5 +180,23 @@
   .event {
     height: 25rem;
     aspect-ratio: inherit;
+  }
+}
+
+@-moz-document url-prefix() {
+  .poster__background__container {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    transform: rotateY(0deg);
+    object-fit: contain;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .poster__background {
+    margin: -5px;
+    padding: 5px;
+    filter: blur(20px);
   }
 }
