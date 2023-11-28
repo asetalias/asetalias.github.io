@@ -26,7 +26,7 @@ const Hero = () => {
           <div className={styles.hero__btn_container}>
             <button className={styles.hero__button}>
               <a href="https://bit.ly/joinalias" target="_blank" rel="noreferrer">
-                Enroll Now
+                Join us or else 🔪
               </a>
             </button>
           </div>
