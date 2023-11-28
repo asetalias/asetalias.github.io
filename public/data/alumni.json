@@ -1,22 +1,5 @@
 [
   {
-    "id": 1,
-    "image": "assets/images/alumni/anuvrat-parashar.webp",
-    "firstName": "Anuvrat",
-    "lastName": "Parashar",
-    "quote": "",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/anuvratparashar/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/bhanuvrat"
-      }
-    ]
-  },
-  {
     "id": 2,
     "image": "assets/images/alumni/vipul-gupta.png",
     "firstName": "Vipul",
@@ -51,6 +34,40 @@
     ]
   },
   {
+    "id": 6,
+    "image": "assets/images/alumni/venkatesh.png",
+    "firstName": "Venkatesh",
+    "lastName": "Chaturvedi",
+    "quote": "You only live once! So use Archlinux and enjoy life.",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/venkatesh-chaturvedi-a841201b8/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/Blaster4385"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "image": "assets/images/alumni/anuvrat-parashar.webp",
+    "firstName": "Anuvrat",
+    "lastName": "Parashar",
+    "quote": "",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/anuvratparashar/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/bhanuvrat"
+      }
+    ]
+  },
+  {
     "id": 4,
     "image": "assets/images/alumni/nikhil-maan.png",
     "firstName": "Nikhil",
@@ -67,8 +84,6 @@
       }
     ]
   },
-
-
   {
     "id": 5,
     "image": "assets/images/alumni/aniket-maithani.png",
@@ -79,24 +94,6 @@
       {
         "id": "linkedin",
         "link": "https://www.linkedin.com/in/aniketmaithani/"
-      }
-    ]
-  },
-
-  {
-    "id": 6,
-    "image": "assets/images/alumni/venkatesh.png",
-    "firstName": "Venkatesh",
-    "lastName": "Chaturvedi",
-    "quote": "You only live once! So use Archlinux and enjoy life.",
-    "social": [
-      {
-        "id": "linkedin",
-        "link": "https://www.linkedin.com/in/venkatesh-chaturvedi-a841201b8/"
-      },
-      {
-        "id": "github",
-        "link": "https://github.com/Blaster4385"
       }
     ]
   }
