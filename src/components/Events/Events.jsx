@@ -25,7 +25,7 @@ const Events = () => {
     <div id="events" className={styles.events}>
       <h1 className={styles.events__title}>
         Our <span className={styles.events__title_highlight}>Events</span>{" "}
-        Galore!
+        Gallery!
       </h1>
       <Carousel
         id="events__carousel"
