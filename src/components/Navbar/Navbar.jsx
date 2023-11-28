@@ -87,7 +87,7 @@ const Navbar = () => {
       </div>
       <ul className={open ? styles.navbar__list_mobile : styles.navbar__list}>
         <li className={styles.navbar__list__item}>
-          <span onClick={() => handleClickScroll("home")}>Home</span>
+          <span><a href="https://asetalias.in/blog">Blogs</a></span>
         </li>
         <li className={styles.navbar__list__item}>
           <span onClick={() => handleClickScroll("about")}>About Us</span>
