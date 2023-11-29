@@ -213,6 +213,22 @@
         "link": "https://github.com/maximousblk/"
       }
     ]
+  },
+  {
+    "id": 14,
+    "image": "assets/images/members/manan-nag.webp",
+    "name": "Manan Nag",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/manan-nag-8a236a1a1/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/codewithmanan/"
+      }
+    ]
   }
 
 ]
