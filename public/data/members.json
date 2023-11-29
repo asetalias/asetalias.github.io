@@ -229,6 +229,22 @@
         "link": "https://github.com/codewithmanan/"
       }
     ]
+  },
+  {
+    "id": 15,
+    "image": "assets/images/members/shubham-tiwari.webp",
+    "name": "Shubham Tiwari",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/shubham-tiwari-25b74a269/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/SudoSu-bham/"
+      }
+    ]
   }
 
 ]
