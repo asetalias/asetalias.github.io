@@ -1,6 +1,21 @@
 [
   {
-    "id": 2,
+    "image": "assets/images/alumni/tushar-malik.webp",
+    "firstName": "Tushar",
+    "lastName": "Malik",
+    "quote": "When life gives you peanuts, make more of it: like peanut butter, or maybe sauce.",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/ditsuke/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/ditsuke/"
+      }
+    ]
+  },
+  {
     "image": "assets/images/alumni/vipul-gupta.webp",
     "firstName": "Vipul",
     "lastName": "Gupta",
@@ -17,7 +32,6 @@
     ]
   },
   {
-    "id": 3,
     "image": "assets/images/alumni/dishant-sethi.webp",
     "firstName": "Dishant",
     "lastName": "Sethi",
@@ -34,7 +48,6 @@
     ]
   },
   {
-    "id": 6,
     "image": "assets/images/alumni/venkatesh.webp",
     "firstName": "Venkatesh",
     "lastName": "Chaturvedi",
@@ -51,7 +64,6 @@
     ]
   },
   {
-    "id": 1,
     "image": "assets/images/alumni/anuvrat-parashar.webp",
     "firstName": "Anuvrat",
     "lastName": "Parashar",
@@ -68,7 +80,6 @@
     ]
   },
   {
-    "id": 4,
     "image": "assets/images/alumni/nikhil-maan.webp",
     "firstName": "Nikhil",
     "lastName": "Maan",
@@ -85,7 +96,6 @@
     ]
   },
   {
-    "id": 5,
     "image": "assets/images/alumni/aniket-maithani.webp",
     "firstName": "Aniket",
     "lastName": "Maithani",
