@@ -16,6 +16,22 @@
     ]
   },
   {
+    "image": "assets/images/alumni/aakarsh-mj.webp",
+    "firstName": "Aakarsh",
+    "lastName": "MJ",
+    "quote": "Believe in KDE and contribute to opensource!",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/aakarsh-mj-9868a3242/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/ChucklesDroid"
+      }
+    ]
+  },
+  {
     "image": "assets/images/alumni/vipul-gupta.webp",
     "firstName": "Vipul",
     "lastName": "Gupta",
