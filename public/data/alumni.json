@@ -32,6 +32,54 @@
     ]
   },
   {
+    "image": "assets/images/alumni/vinayak-nayar.webp",
+    "firstName": "Vinayak",
+    "lastName": "Nayar",
+    "quote": "When life gives you Amity, join ALiAS.",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/vinayak-nayar/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/vinayaknayar"
+      }
+    ]
+  },
+  {
+    "image": "assets/images/alumni/sagar-deep.webp",
+    "firstName": "Sagar",
+    "lastName": "Deep",
+    "quote": "Improvise, adapt and overcome.",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/sagar-deep/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/oceakun"
+      }
+    ]
+  },
+  {
+    "image": "assets/images/alumni/achintya-singh.webp",
+    "firstName": "Achintya",
+    "lastName": "Singh",
+    "quote": "Trust in the lifeforce of the deep mystery and your code.",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/achintya-singh-4b4563200/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/achintya-7"
+      }
+    ]
+  },
+  {
     "image": "assets/images/alumni/vipul-gupta.webp",
     "firstName": "Vipul",
     "lastName": "Gupta",
