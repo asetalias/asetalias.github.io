@@ -309,7 +309,22 @@
         "link": "https://github.com/Aryan1Mahahjan"
       }
     ]
+  },
+  {
+    "id": 20,
+    "image": "assets/images/members/ayushi.webp",
+    "name": "Ayushi",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://in.linkedin.com/in/ayushi-singhal-b401a8261"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/bloodyvoid13"
+      }
+    ]
   }
-
 
 ]
