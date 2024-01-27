@@ -261,6 +261,22 @@
         "link": "https://github.com/chanu4321"
       }
     ]
+  },
+  {
+    "id": 17,
+    "image": "assets/images/members/rishab-parashar.webp",
+    "name": "Rishab Parashar",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/simplyrishab"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/Shadow-656"
+      }
+    ]
   }
 
 ]
