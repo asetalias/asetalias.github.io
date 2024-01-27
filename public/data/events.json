@@ -1,4 +1,21 @@
-[
+[ 
+  {
+    "image": "assets/images/posters/20240125.webp",
+    "title": "Introduction to CTFs, Binary Exploitation",
+    "date": "January 25th, 2024",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E3 317",
+    "about": "Join Ammar, Nimish at our cybersecurity event focusing on CTF challenges and binary exploitation, and explore the depths of digital defense and offense."
+  },
+  {
+    "image": "assets/images/posters/20240111.webp",
+    "title": "Roadmap to GSOC'24",
+    "date": "January 11th, 2024",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E2 Auditorium",
+    "about": "Learn about the best way to apply to GSoC from past mentees, mentors and org admins!",
+    "gallery": "https://photos.app.goo.gl/Gzg2LFaLHQ1QiN6G8"
+  },
   {
     "image": "assets/images/posters/20231019.webp",
     "title": "Docker 101",
