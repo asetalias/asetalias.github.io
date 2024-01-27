@@ -277,6 +277,23 @@
         "link": "https://github.com/Shadow-656"
       }
     ]
+  },
+  {
+    "id": 19,
+    "image": "assets/images/members/aryan-mahajan.webp",
+    "name": "Aryan Mahajan",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/aryan-mahajan-493191286/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/Aryan1Mahahjan"
+      }
+    ]
   }
+
 
 ]
