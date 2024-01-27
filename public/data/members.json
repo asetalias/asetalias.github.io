@@ -245,6 +245,22 @@
         "link": "https://github.com/SudoSu-bham/"
       }
     ]
+  },
+  {
+    "id": 16,
+    "image": "assets/images/members/chaitanya-gupta.webp",
+    "name": "Chaitanya Gupta",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/chaitanya-gupta-7204732a7/"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/chanu4321"
+      }
+    ]
   }
 
 ]
