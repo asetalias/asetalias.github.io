@@ -279,6 +279,22 @@
     ]
   },
   {
+    "id": 18,
+    "image": "assets/images/members/tushar-bhatia.webp",
+    "name": "Tushar Bhatia",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id":"linkedin",
+        "link": "https://www.linkedin.com/in/justushar"
+      },
+      {
+        "id": "github",
+        "link": "https://github.com/Tushar-Bhatia-21"
+      }
+    ]
+  },
+  {
     "id": 19,
     "image": "assets/images/members/aryan-mahajan.webp",
     "name": "Aryan Mahajan",
