@@ -6,6 +6,7 @@
   --items: 2;
 }
 
+
 .alumni__title {
   color: white;
   font-weight: 800;
@@ -19,8 +20,45 @@
   color: transparent;
 }
 
+
+@media screen and (max-width: 1400px) {
+  .alumni {
+    --items: 1.8;
+  }
+}
+
+@media screen and (max-width: 1315px ) {
+  .alumni {
+    --items: 1.65;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .alumni {
+    --items: 1.5;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .alumni {
+    --items: 1.35;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .alumni {
+    --items: 1.2;
+  }
+  
+}
+
 @media screen and (max-width: 1024px) {
   .alumni {
     --items: 1;
   }
 }
+
+
+
+
+
