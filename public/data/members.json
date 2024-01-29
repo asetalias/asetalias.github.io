@@ -329,7 +329,7 @@
   },
   {
     "id": 21,
-    "image": "assets/images/members/Divyansh-Yadav.webp",
+    "image": "assets/images/members/divyansh-yadav.webp",
     "name": "Divyansh Yadav",
     "role": "Volunteer",
     "social": [
@@ -340,7 +340,7 @@
       {
         "id": "discord",
         "username": "xenyowo"
-      }
+      },
       {
         "id": "github",
         "link": "https://github.com/X3nyy"
