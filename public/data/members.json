@@ -26,7 +26,8 @@
         "link": "https://github.com/vyogami"
       }
     ]
-  },{
+  },
+  {
     "id": 3,
     "image": "assets/images/members/vijit-chandna.webp",
     "name": "Vijit Chandna",
@@ -93,7 +94,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/manik-r-91234824a/"
       },
       {
@@ -109,7 +110,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/diya-bhandari-30845a250/"
       },
       {
@@ -125,7 +126,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/advik-singh/"
       },
       {
@@ -141,7 +142,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/destinyclover/"
       },
       {
@@ -157,7 +158,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/manav-kumar-dubey-828703260/"
       },
       {
@@ -173,7 +174,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/jayant-thakur/"
       },
       {
@@ -189,7 +190,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/blonteractor/"
       },
       {
@@ -205,7 +206,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/maximousblk/"
       },
       {
@@ -221,7 +222,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/manan-nag-8a236a1a1/"
       },
       {
@@ -237,7 +238,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/shubham-tiwari-25b74a269/"
       },
       {
@@ -253,7 +254,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/chaitanya-gupta-7204732a7/"
       },
       {
@@ -269,7 +270,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/simplyrishab"
       },
       {
@@ -285,7 +286,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/justushar"
       },
       {
@@ -301,7 +302,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://www.linkedin.com/in/aryan-mahajan-493191286/"
       },
       {
@@ -317,7 +318,7 @@
     "role": "Volunteer",
     "social": [
       {
-        "id":"linkedin",
+        "id": "linkedin",
         "link": "https://in.linkedin.com/in/ayushi-singhal-b401a8261"
       },
       {
@@ -325,6 +326,25 @@
         "link": "https://github.com/bloodyvoid13"
       }
     ]
+  },
+  {
+    "id": 21,
+    "image": "assets/images/members/Divyansh-Yadav.webp",
+    "name": "Divyansh Yadav",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/divyansh-yadav-570102230/"
+      },
+      {
+        "id": "discord",
+        "username": "xenyowo"
+      }
+      {
+        "id": "github",
+        "link": "https://github.com/X3nyy"
+      }
+    ]
   }
-
 ]
