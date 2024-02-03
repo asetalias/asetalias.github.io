@@ -346,5 +346,17 @@
         "link": "https://github.com/X3nyy"
       }
     ]
+  },
+  {
+    "id": 22,
+    "image": "assets/images/members/nimish-chauhan.webp",
+    "name": "Nimish Chauhan",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id": "github",
+        "link": "https://github.com/JackTheSparow"
+      }
+    ]
   }
 ]
