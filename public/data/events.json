@@ -1,5 +1,13 @@
 [ 
   {
+    "image": "assets/images/posters/20240208.webp",
+    "title": "Linux Use Fest",
+    "date": "February 8th, 2024",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E3 G06",
+    "about": "Join Ranjeet as he introduces us to various utilities of unix system and explaining about terminologies like shell and terminals and commands used."
+  },
+  {
     "image": "assets/images/posters/20240125.webp",
     "title": "Introduction to CTFs, Binary Exploitation",
     "date": "January 25th, 2024",
