@@ -33,6 +33,13 @@ const Community = () => {
             alt="India Linux User Group"
           />
         </a>
+        <a href="https://fossunited.org/" target="_blank" rel="no noreferrer">
+          <img
+            className={`${styles.community__chapter} ${styles.outline}`}
+            src="assets/images/communities/foss-united.png"
+            alt="FOSS UNITED "
+          />
+        </a>
       </div>
     </div>
   );
