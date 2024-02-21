@@ -35,9 +35,9 @@ const Community = () => {
         </a>
         <a href="https://fossunited.org/" target="_blank" rel="no noreferrer">
           <img
-            className={`${styles.community__chapter} ${styles.outline}`}
+            className={styles.community__chapter}
             src="assets/images/communities/foss-united.png"
-            alt="FOSS UNITED "
+            alt="Foss United Foundation"
           />
         </a>
       </div>
