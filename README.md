@@ -1,6 +1,6 @@
 # ALiAS Website Source
 
-The ALiAS website is undergoing a rewrite using [shadcn/ui](https://ui.shadcn.com/). Meanwhile, this website serves as a temporary solution to maintain [asetalias.in](asetalias.in).
+The ALiAS website is undergoing a rewrite using [shadcn/ui](https://ui.shadcn.com/). Meanwhile, this website serves as a temporary solution to maintain [asetalias.in](https://asetalias.in).
 
 ## 🚀 Project Overview
 
