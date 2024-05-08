@@ -21,6 +21,8 @@ const Community = () => {
             className={`${styles.community__chapter} ${styles.outline}`}
             src="assets/images/communities/pydelhi.png"
             alt="Pydelhi"
+            width={"auto"}
+            height={"200"}
           />
         </a>
         <a href="https://rustdelhi.in" target="_blank" rel="no noreferrer">
@@ -28,6 +30,8 @@ const Community = () => {
             className={styles.community__chapter}
             src="assets/images/communities/rustdelhi.png"
             alt="RustDelhi"
+            width={"auto"}
+            height={"200"}
           />
         </a>
         <a href="https://linuxdelhi.org/" target="_blank" rel="no noreferrer">
@@ -35,6 +39,8 @@ const Community = () => {
             className={`${styles.community__chapter} ${styles.outline}`}
             src="assets/images/communities/ilugd.png"
             alt="India Linux User Group"
+            width={"auto"}
+            height={"200"}
           />
         </a>
         <a href="https://fossunited.org/" target="_blank" rel="no noreferrer">
@@ -42,6 +48,8 @@ const Community = () => {
             className={styles.community__chapter}
             src="assets/images/communities/foss-united.png"
             alt="Foss United Foundation"
+            width={"auto"}
+            height={"200"}
           />
         </a>
         <a href="https://2024.ubucon.asia/" target="_blank" rel="no noreferrer">
@@ -49,6 +57,8 @@ const Community = () => {
             className={styles.community__chapter}
             src="/assets/images/communities/ubucon.png"
             alt="Ubucon Asia"
+            width={"auto"}
+            height={"200"}
           />
         </a>
       </div>
