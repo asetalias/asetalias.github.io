@@ -2,61 +2,70 @@
 
 The ALiAS website is undergoing a rewrite using [shadcn/ui](https://ui.shadcn.com/). Meanwhile, this website serves as a temporary solution to maintain [asetalias.in](https://asetalias.in).
 
-## 🚀 Project Overview
+## Project Overview
 
 Within this project, you'll find the following folders and files:
 
-```bash
+```kotlin
 .
-├── README.md
-├── index.html
-├── package.json
-├── pnpm-lock.yaml
 ├── public
-│   ├── assets
-│   │   ├── icons
-│   │   └── images
-│   └── data
-│       ├── about.json
-│       ├── alumni.json
-│       ├── events.json
-│       ├── members.json
-│       └── socials.json
-├── src
-│   ├── App.css
-│   ├── App.jsx
-│   ├── components
-│   │   ├── AboutUs
-│   │   ├── Alumni
-│   │   ├── Community
-│   │   ├── Contact
-│   │   ├── Events
-│   │   ├── Hero
-│   │   ├── Navbar
-│   │   ├── Reusables
-│   │   └── Team
-│   ├── index.css
-│   ├── main.jsx
-│   ├── pages
-│   │   └── Home
-│   └── variables.css
-└── vite.config.js
+│   ├── assets
+│   │   └── images
+│   │       └── alumni
+│   │       └── communities
+│   │       └── members
+│   │       └── posters
+│   │   └── ...
+│   └── data
+│       ├── about.json
+│       ├── alumni.json
+│       ├── events.json
+│       ├── volunteers.json
+│       └── socials.json
 ```
 
-The public/data directory contains various JSON files for adding events, volunteers, and alumni.
+1. `about.json` contains data related to the about section, like why and what ALiAS is and how ALiAS reaches its goals.
 
-## 🛠️ Contribution and Local Development
+1. `alumni.json` stores:
+
+   - PFP (Profile Picture) image path, which is stored in `assets/images/alumni`.
+   - First name and last name of alumni.
+   - Latest designation(s) of alumni.
+   - Social links, namely Linkedin and Github.
+
+1. `events.json` stores:
+
+   - Poster image path, which is stored in `assets/images/events`.
+   - Title, date, time, and venue of the event.
+   - Description: a short description of the event.
+
+1. `volunteers.json` stores:
+   - PFP (Profile Picture) image path, which is stored in `assets/images/volunteers`.
+   - Name of the volunteer.
+   - Role of the volunteer: Faculty coordinator, Volunteer, Supporter (volunteers who are not from Amity University).
+   - Social links, namely Linkedin and Github.
+
+## Contribution and Local Development
 
 To contribute to this project or run it locally, follow these instructions:
 
 ### Installation
 
-1. Navigate to the project's root directory using your terminal.
+> [!IMPORTANT]
+> This project uses bun for package management and runtime. So please install it from [here](https://bun.sh/).
 
-2. Run the following command to install the necessary dependencies:
+1. Fork this [repository](https://github.com/asetalias/asetalias.github.io/fork).
+1. Clone your fork and navigate to the project's root directory.
+
+   ```shell
+   git clone https://github.com/<your_github_username>/asetalias.github.io.git
+   cd asetalias.github.io
+   ```
+
+1. Install necessary dependencies:
 
    ```bash
-   pnpm install
+   bun install
    ```
 
 ### Local Development
@@ -64,19 +73,32 @@ To contribute to this project or run it locally, follow these instructions:
 1. After installing the dependencies, start the local development server by running:
 
    ```bash
-   pnpm dev
+   bun dev
    ```
 
    This will launch the server, and you can access the site at [`localhost:5173`](https://localhost:5173) in your browser.
 
-2. Make your desired changes to the project files.
+1. Make your desired changes to the project files.
 
-3. If you want to contribute, please fork the repository, create a branch for your changes, and submit a pull request.
+1. Check for formatting errors.
+
+   ```shell
+   bun check
+   ```
+
+1. Format the codebase
+
+   ```shell
+   bun format
+   ```
+
+> [!TIP]
+> Formatting is automatically done through git hooks ([husky](https://github.com/typicode/husky), [lint-staged](https://github.com/lint-staged/lint-staged)).
 
 ### Questions or Discussions
 
 Join our [Discord server](https://discord.gg/bx9EWcAAVj) for any questions, discussions, or further assistance.
 
-## Credit
+## Credits
 
-This is based off of the lovely [ALiAS Lucknow](https://lucknow.asetalias.in/).
+This is based on the lovely [ALiAS Lucknow](https://lucknow.asetalias.in/).
