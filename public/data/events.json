@@ -1,5 +1,29 @@
 [ 
   {
+    "image": "assets/images/posters/20241010.webp",
+    "title": "Git 101",
+    "date": "October 10th, 2024",
+    "time": "2:00 PM - 4:30 PM",
+    "venue": "E1 109",
+    "about": "Join us for an interactive and beginner friendly workshop, where you will dive deep into version control, issue tracking and the world of open source."
+  },
+  {
+    "image": "assets/images/posters/20240926.webp",
+    "title": "CyberQuest",
+    "date": "September 26th, 2024",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E3 317",
+    "about": "Join us with Mr. Sanchay Singh, co-founder of Hackersvilla, to dive into the world of vulnerabilities in open source apps in a hands on session."
+  },
+  {
+    "image": "assets/images/posters/20240912.webp",
+    "title": "2024-25 Kickstarter",
+    "date": "September 12th, 2024",
+    "time": "2:00 PM - 4:00 PM",
+    "venue": "E1 109 ",
+    "about": "Grow your network, meet our volunteers. Learn about ALiAS' purpose and activities as a club."
+  },
+  {
     "image": "assets/images/posters/20240208.webp",
     "title": "Linux Use Fest",
     "date": "February 8th, 2024",
