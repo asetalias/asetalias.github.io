@@ -390,5 +390,21 @@
         "link": "https://www.linkedin.com/in/atia-naim-270b8424b/"
       }
     ]
+  },
+  {
+    "id": 25,
+    "image": "assets/images/volunteers/uma-ghildiyal.webp",
+    "name": "Uma Ghildiyal",
+    "role": "Volunteer",
+    "social": [
+      {
+        "id": "github",
+        "link": "https://github.com/uniitee"
+      },
+      {
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/in/uma-ghildiyal-1a02582b4/"
+      }
+    ]
   }
 ]
