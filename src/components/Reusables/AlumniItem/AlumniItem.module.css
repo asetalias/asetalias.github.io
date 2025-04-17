@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
+  padding-right: 5rem;
 }
 
 .alumni_item__detail {

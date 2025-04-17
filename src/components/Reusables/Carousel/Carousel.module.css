@@ -12,14 +12,8 @@
 }
 
 .carousel {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: calc((100% - var(--gap)) / var(--items));
-  gap: var(--gap);
   overflow-x: auto;
-  scrollbar-width: none;
   width: 100%;
-  max-width: 1445px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
