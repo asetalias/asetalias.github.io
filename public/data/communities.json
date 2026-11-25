@@ -28,5 +28,71 @@
         "logo": "assets/images/communities/ubucon.png",
         "link": "https://2024.ubucon.asia/",
         "outline": false
+    },
+    {
+        "name": "Elixir Delhi",
+        "logo": "assets/images/communities/elixir-delhi.png",
+        "link": "https://t.me/elixirdelhi",
+        "outline": true
+    },
+    {
+        "name": "JS Lovers",
+        "logo": "assets/images/communities/js-lovers.png",
+        "link": "https://www.meetup.com/jslovers/",
+        "outline": false
+    },
+    {
+        "name": "TFUG Delhi",
+        "logo": "assets/images/communities/tfug-delhi.png",
+        "link": "https://www.meetup.com/tfugdelhi/",
+        "outline": false
+    },
+    {
+        "name": "Cloud Native Security India",
+        "logo": "assets/images/communities/cloud-native-security.png",
+        "link": "https://www.meetup.com/cloud-native-security-india/",
+        "outline": false
+    },
+    {
+        "name": "Lucknow AI",
+        "logo": "assets/images/communities/lucknow-ai.png",
+        "link": "https://lucknowai.github.io/",
+        "outline": false
+    },
+    {
+        "name": "TFUG Lucknow",
+        "logo": "assets/images/communities/tfug-lucknow.png",
+        "link": "https://www.commudle.com/communities/tfug-lucknow",
+        "outline": false
+    },
+    {
+        "name": "Gnome Asia",
+        "logo": "assets/images/communities/gnome-asia.png",
+        "link": "",
+        "outline": true
+    },
+    {
+        "name": "FOSS United Lucknow",
+        "logo": "assets/images/communities/foss-united-lucknow.png",
+        "link": "https://fossunited.org/lucknow",
+        "outline": false
+    },
+    {
+        "name": "PyDelhi",
+        "logo": "assets/images/communities/pydelhi.png",
+        "link": "https://pydelhi.org/",
+        "outline": true
+    },
+    {
+        "name": "Rust Delhi",
+        "logo": "assets/images/communities/rustdelhi.png",
+        "link": "https://rustdelhi.in/",
+        "outline": false
+    },
+    {
+        "name": "FOSS United Delhi",
+        "logo": "assets/images/communities/foss-united-delhi.png",
+        "link": "https://t.me/fossunited",
+        "outline": false
     }
 ]
